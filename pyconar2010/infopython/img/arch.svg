@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.47 r22583"
    sodipodi:docname="arch.svg"
-   inkscape:export-filename="/home/juan/Dropbox/talks_proposals/infopython/img/arch.png"
+   inkscape:export-filename="/home/juan/proyectos/talks_hg/pyconar2010/infopython/img/arch.png"
    inkscape:export-xdpi="120"
    inkscape:export-ydpi="120">
   <defs
@@ -156,9 +156,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
      inkscape:cx="188.12793"
-     inkscape:cy="95.478088"
+     inkscape:cy="94.478088"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3708"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -300,7 +300,7 @@
            id="tspan2836-6"
            y="355.36218"
            x="183.34766"
-           sodipodi:role="line">Interner Services</tspan></text>
+           sodipodi:role="line">Internet Services</tspan></text>
     </g>
     <g
        id="g3698"

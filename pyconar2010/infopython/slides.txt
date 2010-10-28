@@ -165,7 +165,7 @@ IS TwitterUser
     - Representa un usuario de twitter (PLOP²)
     - Audiencia:
         - Followers.
-        - Kout (http://klout.com/).
+        - Klout (http://klout.com/).
     - Impacto:
         - RT.
         - Klout (http://klout.com/).
