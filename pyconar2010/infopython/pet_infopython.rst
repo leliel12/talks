@@ -6,12 +6,12 @@
 +-------------------------------------------+-------------------------------------------+
 | .. image:: img/me.png                     |**Autor:** Juan Bautista Cabral            |
 |    :class: right foto                     |                                           |
-|                                           |JBC conocio python una solitaria noche del |
+|                                           |JBC conoció python una solitaria noche del |
 |                                           |2007. Desarrollo su proyecto de grado de la|
-|                                           |carrera Ing en Sistemas con este lenguaje  |
-|                                           |utilizando el frmework Django y trabajo    |
+|                                           |carrera Ing. en Sistemas con este lenguaje |
+|                                           |utilizando el framework Django y trabajó   |
 |                                           |1 año desarrollando evaluadores de         |
-|                                           |informacion usando nuestro querido reptil. |
+|                                           |información usando nuestro querido reptil. |
 |                                           |                                           |
 |                                           |**twitter:** @leliel12                     |
 |                                           |                                           |
@@ -22,8 +22,8 @@
 
 **Infopython** es una librería para la valoración de medios
 de información utilizando teorías formales provenientes de las ciencias
-sociales. Inicialmente eran conjunto módulos dispersos que utilizaba en mi
-trabajo; luego de  unos días de refactoring y paciencia logre unificarlos en una
+sociales. Inicialmente eran un conjunto de módulos dispersos que utilizaba en mi
+trabajo; luego de  unos días de refactoring y paciencia logré unificarlos en una
 única librería.
 
 
@@ -79,10 +79,10 @@ Siendo:
 
           Si yo digo que mi medio de información son "Revistas de
           Deporte" da una sensación de que este elemento no es "un solo
-          medio" pero sin embargo tomo cambio la definición, del medio,  a "La
+          medio" pero sin embargo cuando cambio la definición del medio, a "La
           revista de deportes Goles y Faroles" esta sensación si esta presente.
 
-    * **Medible:** Si un medio que definimos no podemos extraer datos
+    * **Medible:** Si de un medio que definimos no podemos extraer datos
       cuantitativos, no tiene sentido para nosotros.
 
 
@@ -195,7 +195,7 @@ Analizamos Cada Capa:
 
       Esta se encarga del procesamiento numérico necesario.
 
-    * **Third Paties Apis:** Son librerías de terceros que se conectan a
+    * **Third Parties Apis:** Son librerías de terceros que se conectan a
       servicios que existen en la red. Por ejemplo:
 
         * tweepy que sirve para manipular datos de twitter.
@@ -205,7 +205,7 @@ Analizamos Cada Capa:
       todas las configuraciones necesarias para acceder a los servicios de
       internet.
 
-    * **Interpolation Normalization:** Esta una capa de abstracción
+    * **Interpolation Normalization:** Esta es una capa de abstracción
       para los diferentes interpoladores que posee Scipy y define algunos nuevos
       todos con la misma API.
 
@@ -215,7 +215,7 @@ Analizamos Cada Capa:
       datos que posee la session.
 
     * **Information Sources:** Son las clases que representan nuestras
-      fuentes de informacion. Las mismas estas conectadas de manera
+      fuentes de información. Las mismas estas conectadas de manera
       "auto-magica" a las diferentes API's Normalizadas.
 
     * **Theories:** Esta capa posee módulos que definen el comportamiento y
@@ -325,8 +325,8 @@ trabaja con la librería:
            # Extrae el valor de page rank de la WebPage que recibe como parámetro
            imp = lambda w: w.get_info("pagerank")["pagerank"]
 
-       Si a la agenda no le sumistramos alguno de los evaluadores, esta tratara
-       de  usar interpoladores suministrados.
+       Si a la agenda no le sumistramos alguno de los evaluadores, esta tratará
+       de  usar los interpoladores suministrados.
 
     4. **Crear los interpoladores:** Los interpoladores se utilizan como segunda
        alternativa a la extracción de **audiencia** e **impacto**, por lo que
@@ -343,18 +343,18 @@ trabaja con la librería:
 
        Se demostrara un ejemplo en conjunto mas adelante.
 
-    5. **Crear la/s agenda/s:** Al crear las agendas de la debe suministrar con
+    5. **Crear la/s agenda/s:** Al crear las agendas se les debe suministrar con
        diferentes datos:
            - Que tipo de medio de información medirá.
-           - Una lista de medios de información (opcional).
+           - Una lista de medios de información a medir(opcional).
            - Un extractor de datos de audiencia (opcional).
            - Un extractor de datos de impacto (opcional).
            - Un interpolador de audiencia (opcional).
            - Un interpolador de impacto (opcional).
-        Se demostrara un ejemplo en conjunto mas adelante.
+        Se mostrará un ejemplo en conjunto mas adelante.
 
     6. **Evaluar los nodos:** La agenda posee métodos para ordenar los
-       ``ISources`` según su valor para luego, ser iterada y así generar un
+       ``ISources`` según su valor, para luego ser iterada y así generar un
        ranking de  importancia de cada medio.
 
        Al iterar, sobre la ``Agenda`` esta devuelve varios ``ASNode`` los
@@ -489,7 +489,7 @@ siguientes pasos:
 
     2. Configurar ``test.cfg`` con las llaves de las API's correspondientes.
 
-    3. Corer ahora si
+    3. Correr ahora si
         ``$ python setup.py test``
 
 
@@ -498,9 +498,9 @@ Conclusion
 ----------
 
 Como vimos **Infopython** provee una manera uniforme para la valoración de la
-información. En versiones futuras se plantea introducir otros tipos de mass-media
+información. En versiones futuras se planea introducir otros tipos de mass-media
 ya que por ejemplo,**IMDB** y **GoogleBooks** provee información vía API's de medios
-tradicionales (películas y libros); o yendo mas allá, **LinkedIn** información
+tradicionales (películas y libros); o, yendo mas allá, **LinkedIn** información
 bastante confiable de perfiles laborales.
 
 También es posible la integración con el procesamiento de lenguaje natural con
