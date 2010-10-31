@@ -1,28 +1,28 @@
-﻿InfoPython - Midiendo el Valor de La información de Mass Media con Python.
+﻿InfoPython - Midiendo el Valor de la Información de Mass Media con Python.
 ==========================================================================
-
-
 
 +-------------------------------------------+-------------------------------------------+
 | .. image:: img/me.png                     |**Autor:** Juan Bautista Cabral            |
 |    :class: right foto                     |                                           |
 |                                           |JBC conoció python una solitaria noche del |
-|                                           |2007. Desarrollo su proyecto de grado de la|
-|                                           |carrera Ing. en Sistemas con este lenguaje |
-|                                           |utilizando el framework Django y trabajó   |
-|                                           |1 año desarrollando evaluadores de         |
+|                                           |2007. Desarrolló su proyecto de grado de la|
+|                                           |carrera Ingeniería en Sistemas con este    |
+|                                           |lenguaje utilizando el framework Django y  |
+|                                           |trabajó 1 año desarrollando evaluadores de |
 |                                           |información usando nuestro querido reptil. |
 |                                           |                                           |
 |                                           |**twitter:** @leliel12                     |
 |                                           |                                           |
 |                                           |**blog:** http://jbcabral.wordpress.com    |
 |                                           |                                           |
+|                                           |**mail:** jbc.develop@gmail.com            |
+|                                           |                                           |
 +-------------------------------------------+-------------------------------------------+
 
 
 **Infopython** es una librería para la valoración de medios
-de información utilizando teorías formales provenientes de las ciencias
-sociales. Inicialmente eran un conjunto de módulos dispersos que utilizaba en mi
+de información que utiliza teorías formales provenientes de las ciencias
+sociales. Inicialmente, eran un conjunto de módulos dispersos que utilizaba en mi
 trabajo; luego de  unos días de refactoring y paciencia logré unificarlos en una
 única librería.
 
@@ -31,9 +31,8 @@ Trasfondo
 ---------
 
 Existen diferentes teorías sociológicas para determinar la importancia de
-los medios sobre la opinión publica, las mismas analizan la información que
-estos emiten desde el punto de vista el emisor, el
-receptor o ambos.
+los medios sobre la opinión pública, las mismas analizan la información que
+estos emiten desde el punto de vista del emisor, el receptor o ambos.
 
 Por citar un ejemplo, la **Teoría de Información de Shannon** es una
 formalización matemática de una de una teoría sociológica conocida como la
@@ -43,7 +42,7 @@ En el caso de **Infopython** la teoría que nos ocupa es conocida como
 **Agenda-Setting** (en el futuro se planean agregar otras);
 la cual postula que los medios de comunicación de masas tienen una gran
 influencia sobre el público al determinar qué historias poseen interés
-informativo y cuánto espacio e importancia se les da. El punto central de esta
+informativo, y cuánto espacio e importancia se les da. El punto central de esta
 teoría es asignar una prioridad para obtener mayor **audiencia**, mayor
 **impacto** y una determinada **conciencia** sobre la noticia.
 
@@ -52,7 +51,7 @@ Los Medios
 ----------
 
 En **Infopython**, antes de mencionar **como** son los
-procesos de calculo del valor de la información es necesario determinar
+procesos de cálculo del valor de la información es necesario determinar
 **qué** es lo que vamos a medir.
 
 Así definimos informalmente que para nuestro dominio un medio de información es:
@@ -74,13 +73,13 @@ Siendo:
         en este caso es mejor tomar como unidad cada programa de televisión
         como el medio a medir.
 
-    * **Sensación de Unidad:** Es mas facil entender este concepto por
+    * **Sensación de Unidad:** Es más fácil entender este concepto por
       medio de un ejemplo:
 
           Si yo digo que mi medio de información son "Revistas de
           Deporte" da una sensación de que este elemento no es "un solo
-          medio" pero sin embargo cuando cambio la definición del medio, a "La
-          revista de deportes Goles y Faroles" esta sensación si esta presente.
+          medio", pero sin embargo cuando cambio la definición del medio, a "La
+          revista de deportes Goles y Faroles" esta sensación sí esta presente.
 
     * **Medible:** Si de un medio que definimos no podemos extraer datos
       cuantitativos, no tiene sentido para nosotros.
@@ -123,25 +122,25 @@ Se elige la función **'*'** (Multiplicación) por los siguientes motivos:
 
       Supongamos el siguiente caso:
 
-        Un medio el cual es seguido por un numero bajo de audiencia **10**
-        pero tiene genera un alto impacto **1.000**. Esto puede darse
-        si esas pocas personas  pertenecen a un grupo de influencia (asesores
+        Un medio el cual es seguido por un número bajo de audiencia **10**
+        pero tiene un alto impacto **1.000**. Esto puede darse si esas 
+        pocas personas  pertenecen a un grupo de influencia (asesores
         presidenciales por ejemplo).
 
-        En este caso el valor de la información seria **10.000**,
-        y dado que valor definimos como "mucho" y y que valor definimos como
+        En este caso el valor de la información sería **10.000**,
+        y dado qué valor definimos como "mucho" y qué valor definimos como
         "poco", este valor es "grande" (mucho).
         Esto, lo podemos considerar como correcto, ya que cualquier
         medio que pueda influir en personas importantes debería tener un alto
         valor.
 
         Manteniendo los valores, pero cambiando nuestra función por
-        **AUDIENCIA + IMPACTO** el valor de la información seria **1.010**
-        el cual manteniendo el razonamiento anterior sigue siendo alto.
+        **AUDIENCIA + IMPACTO** el valor de la información sería **1.010**
+        el cual, manteniendo el razonamiento anterior sigue siendo alto.
 
-        Ahora, si remplazamos el valor de la audiencia por un numero grande
+        Ahora, si reemplazamos el valor de la audiencia por un número grande
         **1000**, y mantenemos el del impacto; el valor de la función
-        original seria **1 millón** y en el segundo caso **2.000**.
+        original sería **1 millón** y en el segundo caso **2.000**.
 
         Si pensamos que ahora impactamos probablemente sobre 1000 asesores
         presidenciales el valor **2.000** se queda chico, ya que estamos en
@@ -162,16 +161,16 @@ Se elige la función **'*'** (Multiplicación) por los siguientes motivos:
 Infopython
 ----------
 
-Dado que existen una amplia variedad de servicios públicos que extraen
-estadisticas y datos sobre nuevos medios (web, twitter, etc), como por ejemplo:
+Dado que existe una amplia variedad de servicios públicos que extraen
+estadísticas y datos sobre nuevos medios (web, twitter, etc), como por ejemplo:
 
     * Klout (http://klout.com/)
     * Compete (http://www.compete.com/)
     * Alexa (http://www.alexa.com/)
 
 por citar algunos; **Infopython** se centra en brindar un API sencilla para
-valorar a través de agenda-setting (en el futuro habrán otras teorías
-implementadas)a los medios independientemente de su tipo, utilizando los
+valorar a través de agenda-setting (en el futuro se implementarán otras 
+teorías)a los medios independientemente de su tipo, utilizando los 
 servicios antes mencionados
 
 
@@ -201,12 +200,12 @@ Analizamos Cada Capa:
         * tweepy que sirve para manipular datos de twitter.
         * koutpy que se conecta a Klout
 
-    * **Session:** Esta sub-capa es un modulo que se encarga de centralizar
+    * **Session:** Esta sub-capa es un módulo que se encarga de centralizar
       todas las configuraciones necesarias para acceder a los servicios de
       internet.
 
     * **Interpolation Normalization:** Esta es una capa de abstracción
-      para los diferentes interpoladores que posee Scipy y define algunos nuevos
+      para los diferentes interpoladores que posee Scipy y define algunos nuevos,
       todos con la misma API.
 
     * **API Normalization:** Se encarga de convertir todas las respuestas
@@ -215,8 +214,8 @@ Analizamos Cada Capa:
       datos que posee la session.
 
     * **Information Sources:** Son las clases que representan nuestras
-      fuentes de información. Las mismas estas conectadas de manera
-      "auto-magica" a las diferentes API's Normalizadas.
+      fuentes de información. Las mismas están conectadas de manera
+      "auto-mágica" a las diferentes API's Normalizadas.
 
     * **Theories:** Esta capa posee módulos que definen el comportamiento y
       los cálculos de las teorías implementadas en la **Infopython** (para la
@@ -229,7 +228,7 @@ Analizamos Cada Capa:
              :scale: 100 %
 
 
-Ahora definida toda la teoría, y toda la arquitectura podemos mencionar como se
+Ahora definida toda la teoría, y toda la arquitectura, podemos mencionar cómo se
 trabaja con la librería:
 
     1. **Configurar la sesión:** Consiste en brindarle a la capa de sesión
@@ -261,14 +260,14 @@ trabaja con la librería:
         se desea consultar su valor. En esta versión de **Infopython**
         se brinda clases para **2** medios:
 
-            - ``WebPages:`` Representa una página web independientemente si esta
-              es un perfil de twitter o un blog o lo que fuera. Se sugiere como
+            - ``WebPages:`` Representa una página web independientemente si ésta
+              es un perfil de twitter o un blog, o lo que fuera. Se sugiere como
               mecanismo de medición de audiencia los servicios de Compete
               (http://www.compete.com/) o los de Alexa (http://www.alexa.com/).
 
               Y como mecanismo de medición de impacto Page Rank
               (http://es.wikipedia.org/wiki/PageRank), ya que si Google dice que
-              la importancia de información es esta, no vamos a discutir con
+              la importancia de información es ésta, no vamos a discutir con
               Google.
 
               Ejemplo del Api de ``WebPage``:
@@ -325,7 +324,7 @@ trabaja con la librería:
            # Extrae el valor de page rank de la WebPage que recibe como parámetro
            imp = lambda w: w.get_info("pagerank")["pagerank"]
 
-       Si a la agenda no le sumistramos alguno de los evaluadores, esta tratará
+       Si a la agenda no le sumistramos alguno de los evaluadores, ésta tratará
        de  usar los interpoladores suministrados.
 
     4. **Crear los interpoladores:** Los interpoladores se utilizan como segunda
@@ -333,31 +332,31 @@ trabaja con la librería:
        cada agenda recibe 2 interpoladores: un interpolador de audiencia y uno
        de impacto.
 
-       Asi el interpolador de **impacto** recibirá como valor para interpolar
+       Así el interpolador de **impacto** recibirá como valor para interpolar
        **"X"** a la **audiencia** y devolverá un valor **"Y"**
        correspondiente al **impacto***.
 
-       Ahora si lo que deseamos es interpolar el valor de la **Audiencia**,
+       Ahora, si lo que deseamos es interpolar el valor de la **Audiencia**,
        el interpolador recibirá como valor **"X"** el **Impacto** y
        devolverá un valor **"Y"** correspondiente a la **Audiencia**.
 
-       Se demostrara un ejemplo en conjunto mas adelante.
+       Se mostrará un ejemplo en conjunto más adelante.
 
-    5. **Crear la/s agenda/s:** Al crear las agendas se les debe suministrar con
+    5. **Crear la/s agenda/s:** Al crear las agendas se les debe suministrar
        diferentes datos:
-           - Que tipo de medio de información medirá.
+           - Qué tipo de medio de información medirá.
            - Una lista de medios de información a medir(opcional).
            - Un extractor de datos de audiencia (opcional).
            - Un extractor de datos de impacto (opcional).
            - Un interpolador de audiencia (opcional).
            - Un interpolador de impacto (opcional).
-        Se mostrará un ejemplo en conjunto mas adelante.
+        Se mostrará un ejemplo en conjunto más adelante.
 
     6. **Evaluar los nodos:** La agenda posee métodos para ordenar los
        ``ISources`` según su valor, para luego ser iterada y así generar un
        ranking de  importancia de cada medio.
 
-       Al iterar, sobre la ``Agenda`` esta devuelve varios ``ASNode`` los
+       Al iterar sobre la ``Agenda``, ésta devuelve varios ``ASNode`` los
        cuales son estructuras de datos que encapsulan a los medios y agregan
        atributos correspondientes a **Audiencia**, **Impacto** y **Valor**
        así como también fecha y hora de cuando fue creado el  nodo.
@@ -396,8 +395,8 @@ Ejemplo Completo
 
     # Creamos la agenda
     # Esta agenda tratara de extraer los valores de audiencia e impacto con su
-    # 'valuators',  en caso de volver 'None' lo intentara con sus interpoladores.
-    # Si estos vuelven a devolver None, se retornara como valor 0.0 y se calculara
+    # 'valuators',  en caso de volver 'None' lo intentará con sus interpoladores.
+    # Si estos vuelven a devolver None, se retornará como valor 0.0 y se calculará
     # el valor del medio con ellos.
     ag = agenda.AgendaSetting(itype=webpages.WebPage,
                               inf_sources=[google, yahoo],
@@ -414,17 +413,17 @@ Ejemplo Completo
 
 
 
-Mas Metodos de la Agenda
+Más Métodos de la Agenda
 ------------------------
 
-Suponiendo que tenemos una instancia la misma agenda del ejemplo anterior ``ag``
+Suponiendo que tenemos una instancia, la misma agenda del ejemplo anterior ``ag``
 y el ``WebPage``, ``google``:
 
     .. code-block:: python
 
         ag.value_of(google) # devuelve el valor de google (audiencia + impacto)
-        ag.impact_of(google) # devuelve el el valor del impacto de google
-                             # osea dado lo que definimos como evaluador de
+        ag.impact_of(google) # devuelve el valor del impacto de google
+                             # o sea dado lo que definimos como evaluador de
                              # impacto haría la llamada:
                              # return google.get_info("pagerank")["pagerank"]
 
@@ -457,7 +456,7 @@ y el ``WebPage``, ``google``:
 Comparando 2 Agendas
 --------------------
 
-En el modulo ``agenda`` existe una función que es muy útil para
+En el módulo ``agenda`` existe una función que es muy útil para
 evaluar varias agendas con diferentes medios de información.
 
 Esta función retorna una lista de ``ASNode`` ordenada de ambas agendas.
@@ -494,7 +493,7 @@ siguientes pasos:
 
 
 
-Conclusion
+Conclusión
 ----------
 
 Como vimos **Infopython** provee una manera uniforme para la valoración de la
@@ -509,6 +508,6 @@ NLTK o alguna herramienta de la web semántica.
 
 Enlaces:
     - Infopython: http://bitbucket.org/leliel12/infopython/
-    - Teoria de Agenda-Setting: http://en.wikipedia.org/wiki/Agenda-setting_theory
+    - Teoría de Agenda-Setting: http://en.wikipedia.org/wiki/Agenda-setting_theory
 
 
