@@ -1,5 +1,5 @@
-﻿InfoPython - Midiendo el Valor de la Información de Mass Media con Python.
-==========================================================================
+﻿InfoPython - Midiendo el Valor de la Información de Mass Media con Python
+=========================================================================
 
 +-------------------------------------------+-------------------------------------------+
 | .. image:: img/me.png                     |**Autor:** Juan Bautista Cabral            |
@@ -344,12 +344,12 @@ trabaja con la librería:
 
     5. **Crear la/s agenda/s:** Al crear las agendas se les debe suministrar
        diferentes datos:
-           - Qué tipo de medio de información medirá.
-           - Una lista de medios de información a medir(opcional).
-           - Un extractor de datos de audiencia (opcional).
-           - Un extractor de datos de impacto (opcional).
-           - Un interpolador de audiencia (opcional).
-           - Un interpolador de impacto (opcional).
+        - Qué tipo de medio de información medirá.
+        - Una lista de medios de información a medir(opcional).
+        - Un extractor de datos de audiencia (opcional).
+        - Un extractor de datos de impacto (opcional).
+        - Un interpolador de audiencia (opcional).
+        - Un interpolador de impacto (opcional).
         Se mostrará un ejemplo en conjunto más adelante.
 
     6. **Evaluar los nodos:** La agenda posee métodos para ordenar los
