@@ -119,6 +119,7 @@ TRASNMISION - XML - PARSEANDO - SAX - 2
         
         #python mentiroso
         parsear(archivo.xml, ParserSax)
+        # salida
         EMPIEZA: persona {}
         EMPIEZA: auto {"tipo": "deportivo"}
         EMPIEZA: marca {}
@@ -142,7 +143,9 @@ TRASNMISION - XML - PARSEANDO - DOM
 
     - Transforma el xml en un conjunto de objetos "nodo".
     
-    
+    .. image:: img/dom.png
+       :align: center
+       :scale: 100 %
         
 
 ¿Preguntas?
