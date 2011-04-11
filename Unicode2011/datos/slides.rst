@@ -84,7 +84,7 @@ TRASNMISION - XML - EJ. 1
         </persona>
                    
         
-TRASNMISION - XML - PARSEANDO
+Trasnmision - XML - Parseando
 -----------------------------
     
     - 2 alternativas principales:
@@ -92,9 +92,9 @@ TRASNMISION - XML - PARSEANDO
         - DOM
     - Para navegar entre los nodos:
         - Estandar DOM (W3C)
-        - XPath
+        - XPath 
         
-TRASNMISION - XML - PARSEANDO - SAX - 1
+Trasnmision - XML - Parseando - SAX - 1
 ---------------------------------------
     
     .. code-block:: python
@@ -112,13 +112,13 @@ TRASNMISION - XML - PARSEANDO - SAX - 1
                 print "SE LEE: "
                 
                 
-TRASNMISION - XML - PARSEANDO - SAX - 2
+Trasnmision - XML - Parseando - SAX - 2
 ---------------------------------------
 
     .. code-block:: python
         
         #python mentiroso
-        parsear(archivo.xml, ParserSax)
+        parsear("archivo.xml", ParserSax)
         # salida
         EMPIEZA: persona {}
         EMPIEZA: auto {"tipo": "deportivo"}
@@ -138,15 +138,55 @@ TRASNMISION - XML - PARSEANDO - SAX - 2
         TERMINA: basura
         ...
         
-TRASNMISION - XML - PARSEANDO - DOM 
+Trasnmision - XML - Parseando - DOM 
 -----------------------------------
 
     - Transforma el xml en un conjunto de objetos "nodo".
     
     .. image:: img/dom.png
        :align: center
-       :scale: 100 %
+       :scale: 190 %
+
+Trasnmision - XML - Navegando - W3C DOM 
+---------------------------------------
+
+    - Es lo mismo que usa javascript.
+    - Vas pidiendo uno tras otro que cosas tiene adentro.
+    
+    .. code-block:: python
+    
+        dom = parsear("archivo.xml", DOM)
+        persona = dom.getChildsNodes()
+        autos = persona.getElementsByTagName("auto")
+        for auto in autos:
+            for color in auto.getElementByTagName("color")
+                print color.getText() # uno tiraria una exception por null
+                
+                
+Trasnmision - XML - Lo que queda afuera
+---------------------------------------
+    
+    - XPath (es como navegar archivos pero mas complejo)
+    - XSL - DTD bla bla bla
+    
+    
+INTERMEDIO
+----------
+
+    Alguna mente brillante penso:
         
+        "En ves de rompernos la cabeza con esa cosa complicada de xml, por que
+        no hacemos algo que aprobeche lo que hay en comun en TODOS los
+        lenguajes de programación?"
+        
+    Que tiene en comun un lenguaje de programacion?
+        - Todos tienen tipos nativos (int, float, bool, string, etc)
+        - Todos tienen algo iterable (listas, arrays, etc)
+        - Todos tienen el valor nulo (null, None, nil, etc)
+        - Todos tienen algo que relaciona una llave con un valor (hashes, dicts, 
+          etc)
+
+
 
 ¿Preguntas?
 -----------
