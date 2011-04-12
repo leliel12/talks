@@ -52,18 +52,19 @@ ESTADO ACTUAL
 
 
 
-TRASMISION - XML - INTRO
-------------------------
+XML - INTRO
+-----------
 
     - Formato de marcado.
     - Soportado en por defecto en la mayoria de los lenguajes.
     - MUY utilizado.
     - Pude validarse (felicidad para los fans de IS [puaj!])
+    - Bien formado != validado.
     - APESTA!
 
 
-TRASNMISION - XML - EJ. 1
--------------------------
+XML - Ejemplo
+-------------
 
     .. code-block:: xml
 
@@ -86,8 +87,8 @@ TRASNMISION - XML - EJ. 1
         </persona>
 
 
-Trasnmision - XML - Parseando
------------------------------
+XML - Parseando
+---------------
 
     - 2 alternativas principales:
         - SAX
@@ -96,8 +97,8 @@ Trasnmision - XML - Parseando
         - Estandar DOM (W3C)
         - XPath
 
-Trasnmision - XML - Parseando - SAX - 1
----------------------------------------
+XML - Parseando - SAX - 1
+-------------------------
 
     .. code-block:: python
 
@@ -114,8 +115,8 @@ Trasnmision - XML - Parseando - SAX - 1
                 print "SE LEE: "
 
 
-Trasnmision - XML - Parseando - SAX - 2
----------------------------------------
+XML - Parseando - SAX - 2
+-------------------------
 
     .. code-block:: python
 
@@ -140,8 +141,8 @@ Trasnmision - XML - Parseando - SAX - 2
         TERMINA: basura
         ...
 
-Trasnmision - XML - Parseando - DOM
------------------------------------
+XML - Parseando - DOM
+---------------------
 
     - Transforma el xml en un conjunto de objetos "nodo".
 
@@ -150,8 +151,8 @@ Trasnmision - XML - Parseando - DOM
        :scale: 190 %
 
 
-Trasnmision - XML - Navegando - W3C DOM
----------------------------------------
+XML - Navegando - W3C DOM
+-------------------------
 
     - Es lo mismo que usa javascript.
     - Vas pidiendo uno tras otro que cosas tiene adentro.
@@ -166,14 +167,14 @@ Trasnmision - XML - Navegando - W3C DOM
                 print color.getText() # uno tiraria una exception por null
 
 
-Trasnmision - XML - Lo que queda afuera
----------------------------------------
+XML - Lo Que Queda Afuera
+-------------------------
 
     - XPath (es como navegar archivos pero mas complejo)
     - XSL - DTD bla bla bla
 
 
-INTERMEDIO
+Interludio
 ----------
 
     Alguna mente brillante penso:
@@ -189,6 +190,33 @@ INTERMEDIO
         - Todos tienen algo que relaciona una llave con un valor (hashes, dicts,
           etc)
 
+
+JSON - INTRO
+------------
+    
+    - Javascript Simple Object Notation
+    - Define un gran hash y adentro listas, constantes otros hashes y wawawa.
+    
+
+JSON - Ejemplo
+--------------
+
+    .. code-block:: JSON
+
+        # comentario
+        {
+            "persona": {
+                # Otro Comentario
+                "autos": [
+                    {"tipo": "deportivo", "marca": "ferrari"},
+                    {"tipo": "croto", "marca": "fiat", "color": "verde"}
+                ],
+                "basura": {"value: "solo un ejemplo"},
+                "nombre": "Tito Puente",
+                "direcciones": {"laboral": "Fake st 123", 
+                                "personal": "Real st 456"}
+                        }
+        }
 
 
 ¿Preguntas?
