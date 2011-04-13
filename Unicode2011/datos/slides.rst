@@ -292,7 +292,7 @@ YAML - Ejemplo
 YAML - Leyendo
 --------------
 
-    - Crea objetos "nativos" en el lenguaje destino.
+    Crea objetos "nativos" en el lenguaje destino.
     
     .. code-block:: python
         # esto si es python enserio
@@ -317,8 +317,9 @@ YAML - Secreto
     - Proyectos:
         - http://bitbucket.org/leliel12/
     - Contacto:
-        - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
-          / `@leliel12 <http://twitter.com/leliel12/>`
+        - Juan B Cabral 
+            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
+            - Twitter: `@leliel12 <http://twitter.com/leliel12/>`
 
 
 .. footer::
