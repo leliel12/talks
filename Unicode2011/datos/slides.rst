@@ -151,8 +151,8 @@ XML - Parseando - DOM
        :scale: 190 %
 
 
-XML - Navegando - W3C DOM
--------------------------
+XML - Leyendo - W3C DOM
+-----------------------
 
     - Es lo mismo que usa javascript.
     - Vas pidiendo uno tras otro que cosas tiene adentro.
@@ -165,6 +165,23 @@ XML - Navegando - W3C DOM
         for auto in autos:
             for color in auto.getElementByTagName("color")
                 print color.getText() # uno tiraria una exception por null
+
+
+XML - Escribiendo - W3C DOM
+---------------------------
+
+    - Es lo mismo que usa javascript.
+    - Vas Armando la estructura uno tras otro que cosas tiene adentro.
+
+    .. code-block:: python
+
+        doc = Documento()
+        persona = Elemento("Elemento")
+        persona.set_attribute("nombre", "tito")
+        auto = Element("auto")
+        persona.insert_child_node(auto)
+        documento.insert_child_node(persona)
+        ...
 
 
 XML - Lo Que Queda Afuera
@@ -201,22 +218,97 @@ JSON - INTRO
 JSON - Ejemplo
 --------------
 
-    .. code-block:: JSON
-
-        # comentario
+    .. code-block:: json
+        
         {
             "persona": {
-                # Otro Comentario
                 "autos": [
                     {"tipo": "deportivo", "marca": "ferrari"},
                     {"tipo": "croto", "marca": "fiat", "color": "verde"}
                 ],
-                "basura": {"value: "solo un ejemplo"},
+                "basura": {"value": "solo un ejemplo"},
                 "nombre": "Tito Puente",
                 "direcciones": {"laboral": "Fake st 123", 
                                 "personal": "Real st 456"}
                         }
         }
+
+
+JSON - Leyendo
+--------------
+
+    - Crea objetos "nativos" en el lenguaje destino.
+    
+    .. code-block:: python
+        # esto si es python enserio
+        
+        import json
+        
+        objs = json.load("file.json")
+        persona = obj["persona"]
+        persona["autos"][0]["marca"]  # ferrari
+    
+    
+YAML - Intro
+------------
+
+    - Yaml Ain't Markup Language.
+    - Super conjunto de JSON.
+    - Tiene dos formatos de escritura, el compacto y el indentado.
+    - Caracteristica secreta!!!
+    - Ruby lo prefiere  por sobre xml.
+    - Mi formato preferido.
+    
+
+YAML - Ejemplo
+--------------
+
+    .. code-block:: yaml
+    
+        # formato compacto
+        {persona: {autos: [{marca: ferrari, tipo: deportivo}, {color: verde, marca: fiat,
+        tipo: croto}], basura: {value: solo un ejemplo}, direcciones: {laboral: Fake
+        st 123, personal: Real st 456}, nombre: Tito Puente}}
+        
+    
+    .. code-block:: yaml
+        
+        # formato compacto
+        persona:
+          autos:
+          - marca: ferrari
+            tipo: deportivo
+          - color: verde
+            marca: fiat
+            tipo: croto
+          basura:
+            value: solo un ejemplo
+          direcciones:
+            laboral: Fake st 123
+            personal: Real st 456
+          nombre: Tito Puente
+
+        
+YAML - Leyendo
+--------------
+
+    - Crea objetos "nativos" en el lenguaje destino.
+    
+    .. code-block:: python
+        # esto si es python enserio
+        
+        import yaml # libreria externa
+        
+        objs = json.load("file.yaml")
+        persona = obj["persona"]
+        persona["autos"][0]["marca"]  # ferrari
+
+
+YAML - Secreto
+--------------
+    
+    CARACTERISTICA MAS PULENTA QUE LA VIDA MISMA!!!!
+
 
 
 ¿Preguntas?
