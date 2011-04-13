@@ -299,7 +299,7 @@ YAML - Leyendo
         
         import yaml # libreria externa
         
-        objs = json.load("file.yaml")
+        objs = yaml.load("file.yaml")
         persona = obj["persona"]
         persona["autos"][0]["marca"]  # ferrari
 
