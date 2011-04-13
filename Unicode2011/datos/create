@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+import sys
+import os
+
+FILENAME = "slides"
+
+os.system("rst2pdf %s.rst -b1 -s slides.style" % FILENAME)
+
+if "debug" in sys.argv[1:]:
+    os.system("evince %s.pdf" % FILENAME)
