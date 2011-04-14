@@ -322,6 +322,10 @@ db40 - Intro
     - Para Java Platform y .Net
     - Persiste objetos PELADOS sin necesidad  de algun formateo especial.
 
+    .. image:: img/db4o--png.png
+       :align: center
+       :scale: 300 %
+
 
 db4o - UML
 ----------
@@ -373,6 +377,7 @@ db4o - QbE
             Persona p = os.next(); // extraemos la siguiente persona
             System.out.println(p); // imprimimos la persona por parametro
         }
+
 
 db4o - QbE Problemas
 --------------------
@@ -456,6 +461,11 @@ Sqlite - Intro
     - No es cliente-servidor, el motor de SQLite no es un proceso independiente.
     - La biblioteca SQLite se enlaza con el programa pasando a ser parte integral del mismo. 
     - Soporta Terabytes de tamaño, y también permite la inclusión de campos tipo BLOB.
+
+    
+Sqlite - Intro
+--------------
+
     - No asigna un tipo de datos a una columna (una columna int no tiene necesariamente enteros
       los tipos se asignan a los valores individuales. 
     - Por ejemplo, se puede insertar un string en una columna de tipo entero 
@@ -465,10 +475,12 @@ Sqlite - Intro
     - Ojo con con la integridad referencial.
     - DB en memoria (rulez) :memory:
 
+
 Sqlite - Ejemplo
 ----------------
 
     .. code-block:: java
+    
         public class Main {
 
             public static void main(String[] args) {
