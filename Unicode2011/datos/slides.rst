@@ -1,9 +1,9 @@
 ﻿DATOS
 -----
 
-    .. image:: img/data_logo.png
+    .. image:: img/disketes.jpg
        :align: center
-       :scale: 100 %
+       :scale: 150 %
 
     DATOS
 
@@ -15,19 +15,9 @@
 Ecosistema
 ----------
 
-    .. image:: img/ecosistema.png
+    .. image:: img/caos.jpg
        :align: center
-       :scale: 100 %
-
-    (PONER LOGUITOS DE PROGRAMA ENLAZADOS CON GODZILLA)
-
-    - Muchos lenguajes de programación.
-
-    - Interoperatibilidad.
-
-    - Ejecucion de "cosas remotas".
-
-    - Caos!
+       :scale: 50 %
 
 
 ¿Que Es lo que se Trasmite?
@@ -42,6 +32,9 @@ Moraleja
 
     **Lo que importan son los datos**
 
+    .. image:: img/disketes.jpg
+       :align: center
+       :scale: 150 %
 
 ESTADO ACTUAL
 -------------
@@ -55,12 +48,16 @@ ESTADO ACTUAL
 XML - INTRO
 -----------
 
+    .. image:: img/xml.png
+       :align: center
+       :scale: 150 %
+
     - Formato de marcado.
     - Soportado en por defecto en la mayoria de los lenguajes.
     - MUY utilizado.
     - Pude validarse (felicidad para los fans de IS [puaj!])
     - Bien formado != validado.
-    - APESTA!
+    - **APESTA!**
 
 
 XML - Ejemplo
@@ -96,6 +93,7 @@ XML - Parseando
     - Para navegar entre los nodos:
         - Estandar DOM (W3C)
         - XPath
+
 
 XML - Parseando - SAX - 1
 -------------------------
@@ -210,16 +208,20 @@ Interludio
 
 JSON - INTRO
 ------------
-    
+
+    .. image:: img/json.gif
+       :align: center
+       :scale: 150 %
+
     - Javascript Simple Object Notation
     - Define un gran hash y adentro listas, constantes otros hashes y wawawa.
-    
+
 
 JSON - Ejemplo
 --------------
 
     .. code-block:: json
-        
+
         {
             "persona": {
                 "autos": [
@@ -228,7 +230,7 @@ JSON - Ejemplo
                 ],
                 "basura": {"value": "solo un ejemplo"},
                 "nombre": "Tito Puente",
-                "direcciones": {"laboral": "Fake st 123", 
+                "direcciones": {"laboral": "Fake st 123",
                                 "personal": "Real st 456"}
                         }
         }
@@ -238,17 +240,17 @@ JSON - Leyendo
 --------------
 
     - Crea objetos "nativos" en el lenguaje destino.
-    
+
     .. code-block:: python
         # esto si es python enserio
-        
+
         import json
-        
+
         objs = json.load("file.json")
         persona = obj["persona"]
         persona["autos"][0]["marca"]  # ferrari
-    
-    
+
+
 YAML - Intro
 ------------
 
@@ -258,21 +260,24 @@ YAML - Intro
     - Caracteristica secreta!!!
     - Ruby lo prefiere  por sobre xml.
     - Mi formato preferido.
-    
+
+    .. image:: img/yaml.png
+       :align: center
+       :scale: 150 %
 
 YAML - Ejemplo
 --------------
 
     .. code-block:: yaml
-    
+
         # formato compacto
         {persona: {autos: [{marca: ferrari, tipo: deportivo}, {color: verde, marca: fiat,
         tipo: croto}], basura: {value: solo un ejemplo}, direcciones: {laboral: Fake
         st 123, personal: Real st 456}, nombre: Tito Puente}}
-        
-    
+
+
     .. code-block:: yaml
-        
+
         # formato compacto
         persona:
           autos:
@@ -288,17 +293,17 @@ YAML - Ejemplo
             personal: Real st 456
           nombre: Tito Puente
 
-        
+
 YAML - Leyendo
 --------------
 
     Crea objetos "nativos" en el lenguaje destino.
-    
+
     .. code-block:: python
         # esto si es python enserio
-        
+
         import yaml # libreria externa
-        
+
         objs = yaml.load("file.yaml")
         persona = obj["persona"]
         persona["autos"][0]["marca"]  # ferrari
@@ -306,7 +311,7 @@ YAML - Leyendo
 
 YAML - Secreto
 --------------
-    
+
     CARACTERISTICA MAS PULENTA QUE LA VIDA MISMA!!!!
 
 
@@ -317,7 +322,7 @@ YAML - Secreto
     - Proyectos:
         - http://bitbucket.org/leliel12/
     - Contacto:
-        - Juan B Cabral 
+        - Juan B Cabral
             - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
             - Twitter: `@leliel12 <http://twitter.com/leliel12/>`
 
