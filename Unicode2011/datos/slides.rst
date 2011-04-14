@@ -271,10 +271,10 @@ YAML - Ejemplo
     .. code-block:: yaml
 
         # formato compacto
-        {persona: {autos: [{marca: ferrari, tipo: deportivo}, {color: verde, marca: fiat,
-        tipo: croto}], basura: {value: solo un ejemplo}, direcciones: {laboral: Fake
-        st 123, personal: Real st 456}, nombre: Tito Puente}}
-
+        {persona: {autos: [{marca: ferrari, tipo: deportivo}, 
+        {color: verde, marca: fiat, tipo: croto}],
+        basura: {value: solo un ejemplo}, direcciones: 
+        {laboral: Fake st 123, personal: Real st 456}, nombre: Tito Puente}}
 
     .. code-block:: yaml
 
@@ -315,6 +315,204 @@ YAML - Secreto
     CARACTERISTICA MAS PULENTA QUE LA VIDA MISMA!!!!
 
 
+db40 - Intro
+------------
+
+    - Data Base 4 (for) Objects.
+    - Para Java Platform y .Net
+    - Persiste objetos PELADOS sin necesidad  de algun formateo especial.
+
+
+db4o - UML
+----------
+
+    .. image:: img/db4ouml.jpg
+       :align: center
+       :scale: 300 %
+
+
+db4o - Ejemplito
+----------------
+
+    .. code-block:: java
+
+        // todas las operaciones se hacen sobre un object container
+        ObjectContainer oc = Db4o.openFile(<PATH A UN ARCHIVO>);
+        Auto fiat = new Auto("Fiat", 123);
+        Persona tito = new Persona("tito", "peru 123 pb",  fiat);
+        oc.store(fiat); // Persistimos el auto (ojo con el orden)
+        oc.store(tito); // Persistimos la persona
+
+
+db4o - Queries
+--------------
+
+    Db4o nos brinda 3 mecanismos para acceder a los datos almacenados:
+
+        - QbE - Query By Example.
+        - SODA - Simple Object Data Acces (no se explica)
+        - NQ - Native Queries.
+
+    En todos los casos db4o siempre nos devuelve una instancia de "ObjectSet"
+    iterable y genérico al objeto buscado.
+
+db4o - QbE
+----------
+
+    Es el mecanismo mas sencillo, consiste en crear una instancia con los
+    datos que uno quiere buscar y dejando sus valores por defecto en los que
+    no les interesa el valor que contenga.
+
+    .. code-block:: java
+
+        Persona filtro = new Persona(null, null,  fiat); //las personas que poseean
+                                                        // esa instancia de auto.
+        filtro = new Persona("tito", null,  null); // las personas que se llamen "tito"
+        ObjectSet<Persona> os = oc.queryByExample(filtro); //realizamos la query
+        while(os.hasNext()){ // mientras hayan resultados
+            Persona p = os.next(); // extraemos la siguiente persona
+            System.out.println(p); // imprimimos la persona por parametro
+        }
+
+db4o - QbE Problemas
+--------------------
+
+    Problemas
+        - No se podrían hacer búsquedas del tipo "todos los nombres que empiezan
+          por "ti";
+        - No podemos buscar ocurrencias de valores por defecto, como por
+          ejemplo todas las personas que no posean autos sin importar su nombre
+          y su dirección; ya que la siguiente consulta traería todas las
+          personas con y sin auto.
+
+    .. code-block:: java
+
+        filtro = new Persona(null, null,  null); // null es valor por defecto
+
+
+db4o - Native Queries
+---------------------
+
+    - Es el "estándar" de búsquedas en bases de datos orientadas a objetos.
+    - Se prefiere sobre Soda y QbE.
+    - Existen papers proponiendolos.
+    - Consiste en crear un nuevo objeto en el lenguaje nativo de la aplicación que represente la busqueda.
+    - En el caso de java implica un objeto que extienda de la clase abstracta
+      "Predicate" y redefina su unico método "match(obj)"
+    - db4o compara todos los objetos de un tipo dado con  "match(obj)" y si
+      este devuelve "true" se incluirá el objeto en el resultado.
+
+
+db4o - Native Queries
+---------------------
+
+    .. code-block:: java
+
+        ObjectSet<Persona> os = oc.query(
+            new Predicate<Persona>(){
+
+                @Override
+                public boolean match(Persona p) {
+                    return p.getName.startsWith("ti");
+                }
+        }); // cierro implementacion y query
+
+
+db4o - Updates & Delete
+-----------------------
+
+    .. code-block:: java
+        ObjectSet<Persona> os = oc.query(
+            new Predicate<Persona>(){
+
+            @Override
+            public boolean match(Persona p) {
+                return p.getName.startsWith("ti");
+            }
+        });
+        Persona primero = os.get(0); // obtenemos la primer persona del resultado
+        primero.setName("toto"); // cambiamos el nombre
+        oc.store(primero); // actualizamos
+        oc.delete(primero) // borramos
+
+
+db4o - Transacciones
+--------------------
+
+    El "ObjectContainer" posee dos comandos:
+        - comit()
+        - rollback()
+    Mas info detallada en mi blog :D
+
+
+Sqlite - Intro
+--------------
+
+    - SQLite es un sistema de gestión de bases de datos relacional compatible 
+      con ACID, contenida en una relativamente pequeña (~275 kiB)2 biblioteca
+      en C.
+    - Es un proyecto de dominio público1 creado por D. Richard Hipp.
+    - Esta Embebida hasta en tu telefono.
+    - No es cliente-servidor, el motor de SQLite no es un proceso independiente.
+    - La biblioteca SQLite se enlaza con el programa pasando a ser parte integral del mismo. 
+    - Soporta Terabytes de tamaño, y también permite la inclusión de campos tipo BLOB.
+    - No asigna un tipo de datos a una columna (una columna int no tiene necesariamente enteros
+      los tipos se asignan a los valores individuales. 
+    - Por ejemplo, se puede insertar un string en una columna de tipo entero 
+      (a pesar de que SQLite tratará en primera instancia de convertir la cadena
+      en un entero).
+    - Ojo con la concurrencia.
+    - Ojo con con la integridad referencial.
+    - DB en memoria (rulez) :memory:
+
+Sqlite - Ejemplo
+----------------
+
+    .. code-block:: java
+        public class Main {
+
+            public static void main(String[] args) {
+                try {
+                    Class.forName("org.sqlite.JDBC");
+                    // "jdbc:sqlite::memory:"
+                    Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\sqlite\\libreria.sqlite"); 
+                    
+                    Statement stat = conn.createStatement(); 
+                    stat.execute("DELETE FROM autores");
+                    
+                    PreparedStatement prep = conn.prepareStatement("INSERT INTO autores (id_autor,nombre) VALUES (?, ?);");
+                    prep.setInt(1,1);
+                    prep.setString(2,"Deitel");
+                    prep.addBatch();
+                    prep.setInt(1,2);
+                    prep.setString(2,"Ceballos");
+                    prep.addBatch();
+                    prep.setInt(1,3);
+                    prep.setString(2,"Joyanes Aguilar");
+                    prep.addBatch();
+                    
+                    conn.setAutoCommit(false);
+                    prep.executeBatch();
+                    conn.setAutoCommit(true);
+
+                    ResultSet rs = stat.executeQuery("select * from autores;");
+                    while (rs.next()) {
+                        rs.getString("id_autor");
+                        rs.getString("nombre");
+                    }
+                    rs.close();
+                    stat.close();
+                    conn.close(); 
+                } catch (SQLException ex) {
+                    System.out.println(ex.getMessage());
+                } catch (ClassNotFoundException ex) {
+                    System.out.println(ex.getMessage());
+                }
+              
+            }
+        }
+
+Mongo DB
 
 ¿Preguntas?
 -----------
