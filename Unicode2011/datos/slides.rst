@@ -524,7 +524,55 @@ Sqlite - Ejemplo
             }
         }
 
-Mongo DB
+
+RDBMS - Union de Tablas con OO
+------------------------------
+
+    - Opcion 1 a mano
+    - Opcion 2 ORM
+    
+    .. image:: img/orm.jpg
+       :align: center
+       :scale: 300 %
+
+
+Mongo DB - Intro
+----------------
+
+    - Orientada a documentos
+    - Guarda objetos json-like NO ESTRUCTURADOS
+    - Es muy, muy, muy, muy, muy...
+    
+
+Mongo DB - Intro
+----------------
+
+... muy, muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,
+muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, 
+muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, 
+muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy, muy,muy, muy,
+muy...
+
+
+Mongo DB - Intro
+----------------
+
+    - ... muy performante. (Oracle se rompe en pedazos y mongo sigue andando)
+    - Quien la usa:
+        - Foursquare
+        - LHC
+        - Bovespa (merval brazuca)
+    - Soporta queries en javascript.
+
+
+Mongo DB  - Algunos Ejemplitos
+------------------------------
+
+    .. code-block:: javascript
+        
+        db.food.insert({"fruit" : ["peach", "plum", "pear"]})
+        db.food.find({"fruit" : "pear"})
+
 
 ¿Preguntas?
 -----------
@@ -532,9 +580,10 @@ Mongo DB
     - Proyectos:
         - http://bitbucket.org/leliel12/
     - Contacto:
-        - Juan B Cabral
+        - Juan B Cabral 
             - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
             - Twitter: `@leliel12 <http://twitter.com/leliel12/>`
+            - Blog: http://jbcabral.wordpress.com/
 
 
 .. footer::
