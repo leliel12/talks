@@ -19,6 +19,6 @@ dir2 = Direccion("laboral", "real 456")
 
 persona = Persona("Tito Puente", [dir1, dir2])
 
-src = yaml.dump(persona)
+src = yaml.dump(persona, default_flow_style=True)
 
 print src
