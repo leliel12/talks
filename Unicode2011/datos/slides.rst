@@ -53,7 +53,7 @@ XML - INTRO
        :scale: 150 %
 
     - Formato de marcado.
-    - Soportado en por defecto en la mayoria de los lenguajes.
+    - Soportado en por defecto en la mayoría de los lenguajes.
     - MUY utilizado.
     - Pude validarse (felicidad para los fans de IS [puaj!])
     - Bien formado != validado.
@@ -91,7 +91,7 @@ XML - Parseando
         - SAX
         - DOM
     - Para navegar entre los nodos:
-        - Estandar DOM (W3C)
+        - Estándar DOM (W3C)
         - XPath
 
 
@@ -192,13 +192,13 @@ XML - Lo Que Queda Afuera
 Interludio
 ----------
 
-    Alguna mente brillante penso:
+    Alguna mente brillante pensó:
 
         "En ves de rompernos la cabeza con esa cosa complicada de xml, por que
-        no hacemos algo que aprobeche lo que hay en comun en TODOS los
+        no hacemos algo que aproveche lo que hay en común en TODOS los
         lenguajes de programación?"
 
-    Que tiene en comun un lenguaje de programacion?
+    Que tiene en común un lenguaje de programacion?
         - Todos tienen tipos nativos (int, float, bool, string, etc)
         - Todos tienen algo iterable (listas, arrays, etc)
         - Todos tienen el valor nulo (null, None, nil, etc)
@@ -400,8 +400,8 @@ db4o - Native Queries
 
     - Es el "estándar" de búsquedas en bases de datos orientadas a objetos.
     - Se prefiere sobre Soda y QbE.
-    - Existen papers proponiendolos.
-    - Consiste en crear un nuevo objeto en el lenguaje nativo de la aplicación que represente la busqueda.
+    - Existen papers proponiéndolos.
+    - Consiste en crear un nuevo objeto en el lenguaje nativo de la aplicación que represente la búsqueda.
     - En el caso de java implica un objeto que extienda de la clase abstracta
       "Predicate" y redefina su unico método "match(obj)"
     - db4o compara todos los objetos de un tipo dado con  "match(obj)" y si
@@ -457,7 +457,7 @@ Sqlite - Intro
       con ACID, contenida en una relativamente pequeña (~275 kiB)2 biblioteca
       en C.
     - Es un proyecto de dominio público1 creado por D. Richard Hipp.
-    - Esta Embebida hasta en tu telefono.
+    - Esta Embebida hasta en tu teléfono.
     - No es cliente-servidor, el motor de SQLite no es un proceso independiente.
     - La biblioteca SQLite se enlaza con el programa pasando a ser parte integral del mismo. 
     - Soporta Terabytes de tamaño, y también permite la inclusión de campos tipo BLOB.
