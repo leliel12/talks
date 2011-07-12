@@ -1,0 +1,69 @@
+Sumario
+
+La medición de información desde un punto de vista social es necesario entre otras cosas 
+para la construcción de marcas así como la creación de campanas de marketing.
+Infopython es una librería en pleno desarrollo que pretende facilitar el medir que tan
+importante es una fuente de información a través de servicios públicos para estos fines.
+
+Se presenta de manera teórico-practica como inferir e interpretar relevancia de 
+la información de dos mass media populares como son  blogs y twitter a través de 
+la librería Infopython La cual hace uso de la teoría de Agenda-Setting.
+
+
+* Infopython http://bitbucket.org/leliel12/infopython/
+* Teoría de AgendaSetting http://en.wikipedia.org/wiki/Agenda-setting_theory
+
+
+InfoPython - Midiendo el Valor de La información de Mass Media con Python.
+==========================================================================
+
+Contenidos
+----------
+
+* Valor de la información desde el punto de vista de las ciencias de la información. (Teoría de La AgendaSetting))
+* Extraer datos de exposición de Alexa (uso del api y su implementación en InfoPython)
+* Extraer datos de exposición de Compete (uso del api y su implementación en InfoPython)
+* Servicios de medición de Impacto PageRank.
+* Inferir cantidad de personas a la cual fue expuesta una información a través de alexa y pagerank
+* Exposición e impacto en twitter (followers, retweets)
+* Repaso sobre otros servicios web de medición de información.
+
+
+Una explicación informal de la charla.
+--------------------------------------
+
+Actualmente he estado trabajando dando soporte a la plataforma de online de la
+empresa Infoxel S.A. La misma se utiliza para la formación de marcas. Así, por
+ejemplo, un cliente nuestro como podría ser el caso de algún candidato político que
+le interesa ver como sus decisiones influyen en su posible candidatura en el futuro
+utiliza dicha plataforma para verificar como los medios lo presentan ya sea de manera
+positiva o negativa.
+Si bien hoy por hoy en argentina el medio formador de opinión sigue siendo la TV
+por un margen muy grande, internet con los blogs y twitter dotaron a cualquier
+ciudadano de un canal barato para influir en las demás personas. En definitiva,
+mi trabajo, consiste en crear servicios que recolectando información de varias fuentes
+pueda inferir que "Tan Formador de Opinión" es un medio online.
+Consultando con profesionales de comunicación social me han puesto en contacto con teorias
+que proponen de diferente manera el como catalogar la importancia de diferentes medios
+
+De todas estas teorías la mas practica es la de AGENDA-SETTING que postula
+que todo canal de información ejerce una influencia en la opinión publica dada
+la cantidad de personas que que les llega el mensaje y cuanta importancia le dan
+al mismo. Con esto en mente desarrolle los siguientes pasos en mi investigación constaron en
+- Identificar que servicios online me brindan información de cantidad de publico y cuales de importancia.
+- Crear un proceso común para la extracción de datos de estos servicios y de no existir 
+facilitar la inferencia a través de interpolación con valores conocidos. 
+
+A estos fragmentos de código los empaquete en único proyecto que llame infopython  el cual aun continua creciendo con mi dia a dia de laburo
+Por ejemplo es muy posiblemente las películas extrayendo los datos de taquilla y "rating" de imdb.
+
+
+**Links**
+
+* Infopython http://bitbucket.org/leliel12/infopython/
+* Adplanner https://www.google.com/adplanner/
+* Alexa http://www.alexa.com/
+* PageRank http://es.wikipedia.org/wiki/PageRank
+* Teoría de AgendaSetting http://en.wikipedia.org/wiki/Agenda-setting_theory
+
+
