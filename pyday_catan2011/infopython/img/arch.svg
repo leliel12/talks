@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="362.67987"
+   height="218.81352"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="arch.svg"
+   inkscape:export-filename="/home/juan/proyectos/talks_hg/pyconar2010/infopython/img/arch.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="1143.2815 : 328.90055 : 1"
+       inkscape:vp_y="0 : 999.99999 : 0"
+       inkscape:vp_z="3587.8815 : 328.90055 : 1"
+       inkscape:persp3d-origin="2365.5813 : 153.50684 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3638"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3677"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3733"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3733-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3733-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3800"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3825"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3857"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3898"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3926"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3953"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3975"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2902"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2927"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2898"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2927-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3725"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="188.12793"
+     inkscape:cy="94.478088"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3708"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1670"
+     inkscape:window-height="970"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="165.57549,43.849628"
+       id="guide3655" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-22.514921,130.47021"
+       id="guide3659" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1.9490326e-05,4.0167083"
+       id="guide3773" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="362.50002,-25.733292"
+       id="guide3775" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="96.671873,84.234373"
+       id="guide3845" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="97.580733,-18.031222"
+       id="guide3847" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="97.845898,43.849628"
+       id="guide2941" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="280.36783,43.849628"
+       id="guide2886" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="274.93749,173.25"
+       id="guide2888" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="227.06966,41.012192"
+       id="guide2917" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-175.24998,-192.56537)">
+    <rect
+       y="370.36218"
+       x="377.591"
+       height="41.016693"
+       width="75.690605"
+       id="rect3663"
+       style="fill:#50aeb7;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="415.16354"
+       y="388.12582"
+       id="text2832"
+       sodipodi:linespacing="80.000001%"><tspan
+         sodipodi:role="line"
+         x="415.16354"
+         y="388.12582"
+         id="tspan2836"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'">O.</tspan><tspan
+         sodipodi:role="line"
+         x="415.16354"
+         y="404.12582"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         id="tspan2884">Surces</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="159"
+       y="497.36218"
+       id="text3626"><tspan
+         sodipodi:role="line"
+         id="tspan3628"
+         x="159"
+         y="497.36218" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="313.56543"
+       y="595.5155"
+       id="text2832-6"><tspan
+         sodipodi:role="line"
+         x="313.56543"
+         y="595.5155"
+         id="tspan2836-0"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="251.5"
+       y="288.86218"
+       id="text3665"><tspan
+         sodipodi:role="line"
+         id="tspan3667"
+         x="251.5"
+         y="288.86218" /></text>
+    <g
+       id="g3708"
+       transform="translate(-4.5,41.016693)">
+      <rect
+         y="329.50504"
+         x="180"
+         height="40.857162"
+         width="199.50685"
+         id="rect2830"
+         style="opacity:0.98999999;fill:#025d9e;fill-opacity:1;stroke:none" />
+      <text
+         id="text2832-5"
+         y="355.36218"
+         x="183.34766"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+           id="tspan2836-6"
+           y="355.36218"
+           x="183.34766"
+           sodipodi:role="line">Internet Services</tspan></text>
+    </g>
+    <g
+       id="g3698"
+       transform="matrix(1.7387844,0,1.0354373e-7,3.1548231,-278.30748,-800.89791)">
+      <rect
+         y="329.34549"
+         x="422.091"
+         height="41.016693"
+         width="47.338837"
+         id="rect3657"
+         style="fill:#00e8ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="240.5"
+       y="528.36218"
+       id="text3717"><tspan
+         sodipodi:role="line"
+         id="tspan3719"
+         x="240.5"
+         y="528.36218" /></text>
+    <rect
+       y="326.86218"
+       x="175.24998"
+       height="40.949421"
+       width="96.671883"
+       id="rect3663-3"
+       style="fill:#b75094;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       transform="scale(1.0364325,0.96484818)"
+       xml:space="preserve"
+       style="font-size:38.59392929px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="172.95378"
+       y="366.44653"
+       id="text2832-8"><tspan
+         sodipodi:role="line"
+         x="172.95378"
+         y="366.44653"
+         id="tspan2836-4"
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'">TP. Apis</tspan></text>
+    <rect
+       style="fill:#ffa33c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3663-4"
+       width="277.98129"
+       height="41.016693"
+       x="175.25"
+       y="284.84549" />
+    <rect
+       style="fill:#ffa33c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3663-4-6"
+       width="180.40063"
+       height="45.966412"
+       x="272.83072"
+       y="321.56284" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="342.59323"
+       y="437.88638"
+       id="text3912"><tspan
+         sodipodi:role="line"
+         id="tspan3914"
+         x="342.59323"
+         y="437.88638" /></text>
+    <rect
+       style="fill:#6bb53d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3916"
+       width="277.98135"
+       height="42.779961"
+       x="175.25"
+       y="238.12872"
+       ry="0" />
+    <text
+       id="text2832-8-0-2"
+       y="277.57297"
+       x="284.13922"
+       style="font-size:38.59392929px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.0364325,0.96484815)"><tspan
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         id="tspan2836-4-0-0"
+         y="277.57297"
+         x="284.13922"
+         sodipodi:role="line">Inf. Sources</tspan></text>
+    <rect
+       style="fill:#ecff5a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3916-4"
+       width="362.50003"
+       height="42.779961"
+       x="175.25"
+       y="192.56537"
+       ry="0" />
+    <text
+       id="text2832-8-0-2-1"
+       y="229.8927"
+       x="296.40436"
+       style="font-size:38.59392929px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.0364325,0.96484815)"><tspan
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         id="tspan2836-4-0-0-8"
+         y="229.8927"
+         x="296.40436"
+         sodipodi:role="line">Theories</tspan></text>
+    <text
+       transform="scale(1.0364325,0.96484817)"
+       xml:space="preserve"
+       style="font-size:38.59392929px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="226.85986"
+       y="326.85153"
+       id="text2832-8-0"><tspan
+         sodipodi:role="line"
+         x="226.85986"
+         y="326.85153"
+         id="tspan2836-4-0"
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'">Api Normalization</tspan></text>
+    <rect
+       y="337.36218"
+       x="316.78223"
+       height="21.911274"
+       width="104.38661"
+       id="rect3663-3-2"
+       style="fill:#ff5961;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       transform="scale(1.0364325,0.96484817)"
+       xml:space="preserve"
+       style="font-size:38.59392166px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="314.75833"
+       y="368.21701"
+       id="text2832-8-0-4"><tspan
+         sodipodi:role="line"
+         x="314.75833"
+         y="368.21701"
+         id="tspan2836-4-0-03"
+         style="font-size:19.29696083px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'">Session</tspan></text>
+    <text
+       id="text2832-8-0-2-17"
+       y="310.974"
+       x="480.49872"
+       style="font-size:38.59392929px;font-style:normal;font-weight:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.0364325,0.96484816)"><tspan
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         id="tspan2836-4-0-0-7"
+         y="310.974"
+         x="480.49872"
+         sodipodi:role="line">Interp.</tspan><tspan
+         style="font-size:19.29696465px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         y="335.09521"
+         x="480.49872"
+         sodipodi:role="line"
+         id="tspan2915">Norm</tspan></text>
+    <rect
+       style="fill:#408e3d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3657-9"
+       width="82.312027"
+       height="41.004906"
+       x="455.43793"
+       y="370.3667" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="494.86713"
+       y="397.98596"
+       id="text2832-3"
+       sodipodi:linespacing="80.000001%"><tspan
+         sodipodi:role="line"
+         x="494.86713"
+         y="397.98596"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Bold'"
+         id="tspan2884-4">Scipy</tspan></text>
+  </g>
+</svg>
