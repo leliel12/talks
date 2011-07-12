@@ -9,16 +9,16 @@
 
     Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
-    `Pycon Argentina 2010 <http://ar.pycon.org/2010/about/>`_
+    `Pyday Gonzales Catán 2011 <http://www.pyday.com.ar/catan2011>`_
 
 
 ¿Qué es Infopython?
 -------------------
 
-    - Infopython es una librería que se utiliza para la valoración de medios de
+    - Infopython es un toolkit que se utiliza para la valoración de medios de
       información utilizando teorías formales.
 
-    - Surge como muchos módulos sueltos en mi trabajo.
+    - Surge como muchos módulos sueltos en mi trabajo durante el año 2010.
     
     
 
@@ -239,18 +239,6 @@ Comparando 2 Agendas
         for i in agenda.rank_isources(ag1, ag2):
             print i
 
-Test
-----
-    
-    1. Correr
-        $ python setup.py test
-        
-    2. Configurar test.cfg con las llaves de las apis correspondientes.
-    
-    3. Again
-        $ python setup.py test   
-
-
 Futuro
 ------
     
@@ -266,15 +254,16 @@ Futuro
 
     - Proyecto:
         - http://bitbucket.org/leliel12/infopython/
+    - Esta Charla:
+        - Source: https://bitbucket.org/leliel12/talks/src
+        - Pet #2: http://revista.python.org.ar/
     - Contacto:
-        - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @leliel12
+        - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @JuanBCabral
 
 
 .. footer:: 
-    Infopython - `Pycon Argentina 2010 <http://ar.pycon.org/2010/about/>`_
+    Infopython - `Pyday Gonzales Catán 2011 <http://www.pyday.com.ar/catan2011>`_
     -
     Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
-
-.. header::
     
     
