@@ -582,8 +582,10 @@ Mongo DB  - Algunos Ejemplitos
     - Contacto:
         - Juan B Cabral 
             - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
-            - Twitter: `@leliel12 <http://twitter.com/leliel12/>`
+            - Twitter: `@juanBcabral <http://twitter.com/juanbcabral/>`_
             - Blog: http://jbcabral.wordpress.com/
+    - Las charlas estan aca:
+            - https://bitbucket.org/leliel12/talks
 
 
 .. footer::

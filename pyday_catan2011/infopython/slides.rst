@@ -6,10 +6,21 @@
        :scale: 100 %
 
     Midiendo Información de Mass-Media Con Python
+    
+    (O continuando la charla de Lipe)
 
     Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
     `Pyday Gonzales Catán 2011 <http://www.pyday.com.ar/catan2011>`_
+    
+
+¿Quien Soy?
+-----------
+
+    * Soy ingeniero en sistemas de la UTN-FRC.
+    * Investigo minerias de datos orientado a redes de haplotipos (Biologia).
+    * Me gustan los juegos de rol (tengo uno hecho en django y otro a medio hacer).
+    * Trabajo en java (Suicidio en progreso).
 
 
 ¿Qué es Infopython?
@@ -18,7 +29,11 @@
     - Infopython es un toolkit que se utiliza para la valoración de medios de
       información utilizando teorías formales.
 
+    - Es una prueba de concepto
+    
     - Surge como muchos módulos sueltos en mi trabajo durante el año 2010.
+    
+    - Por que continua la charla de Lipe?
     
     
 
@@ -239,15 +254,49 @@ Comparando 2 Agendas
         for i in agenda.rank_isources(ag1, ag2):
             print i
 
-Futuro
-------
+Futuro 1
+--------
     
-    - linkedin.
-    - Integrar más tipos de massmedia (imdb, amazon...).
-    - y... ¿desde el punto de vista de la audiencia?
-    - ¿Web semántica?
-    - nltk.
+    Las que dije que hiba a agregar en Pycon 2010:
+        - linkedin.
+        - Integrar más tipos de massmedia (imdb, amazon...).
+        - y... ¿desde el punto de vista de la audiencia?
+        - ¿Web semántica?
+        - nltk.
 
+
+Futuro 2
+--------
+
+    - El manejo de sesiones APESTA! (debería hacerlo multi sesión) y con mas configuraciones (tiempo de espera)
+    
+        .. code-block:: python
+        
+            my_session = sessions.Session(...)
+            google = webpages.WebPage("google.com", session=my_session)
+            
+    - Análisis de Texto:
+    
+        Esta si lo empecé a implementar para Diarios!
+        
+    - Pedirle a lipe que porte scripts de de scraping a infopython :D
+
+Futuro 3
+--------
+
+    - Analisis de imagenes:
+    
+        .. code-block:: python
+        
+            from infopython.isource.images import  Image
+            
+            img_1 = Image(open("/foto_de_campo.png"))
+            img_2 = Image(open("/foto_de_ciudad.png"))
+        
+            impacto = lambda img: contar_pixels_color_verde(img)
+            
+            .. agenda ..
+            
 
 ¿Preguntas?
 -----------
