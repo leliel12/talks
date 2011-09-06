@@ -1,0 +1,91 @@
+Experiencias y reflexiones en el diseño de librerías
+====================================================
+
+:author: Juan B Cabral
+
+Pycon Argentina 2011
+
+Facilidad de Api = Completitud de la Libreria
+
+Completitud de la libreria = 
+
+Facilidad de Api = Cantidad de Documentacion + Cantidad de Automagia + Mucha compatibilidad con la libreria estandar
+
+
+Librerías
+---------
+
+    * Las usamos para resolver problemas comunes.
+    * Sabemos **que** hacen pero no **como** lo hacen.
+    * Nos da un suficiente nivel de "desconocimiento" (clueless).
+    * Accedemos a traves de sus APIS
+    * Una buena API tiene un correctonivel de "clueless"
+
+
+No Clueless
+-----------
+
+    - Leer mi twitter "http://www.twitter.com/!#/juanbcabral"
+    
+        Implica saber: Http, Programar un navegador web, un sistema operativo con
+        las 4 capas del modelo TCP/IP, microelectronica para procesar, comunicaciones
+        para enviar datos por cable... muchas cosas que me saltee por fiaca.
+        
+    - Nadie sabe todo lo necesario para volar un avion.
+    
+
+Clueless
+--------
+
+    * La ignorancia es un beneficio.
+    * Disminuyen el rediseño de la rueda 4.0.
+    * Nos ayudan a enfocar en un problema.
+    * Esta para quedarse.
+    * No significa "no saber".
+    * Python es altamente "clueless".
+    
+
+API VS SPI
+----------
+    
+    **API:** un **coso** externo le pide **algo** a nuestro programa y luego
+    el **coso** recupera el control.
+      
+    **SPI:** nuestro programa le pide **algo** a un **coso** externo y luego
+    nuestro programa recupera el control.
+    
+    **Mantenerlas separadas es EXELENTE IDEA**
+    
+        - API favorece la flexibilidad (generalmente)
+        - SPI la seguridad (generalmente)
+    
+    Disclaimer: recien estoy estudiando como diseñar bien SPI.
+    
+
+Inmutabilidad Rulz!
+-------------------
+
+    Si van a definir objetos intentar que sean inmutables (aumenta bastante la
+    estabilida de la libreria... bueno no realmente)
+    
+    - Si un objeto es **inmutable**: TRATAR de redefinir ``__repr__``, 
+      ``__str__``, ``__hash__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
+    
+    - Si un objeto es **mutable**: 
+        - controlar mucho lo que llega por las API.
+        - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, 
+          ``__eq__`` y ``__ne__``.
+    
+    
+
+Portando - Lo importante es
+---------------------------
+
+    A: Facilitar a la vida a los desarrolladores python:
+        - Respetar pep8: ``assertTrue -> assert_true/ asserttrue``
+        - Utilizar funciones de python: ``obj.length() -> len(obj)``
+        - Utilizar metodos de python: ``obj.appendChild(aobj) -> obj.append(aobj)``
+        
+    B: Que vengan del lenguaje de la libreria original.
+            
+    
