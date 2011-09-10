@@ -9,8 +9,9 @@ Pycon Argentina 2011
 Disclaimer/s
 ------------
 
-    * La charla no trata estrictamente de python. 
+    * La charla no trata estrictamente de Python. 
     * Mucho de esto esta sacado de Java (y su horrible forma de obligarte a hacer cosas feas)
+    * Java sirve para algo: not(**Te enseña como hacer cosas feas**)
     * Surge como una duda personal de como saber si lo que hago esta bien. (aca lo malo si funciona).
     * Recomiendo un libro: **Practical API Design**
     
@@ -159,10 +160,11 @@ Cosejo: Inmutabilidad Rulz!
           ``__eq__`` y ``__ne__``.
 
 
-Consejos: Lo que no suele gustar
---------------------------------
+Consejos: Publicación
+---------------------
 
-    * No publiquen sin tests.
+    * No publiquen sin tests. (Deberia existir algo asi como la **Ley Bidart**)
+    * TDD se merece una 
     * Publiquen de manera comunes a los developers python (pypi > ppa).
     * No publiquen sin documentacion.
     
@@ -190,6 +192,9 @@ Consejos: Finales
     - Tratar de cumplir en su totalidad el zen de python.
     - Compatibilidad pa'tras
     - No abusar de los patrones.
+    - Todo es cuestion de diseño (Dry or not dry)
+    - Evitar el monkeypatch.
+    - TDD rules
 
 
 ¿Preguntas?
