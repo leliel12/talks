@@ -13,9 +13,8 @@ Quien cuerno soy?
     * Edito la revista PET (http://revista.python.org.ar/)
     * Soy becario investigador en bioinformatica.
     * Me interesa la medición de la información desde un punto de vista científico.
-    * Python es mejor que PHP y Java.
+    * Python es mejor que PHP y Java, Linux es Mejor que Windows y  Mac is expensive Facebook machine.
     * **Mi alineación es:** Legal Malvado
-    * Me gusta putear.
     * Fumo Pipa (No fumo cigarrillos)
     * Me gusta el buen whisky.
     
@@ -169,9 +168,9 @@ Conclusiones
             - Blog: http://jbcabral.wordpress.com/
             
 .. footer:: 
-    PyCon Argentina - Junin, Bs. As. 10/2011
+    BarCamp 2011 - Córdoba 10/09/2011
 
 .. header::
-    Browser Game En Django.
+    Razonando Browser Games
     
     
