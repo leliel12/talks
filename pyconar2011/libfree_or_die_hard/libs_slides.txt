@@ -1,9 +1,9 @@
-Experiencias y reflexiones en el diseño de librerías
-====================================================
+Reflexiones en el diseño de librerías
+=====================================
 
-:author: Juan B Cabral
-
-Pycon Argentina 2011
+    .. image::  img/diehard4.jpg
+       :align: center
+       :scale: 45%
 
 
 Disclaimer/s
@@ -12,8 +12,13 @@ Disclaimer/s
     * La charla no trata estrictamente de Python. 
     * Mucho de esto esta sacado de Java (y su horrible forma de obligarte a hacer cosas feas)
     * Java sirve para algo: not(**Te enseña como hacer cosas feas**)
-    * Surge como una duda personal de como saber si lo que hago esta bien. (aca lo malo si funciona).
+    * Surge como una duda personal de como saber si lo que hago esta bien. (Un 
+      api malo no deja de funcionar, solo es malo)
     * Recomiendo un libro: **Practical API Design**
+    
+      .. image::  img/pracapidesign.jpg
+       :align: center
+       :scale: 200%
     
       Mucha de mi charla se basa en este libro.
     
@@ -24,49 +29,53 @@ Librerías
 
     * Las usamos para resolver problemas comunes.
     * Sabemos **que** hacen pero no **como** lo hacen.
-    * Nos da un suficiente nivel de "desconocimiento" (clueless).
-    * Accedemos a traves de sus APIS (asi que la charla se centra en eso)
-    * Una buena API tiene un correctonivel de "clueless"
+    * Nos da un suficiente nivel de "desconocimiento" (**clueless**).
+    * Accedemos a través de sus APIS (asi que la charla se centra en eso).
+    * Una buena API tiene un **"correcto nivel"** de **"clueless"**.
+
+.. image::  img/personligapi.png
+   :align: right
+   :scale: 60%
 
 
 API VS SPI
 ----------
     
-    **API:** un **coso** externo le pide **algo** a nuestro programa y luego
-    el **coso** recupera el control.
-      
-    **SPI:** nuestro programa le pide **algo** a un **coso** externo y luego
-    nuestro programa recupera el control.
-    
-    **Mantenerlas separadas es EXELENTE IDEA**
-    
-        - API favorece la flexibilidad (generalmente)
-        - SPI la seguridad (generalmente)
-    
-    Disclaimer: recien estoy estudiando como diseñar bien SPI.
+**API:**
+    - Es la interfaz de un programa con el mundo.
+    - The API is the description of object... that you call and use to achieve a goal and
+    - Un **coso** externo le pide **algo** a nuestro programa y luego el **coso** recupera el control.
 
+**SPI:** 
+    - The SPI is the description of object... that you extend and implement to achieve a goal
+    - API subset.
+    - Favorece la seguridad (generalmente).
+    - Es la interfaz de un programa con un plugin.
+    - nuestro programa le pide **algo** a un **coso** externo y luego nuestro programa recupera el control.
 
 No Clueless
 -----------
 
-    - Leer mi twitter "http://www.twitter.com/!#/juanbcabral"
-    
-        Implica saber: Http, Programar un navegador web, un sistema operativo con
-        las 4 capas del modelo TCP/IP, microelectronica para procesar, comunicaciones
-        para enviar datos por cable... muchas cosas que me saltee por fiaca.
+    .. image::  img/abstraction.png
+       :align: center
+       :scale: 60%
         
-    - Nadie sabe todo lo necesario para volar un avion.
+    - Nadie sabe todo lo necesario para volar un avión.
     
 
 Clueless
 --------
 
     * La ignorancia es un beneficio.
-    * Disminuyen el rediseño de la rueda 4.0.
+    * Disminuyen el rediseño de la rueda 4.0
     * Nos ayudan a enfocar en un problema.
     * Esta para quedarse.
     * No significa "no saber".
     * Python es altamente "clueless".
+    
+.. image::  img/rueda-moto.jpg
+   :align: right
+   :scale: 50%
 
 
 Zen Vs. Zen
@@ -77,17 +86,25 @@ Zen Vs. Zen
         - Flat is better than nested.
         - Special cases aren't special enough to break the rules.
         - There should be one-- and preferably only one --obvious way to do it.
-        
+           
     * Recordar:
         - Although practicality beats purity.
         - Namespaces are one honking great idea -- let's do more of those!
         
-        
+.. image::  img/Zen_phyton.jpg
+   :align: right
+   :scale: 50%
+    
+    
 Y...
 ----
 
-    Como no me da la cara para decir "esta es la posta" agrupe el resto de la
-    charla en una sucesion de consejos
+Como no me da la cara para decir "esta es la posta" agrupe el resto de la
+charla en una sucesión de consejos.
+
+.. image::  img/Fuck-yeah.png
+   :align: center
+   :scale: 100%
 
 
 Consejo: API (PROPIAMENTE HABLANDO)
@@ -96,7 +113,7 @@ Consejo: API (PROPIAMENTE HABLANDO)
     - Exponer solo los metodos necesarios
     - Tamaño de un api: ``len([n for n in dir(obj) if not n.startswith("_")])``
     - Darle muchos derechos al constructor (inmutabilidad)
-    - No exponer jerarquias profundad: No es lo mismo diseñar para la API que para reusar codigo.
+    - No exponer jerarquías profundas: No es lo mismo diseñar para la API que para reusar código.
 
 
 Consejo: Cooperación con otras Apis
@@ -149,7 +166,7 @@ Cosejo: Inmutabilidad Rulz!
 ---------------------------
 
     Si van a definir objetos intentar que sean inmutables (aumenta bastante la
-    estabilidad de la libreria... bueno no realmente)
+    estabilidad de la librería... bueno no realmente)
     
     - Si un objeto es **inmutable**: TRATAR de redefinir ``__repr__``, 
       ``__str__``, ``__hash__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
