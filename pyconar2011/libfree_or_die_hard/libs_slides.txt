@@ -161,7 +161,8 @@ Consejo: Tipos
 
     - Los controles de tipos deben hacerse en el nivel de **APIS**
     - Los Controles de tipos llevan tiempo.
-    - Los *assert* son buenas ideas para validar tipos
+    - Los *assert* son buenas ideas para validar tipos.
+    - Ojo con el retorno de valores nulos (None != default).
     
     .. code-block:: python
     
@@ -202,10 +203,9 @@ Consejo: Inmutabilidad Rulz!
     
     - Si un objeto es **mutable**: 
         - controlar mucho lo que llega por las API.
-        - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, 
-          ``__eq__`` y ``__ne__``.
+        - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
 
-.. image::  img/brain-freeze.jpeg
+.. image::  img/brain-freeze.png
    :align: right
    :scale: 25%
 
@@ -251,7 +251,7 @@ Consejos: Finales
     - No abusar de los patrones.
     - Todo es cuestión de diseño (Dry or not dry)
     - Evitar el monkeypatch.
-    - TDD rules
+    - TDD rules.
 
 
 ¿Preguntas?
