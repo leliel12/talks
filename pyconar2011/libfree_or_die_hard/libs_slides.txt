@@ -193,21 +193,21 @@ Consejo: Errores
 Consejo: Inmutabilidad Rulz!
 ----------------------------
 
-    Si van a definir objetos intentar que sean inmutables (aumenta bastante la
-    estabilidad de la librería... bueno no realmente)
+- Si van a definir objetos intentar que sean inmutables (aumenta bastante la
+estabilidad de la librería... bueno no realmente)
+
+- Darle muchos derechos al constructor (inmutabilidad)
     
-    - Darle muchos derechos al constructor (inmutabilidad)
+- Si un objeto es **inmutable**: 
+    -TRATAR de redefinir ``__repr__``,  ``__str__``, ``__hash__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
     
-    - Si un objeto es **inmutable**: TRATAR de redefinir ``__repr__``, 
-      ``__str__``, ``__hash__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
-    
-    - Si un objeto es **mutable**: 
-        - controlar mucho lo que llega por las API.
-        - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
+- Si un objeto es **mutable**: 
+    - controlar mucho lo que llega por las API.
+    - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
 
 .. image::  img/brain-freeze.png
    :align: right
-   :scale: 25%
+   :scale: 20%
 
 
 Consejo: Portando
