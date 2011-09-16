@@ -1,9 +1,26 @@
 ﻿
 .. image:: img/portada.png
    :align: center
-   :scale: 150 %
+   :scale: 100 %
 
+Quien cuerno soy?
+-----------------
 
+**Juan B Cabral.**
+
+    * La UTN dice que soy ingeniero.
+    * Edito la revista PET (http://revista.python.org.ar/)
+    * Soy becario investigador en bioinformatica.
+    * Me interesa la medición de la información desde un punto de vista científico.
+    * **Mi alineación es:** Legal Malvado
+    * Fumo Pipa (No fumo cigarrillos)
+    * Me gusta el buen whisky.
+    
+.. image:: img/pipwis.jpg
+       :align: right
+       :scale: 400 %
+       
+       
 Definiciones Previas
 --------------------
 
@@ -19,36 +36,24 @@ Contexto
     Veamos Ejemplos.
 
 
-.
--
-
 .. image::  img/farmville.jpg
    :align: center
-   :scale: 100%
+   :scale: 75%
 
-
-.
--
 
 .. image::  img/ikariam.jpg
    :align: center
-   :scale: 100%
+   :scale: 75%
 
-
-.
--
 
 .. image::  img/ogame.png
    :align: center
-   :scale: 100%
+   :scale: 75%
        
-       
-.
--
 
 .. image::  img/travian.jpg
    :align: center
-   :scale: 50%
+   :scale: 75%
 
 
 De lo visto podemos decir...
@@ -85,8 +90,8 @@ Que Logramos
    :scale: 33%
 
 
-Que se puede hacer en Steamend?
--------------------------------
+Que se puede hacer en Enano?
+----------------------------
 
     #. Se pueden construir edificios, unidades y desarrollar tecnologías.
     #. Se pueden hacer viajes.
