@@ -1,7 +1,7 @@
 ﻿
-    .. image:: img/portada.png
-       :align: center
-       :scale: 100 %
+.. image:: img/portada.png
+   :align: center
+   :scale: 150 %
 
 
 Definiciones Previas
@@ -22,33 +22,33 @@ Contexto
 .
 -
 
-    .. image::  img/farmville.jpg
-       :align: center
-       :scale: 100%
+.. image::  img/farmville.jpg
+   :align: center
+   :scale: 100%
 
 
 .
 -
 
-    .. image::  img/ikariam.jpg
-       :align: center
-       :scale: 100%
+.. image::  img/ikariam.jpg
+   :align: center
+   :scale: 100%
 
 
 .
 -
 
-    .. image::  img/ogame.png
-       :align: center
-       :scale: 100%
+.. image::  img/ogame.png
+   :align: center
+   :scale: 100%
        
        
 .
 -
 
-    .. image::  img/travian.jpg
-       :align: center
-       :scale: 50%
+.. image::  img/travian.jpg
+   :align: center
+   :scale: 50%
 
 
 De lo visto podemos decir...
@@ -77,12 +77,12 @@ Pero...
     * A nivel código que cuerno es un browser game?
 
 
-Un Ejemplo de Flexibilidad
---------------------------
+Que Logramos
+------------
 
-    * Las siguientes capturas son de diferentes "juegos" funcionando sobre 
-      nuestro producto.
-
+.. image::  img/evo.png
+   :align: center
+   :scale: 33%
 
 
 Que se puede hacer en Steamend?
@@ -100,26 +100,14 @@ Que se puede hacer en Steamend?
     #. Resuelve automáticamente arboles de tecnología (R)
 
 
-Ejemplo de instalación
-----------------------
-
-    MOSTRÁ PUÉ!
-
-
 Arquitectura
 ------------
 
-    .. image::  img/arch.png
-       :align: center
-       :scale: 100%
+.. image::  img/arch.png
+   :align: center
+   :scale: 100%
 
-
-Ejemplos de las otras cosas
----------------------------
-
-    MOSTRÁ PUÉ!
-    
-    
+        
 Conclusiones
 ------------
 
@@ -135,6 +123,23 @@ Conclusiones
         - El código es muy "académico" (Mención especial al scheduler)
 
 
+Arquitectura Que me tiraron en BarCamp Cba 2011
+-----------------------------------------------
+
+.. image::  img/nu_arch.png
+   :align: center
+   :scale: 35%
+
+
+Ahora una demo
+--------------
+
+.. image::  img/show.jpg
+   :align: center
+   :scale: 40%
+
+Me gusta Godzilla
+
 ¿Preguntas?
 -----------
 
@@ -149,7 +154,7 @@ Conclusiones
             - Blog: http://jbcabral.wordpress.com/
             
 .. footer:: 
-    PyCon Argentina - Junin, Bs. As. 10/2011
+    PyCon Argentina - Junin, Bs. As. 23/09/2011
 
 .. header::
     Browser Game En Django.

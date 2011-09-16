@@ -6,8 +6,8 @@ Reflexiones en el diseño de librerías
    :scale: 45%
 
 
-Disclaimer/s
-------------
+Start
+-----
 
     * La charla no trata estrictamente de Python. 
     * Mucho de esto esta sacado de Java (y su horrible forma de obligarte a hacer cosas feas)
@@ -272,7 +272,7 @@ Consejos: Finales
 
 
 .. footer:: 
-    PyCon Argentina - Junin, Bs. As. 10/2011
+    PyCon Argentina - Junin, Bs. As. 24/09/2011
 
 .. header::
     Lib Free or Die Hard

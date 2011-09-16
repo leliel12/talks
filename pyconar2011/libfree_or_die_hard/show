@@ -1,0 +1,1 @@
+rst2evince libs_slides.txt -b1 -s slides.style
