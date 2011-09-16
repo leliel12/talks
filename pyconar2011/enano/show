@@ -1,0 +1,1 @@
+rst2evince slides.rst -b1 -s slides.style
