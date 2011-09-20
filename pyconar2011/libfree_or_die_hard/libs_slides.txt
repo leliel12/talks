@@ -117,11 +117,16 @@ Consejo: API (PROPIAMENTE HABLANDO)
          >>> len([n for n in dir(obj) if not n.startswith("_")])
          (numero pequeño)
          
-    - No exponer jerarquías profundas: No es lo mismo diseñar para la API que para reusar código.
 
-        .. image::  img/personligapi.png
-           :align: center
-           :scale: 60%
+
+Consejo: API (PROPIAMENTE HABLANDO) 2
+-------------------------------------
+
+- No exponer jerarquías profundas: No es lo mismo diseñar para la API que para reusar código.
+
+    .. image::  img/mframeworks.jpg
+       :align: center
+       :scale: 100%
 
 
 Consejo: Cooperación con otras APIs
