@@ -243,7 +243,7 @@ Consejos: Publicación
     
 .. image::  img/me-gusta.jpg
    :align: right
-   :scale: 200%
+   :scale: 100%
 
 
 Consejos: Finales
@@ -254,7 +254,7 @@ Consejos: Finales
     - Tratar de cumplir en su totalidad el zen de python.
     - Compatibilidad pa'tras
     - No abusar de los patrones.
-    - Todo es cuestión de diseño (Dry or not dry)
+    - Todo es cuestión de diseño (DRY or not DRY)
     - Evitar el monkeypatch.
     - TDD rules.
 
