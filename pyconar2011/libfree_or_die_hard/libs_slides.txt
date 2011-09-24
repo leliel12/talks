@@ -5,6 +5,23 @@ Reflexiones en el diseño de librerías
    :align: center
    :scale: 45%
 
+Quien cuerno soy?
+-----------------
+
+**Juan B Cabral.**
+
+    * La UTN dice que soy ingeniero.
+    * Edito la revista PET (http://revista.python.org.ar/)
+    * Soy becario investigador en bioinformatica.
+    * Me interesa la medición de la información desde un punto de vista científico.
+    * **Mi alineación es:** Legal Malvado
+    * Fumo Pipa (No fumo cigarrillos)
+    * Me gusta el buen whisky.
+    
+.. image:: img/pipwis.jpg
+       :align: right
+       :scale: 400 %
+
 
 Start
 -----
