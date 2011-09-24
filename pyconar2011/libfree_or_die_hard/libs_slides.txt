@@ -215,6 +215,18 @@ estabilidad de la librería... bueno no realmente)
    :scale: 20%
 
 
+Consejo: Diseño
+---------------
+
+    - Siempre planeen primero la funcionalidad.
+    - TDD.
+    - Primero el controller (MVC).
+    - Plantear inicialmente el nivel de exelencia que se quiere llegar.
+
+.. image::  img/MVC.png
+   :align: right
+   :scale: 50%
+
 Consejo: Portando
 -----------------
 
@@ -237,13 +249,15 @@ Consejos: Publicación
 ---------------------
 
     * No publiquen sin tests.
-    * TDD se merece una oportunidad
+    * TDD se merece una oportunidad.
     * Publiquen de manera comunes a los developers python (pypi > ppa).
-    * No publiquen sin documentación.
+    * No publiquen sin documentación. (mercurial -> git)
+    * Vean la pagina de los chicos de Pocoo (http://www.pocoo.org/)
+    * Dar identidad gráfica al proyecto.
     
 .. image::  img/me-gusta.jpg
    :align: right
-   :scale: 100%
+   :scale: 30%
 
 
 Consejos: Finales
@@ -256,7 +270,7 @@ Consejos: Finales
     - No abusar de los patrones.
     - Todo es cuestión de diseño (DRY or not DRY)
     - Evitar el monkeypatch.
-    - TDD rules.
+    
 
 
 ¿Preguntas?
