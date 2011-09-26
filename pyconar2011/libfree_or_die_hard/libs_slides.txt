@@ -238,7 +238,7 @@ Consejo: Diseño
     - Siempre planeen primero la funcionalidad.
     - TDD.
     - Primero el controller (MVC).
-    - Plantear inicialmente el nivel de exelencia que se quiere llegar.
+    - Plantear inicialmente el nivel de excelencia que se quiere llegar.
 
 .. image::  img/MVC.png
    :align: right
