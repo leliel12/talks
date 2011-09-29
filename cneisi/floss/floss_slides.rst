@@ -1,5 +1,5 @@
-FLOSS Libre Metido en La Ingeniería en Sistemas
-===============================================
+Free/Open Source Software
+=========================
 
 .. image:: img/port.jpg
    :align: right
@@ -222,6 +222,7 @@ En general:
     - El FLOSS va mas allá de lo técnico.
     - El FLOSS es una forma de ver el software.
     - El FLOSS contradice mucho de la ingeniería de software tradicional.
+    - No tiene mas que ventajas en lo académico.
 
 En lo personal:
     - Descreo mucho de gente que se la pasa mas con powerpoint y excel antes que con un editor de texto
@@ -231,7 +232,23 @@ En lo personal:
     
 .. image:: img/cool.jpg
     :align: right
-    :scale: 60 %
+    :scale: 55 %
+    
+
+Algunos Datos de Interes
+------------------------
+
+- Fundación Via Libre: http://www.vialibre.org.ar/
+- GrULiC: http://www.grulic.org.ar/
+- SLUC: http://sluc.org.ar/
+- GNUtn: http://www.gnutn.org.ar/
+- Solar: http://www.solar.org.ar/
+- USLA: http://drupal.usla.org.ar/
+- CADESoL: http://www.cadesol.org.ar/
+
+.. image:: img/bart.gif
+    :align: right
+    :scale: 200 %
 
 
 ¿Preguntas?
@@ -245,12 +262,15 @@ En lo personal:
             - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
             - Blog: http://jbcabral.wordpress.com/
 
+.. image:: img/questions.jpg
+    :align: right
+    :scale: 45 %
 
 .. footer::
     CNEISI - Córdoba 30/09/2011
 
 .. header::
-    FLOSS Metido en La Ingeniería en Sistemas
+    Free/Open Source Software
 
 
 
