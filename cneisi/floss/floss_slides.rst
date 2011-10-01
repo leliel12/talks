@@ -16,6 +16,7 @@ About me...
     * **Mi alineación es:** Legal Malvado
     * Fumo Pipa (No fumo cigarrillos)
     * Me gusta el buen whisky.
+    * Yo le ayude a hacer las filminas a Maxi.
     * Como llegué a esto del FLOSS?
 
 .. image:: img/pipwis.jpg
@@ -246,9 +247,18 @@ Algunos Datos de Interes
 - USLA: http://drupal.usla.org.ar/
 - CADESoL: http://www.cadesol.org.ar/
 
+- Mi programa de soft libre: 
+    - Source: https://bitbucket.org/leliel12/papers (floss_program)
+    - PDF: http://www.slideshare.net/JuanCabral/floss-programa-de-open-source
+
+CONSEJASO
+---------
+
+**Muchas de sus tesis van a morir en el olvido... libérenlas, pueden ayudar a alguien**
+
 .. image:: img/bart.gif
     :align: right
-    :scale: 200 %
+    :scale: 300 %
 
 
 ¿Preguntas?
