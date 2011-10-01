@@ -1,5 +1,5 @@
-Free/Open Source Software
-=========================
+Software Libre para Ingenieros en Sistemas
+==========================================
 
 .. image:: img/port.jpg
    :align: right
@@ -235,7 +235,17 @@ En lo personal:
     :align: right
     :scale: 55 %
     
+    
+CONSEJASO
+---------
 
+**Muchas de sus tesis van a morir en el olvido... libérenlas, pueden ayudar a alguien**
+
+.. image:: img/bart.gif
+    :align: right
+    :scale: 300 %
+    
+    
 Algunos Datos de Interes
 ------------------------
 
@@ -250,15 +260,6 @@ Algunos Datos de Interes
 - Mi programa de soft libre: 
     - Source: https://bitbucket.org/leliel12/papers (floss_program)
     - PDF: http://www.slideshare.net/JuanCabral/floss-programa-de-open-source
-
-CONSEJASO
----------
-
-**Muchas de sus tesis van a morir en el olvido... libérenlas, pueden ayudar a alguien**
-
-.. image:: img/bart.gif
-    :align: right
-    :scale: 300 %
 
 
 ¿Preguntas?
@@ -280,7 +281,7 @@ CONSEJASO
     CNEISI - Córdoba 30/09/2011
 
 .. header::
-    Free/Open Source Software
+    Software Libre para Ingenieros en Sistemas
 
 
 
