@@ -17,3 +17,6 @@ syntax: regexp
 ^.*(.)pdf$
 syntax: regexp
 ^\.settings$
+
+syntax: glob
+pyconar2012/pensandoenapis/*.png
