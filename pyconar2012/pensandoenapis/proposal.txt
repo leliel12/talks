@@ -1,0 +1,35 @@
+Pensanso en APIs
+----------------
+
+Abstract
+--------
+
+    * Análisis de buenas practicas para el diseño de API's en python tomando en cuenta:
+    * Tipo de desarrollador que utilizara el api.
+    * Compatibilidad con las "pilas" de python
+    * Uso de convenciones de privacidad.
+    * Chekeo de tipos.
+    * Testeo.
+    * Pythonismo y Zen de Python.
+    * Portando librerías de otros lenguajes.
+    * Ejemplos de buenos y malos diseños de librerías pythonicas.
+
+Descripción
+-----------
+
+    A lo largo de mi "carrera" como programador me toco
+    diseñar apis para diferentes lenguajes con filosofías muy distintas. Desde
+    java con su absoluta "in-uniformidad" de apis incluso en su classpath, hasta
+    python con su absoluta obsesión de mantener el pythonismo a su máxima
+    expresión.
+
+    Una tarea de cualquier programador que mas o menos experimentado suele 
+    diseñar un módulo con funcionalidad crítica y dejar que el uso de las mismas
+    lo realicen programadores menos experimentados. Así es tarea
+    del senior no solo diseñar una solución a este problema crítico, sino
+    también exponer la funcionalidades necesarias, flexibles, simples y lo
+    "mas fáciles" de entender.
+
+    En el poster se va a explicar como dirigir el desarrollo para facilitar 
+    el cumplimiento de estos objetivos disminuyendo la cantidad de bugs y las
+    inconsistencia de apis.
