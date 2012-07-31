@@ -1,5 +1,5 @@
-Peewee ORM
-==========
+Evadiendo SQL con Peewee ORM
+============================
 
 Peewee es un ORM ligero fuertemente inspirado en el de Django. Soporta una 
 sitáxis declarativa muy cómoda que permite definir clases que interactúan con la
