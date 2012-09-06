@@ -7,4 +7,7 @@ filosofía, sus ventajas técnicas y económicas, su forma de organizar a las
 personas y procesos y el como empresas utilizaron para bien y para mal este
 paradigma de ingeniería de software.
 
+El foco de la charla esta orientado a la introducción del proceso ingenieril y
+no en debates filosóficos o históricos acerca del tema central.
+
 
