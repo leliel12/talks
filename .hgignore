@@ -20,3 +20,4 @@ syntax: regexp
 
 syntax: glob
 pyconar2012/pensandoenapis/*.png
+Unicode2012/floss/poster/*.png
