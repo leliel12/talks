@@ -13,7 +13,7 @@ About me...
 
     * La UTN dice que soy ingeniero en sistemas.
     * Edito la revista PET (http://revista.python.org.ar/)
-    * **Mi alineación es:** Legal Malvado
+    * **Mi alineación es:** Caotico Bueno
     * Fumo Pipa (No fumo cigarrillos)
     * Me gusta el buen whisky.
     * Soy algo asi como un pre-doctorando (UPM).
