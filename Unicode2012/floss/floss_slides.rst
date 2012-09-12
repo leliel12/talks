@@ -105,6 +105,7 @@ Hay mucho mas para ver:
     - Creative Commons (http://creativecommons.org/).
     - Algunas elecciones que se hicieron como Mac OSX y Android.
     - Aplicaciones irreemplazables FLOSS hay unas cuantas.
+    - Empieza a verse mucho hardware FLOSS (Ouya)
 
 Para mas ver:
     - Revolution OS (http://www.imdb.com/title/tt0308808/)
