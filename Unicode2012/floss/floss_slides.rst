@@ -1,5 +1,5 @@
-Software Libre para Ingenieros en Sistemas
-==========================================
+Ingeniería de Software Libre
+============================
 
 .. image:: img/port.jpg
    :align: right
@@ -16,7 +16,7 @@ About me...
     * **Mi alineación es:** Legal Malvado
     * Fumo Pipa (No fumo cigarrillos)
     * Me gusta el buen whisky.
-    * Yo le ayude a hacer las filminas a Maxi.
+    * Soy algo asi como un pre-doctorando (UPM).
     * Como llegué a esto del FLOSS?
 
 .. image:: img/pipwis.jpg
@@ -27,9 +27,11 @@ About me...
 Round 1... Fight!
 -----------------
 
-    - Quiero meterlos objetivamente en la discusión del FLOSS vs Software Propietario.
+    - Quiero meterlos objetivamente en la discusión del FLOSS vs Software 
+      Propietario.
     - Esto no deja de tener mucho subjetivo mio.
     - Aun así son libres de hacerme caso en todo.
+    - Esta charla la di en el CNEISI 2011.
 
 .. image:: img/fight.jpg
     :align: right
@@ -54,9 +56,12 @@ Historia: Software Libre
 - Richard Stallman - GNU -GPL
 - Las 4 libertades del software:
     0. La libertad de usar el programa, con cualquier propósito.
-    1. La libertad de estudiar cómo funciona el programa y modificarlo, adaptándolo a tus necesidades.
-    2. La libertad de distribuir copias del programa, con lo cual puedes ayudar a tu prójimo.
-    3. La libertad de mejorar el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie.
+    1. La libertad de estudiar cómo funciona el programa y modificarlo, 
+       adaptándolo a tus necesidades.
+    2. La libertad de distribuir copias del programa, con lo cual puedes 
+       ayudar a tu prójimo.
+    3. La libertad de mejorar el programa y hacer públicas esas mejoras a los 
+       demás, de modo que toda la comunidad se beneficie.
 
 - **INFO:** http://www.fsf.org/
 
@@ -89,7 +94,8 @@ Historia: Y que tanto se parece FS y el OS?
    :align: center
    :scale: 200%
 
-Mas filosofías además de las principales: http://www.gnu.org/philosophy/categories.html
+Mas filosofías además de las principales: 
+http://www.gnu.org/philosophy/categories.html
 
 
 Historia: Cerrando
@@ -155,6 +161,20 @@ Lo legal
    :scale: 40 %
 
 
+Lo legal: mi licencia favorita
+------------------------------
+
+::
+
+  "THE WISKEY-WARE LICENSE":
+  <jbc.develop@gmail.com> wrote this file. As long as you retain this notice you
+  can do whatever you want with this stuff. If we meet some day, and you think
+  this stuff is worth it, you can buy me a WISKEY in return Juan BC
+
+.. image:: img/borrachos.jpg
+   :align: center
+   :scale: 90 %
+
 Y ahora algo mas Divertido: Diseño
 ----------------------------------
 
@@ -189,7 +209,8 @@ Lo humano: La gestión de proyectos
 - Administración de contribuciones y parches (forks).
 - Benevolent Dictator for life
 - Y como mantengo mis versiones?
-- Meritocracia Hacker. (http://www.sindominio.net/ayuda/preguntas-inteligentes.html)
+- Meritocracia Hacker.
+  (http://www.sindominio.net/ayuda/preguntas-inteligentes.html)
 - Y como hacemos llegar nuestros proyectos a la gente?
 
 .. image:: img/hack.png   
@@ -216,6 +237,7 @@ Y un poco mas aburrido pero cerrando: Lo económico
     :align: right
     :scale: 120 %
 
+
 Conclusiones
 ------------
 
@@ -226,8 +248,10 @@ En general:
     - No tiene mas que ventajas en lo académico.
 
 En lo personal:
-    - Descreo mucho de gente que se la pasa mas con powerpoint y excel antes que con un editor de texto
-    - Valoro lo técnico, lo económico me importa muy poco (asunto de los administradores)
+    - Descreo mucho de gente que se la pasa mas con powerpoint y excel antes 
+      que con un editor de texto
+    - Valoro lo técnico, lo económico me importa muy poco (asunto de los 
+      administradores)
     - FLOSS golpeo mi ego.
     
     
@@ -239,7 +263,8 @@ En lo personal:
 CONSEJASO
 ---------
 
-**Muchas de sus tesis van a morir en el olvido... libérenlas, pueden ayudar a alguien**
+**Muchas de sus tesis van a morir en el olvido... 
+**libérenlas, pueden ayudar a alguien**
 
 .. image:: img/bart.gif
     :align: right
@@ -271,17 +296,17 @@ Algunos Datos de Interes
         - Juan B Cabral
             - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
             - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
-            - Blog: http://jbcabral.wordpress.com/
+            - Blog: http://jbcabral.com/
 
 .. image:: img/questions.jpg
     :align: right
     :scale: 45 %
 
 .. footer::
-    Unicode - Córdoba 13/09/2011
+    Unicode - Córdoba 13/09/2012
 
 .. header::
-    Software Libre para Ingenieros en Sistemas
+    Ingeniería de Software Libre
 
 
 
