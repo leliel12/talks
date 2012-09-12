@@ -41,9 +41,10 @@ Round 1... Fight!
 Historia: Software Propietario
 ------------------------------
 
-    - No existió siempre.
-    - Micro$oft es en gran medida responsable del estado deplorable de las cosas.
-    - Bill Gates **an open letter to hobbyists** (http://bit.ly/P1Jmw)
+  - No existió siempre.
+  - Micro**$**oft es en gran medida responsable del estado deplorable de las 
+    cosas.
+  - Bill Gates **an open letter to hobbyists** (http://bit.ly/P1Jmw)
     
 .. image:: img/prop.png
    :align: right
@@ -115,6 +116,18 @@ Para mas ver:
    :scale: 45 %
 
 
+Che cosa è il software libero?
+------------------------------
+
+- Es una forma de ver el producto (FLOSS vs. Software privativo).
+- Es una filosofía (Libre vs. OpenSource vs. Privativo).
+- Es una forma de desarrollar un proyecto de sofware (FLOSS vs. Privativo). **ete**
+
+.. image:: img/peter.png
+   :align: center
+   :scale: 70 %
+   
+
 Ahora si: A los bifes
 ---------------------
 
@@ -162,7 +175,7 @@ Lo legal
    :scale: 40 %
 
 
-Lo legal: mi licencia favorita
+Lo legal: Mi licencia favorita
 ------------------------------
 
 ::
@@ -198,11 +211,12 @@ Y ahora algo mas Divertido: Diseño (cont.)
 
 - Refactoring.
 - La comunidad como parámetro de buen diseño.
+- Requerimientos **:(**
 - Y como no... modelo bazar sobre modelo catedral.
 
 .. image:: img/design.png   
     :align: right
-    :scale: 40 %
+    :scale: 35 %
 
 
 Lo humano: La gestión de proyectos
@@ -231,13 +245,14 @@ Y un poco mas aburrido pero cerrando: Lo económico
     - Mac OSX (su SO es CASI OS)
     - Sun (se fundió)
     - Canonical (es mix en pequeña escala)
+    - Ouya
     - MySQL, PHP...
 
 - El como ganar plata no difiere mucho del soft privativo.
 
 .. image:: img/money.jpg
     :align: right
-    :scale: 120 %
+    :scale: 100 %
 
 
 Conclusiones
@@ -269,7 +284,7 @@ CONSEJAZO
 **libérenlas, pueden ayudar a alguien**
 
 .. image:: img/bart.gif
-    :align: right
+    :align: center
     :scale: 300 %
     
     
@@ -300,12 +315,13 @@ Algunos Datos de Interes
             - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
             - Blog: http://jbcabral.com/
 
-.. image:: img/questions.jpg
+.. image:: img/qr.jpeg
     :align: right
-    :scale: 45 %
+    :scale: 100 %
+
 
 .. footer::
-    Unicode - Córdoba 13/09/2012
+    Unicode - Córdoba 13/09/2012 - CC-BY
 
 .. header::
     Ingeniería de Software Libre
