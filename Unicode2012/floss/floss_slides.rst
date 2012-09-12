@@ -176,6 +176,7 @@ Lo legal: mi licencia favorita
    :align: center
    :scale: 90 %
 
+
 Y ahora algo mas Divertido: Diseño
 ----------------------------------
 
@@ -261,10 +262,10 @@ En lo personal:
     :scale: 55 %
     
     
-CONSEJASO
+CONSEJAZO
 ---------
 
-**Muchas de sus tesis van a morir en el olvido... 
+**Muchas de sus tesis van a morir en el olvido...**
 **libérenlas, pueden ayudar a alguien**
 
 .. image:: img/bart.gif
