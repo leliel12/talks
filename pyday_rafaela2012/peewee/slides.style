@@ -16,7 +16,7 @@
             ["0", "0", "100%", "100%"]
         ],
         //"background" : "img/bg.svg",
-        "showFooter" : true,
+        "showFooter" : false,
         "showHeader" : false
     }
   }
