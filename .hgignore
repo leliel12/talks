@@ -21,3 +21,4 @@ syntax: regexp
 syntax: glob
 pyconar2012/pensandoenapis/*.png
 Unicode2012/floss/poster/*.png
+pyday_rafaela2012/peewee/*.db
