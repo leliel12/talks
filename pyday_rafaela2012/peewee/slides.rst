@@ -114,7 +114,7 @@ Vamo con **Peewee**
 - Esta diseñado para trabajar con Flask (flask-peewee).
 - Lo estube usando para hacer data mining.
 - Hay una version inestable ``2.0`` yo voy a usar la ``1.0``.
-- Soporta MySql, Sqlite y Postgres
+- Soporta MySql, Sqlite y Postgres.
 
 
 Declarando las tablas y las clases
@@ -122,9 +122,31 @@ Declarando las tablas y las clases
 
 .. code-block:: python
 
-    import MySQLdb
-    db = MySQLdb.connect(host=’localhost’,user=’root’,
-                         passwd=’’,db=’Prueba’)
+    from peewee import *
+
+    example_db = SqliteDatabase('example.db')
+
+    class ExampleModel(Model):
+        class Meta:
+            database = example_db
+
+    class User(ExampleModel):
+        name = CharField()
+
+        def __unicode__(self):
+            return "<User '{}'>".format(self.name)
+
+    class Car(ExampleModel):
+        model = CharField(null=True)
+        plate = CharField(unique=True)
+        user = ForeignKeyField(User, related_name="cars")
+
+        def __unicode__(self):
+            return "<Car '{}-{}'>".format(self.model, self.plate)
+
+    # Creamos las tablas si no existen
+    User.create_table(fail_silently=True)
+    Car.create_table(fail_silently=True)
 
 
 ¿Preguntas?
@@ -134,7 +156,6 @@ Declarando las tablas y las clases
         - http://bitbucket.org/leliel12/infopython/
     - Esta Charla:
         - Source: https://bitbucket.org/leliel12/talks/src
-        - Pet #2: http://revista.python.org.ar/
     - Contacto:
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @JuanBCabral
 
