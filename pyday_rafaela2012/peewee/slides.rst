@@ -136,6 +136,8 @@ Declarando las tablas y las clases
         def __unicode__(self):
             return "<User '{}'>".format(self.name)
 
+.. code-block:: python
+
     class Car(ExampleModel):
         model = CharField(null=True)
         plate = CharField(unique=True)
@@ -143,8 +145,6 @@ Declarando las tablas y las clases
 
         def __unicode__(self):
             return "<Car '{}-{}'>".format(self.model, self.plate)
-
-.. code-block:: python
 
     # Creamos las tablas si no existen
     User.create_table(fail_silently=True)
