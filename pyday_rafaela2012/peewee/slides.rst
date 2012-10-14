@@ -144,6 +144,8 @@ Declarando las tablas y las clases
         def __unicode__(self):
             return "<Car '{}-{}'>".format(self.model, self.plate)
 
+.. code-block:: python
+
     # Creamos las tablas si no existen
     User.create_table(fail_silently=True)
     Car.create_table(fail_silently=True)
