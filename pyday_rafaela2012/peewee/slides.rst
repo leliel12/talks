@@ -37,8 +37,9 @@ Al principio
       que escribi esto.
     * **De todas maneras: estamos de acuerdo que los datos son lo importante?.**
 
-    .. image:: img/Scott-Pilgrim1.png
-        :scale: 100 %
+.. image:: img/Scott-Pilgrim1.png
+    :scale: 100 %
+    :align: center
 
 
 Python + RDBMS
@@ -191,6 +192,9 @@ Creamos registros
     u2 = User(name="Scott Pilgrim", age=23)
     u2.save()
 
+.. image:: img/05.jpeg
+    :align: center
+    :scale: 300 %
 
 Queries 1
 ---------
@@ -242,6 +246,8 @@ Queries 2
     Con ID=1
     <User: u'Ramona Flowers'>
 
+.. image:: img/01.jpeg
+    :align: right
 
 Queries 3
 ---------
@@ -266,6 +272,9 @@ Queries 3
     Con nombre 'Stephen Stills'
     <User: u'Stephen Stills'>
 
+.. image:: img/02.gif
+    :align: center
+    :scale: 200 %
 
 Queries 4
 ---------
@@ -311,6 +320,9 @@ Queries 5
     <User: u'Stephen Stills'>
     <User: u'Scott Pilgrim'>
 
+.. image:: img/03.png
+    :align: center
+    :scale: 75 %
 
 Queries 6 (Entran los autos)
 ----------------------------
@@ -350,6 +362,10 @@ Queries 7
 
     Cantidad de autos de personas con 24 años
     1
+
+.. image:: img/04.jpg
+    :align: center
+    :scale: 200 %
 
 
 Queries 8
@@ -422,6 +438,10 @@ Cosas en el tintero
         - Source: https://bitbucket.org/leliel12/talks/src
     - Contacto:
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @JuanBCabral
+
+.. image:: img/ko.png
+    :align: center
+    :scale: 30 %
 
 
 .. footer::
