@@ -20,8 +20,8 @@
 Machete
 -------
 
-* Quienes ya saben lo que es un ORM? (exluyendo los de siempre)
-* Quienes saben Django? (exluyendo los de siempre)
+* Quienes ya saben lo que es un ORM? (excluyendo los de siempre)
+* Quienes saben Django? (excluyendo los de siempre)
 * Quienen no conocen SQL?
 
 .. image:: img/scott_callstriker.gif
@@ -32,9 +32,9 @@ Machete
 Al principio
 ------------
 
-    * Aca deberia haber una enumeración de que son los datos lo que importa
-      y no los algoritmos. Pero me aburri antes de ponerme a buscar citas asi
-      que escribi esto.
+    * Acá debería haber una enumeración de que son los datos lo que importa
+      y no los algoritmos. Pero me aburrí antes de ponerme a buscar citas así
+      que escribí esto.
     * **De todas maneras: estamos de acuerdo que los datos son lo importante?.**
 
 .. image:: img/Scott-Pilgrim1.png
@@ -67,14 +67,14 @@ Python + RDBMS
 Como estamos?
 -------------
 
-- Si te gusta *SQL* tenes sql.
+- Si te gusta *SQL*.
 - Pero *SQL* no esta implementado igual en los distintos motores.
 - Y nada garantiza que ese motor no cambie con el tiempo (sobre todo en empresas
   grandes donde el que decide poco tiene que ver con el desarrolla)
 - Lo que devuelve los conectores son set de datos y no objetos ``User``
   propiamente.
 - La diferencias entre el modelo de objetos y relacional.
-- Pero esto es rapido.
+- Pero esto es rápido.
 
 .. image:: img/comoestamos.jpeg
     :scale: 200
@@ -116,8 +116,8 @@ Vamo con **Peewee**
 - Es un solo archivo.
 - Es Django-like.
 - Esta diseñado para trabajar con Flask (flask-peewee).
-- Lo estube usando para hacer data mining.
-- Recien salida del horno la version 0.2
+- Lo estuve usando para hacer data mining.
+- Recién salida del horno la version 2.0
 - Soporta MySql, Sqlite y Postgres.
 
 .. image:: img/vamospeewee.jpg
@@ -394,7 +394,7 @@ Update and Delete
 
 .. code-block:: python
 
-    print "Una actualizacion"
+    print "Una actualización"
     c = Car.get(plate="jbc 2502")
     c.plate = "AAC 6666"
     c.save()
