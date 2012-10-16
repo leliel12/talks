@@ -13,7 +13,7 @@
     * **Mi alineación es:** Caotico Bueno
 
 .. image:: img/Sex_Bob_Omb_by_Pachi666.jpg
-    :scale: 100 %
+    :scale: 125 %
     :align: right
 
 
@@ -22,9 +22,10 @@ Machete
 
 * Quienes ya saben lo que es un ORM? (exluyendo los de siempre)
 * Quienes saben Django? (exluyendo los de siempre)
+* Quienen no conocen SQL?
 
 .. image:: img/scott_callstriker.gif
-    :scale: 500 %
+    :scale: 600 %
     :align: right
 
 
@@ -37,7 +38,7 @@ Al principio
     * **De todas maneras: estamos de acuerdo que los datos son lo importante?.**
 
     .. image:: img/Scott-Pilgrim1.png
-        :scale: 400 %
+        :scale: 100 %
 
 
 Python + RDBMS
@@ -113,7 +114,7 @@ Vamo con **Peewee**
 - Es Django-like.
 - Esta diseñado para trabajar con Flask (flask-peewee).
 - Lo estube usando para hacer data mining.
-- Hay una version inestable ``2.0`` yo voy a usar la ``1.0``.
+- Recien salida del horno la version 0.2
 - Soporta MySql, Sqlite y Postgres.
 
 
@@ -132,9 +133,10 @@ Declarando las tablas y las clases
 
     class User(ExampleModel):
         name = CharField()
+        age = IntegerField()
 
         def __unicode__(self):
-            return "<User '{}'>".format(self.name)
+            return self.name
 
 .. code-block:: python
 
@@ -144,18 +146,280 @@ Declarando las tablas y las clases
         user = ForeignKeyField(User, related_name="cars")
 
         def __unicode__(self):
-            return "<Car '{}-{}'>".format(self.model, self.plate)
+            return "{}-{}".format(self.model, self.plate)
+
 
     # Creamos las tablas si no existen
     User.create_table(fail_silently=True)
     Car.create_table(fail_silently=True)
+
+**ACORDATE DE MOSTRAR LA BASE DE DATOS CON SQLITE BROWSER**
+
+Un poco mas de los Fields
+-------------------------
+
+    * ``null=False``: boolean indicating whether null values are allowed to be
+      stored
+    * ``index=False``: boolean indicating whether to create an index on this column
+    * ``unique=False``: boolean indicating whether to create a unique index on this
+       column
+    * ``verbose_name=None``: string representing the "user-friendly" name of this
+      field
+    * ``help_text=None``: string representing any helpful text for this field
+    * ``db_column=None``: string representing the underlying column to use if
+      different, useful for legacy databases
+    * ``default=None``: any value to use as a default for uninitialized models
+    * ``choices=None``: an optional iterable containing 2-tuples of ``value``,
+      ``display``
+    * ``primary_key=False``: whether this field is the primary key for the table
+
+
+Mas todavia de los Fields
+-------------------------
+
+.. image:: img/fields.png
+    :scale: 50 %
+    :align: center
+
+
+Creamos registros
+-----------------
+
+**Peewee**
+
+.. code-block:: python
+
+    u0 = User()
+    u0.name = "Ramona Flowers"
+    u0.age = 24
+    u0.save()
+    u1 = User(name="Stephen Stills", age=24)
+    u1.save()
+    u2 = User(name="Scott Pilgrim", age=23)
+    u2.save()
+
+
+Queries 1
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Todos los Usuarios"
+    for u in User.select():
+        print u.id, u.name, u.age
+
+**SQL**
+
+.. code-block:: sql
+
+    SELECT * FROM user
+
+**OUT**
+
+::
+
+    Todos los Usuarios
+    1 Ramona Flowers 24
+    2 Stephen Stills 24
+    3 Scott Pilgrim 23
+
+
+Queries 2
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Con ID=1"
+    print User.get(User.id == 1)
+
+**SQL**
+
+.. code-block:: sql
+
+    SELECT * FROM user WHERE id = 1
+
+**OUT**
+
+::
+
+    Con ID=1
+    <User: u'Ramona Flowers'>
+
+
+Queries 3
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Con nombre 'Stephen Stills'"
+    print User.get(User.name == "Stephen Stills")
+
+**SQL**
+
+.. code-block:: sql
+
+    SELECT * FROM user WHERE name = 'Stephen Stills'
+
+**OUT**
+
+::
+
+    Con nombre 'Stephen Stills'
+    <User: u'Stephen Stills'>
+
+
+Queries 4
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Con edad <= 24"
+    for u in User.filter(User.age <= 24):
+        print u
+
+**SQL**
+
+.. code-block:: sql
+
+    SELECT * FROM user WHERE age <= 24
+
+**OUT**
+
+::
+
+    <User: u'Ramona Flowers'>
+    <User: u'Stephen Stills'>
+    <User: u'Scott Pilgrim'>
+
+Queries 5
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Con nombre que empieza con 'S'"
+    for u in User.filter(fn.Substr(User.name, 1, 1) == "S"):
+        print u
+
+**OUT**
+
+::
+
+    Con nombre que empieza con 'S'
+    <User: u'Stephen Stills'>
+    <User: u'Scott Pilgrim'>
+
+
+Queries 6 (Entran los autos)
+----------------------------
+
+**Peewee**
+
+.. code-block:: python
+
+    # u0 -> Ramona Flowers
+    car = Car(model="2012", plate="jbc 2502", user=u0)
+    car.save()
+
+    print "Autos de u0"
+    for c in Car.filter(Car.user == u0):
+        print "{} -> {}".format(c, c.user)
+
+**OUT**
+
+::
+
+    Autos de u0
+    <Car: '2012-jbc 2502'> -> <User: u'Ramona Flowers'>
+
+Queries 7
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Cantidad de autos de personas con 24 años"
+    print Car.select().join(User).where(User.age == 24).count()
+
+**OUT**
+
+::
+
+    Cantidad de autos de personas con 24 años
+    1
+
+
+Queries 8
+---------
+
+**Peewee**
+
+.. code-block:: python
+
+    print "Autos con modelo 2012 de usuarios de 24 años"
+    for car in Car.select().join(User).where(User.age == 24, Car.model=="2012"):
+        print car
+
+**OUT**
+
+::
+
+    Autos con modelo 2012 de usuarios de 24 años
+    <Car: '2012-jbc 2502'>
+
+
+Update and Delete
+-----------------
+
+**UPDATE**
+
+.. code-block:: python
+
+    print "Una actualizacion"
+    c = Car.get(plate="jbc 2502")
+    c.plate = "AAC 6666"
+    c.save()
+
+**DELETE**
+
+.. code-block:: python
+
+    print u0.cars.count()
+    car0.delete_instance()
+    print u0.cars.count()
+
+**OUT**
+
+::
+
+    1
+    0
+
+Cosas en el tintero
+-------------------
+
+    - ``.order_by``
+    - ``.having``
+    - ``.group_by``
+
+    * Un ejemplito en una app *
 
 
 ¿Preguntas?
 -----------
 
     - Proyecto:
-        - http://bitbucket.org/leliel12/infopython/
+        - https://peewee.readthedocs.org
     - Esta Charla:
         - Source: https://bitbucket.org/leliel12/talks/src
     - Contacto:
