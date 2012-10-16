@@ -75,18 +75,17 @@ Como estamos?
 - La diferencias entre el modelo de objetos y relacional.
 - Pero esto es rapido.
 
+.. image:: img/comoestamos.jpeg
+    :scale: 200
 
 Que opciones tenemos?
 ---------------------
 
 - Usar ORM
 
-::
-
-    El mapeo objeto-relacional (más conocido por su nombre en inglés,
-    Object-Relational mapping, o sus siglas O/RM, ORM, y O/R mapping) es una
+    El mapeo objeto-relacional  es una
     técnica de programación para convertir datos entre el sistema de tipos
-    utilizado en un lenguaje de programación orientado a objetos y el utilizado
+    utilizado en un lenguaje de programación OO y el utilizado
     en una base de datos relacional, utilizando un motor de persistencia. En la
     práctica esto crea una base de datos orientada a objetos virtual, sobre la
     base de datos relacional. Esto posibilita el uso de las características
@@ -95,14 +94,17 @@ Que opciones tenemos?
 `Wikipedia: ORM <http://es.wikipedia.org/wiki/Mapeo_objeto-relacional>`_
 
 - Alternativas en Pyhon: SqlAlchemy, Storm, **Peewee**, Django-ORM
-- Nota: Web2py DAL.
+
+.. image:: img/orms.png
+    :scale: 20 %
+    :align: center
 
 
 Una evidencia de la diferencia de modelos
 -----------------------------------------
 
 .. image:: img/models.png
-    :scale: 400 %
+    :scale: 300 %
     :align: center
 
 
@@ -117,6 +119,10 @@ Vamo con **Peewee**
 - Recien salida del horno la version 0.2
 - Soporta MySql, Sqlite y Postgres.
 
+.. image:: img/vamospeewee.jpg
+    :align: right
+    :scale: 20 %
+
 
 Declarando las tablas y las clases
 ----------------------------------
@@ -124,7 +130,6 @@ Declarando las tablas y las clases
 .. code-block:: python
 
     from peewee import *
-
     example_db = SqliteDatabase('example.db')
 
     class ExampleModel(Model):
@@ -135,25 +140,13 @@ Declarando las tablas y las clases
         name = CharField()
         age = IntegerField()
 
-        def __unicode__(self):
-            return self.name
-
-.. code-block:: python
-
     class Car(ExampleModel):
         model = CharField(null=True)
         plate = CharField(unique=True)
         user = ForeignKeyField(User, related_name="cars")
 
-        def __unicode__(self):
-            return "{}-{}".format(self.model, self.plate)
-
-
-    # Creamos las tablas si no existen
     User.create_table(fail_silently=True)
     Car.create_table(fail_silently=True)
-
-**ACORDATE DE MOSTRAR LA BASE DE DATOS CON SQLITE BROWSER**
 
 Un poco mas de los Fields
 -------------------------
@@ -162,7 +155,7 @@ Un poco mas de los Fields
       stored
     * ``index=False``: boolean indicating whether to create an index on this column
     * ``unique=False``: boolean indicating whether to create a unique index on this
-       column
+      column
     * ``verbose_name=None``: string representing the "user-friendly" name of this
       field
     * ``help_text=None``: string representing any helpful text for this field
@@ -411,8 +404,13 @@ Cosas en el tintero
     - ``.order_by``
     - ``.having``
     - ``.group_by``
+    - lookups.
 
     * Un ejemplito en una app *
+
+.. image:: img/tintero.jpg
+    :align: right
+    :scale: 50 %
 
 
 ¿Preguntas?
