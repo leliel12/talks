@@ -336,7 +336,7 @@ Queries 6 (Entran los autos)
     car.save()
 
     print "Autos de u0"
-    for c in Car.filter(Car.user == u0):
+    for c in u0.cars: # Car.filter(Car.user == u0)
         print "{} -> {}".format(c, c.user)
 
 **OUT**
@@ -420,7 +420,6 @@ Cosas en el tintero
     - ``.order_by``
     - ``.having``
     - ``.group_by``
-    - lookups.
 
     * Un ejemplito en una app *
 
