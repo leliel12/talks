@@ -33,7 +33,7 @@ class Dialog(UI_DIR("Dialog.ui")):
 app = QtGui.QApplication([])
 d = Dialog()
 d.show()
-print d.__class__.__mro__
+
 
 app.exec_()
 
