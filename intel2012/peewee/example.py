@@ -80,7 +80,7 @@ c.save()
 
 print "un borrado"
 print u0.cars.count()
-car0.delete_instance()
+#car0.delete_instance()
 print u0.cars.count()
 
 

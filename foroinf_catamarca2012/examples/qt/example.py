@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 
@@ -10,10 +12,6 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 UI_DIR = pycante.EDir(PATH)
 
 
-
-print UI_DIR("Dialog.ui")
-
-
 class Dialog(UI_DIR("Dialog.ui")):
 
     def on_pushButton_clicked(self):
@@ -21,20 +19,9 @@ class Dialog(UI_DIR("Dialog.ui")):
         self.label.setText("Hola " + unicode(text) + "!")
 
 
-
-
-
-
-
-
-
-
-
 app = QtGui.QApplication([])
 d = Dialog()
 d.show()
-
-
 app.exec_()
 
 
