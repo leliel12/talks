@@ -1,0 +1,2285 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Python en el mundo real</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///Users/matias/Dev/a_Talks/Env-Catamarca2012/lib/python2.7/site-packages/landslide-1.1.1-py2.7.egg/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///Users/matias/Dev/a_Talks/Env-Catamarca2012/lib/python2.7/site-packages/landslide-1.1.1-py2.7.egg/landslide/themes/tango/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///Users/matias/Dev/a_Talks/Env-Catamarca2012/lib/python2.7/site-packages/landslide-1.1.1-py2.7.egg/landslide/themes/default/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Python en el mundo real</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Los disertantes</h1></header>
+            
+            
+            <section><p>Juan B Cabral</p>
+<ul class="simple">
+<li>Ing. en Sistemas.</li>
+<li>UTN-FRC</li>
+<li>Organizador de la última PyCon Argentina, de un PyDay y un Django Day.</li>
+<li>Trabaja en Liricus.</li>
+</ul>
+<p>Matías Herranz</p>
+<ul class="simple">
+<li>Lic. en Ciencias de la Computación.</li>
+<li>FAMaF - UNC</li>
+<li>Disertante en todo lo que organizo Juan y varios eventos mas.</li>
+<li>Trabaja en Machinalis</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Los 2:</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Ambos trabajan con Python  en su día a día.</li>
+<li>Ambos hicieron su tesis de grado en Python.</li>
+<li>Ambos son miembros de PyAr.</li>
+<li>Ambos hacen ciencia con Python.</li>
+<li>Ambos se conocieron en PyAr.</li>
+<li>Toman whiskey.</li>
+<li>Son amigos.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¿De qué va la charla?</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Ejemplos de su sintaxis en casos didácticos</li>
+<li>Programas hechos en Python.</li>
+<li>Empresas que apuestan fuerte por (¡y ganan fuerte con!) Python</li>
+<li>Comunidad de Python</li>
+<li>Frameworks hechos en Python</li>
+</ul>
+<p>Y vamos a hablar de plata todo el tiempo!</p>
+<img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/python_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/python_logo.png" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Y Python...</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Python es un lenguaje de programación interpretado cuya filosofía hace
+hincapié en una sintaxis muy limpia y que favorezca un código legible.</li>
+<li>Lo crea Guido Van Rossum en 1991.</li>
+<li>Multiparadigma.</li>
+<li>Multiplataforma</li>
+<li>Comunidad MUY activa y con... una particularidad en el nivel técnico.</li>
+<li>Multiples implementaciones: Jython, IronPython, PyPy, CPython...</li>
+</ul>
+<p>y... es simple (según las estadísticas todo es 1/3 de Java y C#)</p>
+<ul class="simple">
+<li>1/3 de tiempos de desarrollo.</li>
+<li>1/3 de costo de mantenimiento (producto de que sea fácil de leer y entender).</li>
+<li>1/3 de costos.</li>
+<li>¡1/3 de time to market!</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 1_presentacion.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Por cierto...</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Estos slides estan generados con Landslide (que está hecho con Python)</li>
+<li>Homepage: <a class="reference external" href="https://github.com/adamzap/landslide">https://github.com/adamzap/landslide</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="1_presentacion.rst">1_presentacion.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 2_ejemplos_intro.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Ejemplos</h1></header>
+            
+            
+            <section><p>En los siguientes slides se verá:</p>
+<ul class="simple">
+<li>Librerías interesantes de Python.</li>
+<li>Ejemplos de sintáxis.</li>
+<li>Ejemplos de código con esas librerías (funcionando).</li>
+<li>Un video para ilustrar computación científica (con código un poco más complejo)</li>
+</ul>
+<p><strong>¡Recuerden!</strong> Todo esto tiene un fin demostrativo, son pequeños códigos de ejemplo.</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="2_ejemplos_intro.rst">2_ejemplos_intro.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>PyQt</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyqt_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyqt_logo.png" />
+<ul class="simple">
+<li>Es un binding a una librería grafica hecha en C++ (en realidad es más que eso).</li>
+<li>Posee un editor visual de formularios (QtDesigner)</li>
+<li>Homepage: <a class="reference external" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">http://www.riverbankcomputing.co.uk/software/pyqt/intro</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>PyQt (Ejemplo)</h1></header>
+            
+            
+            <section><pre><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">PyQt4</span> <span class="kn">import</span> <span class="n">QtCore</span><span class="p">,</span> <span class="n">QtGui</span>
+<span class="kn">import</span> <span class="nn">pycante</span>
+
+<span class="n">PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">__file__</span><span class="p">))</span>
+<span class="n">UI_DIR</span> <span class="o">=</span> <span class="n">pycante</span><span class="o">.</span><span class="n">EDir</span><span class="p">(</span><span class="n">PATH</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Dialog</span><span class="p">(</span><span class="n">UI_DIR</span><span class="p">(</span><span class="s">&quot;Dialog.ui&quot;</span><span class="p">)):</span>
+
+    <span class="k">def</span> <span class="nf">on_pushButton_clicked</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">lineEdit</span><span class="o">.</span><span class="n">text</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">setText</span><span class="p">(</span><span class="s">&quot;Hola &quot;</span> <span class="o">+</span> <span class="nb">unicode</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;!&quot;</span><span class="p">)</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">QtGui</span><span class="o">.</span><span class="n">QApplication</span><span class="p">([])</span>
+<span class="n">d</span> <span class="o">=</span> <span class="n">Dialog</span><span class="p">()</span>
+<span class="n">d</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">app</span><span class="o">.</span><span class="n">exec_</span><span class="p">()</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pilas</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pilas_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pilas_logo.png" />
+<ul class="simple">
+<li>Un motor de videojuegos 100% en español (en proceso de traducción a otros lenguajes)</li>
+<li>Multiplataforma y ridiculamente-fácil de aprender.</li>
+<li>Desarrollado por un miembro de PyAr (Hugo Ruscitti)</li>
+<li>Embebible en widgets PyQt</li>
+<li>Homepage: <a class="reference external" href="http://www.pilas-engine.com.ar/">http://www.pilas-engine.com.ar/</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pilas (Ejemplo)</h1></header>
+            
+            
+            <section><pre><span class="kn">import</span> <span class="nn">pilas</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="n">pilas</span><span class="o">.</span><span class="n">iniciar</span><span class="p">()</span>
+
+<span class="n">mono</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Mono</span><span class="p">()</span>
+<span class="n">mono</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">mono</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span>
+<span class="n">mono</span><span class="o">.</span><span class="n">aprender</span><span class="p">(</span><span class="n">pilas</span><span class="o">.</span><span class="n">habilidades</span><span class="o">.</span><span class="n">Arrastrable</span><span class="p">)</span>
+
+<span class="n">bananas</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Banana</span><span class="p">()</span> <span class="o">*</span> <span class="mi">10</span>
+<span class="n">bombas</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Bomba</span><span class="p">()</span> <span class="o">*</span> <span class="mi">5</span>
+
+<span class="k">def</span> <span class="nf">mono_come_banana</span><span class="p">(</span><span class="n">mono</span><span class="p">,</span> <span class="n">banana</span><span class="p">):</span>
+    <span class="n">mono</span><span class="o">.</span><span class="n">sonreir</span><span class="p">()</span>
+    <span class="n">banana</span><span class="o">.</span><span class="n">eliminar</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">bomba_mata_mono</span><span class="p">(</span><span class="n">mono</span><span class="p">,</span> <span class="n">bomba</span><span class="p">):</span>
+    <span class="n">bomba</span><span class="o">.</span><span class="n">explotar</span><span class="p">()</span>
+    <span class="n">mono</span><span class="o">.</span><span class="n">gritar</span><span class="p">()</span>
+    <span class="n">mono</span><span class="o">.</span><span class="n">eliminar</span><span class="p">()</span>
+
+<span class="n">pilas</span><span class="o">.</span><span class="n">escena_actual</span><span class="p">()</span><span class="o">.</span><span class="n">colisiones</span><span class="o">.</span><span class="n">agregar</span><span class="p">(</span><span class="n">mono</span><span class="p">,</span> <span class="n">bananas</span><span class="p">,</span> <span class="n">mono_come_banana</span><span class="p">)</span>
+<span class="n">pilas</span><span class="o">.</span><span class="n">escena_actual</span><span class="p">()</span><span class="o">.</span><span class="n">colisiones</span><span class="o">.</span><span class="n">agregar</span><span class="p">(</span><span class="n">mono</span><span class="p">,</span> <span class="n">bombas</span><span class="p">,</span> <span class="n">bomba_mata_mono</span><span class="p">)</span>
+
+<span class="n">pilas</span><span class="o">.</span><span class="n">ejecutar</span><span class="p">()</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Beautiful Soup</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/bsoup_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/bsoup_logo.png" />
+<ul class="simple">
+<li>Es un parser HTML/XML laxo (¡funciona bien con código HTML/XML mal formado!).</li>
+<li>Permite buscar de una manera <strong>muy</strong>, realmente <strong>muy</strong> flexible en código
+XML-like.</li>
+<li>Es raro.</li>
+<li>Hace cosas raras.</li>
+<li>Homepage: <a class="reference external" href="http://www.crummy.com/software/BeautifulSoup/">http://www.crummy.com/software/BeautifulSoup/</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Beautiful Soup (Ejemplo, HTML)</h1></header>
+            
+            
+            <section><pre><span class="n">html</span> <span class="o">=</span> <span class="s">&quot;&quot;&quot;</span>
+<span class="s">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;</span>
+<span class="s">    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;</span>
+<span class="s">&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;</span>
+<span class="s">&lt;head&gt;</span>
+<span class="s">    &lt;title&gt;titulo&lt;/title&gt;</span>
+<span class="s">&lt;/head&gt;</span>
+<span class="s">&lt;body&gt;</span>
+<span class="s">    &lt;p&gt;este es un codigo feo&lt;b&gt;</span>
+<span class="s">    &lt;a href=&quot;http://google.com&quot;&gt;to google&lt;/a&gt;</span>
+<span class="s">    &lt;a href=&quot;http://www.google.com&quot; id=&quot;unico&quot;&gt;to google&lt;/a&gt;</span>
+<span class="s">    &lt;a href=&quot;http://yahoo.com&quot;&gt;to yahoo&lt;/a&gt;</span>
+<span class="s">    &lt;ul class=&quot;elgroso&quot;&gt;</span>
+<span class="s">        &lt;li&gt;something&lt;/li&gt;</span>
+<span class="s">    &lt;/ul&gt;</span>
+<span class="s">    &lt;ul class=&quot;elgroso&quot;&gt;</span>
+<span class="s">        &lt;li&gt;something&lt;/li&gt;</span>
+<span class="s">    &lt;/ul&gt;</span>
+<span class="s">    &lt;ul class=&quot;elflaco&quot;&gt;</span>
+<span class="s">        &lt;li&gt;something&lt;/li&gt;</span>
+<span class="s">    &lt;/ul&gt;</span>
+<span class="s">&lt;/body&gt;</span>
+<span class="s">&lt;/html&gt;</span>
+<span class="s">&quot;&quot;&quot;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.1_ejemplos_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Beautiful Soup (Ejemplo, Python)</h1></header>
+            
+            
+            <section><pre><span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">bs4</span>
+
+<span class="n">soup</span> <span class="o">=</span> <span class="n">bs4</span><span class="o">.</span><span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">&quot;a&quot;</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="n">href</span><span class="o">=</span><span class="s">&quot;http://yahoo.com&quot;</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="n">href</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;.*google[.]com&quot;</span><span class="p">))</span>
+<span class="k">print</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="n">href</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;.*google[.]com&quot;</span><span class="p">),</span> <span class="nb">id</span><span class="o">=</span><span class="s">&quot;unico&quot;</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;ul&quot;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s">&quot;elgroso&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">&quot;li&quot;</span><span class="p">)</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.1_ejemplos_juan.rst">3.1_ejemplos_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Django</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/django-logo-small.jpeg" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/django-logo-small.jpeg" />
+<ul class="simple">
+<li>Framework web con más de 7 años de uso, hecho en Python</li>
+<li>Miles y miles de apps para Django, listas para usar (django-registration, pinax, django-bootstrap-toolkit, etc.)</li>
+<li>Muy amplia difusión y uso, muy mantenido, amplia comunidad</li>
+<li>Ahorro de trabajo repetitivo</li>
+<li>Admin interface</li>
+<li>MVC (model, view, controller)</li>
+<li><a class="reference external" href="https://www.djangoproject.com">https://www.djangoproject.com</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pequeño ejemplo Django</h1></header>
+            
+            
+            <section><p>Un Microblog</p>
+<ul class="simple">
+<li>Usando django-commanline-extensions, django-bootstrap-toolkit, django</li>
+<li>Muy poco código, una app 100% funcional</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Django (Ejemplo: Models)</h1></header>
+            
+            
+            <section><pre><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+<span class="kn">from</span> <span class="nn">django.contrib.auth.models</span> <span class="kn">import</span> <span class="n">User</span>
+
+
+<span class="k">class</span> <span class="nc">Post</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Model to represent the blog posts.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">author</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">blank</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">TextField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">140</span><span class="p">)</span>
+    <span class="n">date_posted</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DateTimeField</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__unicode__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">&quot;Post from: </span><span class="si">%s</span><span class="s">, Txt: </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">username</span><span class="p">,</span>
+                                           <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">,)</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Django (Ejemplo: Views 1/2)</h1></header>
+            
+            
+            <section><pre><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="kn">from</span> <span class="nn">django.contrib.auth.decorators</span> <span class="kn">import</span> <span class="n">login_required</span>
+<span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render_to_response</span>
+<span class="kn">from</span> <span class="nn">django.template</span> <span class="kn">import</span> <span class="n">RequestContext</span>
+
+<span class="kn">from</span> <span class="nn">posts.models</span> <span class="kn">import</span> <span class="n">Post</span>
+<span class="kn">from</span> <span class="nn">posts.forms</span> <span class="kn">import</span> <span class="n">PostForm</span>
+
+
+<span class="nd">@login_required</span>
+<span class="k">def</span> <span class="nf">show_timeline</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">render_to_response</span><span class="p">(</span>
+                    <span class="s">&#39;posts/timeline.html&#39;</span><span class="p">,</span>
+                    <span class="n">RequestContext</span><span class="p">(</span>
+                        <span class="n">request</span><span class="p">,</span>
+                        <span class="p">{</span><span class="s">&#39;posts&#39;</span><span class="p">:</span> <span class="n">Post</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s">&#39;-date_posted&#39;</span><span class="p">)}</span>
+                    <span class="p">),</span>
+           <span class="p">)</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Django (Ejemplo: Views 2/2)</h1></header>
+            
+            
+            <section><pre><span class="nd">@login_required</span>
+<span class="k">def</span> <span class="nf">write_post</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="n">layout</span> <span class="o">=</span> <span class="s">&#39;vertical&#39;</span>
+
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">PostForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="n">new_post</span> <span class="o">=</span> <span class="n">form</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">commit</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+            <span class="n">new_post</span><span class="o">.</span><span class="n">author</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">user</span>
+            <span class="n">new_post</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">show_timeline</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">PostForm</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">render_to_response</span><span class="p">(</span><span class="s">&#39;posts/form.html&#39;</span><span class="p">,</span> <span class="n">RequestContext</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="p">{</span>
+        <span class="s">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">,</span>
+        <span class="s">&#39;layout&#39;</span><span class="p">:</span> <span class="n">layout</span><span class="p">,</span>
+        <span class="p">}))</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              19/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Django (Ejemplo: Templates)</h1></header>
+            
+            
+            <section><pre>{% extends &quot;posts/base.html&quot; %}
+
+{% load bootstrap_toolkit %}
+
+{% block content %}
+    <span class="nt">&lt;h1&gt;</span>Hi! Take a look at the current posts below:<span class="nt">&lt;/h1&gt;</span>
+
+    {% for post in posts %}
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;well&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h1&gt;</span>Author: {{ post.author.username }}<span class="nt">&lt;/h1&gt;</span>
+            <span class="nt">&lt;p&gt;</span>{{ post.message }}<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    {% endfor %}
+{% endblock %}
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>numpy / scipy</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/numpy-logo.jpeg" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/numpy-logo.jpeg" />
+<ul class="simple">
+<li>Librería para computación científica</li>
+<li>Core con partes áltamente performantes, hechas en C</li>
+<li>Interfaz 100% Python</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              21/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>numpy / scipy (Ejemplo)</h1></header>
+            
+            
+            <section><pre><span class="k">def</span> <span class="nf">isodata_classification</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">parameters</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">K</span><span class="p">,</span> <span class="n">I</span><span class="p">,</span> <span class="n">P</span><span class="p">,</span> <span class="n">THETA_M</span><span class="p">,</span> <span class="n">THETA_S</span><span class="p">,</span> <span class="n">THETA_C</span><span class="p">,</span> <span class="n">THETA_O</span><span class="p">,</span> <span class="n">k</span>
+    <span class="n">initialize_parameters</span><span class="p">(</span><span class="n">parameters</span><span class="p">)</span>
+    <span class="n">N</span><span class="p">,</span> <span class="n">M</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">shape</span>  <span class="c"># for reshaping at the end</span>
+    <span class="n">img_flat</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+    <span class="n">clusters_list</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>  <span class="c"># number of clusters availables</span>
+
+    <span class="n">centers</span> <span class="o">=</span> <span class="n">initial_clusters</span><span class="p">(</span><span class="n">img_flat</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="s">&quot;linspace&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="nb">iter</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">I</span><span class="p">):</span>
+        <span class="n">last_centers</span> <span class="o">=</span> <span class="n">centers</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="n">img_class_flat</span><span class="p">,</span> <span class="n">dists</span> <span class="o">=</span> <span class="n">vq</span><span class="o">.</span><span class="n">vq</span><span class="p">(</span><span class="n">img_flat</span><span class="p">,</span> <span class="n">centers</span><span class="p">)</span>
+        <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span> <span class="o">=</span> <span class="n">discard_clusters</span><span class="p">(</span>
+                            <span class="n">img_class_flat</span><span class="p">,</span> <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span><span class="p">)</span>
+        <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span> <span class="o">=</span> <span class="n">update_clusters</span><span class="p">(</span><span class="n">img_flat</span><span class="p">,</span>
+                            <span class="n">img_class_flat</span><span class="p">,</span> <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span><span class="p">)</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="n">centers</span><span class="o">.</span><span class="n">size</span>
+        <span class="k">if</span> <span class="n">k</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="n">K</span> <span class="o">/</span> <span class="mf">2.0</span><span class="p">):</span>  <span class="c"># too few clusters =&gt; split clusters</span>
+            <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span> <span class="o">=</span> <span class="n">split_clusters</span><span class="p">(</span><span class="n">img_flat</span><span class="p">,</span>
+                            <span class="n">img_class_flat</span><span class="p">,</span> <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">k</span> <span class="o">&gt;</span> <span class="p">(</span><span class="n">K</span> <span class="o">*</span> <span class="mf">2.0</span><span class="p">):</span>  <span class="c"># too many clusters =&gt; merge clusters</span>
+            <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span> <span class="o">=</span> <span class="n">merge_clusters</span><span class="p">(</span><span class="n">img_class_flat</span><span class="p">,</span>
+                                <span class="n">centers</span><span class="p">,</span> <span class="n">clusters_list</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c"># nor split or merge are needed</span>
+            <span class="k">pass</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="n">centers</span><span class="o">.</span><span class="n">size</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              22/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 3.2_ejemplos_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>numpy / scipy (Ejemplo)</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>(video)</li>
+<li>Isodata: algoritmo de clasificación</li>
+<li>Usos posibles: detección de plagas, cultivos, áreas más húmedas, etc.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="3.2_ejemplos_mati.rst">3.2_ejemplos_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              23/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 4_proy_intro.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Proyectos</h1></header>
+            
+            
+            <section><p>En los siguientes slides se verá:</p>
+<ul class="simple">
+<li>Proyectos grandes y pequeños desarrollados por los oradores, en Python.</li>
+<li>Funcionamiento de los proyectos con ejemplos rápidos.</li>
+<li>Resumen de &quot;que&quot; tecnología usa cada proyecto.</li>
+<li>Listado de algunos proyectos famosos que usan Python.</li>
+<li>Un resumen de empresas que apoyan Python</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="4_proy_intro.rst">4_proy_intro.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.1_proy_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Yatel</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/yatel_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/yatel_logo.png" />
+<ul class="simple">
+<li>Es una herramienta de data-mining.</li>
+<li>Se utiliza par análisis de perfiles genéticos en el INTA-IFiVe.</li>
+<li>Utilizable como librería.</li>
+<li>100% Python</li>
+<li>Utiliza: PyQt, Pilas, Peewee, IPython.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.1_proy_juan.rst">5.1_proy_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.1_proy_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Yatel</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/yatel_ss.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/yatel_ss.png" style="width: 784px; height: 482px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.1_proy_juan.rst">5.1_proy_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              26/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.1_proy_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>SocialOne</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/socialone_logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/socialone_logo.png" />
+<ul class="simple">
+<li>Es una solución para compartir fotos de manera centralizada.</li>
+<li>Esta alojado en <a class="reference external" href="http://www.socialone.com.ar">http://www.socialone.com.ar</a> (cuenta con un cliente Android)</li>
+<li>Backend 100% Python, comunicación rest/json</li>
+<li>Utiliza: Flask, Python Image Library (PIL)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.1_proy_juan.rst">5.1_proy_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              27/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.1_proy_juan.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>SocialOne</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/socialone_ss.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/socialone_ss.png" style="width: 819px; height: 444px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.1_proy_juan.rst">5.1_proy_juan.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              28/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Ninja-IDE</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ninja-logo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ninja-logo.png" />
+<ul class="simple">
+<li>Project Managment</li>
+<li>Amazing Code Locator</li>
+<li>Errors and PEP8 Finder</li>
+<li>Run Project and Files</li>
+<li>Highly extensible with Pluging</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              29/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Ninja-IDE: screenshots</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-ninja-1.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-ninja-1.png" style="width: 957px; height: 560px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              30/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Ninja-IDE: screenshots</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-ninja-2.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-ninja-2.png" style="width: 957px; height: 560px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              31/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Quepy</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logo-machinalis.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logo-machinalis.png" />
+<ul class="simple">
+<li>(El logo de Quepy está en camino!)</li>
+<li>Proyecto open-source desorrallado por Machinalis con el grupo de investigación de PNL de FaMAF</li>
+<li>Quepy es un framework para transformar preguntas en lenguaje natural a consultas en un lenguaje de base de datos</li>
+<li>Idea: con poco codigo podrías construir tu propio acceso a tu base de datos mediante lenguaje natural.</li>
+<li>Quepy provee soporte para el lenguaje de consultas sparql, pero puede ser extendido a otros lenguajes de consulta.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              32/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Quepy: Links!</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logo-machinalis.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logo-machinalis.png" />
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/machinalis/quepy">https://github.com/machinalis/quepy</a></li>
+<li><a class="reference external" href="http://quepy.readthedocs.org/">http://quepy.readthedocs.org/</a></li>
+<li><a class="reference external" href="http://pypi.python.org/pypi/quepy/">http://pypi.python.org/pypi/quepy/</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              33/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Quepy</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Tenemos en funcionamiento una instancia de Quepy que consulta a DBpedia en: <a class="reference external" href="http://quepy.machinalis.com/">http://quepy.machinalis.com/</a></li>
+</ul>
+<img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-1.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-1.png" style="width: 766px; height: 448px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              34/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Quepy: pregunta</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-2.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-2.png" style="width: 893px; height: 522px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              35/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 5.2_proy_mati.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Quepy: respuesta!</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-3.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/ScreenShot-Quepy-3.png" style="width: 893px; height: 522px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="5.2_proy_mati.rst">5.2_proy_mati.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              36/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.1_prod_emp.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Productos Famosos</h1></header>
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/productos.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/productos.png" style="width: 685px; height: 345px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.1_prod_emp.rst">6.1_prod_emp.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              37/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.1_prod_emp.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Las empresas</h1></header>
+            
+            
+            <section><p>Este es el listado de empresas que apuestan FUERTE por Python.</p>
+<p>Más casos: <a class="reference external" href="http://www.python.org/about/success/">http://www.python.org/about/success/</a></p>
+<img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/empresas.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/empresas.png" style="width: 681px; height: 342px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.1_prod_emp.rst">6.1_prod_emp.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              38/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Comunidad</h1></header>
+            
+            
+            <section><p>En los siguientes slides se verá:</p>
+<ul class="simple">
+<li>La comunidad internacional de Python</li>
+<li>Grandes eventos internacionales</li>
+<li>Comunidad Local</li>
+<li>Eventos locales</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              39/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Comunidad Internacional</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Dada la expresividad del lenguaje, muchos hackers y científicos son miembros
+activos de esta comunidad</li>
+<li>Se nuclea a través de la Python Software Foundation (hay dos miembros de PyAr)</li>
+<li>Se organizan cerca de 200 conferencias anuales de Python en todo el mundo.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              40/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyconlogo.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyconlogo.png" style="width: 480px; height: 270px;" />
+<ul class="simple">
+<li>Mayor conferencia de python a nivel mundial.</li>
+<li>5 mil asistentes.</li>
+<li>15 días (03/2013 es la siguiente en Santa Clara)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              41/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Muchas conferencias</h1></header>
+            
+            
+            <section><pre class="literal-block">
+- &quot;PyCon&quot; in United States
+- &quot;EuroPython&quot; in Europe
+- &quot;EuroSciPy&quot; in Europe
+- &quot;Kiwi PyCon&quot; in New Zealand
+- &quot;PyCon Asia Pacific&quot; in Singapore
+- &quot;PyCon AR&quot; in Argentina
+- &quot;PyCon AU&quot; in Australia
+- &quot;PythonBrasil&quot; in Brazil
+- &quot;PyCon Canada&quot; in Canada
+- &quot;PyCon China&quot; in China
+- &quot;PyCon DE&quot; in Germany
+- &quot;PyCon ES&quot; in Spain
+- &quot;PyCon Finland&quot; in Finland
+- &quot;PyCon FR&quot; in France
+- &quot;PyCon India&quot;
+- &quot;PyCon Ireland&quot;
+- &quot;PyCon Italia&quot; in Italy
+- &quot;PyCon Japan&quot;
+- &quot;PyCon Philippines&quot; in the Philippines
+- &quot;PyCon PL&quot; in Poland
+- &quot;PyCon Russia&quot; in Russia
+- &quot;PyCon Taiwan&quot; in Taiwan
+- &quot;PyCon UK&quot; in the United Kingdom
+- &quot;PyCon Ukraine&quot; in Ukraine
+- &quot;PyCon Uruguay&quot; in Uruguay
+- &quot;PyCon Venezuela&quot; in Venezuela
+- &quot;PyCon ZA&quot; in South Africa
+- &quot;SciPy&quot; in the United States
+- &quot;SciPy.in&quot; in India
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              42/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyar.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyar.png" style="width: 678px; height: 275px;" />
+<ul class="simple">
+<li>Una lista de correo con cerca de 400 personas activas.</li>
+<li>Alto nivel técnico.</li>
+<li>Recientemente fundado Sci-Pyar</li>
+<li>Homepage: <a class="reference external" href="http://python.org.ar">http://python.org.ar</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              43/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Eventos 2011</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>PyDay Córdoba 2011 (211 asistentes)</li>
+<li>PyDay Gonzales Catán (~70 asistentes)</li>
+<li>PyDay San Luis (~30 asistentes)</li>
+<li>Django Day Córdoba 2011 (~30 asistentes)</li>
+<li>PyConAr Junin 2011 (~270 asistentes)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              44/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Eventos 2012</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>PyDay Junín 2012 (~50 asistentes)</li>
+<li>PyDay Córdoba 2012 (~100 asistentes)</li>
+<li>PyDay Rafaela 2012 (~30 asistentes (se llovio todo))</li>
+<li>Pycon 2012 (403 asistentes)</li>
+<li>Django Day La Plata</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              45/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logopycon.png" class="align-center" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/logopycon.png" style="width: 483px; height: 289px;" />
+<ul class="simple">
+<li>403 asistentes.</li>
+<li>9 sprints.</li>
+<li>2 eventos en paralelo.</li>
+<li>10 tutoriales y workshops.</li>
+<li>51 charlas programadas.</li>
+<li>9 invitados internacionales.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              46/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 6.2_comunidad.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyconarfinal.JPG" src="file:///Users/matias/Dev/a_Talks/talks/foroinf_catamarca2012/Slides/img/pyconarfinal.JPG" style="width: 960px; height: 539px;" />
+<p class="caption">Foto final PyConAr 2012</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="6.2_comunidad.rst">6.2_comunidad.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              47/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 7_cierre.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Medios de Contacto y Fuentes</h1></header>
+            
+            
+            <section><p>Estos slides:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/matiasherranz/talks">https://github.com/matiasherranz/talks</a> (Git)</li>
+<li><a class="reference external" href="https://bitbucket.org/leliel12/talk">https://bitbucket.org/leliel12/talk</a> (Mercurial)</li>
+</ul>
+<p>Contacto:</p>
+<ul class="simple">
+<li><a class="reference external" href="mailto:matiasheranz&#64;gmail.com">matiasheranz&#64;gmail.com</a> - &#64;matiasherranz</li>
+<li><a class="reference external" href="mailto:jbc.develop&#64;gmail.com">jbc.develop&#64;gmail.com</a> - &#64;juanbcabral</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="7_cierre.rst">7_cierre.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              48/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 7_cierre.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¿Preguntas?</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="7_cierre.rst">7_cierre.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              49/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: 7_cierre.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¡Muchas gracias!</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="7_cierre.rst">7_cierre.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              50/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">Python en el mundo real</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">Los disertantes</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">Los 2:</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">¿De qué va la charla?</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">Y Python...</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">Por cierto...</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">Ejemplos</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8">PyQt</a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">PyQt (Ejemplo)</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Pilas</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">Pilas (Ejemplo)</a></th>
+        <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Beautiful Soup</a></th>
+        <td><a href="#slide12">12</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-13">
+        <th><a href="#slide13">Beautiful Soup (Ejemplo, HTML)</a></th>
+        <td><a href="#slide13">13</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-14">
+        <th><a href="#slide14">Beautiful Soup (Ejemplo, Python)</a></th>
+        <td><a href="#slide14">14</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">Django</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-16">
+        <th><a href="#slide16">Pequeño ejemplo Django</a></th>
+        <td><a href="#slide16">16</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-17">
+        <th><a href="#slide17">Django (Ejemplo: Models)</a></th>
+        <td><a href="#slide17">17</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">Django (Ejemplo: Views 1/2)</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-19">
+        <th><a href="#slide19">Django (Ejemplo: Views 2/2)</a></th>
+        <td><a href="#slide19">19</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-20">
+        <th><a href="#slide20">Django (Ejemplo: Templates)</a></th>
+        <td><a href="#slide20">20</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-21">
+        <th><a href="#slide21">numpy / scipy</a></th>
+        <td><a href="#slide21">21</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-22">
+        <th><a href="#slide22">numpy / scipy (Ejemplo)</a></th>
+        <td><a href="#slide22">22</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-23">
+        <th><a href="#slide23">numpy / scipy (Ejemplo)</a></th>
+        <td><a href="#slide23">23</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-24">
+        <th><a href="#slide24">Proyectos</a></th>
+        <td><a href="#slide24">24</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-25">
+        <th><a href="#slide25">Yatel</a></th>
+        <td><a href="#slide25">25</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-26">
+        <th><a href="#slide26">Yatel</a></th>
+        <td><a href="#slide26">26</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-27">
+        <th><a href="#slide27">SocialOne</a></th>
+        <td><a href="#slide27">27</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-28">
+        <th><a href="#slide28">SocialOne</a></th>
+        <td><a href="#slide28">28</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-29">
+        <th><a href="#slide29">Ninja-IDE</a></th>
+        <td><a href="#slide29">29</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-30">
+        <th><a href="#slide30">Ninja-IDE: screenshots</a></th>
+        <td><a href="#slide30">30</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-31">
+        <th><a href="#slide31">Ninja-IDE: screenshots</a></th>
+        <td><a href="#slide31">31</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-32">
+        <th><a href="#slide32">Quepy</a></th>
+        <td><a href="#slide32">32</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-33">
+        <th><a href="#slide33">Quepy: Links!</a></th>
+        <td><a href="#slide33">33</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-34">
+        <th><a href="#slide34">Quepy</a></th>
+        <td><a href="#slide34">34</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-35">
+        <th><a href="#slide35">Quepy: pregunta</a></th>
+        <td><a href="#slide35">35</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-36">
+        <th><a href="#slide36">Quepy: respuesta!</a></th>
+        <td><a href="#slide36">36</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-37">
+        <th><a href="#slide37">Productos Famosos</a></th>
+        <td><a href="#slide37">37</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-38">
+        <th><a href="#slide38">Las empresas</a></th>
+        <td><a href="#slide38">38</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-39">
+        <th><a href="#slide39">Comunidad</a></th>
+        <td><a href="#slide39">39</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-40">
+        <th><a href="#slide40">Comunidad Internacional</a></th>
+        <td><a href="#slide40">40</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-41">
+        <th><a href="#slide41">-</a></th>
+        <td><a href="#slide41">41</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-42">
+        <th><a href="#slide42">Muchas conferencias</a></th>
+        <td><a href="#slide42">42</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-43">
+        <th><a href="#slide43">-</a></th>
+        <td><a href="#slide43">43</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-44">
+        <th><a href="#slide44">Eventos 2011</a></th>
+        <td><a href="#slide44">44</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-45">
+        <th><a href="#slide45">Eventos 2012</a></th>
+        <td><a href="#slide45">45</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-46">
+        <th><a href="#slide46">-</a></th>
+        <td><a href="#slide46">46</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-47">
+        <th><a href="#slide47">-</a></th>
+        <td><a href="#slide47">47</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-48">
+        <th><a href="#slide48">Medios de Contacto y Fuentes</a></th>
+        <td><a href="#slide48">48</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-49">
+        <th><a href="#slide49">¿Preguntas?</a></th>
+        <td><a href="#slide49">49</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-50">
+        <th><a href="#slide50">¡Muchas gracias!</a></th>
+        <td><a href="#slide50">50</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
