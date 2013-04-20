@@ -6,6 +6,10 @@
 ¿Que es un hacker?
 ------------------
 
+- Se fomenta que los hackers emprendan (en negocios).
+- Bueno... fomento que los emprendedores vean como se hackea.
+
+
 
 El jueves 18 de abril del 2013
 ------------------------------
@@ -29,6 +33,10 @@ Cuando uno consigue un martillo
 - No todo es un problema de emprendedorismo.
 - No todo es un problema técnico.
 
+.. image:: img/hammer.png
+    :align: right
+    :scale: 25 %
+
 
 Los hackers somos emprendedores distintos
 -----------------------------------------
@@ -36,13 +44,18 @@ Los hackers somos emprendedores distintos
 
 ** Y entonces como nos entendemos?¡?¡?¡?¡? **
 
-Hace un año en Plaza Mayor de Madrid
-------------------------------------
 
-- Diseño de unix.
-- Se fomenta que los hackers emprendan.
-- Bueno... fomento que los emprendedores vean como se hackea.
+Por Qué?: Red Innova - Madrid 2013
+-----------------------------------
 
+.. image:: img/rinova.png
+    :align: center
+    :scale: 30 %
+
+- "La clave esta en anticiparse" (Aunque no lo crean lo dijo B. Gates)
+- Ver cosas como Dropbox.
+- Aprender de grandes que dejan que veas todo (Unix).
+- Evitar que el árbol no te deje ver el bosque (Cocos2d).
 
 
 ¿Preguntas?
