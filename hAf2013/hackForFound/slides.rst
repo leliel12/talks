@@ -6,12 +6,18 @@
 ¿Que es un hacker?
 ------------------
 
+
 El jueves 18 de abril del 2013
 ------------------------------
 
+.. image:: img/robertowall.png
+   :align: center
+   :scale: 400 %
 
-Los hackers somos emprendedores distintos
------------------------------------------
+- La discucion en general derivo solo a un analisis del producto.
+- Se obvio detalles mas alla del modelo de negocio.
+- El aspecto tecnico de la solucion de *G+* fue casi ignorado.
+- Incluso se obvio el concepto de nicho.
 
 
 Cuando uno consigue un martillo
@@ -23,6 +29,12 @@ Cuando uno consigue un martillo
 - No todo es un problema de emprendedorismo.
 - No todo es un problema técnico.
 
+
+Los hackers somos emprendedores distintos
+-----------------------------------------
+
+
+** Y entonces como nos entendemos?¡?¡?¡?¡? **
 
 Hace un año en Plaza Mayor de Madrid
 ------------------------------------
