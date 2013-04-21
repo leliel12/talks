@@ -6,9 +6,28 @@
 ¿Que es un hacker?
 ------------------
 
+.. image:: img/hacker.png
+   :align: center
+   :scale: 100 %
+
+
+Lo que intento decir...
+-----------------------
+
+::
+
+    Todo el mundo me dice que tengo que hacer ejercicio, que es bueno para mi
+    salud. Pero nunca he escuchado a nadie que le diga a un deportista, tienes
+    que leer"
+
+Jose Saramago, escritor
+
+.. image:: img/saramago.png
+   :align: right
+   :scale: 70 %
+
 - Se fomenta que los hackers emprendan (en negocios).
 - Bueno... fomento que los emprendedores vean como se hackea.
-
 
 
 El jueves 18 de abril del 2013
@@ -41,8 +60,7 @@ Cuando uno consigue un martillo
 Los hackers somos emprendedores distintos
 -----------------------------------------
 
-
-** Y entonces como nos entendemos?¡?¡?¡?¡? **
+- No lo hacemos por
 
 
 Por Qué?: Red Innova - Madrid 2013
