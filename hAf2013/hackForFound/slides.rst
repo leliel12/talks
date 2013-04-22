@@ -1,7 +1,6 @@
 ﻿.. image:: img/portada.png
    :align: center
-   :scale: 100 %
-
+   :scale: 11 %
 
 ¿Que es un hacker?
 ------------------
@@ -27,7 +26,7 @@ Jose Saramago, escritor
    :scale: 70 %
 
 - Se fomenta que los hackers emprendan (en negocios).
-- Bueno... fomento que los emprendedores vean como se hackea.
+- Bueno: Exijo reciprocidad.
 
 
 El jueves 18 de abril del 2013
@@ -50,7 +49,7 @@ Cuando uno consigue un martillo
 - No todo es un problema de equipo.
 - No todo es un problema de negocio.
 - No todo es un problema de emprendedorismo.
-- No todo es un problema técnico.
+- No todo es un problema técnico. (obviamente)
 
 .. image:: img/hammer.png
     :align: right
@@ -63,17 +62,31 @@ Los hackers somos emprendedores distintos
 - No lo hacemos por
 
 
-Por Qué?: Red Innova - Madrid 2013
------------------------------------
+Red Innova - Madrid 2013
+------------------------
 
 .. image:: img/rinova.png
     :align: center
-    :scale: 30 %
+    :scale: 20 %
 
-- "La clave esta en anticiparse" (Aunque no lo crean lo dijo B. Gates)
-- Ver cosas como Dropbox.
+- KISS
+- Filosofía Unix: (http://en.wikipedia.org/wiki/Unix_philosophy)
+    - Make each program do one thing well.
+    - Build a prototype as soon as possible.
+    - Choose portability over efficiency.
+    - Make every program a filter.
+
+Por que les recomiendo entender a los hackers?
+----------------------------------------------
+
+- Ver cosas como Dropbox. (Traer herramientas de desarrollo a todo el mundo)
 - Aprender de grandes que dejan que veas todo (Unix).
 - Evitar que el árbol no te deje ver el bosque (Cocos2d).
+- En definitiva: Usar el llamado "apalancamiento" del software (filosofia unix)
+
+.. image:: img/leverage.png
+    :align: center
+    :scale: 35 %
 
 
 ¿Preguntas?
