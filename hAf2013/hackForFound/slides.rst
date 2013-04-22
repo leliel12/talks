@@ -70,6 +70,7 @@ Red Innova - Madrid 2013
     - Choose portability over efficiency.
     - Make every program a filter.
 
+
 Por que les recomiendo entender a los hackers?
 ----------------------------------------------
 
