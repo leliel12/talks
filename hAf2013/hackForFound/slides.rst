@@ -17,7 +17,7 @@ Lo que intento decir...
 
     Todo el mundo me dice que tengo que hacer ejercicio, que es bueno para mi
     salud. Pero nunca he escuchado a nadie que le diga a un deportista, tienes
-    que leer"
+    que leer
 
 Jose Saramago, escritor
 
@@ -36,9 +36,9 @@ El jueves 18 de abril del 2013
    :align: center
    :scale: 400 %
 
-- La discucion en general derivo solo a un analisis del producto.
-- Se obvio detalles mas alla del modelo de negocio.
-- El aspecto tecnico de la solucion de *G+* fue casi ignorado.
+- La discusión en general derivo solo a un análisis del producto.
+- Se obvio detalles mas allá del modelo de negocio.
+- El aspecto técnico de la solución de *G+* fue casi ignorado.
 - Incluso se obvio el concepto de nicho.
 
 
@@ -49,7 +49,7 @@ Cuando uno consigue un martillo
 - No todo es un problema de equipo.
 - No todo es un problema de negocio.
 - No todo es un problema de emprendedorismo.
-- No todo es un problema técnico. (obviamente)
+- No todo es un problema técnico (obviamente).
 
 .. image:: img/hammer.png
     :align: right
@@ -77,7 +77,7 @@ Por que les recomiendo entender a los hackers?
 - Ver cosas como Dropbox. (Traer herramientas de desarrollo a todo el mundo)
 - Aprender de grandes que dejan que veas todo (Unix).
 - Evitar que el árbol no te deje ver el bosque (Cocos2d).
-- En definitiva: Usar el llamado "apalancamiento" del software (filosofia unix)
+- En definitiva: Usar el llamado "apalancamiento" del software (filosofía Unix)
 
 .. image:: img/leverage.png
     :align: center
@@ -88,13 +88,13 @@ Por que les recomiendo entender a los hackers?
 -----------
 
     - Esta Charla:
-        - Source: https://bitbucket.org/leliel12/talks/src
+      Source: https://bitbucket.org/leliel12/talks/src
     - Contacto:
-        - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @JuanBCabral
+      Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_> / @JuanBCabral
 
 .. image:: img/ko.png
     :align: center
-    :scale: 30 %
+    :scale: 70 %
 
 
 .. footer::
