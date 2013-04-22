@@ -56,12 +56,6 @@ Cuando uno consigue un martillo
     :scale: 25 %
 
 
-Los hackers somos emprendedores distintos
------------------------------------------
-
-- No lo hacemos por
-
-
 Red Innova - Madrid 2013
 ------------------------
 
