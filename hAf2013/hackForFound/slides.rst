@@ -2,12 +2,28 @@
    :align: center
    :scale: 11 %
 
+
 ¿Que es un hacker?
 ------------------
 
 .. image:: img/hacker.png
    :align: center
    :scale: 100 %
+
+
+Como saber si sos hacker
+------------------------
+
+- Lees el prospecto de todos los celulares **completo**.
+- Sabes que el "competir contra Disney" esa estudiado en
+  el tema de colas de espera englobado en la simulación.
+- Sabes quien es Denis Ritchie (y probablemente te moleste que
+  haya muerto a los días de Steve Jobs y no le dieron prensa).
+
+.. image:: img/lt.jpeg
+    :align: right
+    :scale: 50 %
+
 
 
 Lo que intento decir...
