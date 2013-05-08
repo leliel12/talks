@@ -1,0 +1,3 @@
+tf=$(tempfile);
+rst2pdf slides.rst -s slides.style -b1 -o $tf;
+evince $tf;

@@ -67,7 +67,9 @@ KDD con Yatel
     .. class:: footer
 
         UTN FRC (Universidad Tecnológica Nacional, Facultad Regional Córdoba)
+
         Laboratorio de Investigación de Software
 
         - García, Mario Alejandro <malejandrogarcia@hotmail.com>
         - Cabral, Juan Bautista <jbc.develop@gmail.com>
+        - Liberal, Rodrigo <rodrigo.inf.liberal@gmail.com>
