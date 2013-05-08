@@ -144,9 +144,6 @@ de tiempo que se configure en la variable del settings.py ``POLLS_TTL``.
 
 
 
-Decoradores
-===========
-
 Entendiendo Decoradores en Python
 ---------------------------------
 
