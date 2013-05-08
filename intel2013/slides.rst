@@ -8,8 +8,8 @@ Threads
     - así que:
 
 
-Como usar Threads
------------------
+Como usar Threads 1
+-------------------
 
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
@@ -21,8 +21,8 @@ Como usar Threads
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 
 
-Como usar Threads
------------------
+Como usar Threads 2
+-------------------
 
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
@@ -34,8 +34,8 @@ Como usar Threads
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 
 
-Como usar Threads
------------------
+Como usar Threads 3
+-------------------
 
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
@@ -47,8 +47,8 @@ Como usar Threads
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 
 
-Como usar Threads
------------------
+Como usar Threads 4
+-------------------
 
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
 **No usen threads** **No usen threads** **No usen threads** **No usen threads**
@@ -66,10 +66,6 @@ Como usar Threads con funciones
 .. code-block:: python
 
     import threading
-
-    def coso(0):
-        for i in range(10):
-            print i
 
     def coso():
         for i in range(10):
@@ -623,7 +619,7 @@ Ejemplo
 
 
 OS y otros servicios de File System
-===================================
+-----------------------------------
 
 Que tiene os adentro
 --------------------
