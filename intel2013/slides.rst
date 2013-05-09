@@ -678,3 +678,48 @@ funciones interesantes:
 - ``shutil.rmthree``
 - ``shutil.copy``
 - ``shutil.copy2``
+
+
+JSON
+----
+
+- Viene en la librería estandar.
+- Emite diccionarios, listas y demas tipos nativos en python.
+- Api Simétrica:
+
+    .. code-block:: python
+
+        json.load
+        json.loads
+        json.dump
+        json.dumps
+
+JSON
+----
+
+    .. code-block:: python
+
+        d = {"nombre": "Armando E. Banquito",
+             "edad": 25,
+             "altura": 1.7,
+             "conyugue": None,
+             "direcciones": {"casa": "Fake 123",
+                             "trabajo": "Real 456"},
+             "vehiculos": ["Fiat Uno", "VW Gol"],
+             "vivienda_propia": False}
+
+        json.dumps(d)
+
+
+Ejercicios
+----------
+
+    Implementar un demonio con un thread o un proceso (como ejercicio de thread)
+    que recorra los diferentes polls y los persista como json en una determinada
+    carpeta definida por variable del settings ``JSON_BACKUPS``.
+
+    Dividir las carpetas por fechas y hora de backup.
+
+
+
+
