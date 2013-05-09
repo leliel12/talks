@@ -683,8 +683,8 @@ funciones interesantes:
 JSON
 ----
 
-- Viene en la librería estandar.
-- Emite diccionarios, listas y demas tipos nativos en python.
+- Viene en la librería estándar.
+- Emite diccionarios, listas y demás tipos nativos en python.
 - Api Simétrica:
 
     .. code-block:: python
