@@ -5,6 +5,5 @@ tf1=$(tempfile);
 rst2pdf slides1.rst -s slides.style -b1 -o $tf1;
 
 
-tf_final=$(tempfile);
-pdftk $tf0 franchute.pdf $tf1 cat output $tf_final;
-evince $tf_final;
+pdftk $tf0 franchute.pdf $tf1 cat output $slides;
+evince $slides;
