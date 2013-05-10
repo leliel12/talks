@@ -1,7 +1,7 @@
 
-===============================
+
 Motivación, historia y contexto
-===============================
+-------------------------------
 
 El proyecto nace con la necesidad de estudiar la variabilidades genéticas de
 los individuos de una especie (en primera instancia el Mal de Río Cuarto virus)
@@ -18,7 +18,7 @@ investigador una visión del problema imposible de lograr por otros medios.
 
 .. figure:: img/explor2.png
     :align: center
-    :scale:  100%
+    :scale:  70 %
 
     Análisis multidimensional de redes
 
@@ -42,14 +42,92 @@ oculta en una base de datos (Fayyad 1996).
 
 .. Figure:: img/proceso_kdd.png
     :align: center
-    :scale: 100 %
+    :scale: 70 %
 
     Proceso de KDD
 
 
-=============
-KDD con Yatel
-=============
+Features
+--------
+
+.. figure:: img/main.png
+    :align: center
+    :scale: 60 %
+
+    Yatel se vé asi
+
+    La red se muestra todos sus haplotipos (**1**) en tonos de gris y blanco
+    cuando estan inactivos y se colorean de verde cuando coinciden con algún
+    ambiente.
+
+    Se puede limitar los arcos visibles a solo a un rango de *pesos* (**2**).
+
+    Se selecciona que atriutos de los hechos constituiran cada ambiente y
+    luego se seleccionan los valores con un combo (**3**).
+
+
+----
+
+.. figure:: img/create_env.png
+    :align: center
+    :scale: 250 %
+
+    Creador de ambientes para analisis multidimensional. Lista todos los
+    atributos de todos las situaciones donde se encontraron los haplotipos.
+
+
+----
+
+.. figure:: img/engines.png
+    :align: center
+    :scale: 75 %
+
+    Yatel permite crear sus redes en **SQLite**, **MySQL** y **PostgreSQL**
+
+
+----
+
+.. figure:: img/imports.png
+    :align: center
+    :scale: 100 %
+
+    Ademas de poder conectarse a su propia base de datos, Yatel permite:
+
+        - Conectarse a instancias remotas de yatel.
+        - Importar desde los formatos ``CSV``, ``yyf`` (basado en *YAML*) y
+          ``yjf`` (basado en *JSON*).
+        - Exportar a los formatos ``yyf`` y ``yjf``.
+
+----
+
+.. figure:: img/sql_integration.png
+    :align: center
+    :scale: 250 %
+
+    Como Yatel esta construye sus redes sobre **Bases de Datos Relacionales**;
+    en exploraciónes avanzadas se puede acceder, desde su entorno gráfico
+    directamente, a queries **SQL** para generar un ambiente dinámico.
+
+
+----
+
+.. figure:: img/ipython_integration.png
+    :align: center
+    :scale: 60 %
+
+    En caso de necesidad, Yatel incluye una consola ipython embebida que permite
+    interactuar dinámicamente con todo *Python*
+
+
+----
+
+.. figure:: img/load_ver.png
+    :align: center
+    :scale: 250 %
+
+    Se pueden versionar los estados de exploración directamente en la base de
+    datos.
+
 
 
 
