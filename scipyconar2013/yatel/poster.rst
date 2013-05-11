@@ -1,4 +1,19 @@
+.. =============================================================================
+.. HEADER
+.. =============================================================================
 
+.. header::
+
+    **http://yatel.readthedocs.org**
+
+    García, Mario Alejandro <malejandrogarcia@hotmail.com>;
+    Cabral, Juan Bautista <jbc.develop@gmail.com>;
+    Liberal, Rodrigo <rodrigo.inf.liberal@gmail.com>
+
+
+.. =============================================================================
+.. CONTENT
+.. =============================================================================
 
 Motivación, historia y contexto
 -------------------------------
@@ -34,7 +49,7 @@ Cabe que aclarar que:
       presentes en la red. Son como filtros que de *activarse* hace que los
       diferentes nodos se resalten demostrando una dimensión de la exploración.
 
-La forma que utiliza yatel para la exploración de datos es la de **KDD**
+La forma que utiliza Yatel para la exploración de datos es la de **KDD**
 **(Knowledge discovery in database)**, muchas veces llamado Minería de Datos a
 unque esta sea solo una etapa, es un proceso que intenta encontrar información
 útil y novedosa (que pueda influir en la toma de decisiones) y que permanece
@@ -52,17 +67,17 @@ Features
 
 .. figure:: img/main.png
     :align: center
-    :scale: 60 %
+    :scale: 45 %
 
     Yatel se vé asi
 
-    La red se muestra todos sus haplotipos (**1**) en tonos de gris y blanco
-    cuando estan inactivos y se colorean de verde cuando coinciden con algún
+    La red se muestra todos sus Haplotipos (**1**) en tonos de gris y blanco
+    cuando están inactivos y se colorean de verde cuando coinciden con algún
     ambiente.
 
     Se puede limitar los arcos visibles a solo a un rango de *pesos* (**2**).
 
-    Se selecciona que atriutos de los hechos constituiran cada ambiente y
+    Se selecciona que atributos de los hechos constituirán cada ambiente y
     luego se seleccionan los valores con un combo (**3**).
 
 
@@ -72,7 +87,7 @@ Features
     :align: center
     :scale: 250 %
 
-    Creador de ambientes para analisis multidimensional. Lista todos los
+    Creador de ambientes para ánalisis multidimensional. Lista todos los
     atributos de todos las situaciones donde se encontraron los haplotipos.
 
 
@@ -91,9 +106,9 @@ Features
     :align: center
     :scale: 100 %
 
-    Ademas de poder conectarse a su propia base de datos, Yatel permite:
+    Además de poder conectarse a su propia base de datos, Yatel permite:
 
-        - Conectarse a instancias remotas de yatel.
+        - Conectarse a instancias remotas de Yatel.
         - Importar desde los formatos ``CSV``, ``yyf`` (basado en *YAML*) y
           ``yjf`` (basado en *JSON*).
         - Exportar a los formatos ``yyf`` y ``yjf``.
@@ -102,18 +117,18 @@ Features
 
 .. figure:: img/sql_integration.png
     :align: center
-    :scale: 250 %
+    :scale: 188 %
 
-    Como Yatel esta construye sus redes sobre **Bases de Datos Relacionales**;
-    en exploraciónes avanzadas se puede acceder, desde su entorno gráfico
-    directamente, a queries **SQL** para generar un ambiente dinámico.
+    Como Yatel construye sus redes sobre **Bases de Datos Relacionales**;
+    en exploraciones avanzadas se puede acceder, desde su entorno gráfico,
+    con **SQL** a los datos para generar un ambiente dinámico.
 
 
 ----
 
 .. figure:: img/ipython_integration.png
     :align: center
-    :scale: 60 %
+    :scale: 45 %
 
     En caso de necesidad, Yatel incluye una consola ipython embebida que permite
     interactuar dinámicamente con todo *Python*
@@ -129,11 +144,90 @@ Features
     datos.
 
 
+Desde Python
+------------
+
+Se puede utilizar Yatel como librería
+
+.. code-block:: python
+
+    # Pensemos en una red exploratoria totalmente rara
+    from yatel import dom
+
+    # Super heroes
+    haps = [dom.Haplotype("Batman", name="Bruce Wayne", debut=1939),
+            dom.Haplotype("Alfred", name="Alfred Pennyworth", debut=1943),
+            dom.Haplotype("Superman", name="Clark Joseph Kent", debut=1938),
+            dom.Haplotype("Lex Luthor", name="Alexander Joseph Luthor")]
+
+    # Creamos arcos entre amigos = 1 enemigos = 2
+    edges = [dom.Edge(1, "Batman", "Superman"),
+             dom.Edge(1, "Batman", "Alfred"),
+             dom.Edge(2, "Superman", "Lex Luthor")]
+
+    # Agregamos hechos
+    facts = [dom.Fact("Batman", job="Billonaire", family="Murdered"),
+             dom.Fact("Batman", job="Super Hero", city="Gotham"),
+             dom.Fact("Batman", job="Vigilante", created_by="Bob Kane"),
+             dom.Fact("Alfred", job="Buttler", created_by="Bob Kane"),
+             dom.Fact("Lex Luthor", job="Billonaire"),
+             dom.Fact("Lex Luthor", job="Criminal Mastermind"),
+             dom.Fact("Superman", job="Super Hero"),
+             dom.Fact("Superman", created_by="Jerry Siegel"),
+             dom.Fact("Superman", created_by="Joe Shuster"),
+             dom.Fact("Superman", job="Reporter"),
+             dom.Fact("Lex Luthor", created_by="Jerry Siegel"),
+             dom.Fact("Lex Luthor", created_by="Joe Shuster")]
+
+    # Validamos que la red sea consistente
+    dom.validate(haps, facts, edges)
+
+    # Persistimos la red en nuestra base de datos
+    from yatel import db
+    conn = db.YatelConnection("sqlite", "superheroes.db")
+    conn.init_with_values(haps, facts, edges)
+
+    # Personajes con trabajo de súper héroes
+    list(conn.enviroment(job="Super Hero"))
+    #OUT# [<Haplotype 'Batman' at 0x1cb1e90>, <Haplotype 'Superman' at 0x1cb1f90>]
+
+    # Personajes con el trabajo de millonario
+    list(conn.enviroment(job="Billonaire"))
+    #OUT# [<Haplotype 'Batman' at 0x1caae50>, <Haplotype 'Lex Luthor' at 0x1cb1c90>]
+
+    # Personajes creados por Bob Kane
+    list(conn.enviroment(created_by="Bob Kane"))
+    #OUT# [<Haplotype 'Batman' at 0x1cb80d0>, <Haplotype 'Alfred' at 0x1cb8150>]
+
+    # Mostramos solos los edges que tienen pesos entre 0 y 1
+    list(conn.filter_edges(0,1))
+    #OUT# [<Edge '(u'Batman', u'Superman') 1.0' at 0x305ee90>,
+    #OUT#  <Edge '(u'Batman', u'Alfred') 1.0' at 0x305ee50>]
+
+    # Podemos exportar nuestra red a json o yaml
+    from yatel.conversors import yjf2yatel # yyf2yatel
+    with open("bk.yjf", "w") as fp:
+    yjf2yatel.dump(conn.iter_haplotypes(), conn.iter_facts(),
+                   conn.iter_edges(), conn.iter_versions(),
+                   fp) # escribe en el stream fp
+
+    # o importar los elementos de la red para regenerarla
+    with open("bk.yjf") as fp:
+        haps, facts, edges, versions = yjf2yatel.load(fp)
 
 
+Futuro
+------
 
+- Mejorar la interfaz de la ``yatel.db.YatelConnection`` para poder navegar la
+  red via código.
+- Implementar el algoritmo de *Dijkstra*.
+- Terminar el manual y Tests.
+- Tomar de estadísticas.
 
-
+.. figure:: img/link.png
+    :align: center
+    :scale: 40 %
 
 
 .. =============================================================================
@@ -144,10 +238,10 @@ Features
 
     .. class:: footer
 
-        UTN FRC (Universidad Tecnológica Nacional, Facultad Regional Córdoba)
+        Universidad Tecnológica Nacional, Facultad Regional Córdoba
+        (http://www.frc.utn.edu.ar/)
 
         Laboratorio de Investigación de Software
+        (http://www.investigacion.frc.utn.edu.ar/mslabs/)
 
-        - García, Mario Alejandro <malejandrogarcia@hotmail.com>
-        - Cabral, Juan Bautista <jbc.develop@gmail.com>
-        - Liberal, Rodrigo <rodrigo.inf.liberal@gmail.com>
+        Financiación UTN1685
