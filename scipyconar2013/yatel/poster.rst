@@ -229,7 +229,7 @@ Futuro
   red via código.
 - Implementar el algoritmo de *Dijkstra*.
 - Terminar el manual y Tests.
-- Mostrar estadísticas de la res de manera tabular y gráfica
+- Mostrar estadísticas de la red.
 
 .. figure:: img/link.png
     :align: center
