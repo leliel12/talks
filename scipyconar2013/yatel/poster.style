@@ -4,12 +4,12 @@
         "width": "80cm",
         "height": "130cm",
 
-        "margin-top": "2cm",
-        "margin-bottom": "2cm",
-        "margin-left": "2cm",
-        "margin-right": "2cm",
-        "spacing-header": "50mm",
-        "spacing-footer": "50mm",
+        "margin-top": "1cm",
+        "margin-bottom": "1cm",
+        "margin-left": "1cm",
+        "margin-right": "1cm",
+        "spacing-header": "40mm",
+        "spacing-footer": "40mm",
         "margin-gutter": "0cm",
 
         "firstTemplate": "twoColumn"

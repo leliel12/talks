@@ -4,6 +4,10 @@
 
 .. header::
 
+    .. image:: img/head.png
+        :align: center
+        :scale: 100 %
+
     **http://yatel.readthedocs.org**
 
     García, Mario Alejandro <malejandrogarcia@hotmail.com>;
