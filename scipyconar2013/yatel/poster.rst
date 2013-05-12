@@ -18,7 +18,7 @@
 Motivación, historia y contexto
 -------------------------------
 
-El proyecto nace con la necesidad de estudiar la variabilidades genéticas de
+El proyecto nace con la necesidad de estudiar la variabilidad genética de
 los individuos de una especie (en primera instancia el Mal de Río Cuarto virus)
 y los factores que influyen sobre ella. Mientras que variabilidad se puede
 calcular a partir de las diferencias que hay entre las características propias
@@ -45,15 +45,17 @@ Cabe que aclarar que:
       tradición en la herramienta heredada de su origen en la biología).
     - Los arcos son las relaciones entre los *haplotipos*.
     - El peso de los *arcos* es la diferencia entre los dos individuos.
-    - Los factores se llaman de ahora en más *hechos* o *facts* y no están
-      presentes en la red. Son como filtros que de *activarse* hace que los
-      diferentes nodos se resalten demostrando una dimensión de la exploración.
+    - La ocurrencia de eventos se representa mediante *hechos* o *facts*
+      presentes en la red. Los mismos son filtros que de *activarse* hace que
+      los diferentes nodos se resalten demostrando una dimensión de la
+      exploración.
 
-La forma que utiliza Yatel para la exploración de datos es la de **KDD**
-**(Knowledge discovery in database)**, muchas veces llamado Minería de Datos a
-unque esta sea solo una etapa, es un proceso que intenta encontrar información
-útil y novedosa (que pueda influir en la toma de decisiones) y que permanece
-oculta en una base de datos (Fayyad 1996).
+El análisis realizado en Yatel se inspira en el modelo **CRISP-DM** para
+*knowledge discovery in database* (KDD).
+KDD, muchas veces llamado Minería de Datos aunque  esta sea sólo una etapa,
+es un proceso que intenta encontrar información útil y  novedosa (que pueda
+influir en la toma de decisiones) y que permanece oculta en una base de datos
+(Fayyad 1996).
 
 .. Figure:: img/proceso_kdd.png
     :align: center
@@ -223,7 +225,7 @@ Futuro
   red via código.
 - Implementar el algoritmo de *Dijkstra*.
 - Terminar el manual y Tests.
-- Tomar de estadísticas.
+- Mostrar estadísticas de la res de manera tabular y gráfica
 
 .. figure:: img/link.png
     :align: center
