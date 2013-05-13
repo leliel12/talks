@@ -6,7 +6,7 @@
 
     .. image:: img/head.png
         :align: center
-        :scale: 100 %
+        :scale: 90 %
 
     **http://yatel.readthedocs.org**
 
