@@ -123,7 +123,81 @@ Networks 5
     Red semántica TBBT
 
 
-Networks 6
-----------
+Proceso de análisis
+-------------------
 
-bla
+.. image:: img/kdd0.png
+    :align: center
+    :scale: 200 %
+
+
+Identificación y representación de haplotipos
+---------------------------------------------
+
+.. image:: img/kdd1.png
+    :align: center
+    :scale: 200 %
+
+
+Identificación y representación de haplotipos
+---------------------------------------------
+
+.. image:: img/viejo.png
+    :align: center
+    :scale: 35 %
+
+
+Identificación y representación de haplotipos
+---------------------------------------------
+
+.. image:: img/tablaperfiles.png
+    :align: center
+    :scale: 200 %
+
+
+Definición de medidas de distancia
+----------------------------------
+
+.. image:: img/kdd2.png
+    :align: center
+    :scale: 200 %
+
+
+Definición de medidas de distancia
+----------------------------------
+
+.. image:: img/dit.png
+    :align: center
+    :scale: 100 %
+
+
+Cálculo de distancias
+---------------------
+
+.. image:: img/kdd3.png
+    :align: center
+    :scale: 200 %
+
+
+Cálculo de distancias
+---------------------
+
+.. image:: img/calc.png
+    :align: center
+    :scale: 200 %
+
+
+Creación de la red
+------------------
+
+.. image:: img/kdd4.png
+    :align: center
+    :scale: 200 %
+
+
+Creación de la red
+------------------
+
+.. image:: img/red0.png
+    :align: center
+    :scale: 200 %
