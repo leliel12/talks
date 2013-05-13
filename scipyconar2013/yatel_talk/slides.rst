@@ -201,3 +201,105 @@ Creación de la red
 .. image:: img/red0.png
     :align: center
     :scale: 200 %
+
+
+Visualización y análisis topológico
+-----------------------------------
+
+.. image:: img/kdd5.png
+    :align: center
+    :scale: 200 %
+
+
+Visualización y análisis topológico
+-----------------------------------
+
+.. image:: img/est.png
+    :align: center
+    :scale: 300 %
+
+
+Exploración
+-----------
+
+.. image:: img/kdd6.png
+    :align: center
+    :scale: 200 %
+
+
+Exploración
+-----------
+
+.. image:: img/exp.png
+    :align: center
+    :scale: 150 %
+
+
+Generación de hipótesis y conclusiones
+--------------------------------------
+
+.. image:: img/kdd7.png
+    :align: center
+    :scale: 200 %
+
+
+Generación de hipótesis y conclusiones
+--------------------------------------
+
+.. image:: img/conc.png
+    :align: center
+    :scale: 200 %
+
+
+Generación de hipótesis y conclusiones
+--------------------------------------
+
+.. image:: img/conc2.png
+    :align: center
+    :scale: 200 %
+
+
+Conclusiones del proyecto
+-------------------------
+
+- Según el índice calculado, la variabilidad del Mal de Río Cuarto virus,
+  ha disminuido con el tiempo, habiendo una clara división del
+  indicador en la campaña posterior a la epidemia de la campaña
+  1996/97.
+- La utilización de redes en el proceso de KDD resultó muy
+  satisfactoria y logró resaltar un comportamiento del objeto de
+  estudio que no había sido evidente hasta el momento.
+- En un proceso centrado en la persona (human-centered), donde la
+  creatividad y experiencia del analista juega un rol fundamental, la
+  herramienta propuesta es capaz de ofrecer una perspectiva
+  novedosa y complementaria con las demás técnicas del proceso de
+  KDD
+
+
+Yatel
+-----
+
+- Es la implementación en gran parte del proceso mencionado anteriormente.
+- Falta trabajo (se aceptan colaboraciones)
+- Esta implementado sobre: PyQt, Numpy, Ipython, Peewee, algo de Javascript y
+  Pygments.
+- Puede usarse como programa o como librería.
+- Su version 0.2 es pip-instalable (``pip install yatel``) pero necesitan tener
+  previamente numpy y pyqt.
+
+
+Yatel - la app
+--------------
+
+En funcionamiento...
+
+
+Yatel - la lib
+--------------
+
+.. image:: img/code.png
+    :align: center
+    :scale: 100 %
+
+
+
