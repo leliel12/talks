@@ -31,7 +31,7 @@ Sobre yo
 ---------------------
 
 - En las PyCons y PyDays siempre se hablo de como hacer ciencia en python.
-  Lo mismo pero al revés.
+  Esto es lo mismo pero al revés.
 - Ejemplos de algunas librerías que basan su funcionamiento en python.
 - Programas hechos en Python.
 - Empresas que apuestan fuerte por (¡y ganan fuerte con!) Python
