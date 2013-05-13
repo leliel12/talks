@@ -2,16 +2,17 @@
 .. ICONS
 .. =============================================================================
 
-.. |utnico|
-.. |intaico|
-.. |conicetico|
+.. |utnico| image:: img/utnico.png
+.. |intaico| image:: img/intaico.png
+.. |conicetico| image:: img/conicetico.png
+
 
 .. =============================================================================
 .. CONTENT
 .. =============================================================================
 
 Caracterización del Sistema Mal de Río Cuarto del Maíz mediante Minería de Datos y Análisis de Redes
-====================================================================================================
+----------------------------------------------------------------------------------------------------
 
 .. image:: img/log.png
     :align: center
@@ -21,14 +22,14 @@ Caracterización del Sistema Mal de Río Cuarto del Maíz mediante Minería de D
 Integrantes
 -----------
 
-- |utico| García, Mario Alejandro
-- |utico| Cabral, Juan Bautista
+- |utnico| García, Mario Alejandro
+- |utnico| Cabral, Juan Bautista
 - |intaico| Gimenez Pecci, María de la Paz
-- |utico| Vera, Carlos
-- |utico| Liberal Rodrigo
+- |utnico| Vera, Carlos
+- |utnico| Liberal Rodrigo
 - |conicetico| |intaico| Laguna, Irma Graciela
 - |intaico| Bisonard, Eduardo Matías
 - |intaico| Maurino, Fernanda
 - |intaico| Vankeirsbilck, Inés
-- |utico| Cucco, Noelia del Valle
-- |utico| Nieto Castillo, Adrián L.
+- |utnico| Cucco, Noelia del Valle
+- |utnico| Nieto Castillo, Adrián L.
