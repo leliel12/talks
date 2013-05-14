@@ -44,6 +44,11 @@ Knowledge Discovery in Database (KDD)
 - Es un proceso centrado en la persona (human-centered) [Brachman, 1996]
 
 
+.. image:: img/mining.png
+    :align: center
+    :scale: 20 %
+
+
 Mal de Río Cuarto virus
 -----------------------
 
@@ -61,6 +66,11 @@ Mal de Río Cuarto virus
 - Resultados de estudios anteriores:
 
     **Algunos segmentos electroforéticos dependen de otros**
+
+.. image:: img/r4to.png
+    :align: right
+    :scale: 50 %
+
 
 
 Network Science
@@ -88,7 +98,7 @@ Networks 2
 
 .. figure:: img/money.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
 
     Redes sociales/económicas
 
@@ -275,6 +285,10 @@ Conclusiones del proyecto
   novedosa y complementaria con las demás técnicas del proceso de
   KDD
 
+.. image:: img/sher.png
+    :align: right
+    :scale: 50 %
+
 
 Yatel
 -----
@@ -287,11 +301,19 @@ Yatel
 - Su version 0.2 es pip-instalable (``pip install yatel``) pero necesitan tener
   previamente numpy y pyqt.
 
+.. image:: img/yatelred.png
+    :align: right
+    :scale: 100 %
+
 
 Yatel - la app
 --------------
 
 En funcionamiento...
+
+.. image:: img/sshot.png
+    :align: center
+    :scale: 25 %
 
 
 Yatel - la lib
@@ -299,7 +321,22 @@ Yatel - la lib
 
 .. image:: img/code.png
     :align: center
-    :scale: 100 %
+    :scale: 200 %
+
+¿Preguntas?
+-----------
+
+    - Charlas:
+        - http://bitbucket.org/leliel12/talks
+    - Contacto:
+        - Juan B Cabral
+            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
+            - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
+            - Blog: http://jbcabral.com/
+
+.. image:: img/questions.png
+    :align: right
+    :scale: 75 %
 
 
 
