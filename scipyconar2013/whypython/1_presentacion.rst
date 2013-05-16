@@ -17,7 +17,7 @@ Sobre yo
 - Ing. en Sistemas.
 - UTN-FRC
 - Organizador de la última PyCon Argentina, de un PyDay y un Django Day.
-- Se e ocurrio esto del SciPyAr y SciPyConAr (de nada Celia)
+- Se e ocurrio esto del SciPyAr y SciPyConAr (Celia y Nahuel están felices con esto)
 - Trabaja en Liricus.
 - Trabajo con Python en mi día a día.
 - hice su tesis de grado en Python.

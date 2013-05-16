@@ -131,6 +131,13 @@ Eventos 2012
 
 ----
 
+.. image:: img/scipyconar2013.png
+    :align: center
+    :scale: 100 %
+
+
+----
+
 PyConAr 2013
 ------------
 
