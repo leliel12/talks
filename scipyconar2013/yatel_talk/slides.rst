@@ -34,6 +34,21 @@ Integrantes
 - |utnico|  - Cucco, Noelia del Valle
 - |utnico|  - Nieto Castillo, Adrián L.
 
+Paper
+-----
+
+- **Título:** “Interactive network exploration in the KDD process, Contributions
+  in the study of population variability of a Corn Fijivirus”
+- **Autores:** M. A. García, M. P. Giménez Pecci, J. B. Cabral, A. Nieto, I. G. Laguna.
+- **Publicación:** Journal of Data Mining in Genomics & Proteomics 2012 3:3
+- **Editorial:** OMICS Publishing Group
+- **ISSN:** 2153-0602. Año: 2012
+- **URL:** http://goo.gl/pcjdG
+
+.. image:: img/qr.png
+    :align: center
+    :scale: 100 %
+
 
 Knowledge Discovery in Database (KDD)
 -------------------------------------
@@ -78,10 +93,13 @@ Network Science
 
 - Es el estudio de las redes que representan fenómenos físicos, biológicos y
   sociales conduciendo a modelos predictivos de estos fenómenos.
-
 - Topologías.
-
 - Características comunes.
+
+.. image:: img/vuelos.png
+    :align: right
+    :scale: 150 %
+
 
 Networks 1
 ----------
@@ -322,6 +340,17 @@ Yatel - la lib
 .. image:: img/code.png
     :align: center
     :scale: 200 %
+
+Que le falta:
+-------------
+
+- Modulo de estadísticas.
+- Minería de datos propiamente dicha.
+- Exportar red a PNG.
+- Posibilidad de navegar la red desde código.
+- Biopython.
+- Armar un exe.
+
 
 ¿Preguntas?
 -----------
