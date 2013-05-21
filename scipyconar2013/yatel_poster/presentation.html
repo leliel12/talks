@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>None</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/default/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/default/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/head.png" class="align-center" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/head.png" style="width: 991.8px; height: 187.2px;" />
+<p><strong>http://yatel.readthedocs.org</strong></p>
+<p>García, Mario Alejandro &lt;<a class="reference external" href="mailto:malejandrogarcia&#64;hotmail.com">malejandrogarcia&#64;hotmail.com</a>&gt;;
+Cabral, Juan Bautista &lt;<a class="reference external" href="mailto:jbc.develop&#64;gmail.com">jbc.develop&#64;gmail.com</a>&gt;;
+Liberal, Rodrigo &lt;<a class="reference external" href="mailto:rodrigo.inf.liberal&#64;gmail.com">rodrigo.inf.liberal&#64;gmail.com</a>&gt;</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Motivación, historia y contexto</h1></header>
+            
+            
+            <section><p>El proyecto nace con la necesidad de estudiar la variabilidad genética de
+los individuos de una especie (en primera instancia el Mal de Río Cuarto virus)
+y los factores que influyen sobre ella. Mientras que variabilidad se puede
+calcular a partir de las diferencias que hay entre las características propias
+de cada individuo o de ciertos grupos; los factores que influyen sobre la
+variabilidad son, normalmente, el tiempo, la región geográfica y muchos
+elementos más que dependen de la especie que se analiza.</p>
+<p>Yatel propone que para encontrar los factores más influyentes se aplique un
+enfoque de redes. La red se crea a partir de las diferencias o distancias entre
+los perfiles y luego se la explora multidimensionalmente para brindar al
+investigador una visión del problema imposible de lograr por otros medios.</p>
+
+<img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/explor2.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/explor2.png" style="width: 784.0px; height: 639.1px;" />
+<p class="caption">Análisis multidimensional de redes</p>
+
+<p>Cabe que aclarar que:</p>
+<blockquote>
+<ul class="simple">
+<li>Los nodos de la red conforman los diferentes individuos de la especie
+estudiada (llamados de ahora en más <em>haplotipos</em> o <em>haplotypes</em> por
+tradición en la herramienta heredada de su origen en la biología).</li>
+<li>Los arcos son las relaciones entre los <em>haplotipos</em>.</li>
+<li>El peso de los <em>arcos</em> es la diferencia entre los dos individuos.</li>
+<li>La ocurrencia de eventos se representa mediante <em>hechos</em> o <em>facts</em>
+presentes en la red. Los mismos son filtros que de <em>activarse</em> hace que
+los diferentes nodos se resalten demostrando una dimensión de la
+exploración.</li>
+</ul>
+</blockquote>
+<p>El análisis realizado en Yatel se inspira en el modelo <strong>CRISP-DM</strong> para
+<em>knowledge discovery in database</em> (KDD).
+KDD, muchas veces llamado Minería de Datos aunque  esta sea sólo una etapa,
+es un proceso que intenta encontrar información útil y  novedosa (que pueda
+influir en la toma de decisiones) y que permanece oculta en una base de datos
+(Fayyad 1996).</p>
+
+<img alt="img/proceso_kdd.png" src="img/proceso_kdd.png" style="width: 784.0px; height: 639.1px;" />
+<p class="caption">Proceso de KDD</p>
+
+
+
+<h1>Features</h1>
+
+<img alt="img/main.png" src="img/main.png" style="width: 703.8px; height: 451.35px;" />
+<p class="caption">Yatel se vé asi</p>
+
+<p>La red se muestra todos sus Haplotipos (<strong>1</strong>) en tonos de gris y blanco
+cuando están inactivos y se colorean de verde cuando coinciden con algún
+ambiente.</p>
+<p>Se puede limitar los arcos visibles a solo a un rango de <em>pesos</em> (<strong>2</strong>).</p>
+<p>Se selecciona que atributos de los hechos constituirán cada ambiente y
+luego se seleccionan los valores con un combo (<strong>3</strong>).</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/create_env.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/create_env.png" style="width: 1207.5px; height: 1010.0px;" />
+<p class="caption">Creador de ambientes para ánalisis multidimensional. Lista todos los
+atributos de todos las situaciones donde se encontraron los haplotipos.</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/engines.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/engines.png" style="width: 273.0px; height: 243.75px;" />
+<p class="caption">Yatel permite crear sus redes en <strong>SQLite</strong>, <strong>MySQL</strong> y <strong>PostgreSQL</strong></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/imports.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/imports.png" style="width: 366.0px; height: 254.0px;" />
+<p class="caption">Además de poder conectarse a su propia base de datos, Yatel permite:</p>
+
+<blockquote>
+<ul class="simple">
+<li>Conectarse a instancias remotas de Yatel.</li>
+<li>Importar desde los formatos <tt class="docutils literal">CSV</tt>, <tt class="docutils literal">yyf</tt> (basado en <em>YAML</em>) y
+<tt class="docutils literal">yjf</tt> (basado en <em>JSON</em>).</li>
+<li>Exportar a los formatos <tt class="docutils literal">yyf</tt> y <tt class="docutils literal">yjf</tt>.</li>
+</ul>
+</blockquote></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/sql_integration.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/sql_integration.png" style="width: 2940.32px; height: 1885.64px;" />
+<p class="caption">Como Yatel construye sus redes sobre <strong>Bases de Datos Relacionales</strong>;
+en exploraciones avanzadas se puede acceder, desde su entorno gráfico,
+con <strong>SQL</strong> a los datos para generar un ambiente dinámico.</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/ipython_integration.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/ipython_integration.png" style="width: 703.8px; height: 451.35px;" />
+<p class="caption">En caso de necesidad, Yatel incluye una consola ipython embebida que permite
+interactuar dinámicamente con todo <em>Python</em></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Desde Python</h1></header>
+            
+            
+            <section><p>Se puede utilizar Yatel como librería</p>
+<pre><span class="c"># Pensemos en una red exploratoria totalmente rara</span>
+<span class="kn">from</span> <span class="nn">yatel</span> <span class="kn">import</span> <span class="n">dom</span>
+
+<span class="c"># Super heroes</span>
+<span class="n">haps</span> <span class="o">=</span> <span class="p">[</span><span class="n">dom</span><span class="o">.</span><span class="n">Haplotype</span><span class="p">(</span><span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">&quot;Bruce Wayne&quot;</span><span class="p">,</span> <span class="n">debut</span><span class="o">=</span><span class="mi">1939</span><span class="p">),</span>
+        <span class="n">dom</span><span class="o">.</span><span class="n">Haplotype</span><span class="p">(</span><span class="s">&quot;Alfred&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">&quot;Alfred Pennyworth&quot;</span><span class="p">,</span> <span class="n">debut</span><span class="o">=</span><span class="mi">1943</span><span class="p">),</span>
+        <span class="n">dom</span><span class="o">.</span><span class="n">Haplotype</span><span class="p">(</span><span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">&quot;Clark Joseph Kent&quot;</span><span class="p">,</span> <span class="n">debut</span><span class="o">=</span><span class="mi">1938</span><span class="p">),</span>
+        <span class="n">dom</span><span class="o">.</span><span class="n">Haplotype</span><span class="p">(</span><span class="s">&quot;Lex Luthor&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">&quot;Alexander Joseph Luthor&quot;</span><span class="p">)]</span>
+
+<span class="c"># Creamos arcos entre amigos = 1 enemigos = 2</span>
+<span class="n">edges</span> <span class="o">=</span> <span class="p">[</span><span class="n">dom</span><span class="o">.</span><span class="n">Edge</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="s">&quot;Superman&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Edge</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="s">&quot;Alfred&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Edge</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="s">&quot;Lex Luthor&quot;</span><span class="p">)]</span>
+
+<span class="c"># Agregamos hechos</span>
+<span class="n">facts</span> <span class="o">=</span> <span class="p">[</span><span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Billonaire&quot;</span><span class="p">,</span> <span class="n">family</span><span class="o">=</span><span class="s">&quot;Murdered&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Super Hero&quot;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s">&quot;Gotham&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Batman&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Vigilante&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Bob Kane&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Alfred&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Buttler&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Bob Kane&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Lex Luthor&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Billonaire&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Lex Luthor&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Criminal Mastermind&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Super Hero&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Jerry Siegel&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Joe Shuster&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Superman&quot;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s">&quot;Reporter&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Lex Luthor&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Jerry Siegel&quot;</span><span class="p">),</span>
+         <span class="n">dom</span><span class="o">.</span><span class="n">Fact</span><span class="p">(</span><span class="s">&quot;Lex Luthor&quot;</span><span class="p">,</span> <span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Joe Shuster&quot;</span><span class="p">)]</span>
+
+<span class="c"># Validamos que la red sea consistente</span>
+<span class="n">dom</span><span class="o">.</span><span class="n">validate</span><span class="p">(</span><span class="n">haps</span><span class="p">,</span> <span class="n">facts</span><span class="p">,</span> <span class="n">edges</span><span class="p">)</span>
+
+<span class="c"># Persistimos la red en nuestra base de datos</span>
+<span class="kn">from</span> <span class="nn">yatel</span> <span class="kn">import</span> <span class="n">db</span>
+<span class="n">conn</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">YatelConnection</span><span class="p">(</span><span class="s">&quot;sqlite&quot;</span><span class="p">,</span> <span class="s">&quot;superheroes.db&quot;</span><span class="p">)</span>
+<span class="n">conn</span><span class="o">.</span><span class="n">init_with_values</span><span class="p">(</span><span class="n">haps</span><span class="p">,</span> <span class="n">facts</span><span class="p">,</span> <span class="n">edges</span><span class="p">)</span>
+
+<span class="c"># Personajes con trabajo de súper héroes</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">enviroment</span><span class="p">(</span><span class="n">job</span><span class="o">=</span><span class="s">&quot;Super Hero&quot;</span><span class="p">))</span>
+<span class="c">#OUT# [&lt;Haplotype &#39;Batman&#39; at 0x1cb1e90&gt;, &lt;Haplotype &#39;Superman&#39; at 0x1cb1f90&gt;]</span>
+
+<span class="c"># Personajes con el trabajo de millonario</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">enviroment</span><span class="p">(</span><span class="n">job</span><span class="o">=</span><span class="s">&quot;Billonaire&quot;</span><span class="p">))</span>
+<span class="c">#OUT# [&lt;Haplotype &#39;Batman&#39; at 0x1caae50&gt;, &lt;Haplotype &#39;Lex Luthor&#39; at 0x1cb1c90&gt;]</span>
+
+<span class="c"># Personajes creados por Bob Kane</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">enviroment</span><span class="p">(</span><span class="n">created_by</span><span class="o">=</span><span class="s">&quot;Bob Kane&quot;</span><span class="p">))</span>
+<span class="c">#OUT# [&lt;Haplotype &#39;Batman&#39; at 0x1cb80d0&gt;, &lt;Haplotype &#39;Alfred&#39; at 0x1cb8150&gt;]</span>
+
+<span class="c"># Mostramos solos los edges que tienen pesos entre 0 y 1</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">filter_edges</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+<span class="c">#OUT# [&lt;Edge &#39;(u&#39;Batman&#39;, u&#39;Superman&#39;) 1.0&#39; at 0x305ee90&gt;,</span>
+<span class="c">#OUT#  &lt;Edge &#39;(u&#39;Batman&#39;, u&#39;Alfred&#39;) 1.0&#39; at 0x305ee50&gt;]</span>
+
+<span class="c"># Podemos exportar nuestra red a json o yaml</span>
+<span class="kn">from</span> <span class="nn">yatel.conversors</span> <span class="kn">import</span> <span class="n">yjf2yatel</span> <span class="c"># yyf2yatel</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;bk.yjf&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+<span class="n">yjf2yatel</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">iter_haplotypes</span><span class="p">(),</span> <span class="n">conn</span><span class="o">.</span><span class="n">iter_facts</span><span class="p">(),</span>
+               <span class="n">conn</span><span class="o">.</span><span class="n">iter_edges</span><span class="p">(),</span> <span class="n">conn</span><span class="o">.</span><span class="n">iter_versions</span><span class="p">(),</span>
+               <span class="n">fp</span><span class="p">)</span> <span class="c"># escribe en el stream fp</span>
+
+<span class="c"># o importar los elementos de la red para regenerarla</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;bk.yjf&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+    <span class="n">haps</span><span class="p">,</span> <span class="n">facts</span><span class="p">,</span> <span class="n">edges</span><span class="p">,</span> <span class="n">versions</span> <span class="o">=</span> <span class="n">yjf2yatel</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fp</span><span class="p">)</span>
+</pre>
+
+
+<h1>Futuro</h1>
+<ul class="simple">
+<li>Mejorar la interfaz de la <tt class="docutils literal">yatel.db.YatelConnection</tt> para poder navegar la
+red via código.</li>
+<li>Implementar el algoritmo de <em>Dijkstra</em>.</li>
+<li>Terminar el manual y Tests.</li>
+<li>Mostrar estadísticas de la red.</li>
+</ul>
+
+<img alt="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/link.png" src="file:///home/juan/proyectos/talks/scipyconar2013/yatel_poster/img/link.png" style="width: 312.4px; height: 146.4px;" />
+
+<!-- ============================================================================= -->
+<!-- FOOTER -->
+<!-- ============================================================================= --></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: poster.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p class="footer">Universidad Tecnológica Nacional, Facultad Regional Córdoba
+(<a class="reference external" href="http://www.frc.utn.edu.ar/">http://www.frc.utn.edu.ar/</a>)</p>
+<p class="footer">Laboratorio de Investigación de Software
+(<a class="reference external" href="http://www.investigacion.frc.utn.edu.ar/mslabs/">http://www.investigacion.frc.utn.edu.ar/mslabs/</a>)</p>
+<p class="footer">Financiación UTN1685</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="poster.rst">poster.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">-</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">Motivación, historia y contexto</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">-</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">-</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">-</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">-</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">-</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8">Desde Python</a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">-</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
