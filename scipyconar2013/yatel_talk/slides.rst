@@ -341,8 +341,8 @@ Yatel - la lib
     :align: center
     :scale: 200 %
 
-Que le falta:
--------------
+Que le falta o problemas a resolver:
+------------------------------------
 
 - Modulo de estadísticas.
 - Minería de datos propiamente dicha.
@@ -350,6 +350,8 @@ Que le falta:
 - Posibilidad de navegar la red desde código.
 - Biopython.
 - Armar un exe.
+- Testttttts!
+- Integrar con excel.
 
 
 ¿Preguntas?
