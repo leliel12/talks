@@ -10,19 +10,21 @@
    :align: center
    :scale: 100 %
 
-
-Como saber si sos hacker
-------------------------
-
-- Lees el prospecto de todos los celulares **completo**.
-- Sabes que el "competir contra Disney" esa estudiado en
-  el tema de colas de espera englobado en la simulación.
+- Sabes que Bitcoin es un gran hack.
 - Sabes quien es Denis Ritchie (y probablemente te moleste que
   haya muerto a los días de Steve Jobs y no le dieron prensa).
 
 .. image:: img/lt.jpeg
     :align: right
-    :scale: 50 %
+    :scale: 25 %
+
+
+Recien fui al baño
+------------------
+
+.. image:: img/bath.jpg
+    :align: center
+    :scale: 200 %
 
 
 
@@ -94,10 +96,12 @@ Por que les recomiendo entender a los hackers?
 - Aprender de grandes que dejan que veas todo (Unix).
 - Evitar que el árbol no te deje ver el bosque (Cocos2d).
 - En definitiva: Usar el llamado "apalancamiento" del software (filosofía Unix)
+- 19 de octubre Uniconf 2013: http://www.uniconf.com.ar
 
 .. image:: img/leverage.png
-    :align: center
-    :scale: 35 %
+    :align: right
+    :scale: 30 %
+
 
 
 ¿Preguntas?
@@ -114,7 +118,7 @@ Por que les recomiendo entender a los hackers?
 
 
 .. footer::
-    Hackers for Founders - Hackers & Founders 2013-04-26
+    Hackers for Founders - Jornada Mensual de Aprendizaje, Experiencias y Servicios para Pymes Tecno
     -
     Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
