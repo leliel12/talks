@@ -1,0 +1,314 @@
+Reflexiones en el diseño de librerías
+=====================================
+
+.. image::  img/diehard4.jpg
+   :align: center
+   :scale: 45%
+
+Quien cuerno soy?
+-----------------
+
+**Juan B Cabral.**
+
+    * La UTN dice que soy ingeniero.
+    * Edito la revista PET (http://revista.python.org.ar/)
+    * Soy becario investigador en bioinformatica.
+    * Me interesa la medición de la información desde un punto de vista científico.
+    * **Mi alineación es:** Legal Malvado
+    * Fumo Pipa (No fumo cigarrillos)
+    * Me gusta el buen whisky.
+    
+.. image:: img/pipwis.jpg
+       :align: right
+       :scale: 400 %
+
+
+Start
+-----
+
+    * La charla no trata estrictamente de Python. 
+    * Mucho de esto esta sacado de Java (y su horrible forma de obligarte a hacer cosas feas)
+    * Java sirve para algo: not(**Te enseña como hacer cosas feas**)
+    * Surge como una duda personal de como saber si lo que hago esta bien. (Un 
+      api malo no deja de funcionar, solo es malo)
+    * Recomiendo un libro: **Practical API Design**
+    
+      .. image::  img/pracapidesign.jpg
+       :align: center
+       :scale: 200%
+    
+      Mucha de mi charla se basa en este libro.
+
+
+Librerías
+---------
+
+    * Las usamos para resolver problemas comunes.
+    * Sabemos **que** hacen pero no **como** lo hacen.
+    * Nos da un suficiente nivel de "desconocimiento" (**clueless**).
+    * Accedemos a través de sus APIS (asi que la charla se centra en eso).
+    * Una buena API tiene un **"correcto nivel"** de **"clueless"**.
+
+.. image::  img/libros2.jpg
+   :align: right
+   :scale: 150%
+        
+
+API VS SPI
+----------
+    
+**API:**
+    - Es la interfaz de un programa con el mundo.
+    - The API is the description of object... that you call and use to achieve a goal and
+    - Un **coso** externo le pide **algo** a nuestro programa y luego el **coso** recupera el control.
+
+**SPI:** 
+    - The SPI is the description of object... that you extend and implement to achieve a goal
+    - API subset.
+    - Es la interfaz de un programa con un plugin.
+    - Nuestro programa le pide **algo** a un **coso** externo y luego nuestro programa recupera el control.
+
+
+No Clueless
+-----------
+
+.. image::  img/abstraction.png
+   :align: center
+   :scale: 60%
+        
+Nadie sabe todo lo necesario para volar un avión.
+    
+
+Clueless
+--------
+
+    * La ignorancia es un beneficio.
+    * Disminuyen el rediseño de la rueda 4.0
+    * Nos ayudan a enfocar en un problema.
+    * Esta para quedarse.
+    * No significa "no saber".
+    * Python es altamente "clueless".
+    
+.. image::  img/rueda-moto.jpg
+   :align: right
+   :scale: 50%
+
+
+Zen Vs. Zen
+-----------
+
+    * Las librerias almenos contradicen de alguna manera el "zen" de python:
+        - Explicit is better than implicit.
+        - Flat is better than nested.
+        - Special cases aren't special enough to break the rules.
+        - There should be one-- and preferably only one --obvious way to do it.
+           
+    * Recordar:
+        - Although practicality beats purity.
+        - Namespaces are one honking great idea -- let's do more of those!
+        
+.. image::  img/Zen_phyton.jpg
+   :align: right
+   :scale: 50%
+    
+    
+Y...
+----
+
+Como no me da la cara para decir "esta es la posta"; agrupe el resto de la
+charla en una sucesión de consejos.
+
+.. image::  img/Fuck-yeah.png
+   :align: center
+   :scale: 100%
+
+
+Consejo: API (PROPIAMENTE HABLANDO)
+-----------------------------------
+
+    - Exponer solo los métodos necesarios
+    - Tamaño de un API: 
+      
+      .. code-block:: python
+      
+         >>> len([n for n in dir(obj) if not n.startswith("_")])
+         (numero pequeño)
+         
+
+
+Consejo: API (PROPIAMENTE HABLANDO) 2
+-------------------------------------
+
+- No exponer jerarquías profundas: No es lo mismo diseñar para la API que para reusar código.
+
+    .. image::  img/mframeworks.jpg
+       :align: center
+       :scale: 100%
+
+
+Consejo: Cooperación con otras APIs
+-----------------------------------
+
+    - Compatibilidad con las pilas.
+    - Seguir la PEP 8.
+    - Ojo con retornar objetos de otras APIs (disminuye el clueless).
+    - Ojo con redefinir comportamiento de otras APIs  (aumenta el acoplamiento).
+    
+        .. image::  img/cooperation.jpg
+           :align: right
+           :scale: 250%
+
+
+Consejo: Mis tipos, tus tipos
+-----------------------------
+    
+    - De preferencia **NO** exponer objetos propios como resultados de operaciones.
+    
+    - Librerías mías:
+         - **csvcool:** Manipula csv y la función read devuelve una instancia de ``CSVCool``
+         - **django-hatconf:** Configuraciones distribuidas que usa ``settings.py`` de Django como schema.
+         - **pycante:** La hice con la intención de "heredar" de los archivos *.ui* de QtDesigner.
+        
+    - Aplica también a mundo web:
+        - XML: NO
+        - JSON/YAML: SI
+    
+            .. image::  img/misproj.png
+               :align: right
+               :scale: 25%
+    
+
+Consejo: Tipos
+--------------
+
+    - Los controles de tipos deben hacerse en el nivel de **APIS**
+    - Los Controles de tipos llevan tiempo.
+    - Los *assert* son buenas ideas para validar tipos.
+    - Ojo con el retorno de valores nulos (None != default).
+    
+    .. code-block:: python
+    
+        def foo(arg):
+            assert isinstance(arg, Something), "Bad Type expected {0}".format(Something.__name__)
+            do something
+            
+    .. image::  img/eltipo.png
+       :align: right
+       :scale: 25%
+    
+    
+Consejo: Errores
+----------------
+
+    - Llamamos errores a algo inmanejable por nuestra librería.
+    - Los errores se solucionan lo mas tempranamente posible.
+    - Errors should never pass silently, Unless explicitly silenced.
+    - Crear excepciones propias puede ser un arma de doble filo.
+        - Aumenta la capacidad de manejar errores desde la aplicación cliente
+        - Disminuye la homogeneidad con las **pilas**
+
+.. image::  img/bugfeature.jpg
+   :align: right
+   :scale: 50%
+
+
+Consejo: Inmutabilidad Rulz!
+----------------------------
+
+- Si van a definir objetos intentar que sean inmutables (aumenta bastante la
+estabilidad de la librería... bueno no realmente)
+
+- Darle muchos derechos al constructor (inmutabilidad)
+    
+- Si un objeto es **inmutable**: 
+    -TRATAR de redefinir ``__repr__``,  ``__str__``, ``__hash__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
+    
+- Si un objeto es **mutable**: 
+    - controlar mucho lo que llega por las API.
+    - Redefinir: ``__repr__``,  ``__str__``, ``__cmp__``, ``__eq__`` y ``__ne__``.
+
+.. image::  img/brain-freeze.png
+   :align: right
+   :scale: 20%
+
+
+Consejo: Diseño
+---------------
+
+    - Siempre planeen primero la funcionalidad.
+    - TDD.
+    - Primero el controller (MVC).
+    - Plantear inicialmente el nivel de excelencia que se quiere llegar.
+
+.. image::  img/MVC.png
+   :align: right
+   :scale: 50%
+
+Consejo: Portando
+-----------------
+
+**Lo importante es**
+
+    * Facilitar a la vida a los desarrolladores python:
+        - Respetar pep8: ``assertTrue -> assert_true/ asserttrue``
+        - Utilizar funciones de python: ``obj.length() -> len(obj)``
+        - Utilizar metodos de python: ``obj.appendChild(aobj) -> obj.append(aobj)``
+        
+    * Que vengan del lenguaje de la librería original.
+        - Python no es Java
+
+.. image::  img/javasuks.png
+   :align: right
+   :scale: 450%
+
+
+Consejos: Publicación
+---------------------
+
+    * No publiquen sin tests.
+    * TDD se merece una oportunidad.
+    * Publiquen de manera comunes a los developers python (pypi > ppa).
+    * No publiquen sin documentación. (mercurial -> git)
+    * Vean la pagina de los chicos de Pocoo (http://www.pocoo.org/)
+    * Dar identidad gráfica al proyecto.
+    
+.. image::  img/me-gusta.jpg
+   :align: right
+   :scale: 30%
+
+
+Consejos: Finales
+-----------------
+
+    - Hacer que nuestras cosas internas cumplan muchas de las cosas que dijimos.
+    - Las APIs simétricas son buena idea (load, dump).
+    - Tratar de cumplir en su totalidad el zen de python.
+    - Compatibilidad pa'tras
+    - No abusar de los patrones.
+    - Todo es cuestión de diseño (DRY or not DRY)
+    - Evitar el monkeypatch.
+    
+
+
+¿Preguntas?
+-----------
+
+    - Charlas:
+        - http://bitbucket.org/leliel12/talks
+    - Contacto:
+        - Juan B Cabral 
+            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
+            - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
+            - Blog: http://jbcabral.wordpress.com/
+
+
+.. image::  img/wtf.jpg
+   :align: right
+   :scale: 150%
+
+
+.. footer:: 
+    PyCon Argentina - Junin, Bs. As. 24/09/2011
+
+.. header::
+    Lib Free or Die Hard

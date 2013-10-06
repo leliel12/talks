@@ -1,0 +1,21 @@
+Productos Famosos
+-----------------
+
+.. image:: img/productos.png
+    :align: center
+    :width: 685px
+    :height: 345px
+
+----
+
+Las empresas
+------------
+
+Este es el listado de empresas que apuestan FUERTE por Python.
+
+Más casos: http://www.python.org/about/success/
+
+.. image:: img/empresas.png
+    :align: center
+    :width: 681px
+    :height: 342px

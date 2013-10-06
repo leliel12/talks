@@ -1,0 +1,221 @@
+Reflexiones en el diseño de librerías
+=====================================
+
+.. image::  img/diehard4.jpg
+   :align: center
+   :scale: 45%
+
+
+About Me...
+-----------
+
+**Juan B Cabral.**
+
+    * Argentino
+    * Soy ingeniero de software.
+    * Trabajo con python desde el 2007
+    * Organicé PyCon Ar 2012 (+800 inscriptos, +500 asistentes)
+    * Actualmente pertenezco a SciPy.Ar
+    * Estoy armando mi plan doctoral sobre minería de datos
+
+.. image:: img/whoami.png
+    :align: center
+
+
+Agenda
+------
+
+    * Surge como una duda personal de como saber si lo que hago esta bien. (Un
+      API malo no deja de funcionar, solo es malo)
+    * Una buena API no necesariamente es simple a primera vista
+      (sqlalchemy, jquery)
+    * Recomiendo un libro: **Practical API Design**
+
+      .. image::  img/pracapidesign.jpg
+       :align: center
+       :scale: 200%
+
+      Mucha de mi charla se basa en este libro.
+
+
+Tipos de API
+------------
+
+**API** (Abstract Program Interface)
+    - Es la interfaz de un programa con el mundo.
+    - The API is the description de como un pedazo de código
+      nos soluciona un problema.
+
+**SPI** (Service Provider Interface)
+    - Es SPI es la forma que un programa nos pide que ingresemos nuestra forma
+      de solucionar un problema.
+    - API subset.
+    - Es la interfaz de un programa con un plugin.
+
+
+API
+---
+
+    * Las usamos para resolver problemas comunes (servicios y libs).
+    * Sabemos **que** hacen pero no **como** lo hacen.
+    * Nos da un suficiente nivel de "desconocimiento" (**clueless**).
+    * Abstraen los problemas
+    * Una buena API tiene un **"correcto nivel"** de **"clueless"**.
+
+.. image::  img/libros2.jpg
+   :align: right
+   :scale: 150%
+
+
+No Clueless
+-----------
+
+.. image::  img/abstraction.png
+   :align: center
+   :scale: 60%
+
+Nadie sabe todo lo necesario para volar un avión.
+
+
+Clueless
+--------
+
+    * La ignorancia es un beneficio.
+    * Disminuyen el rediseño de la rueda 4.0
+    * Nos ayudan a enfocar en un problema.
+    * Esta para quedarse.
+    * No significa "no saber".
+    * Python es altamente "clueless".
+
+.. image::  img/rueda-moto.jpg
+   :align: right
+   :scale: 50%
+
+
+Consejos 1
+----------
+
+A continuación me extiendo contando algunas reglas que a mi me sirven al
+momento de diseño de APIS
+
+
+Consejos 2
+----------
+
+- Su problema es la primer regla de diseño.
+- Las API declarativas suelen ser mas faciles de mantener, extender, y
+  generalizar.
+
+  Ejemplos claves:
+    - JQuery
+    - sqlAlchemy
+
+
+Consejos 3
+----------
+
+- Exponer lo estríctamente necesatio.
+- Mientras menos expongan, mejor.
+- No exponer jerarquías profundas: No es lo mismo diseñar para la API que
+  para reusar código.
+
+
+Consejos 4
+----------
+
+- Al momento de coperar con otras APIS
+
+    - Compatibilidad con las pilas.
+    - (Tratar) Seguir la PEP 8 (No fanatisarse).
+    - Ojo con retornar objetos de otras APIs (disminuye el clueless).
+    - Ojo con redefinir comportamiento de otras APIs  (aumenta el acoplamiento).
+
+
+Consejos 5
+----------
+
+- De preferencia **NO** exponer objetos propios como resultados de operaciones.
+
+    - Los controles de tipos deben hacerse en el nivel de **APIS**
+    - Los Controles de tipos llevan tiempo.
+    - Los *assert* son buenas ideas para validar tipos.
+    - Cuidado con el retorno de valores nulos (None != default).
+
+    .. code-block:: python
+
+        def foo(arg):
+            assert isinstance(arg, Something), \
+                   "Bad Type expected {0}".format(Something.__name__)
+            do something
+
+
+Consejos 6
+----------
+
+- Si van a definir objetos:
+    - Intentar que sean inmutables (aumenta bastante la
+      estabilidad de la librería... bueno no realmente)
+    - Darle muchos derechos al constructor (inmutabilidad)
+
+
+Consejos 7
+----------
+
+- Errores
+    - Llamamos errores a algo inmanejable por nuestra librería.
+    - Los errores se solucionan lo mas tempranamente posible.
+    - Errors should never pass silently, Unless explicitly silenced.
+    - Crear excepciones propias puede ser un arma de doble filo.
+        - Aumenta la capacidad de manejar errores desde la aplicación cliente
+        - Disminuye la homogeneidad con las **pilas**
+    - Si declaran una Exception y nunca la exponen, es altamente probable que
+      esten haciendo algo **MAL*
+
+
+Consejos 8
+----------
+
+- Diseño
+    - Siempre planeen primero la funcionalidad.
+    - TDD.
+    - Primero el controller (MVC).
+    - Plantear inicialmente el nivel de excelencia que se quiere llegar.
+
+.. image::  img/MVC.png
+   :align: right
+   :scale: 50%
+
+
+Consejos: Finales
+-----------------
+
+    - Hacer que nuestras cosas internas cumplan muchas de las cosas que dijimos.
+    - Las APIs simétricas son buena idea (load, dump).
+    - Compatibilidad para atras es un compromiso
+    - No abusar de los patrones.
+    - Evitar el monkeypatch.
+    - Priorizar el PEP20 antes que el PEP8
+
+
+¿Preguntas?
+-----------
+
+    - Charlas:
+        - http://bitbucket.org/leliel12/talks
+    - Contacto:
+        - Juan B Cabral
+            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
+            - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
+            - Blog: http://jbcabral.wordpress.com/
+
+
+.. image::  img/wtf.jpg
+   :align: right
+   :scale: 150%
+
+
+.. footer::
+    PyCon España - Madrid 24/09/2011
+
+.. header::
+    Lib Free or Die Hard

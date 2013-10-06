@@ -1,0 +1,5 @@
+!!python/object:__main__.Persona
+direcciones:
+- !!python/object:__main__.Direccion {desc: fake 123, tipo: personal}
+- !!python/object:__main__.Direccion {desc: real 456, tipo: laboral}
+name: Tito Puente

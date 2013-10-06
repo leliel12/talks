@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+import sys
+import os
+
+FILENAME = "slides"
+
+os.system("rst2evince %s.rst -b1 -s slides.style" % FILENAME)
+
+
