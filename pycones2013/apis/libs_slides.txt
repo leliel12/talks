@@ -158,9 +158,8 @@ Consejos 6
     - Darle muchos derechos al constructor (inmutabilidad)
 
 
-
-Consejo 7
----------
+Consejos 7
+----------
 
 - Errores
     - Llamamos errores a algo inmanejable por nuestra librería.
@@ -170,31 +169,13 @@ Consejo 7
         - Aumenta la capacidad de manejar errores desde la aplicación cliente
         - Disminuye la homogeneidad con las **pilas**
     - Si declaran una Exception y nunca la exponen, es altamente probable que
-      esten haciendo algo **MAL**
+      esten haciendo algo **MAL*
 
 
+Consejos 8
+----------
 
-Zen Vs. Zen
------------
-
-    * Las librerias almenos contradicen de alguna manera el "zen" de python:
-        - Explicit is better than implicit.
-        - Flat is better than nested.
-        - Special cases aren't special enough to break the rules.
-        - There should be one-- and preferably only one --obvious way to do it.
-
-    * Recordar:
-        - Although practicality beats purity.
-        - Namespaces are one honking great idea -- let's do more of those!
-
-
-
-
-
-
-Consejo: Diseño
----------------
-
+- Diseño
     - Siempre planeen primero la funcionalidad.
     - TDD.
     - Primero el controller (MVC).
@@ -204,32 +185,16 @@ Consejo: Diseño
    :align: right
    :scale: 50%
 
-Consejos: Publicación
----------------------
-
-    * No publiquen sin tests.
-    * TDD se merece una oportunidad.
-    * Publiquen de manera comunes a los developers python (pypi > ppa).
-    * No publiquen sin documentación. (mercurial -> git)
-    * Vean la pagina de los chicos de Pocoo (http://www.pocoo.org/)
-    * Dar identidad gráfica al proyecto.
-
-.. image::  img/me-gusta.jpg
-   :align: right
-   :scale: 30%
-
 
 Consejos: Finales
 -----------------
 
     - Hacer que nuestras cosas internas cumplan muchas de las cosas que dijimos.
     - Las APIs simétricas son buena idea (load, dump).
-    - Tratar de cumplir en su totalidad el zen de python.
-    - Compatibilidad pa'tras
+    - Compatibilidad para atras es un compromiso
     - No abusar de los patrones.
-    - Todo es cuestión de diseño (DRY or not DRY)
     - Evitar el monkeypatch.
-
+    - Priorizar el PEP20 antes que el PEP8
 
 
 ¿Preguntas?
@@ -250,7 +215,7 @@ Consejos: Finales
 
 
 .. footer::
-    PyCon Argentina - Junin, Bs. As. 24/09/2011
+    PyCon España - Madrid 24/09/2011
 
 .. header::
     Lib Free or Die Hard
