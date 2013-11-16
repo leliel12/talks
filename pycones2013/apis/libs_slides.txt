@@ -16,7 +16,7 @@ About Me...
     * Trabajo con python desde el 2007
     * Organicé PyCon Ar 2012 (+800 inscriptos, +500 asistentes)
     * Actualmente pertenezco a SciPy.Ar
-    * Estoy armando mi plan doctoral sobre minería de datos
+    * Estoy armando mi plan doctoral sobre minería de datos.
 
 .. image:: img/whoami.png
     :align: center
@@ -43,12 +43,12 @@ Tipos de API
 
 **API** (Abstract Program Interface)
     - Es la interfaz de un programa con el mundo.
-    - The API is the description de como un pedazo de código
+    - El API es la descripción de como un pedazo de código
       nos soluciona un problema.
 
 **SPI** (Service Provider Interface)
-    - Es SPI es la forma que un programa nos pide que ingresemos nuestra forma
-      de solucionar un problema.
+    - Es SPI es la forma que un programa nos pide que ingresemos nuestro metodo
+      de solución de un problema.
     - API subset.
     - Es la interfaz de un programa con un plugin.
 
@@ -59,7 +59,7 @@ API
     * Las usamos para resolver problemas comunes (servicios y libs).
     * Sabemos **que** hacen pero no **como** lo hacen.
     * Nos da un suficiente nivel de "desconocimiento" (**clueless**).
-    * Abstraen los problemas
+    * Abstraen los problemas.
     * Una buena API tiene un **"correcto nivel"** de **"clueless"**.
 
 .. image::  img/libros2.jpg
@@ -80,12 +80,12 @@ Nadie sabe todo lo necesario para volar un avión.
 Clueless
 --------
 
-    * La ignorancia es un beneficio.
-    * Disminuyen el rediseño de la rueda 4.0
-    * Nos ayudan a enfocar en un problema.
-    * Esta para quedarse.
-    * No significa "no saber".
-    * Python es altamente "clueless".
+* La ignorancia es un beneficio.
+* Disminuyen el rediseño de la rueda 4.0
+* Nos ayudan a enfocar en un problema.
+* Esta para quedarse.
+* No significa "no saber".
+* Python es altamente "clueless".
 
 .. image::  img/rueda-moto.jpg
    :align: right
@@ -102,7 +102,8 @@ momento de diseño de APIS
 Consejos 2
 ----------
 
-- Su problema es la primer regla de diseño.
+- Su problema es la primer regla de diseño, su gusto el segundo y los estándares
+  la tercera. (Necesito - Me gusta - PEP 8)
 - Las API declarativas suelen ser mas faciles de mantener, extender, y
   generalizar.
 
@@ -114,21 +115,24 @@ Consejos 2
 Consejos 3
 ----------
 
-- Exponer lo estríctamente necesatio.
+- Exponer lo estrictamente necesario.
 - Mientras menos expongan, mejor.
 - No exponer jerarquías profundas: No es lo mismo diseñar para la API que
   para reusar código.
+- Cuidado con las clases abstractas (si van a controlar el protocolo, háganlo
+  bien)
 
 
 Consejos 4
 ----------
 
-- Al momento de coperar con otras APIS
+- Al momento de cooperar con otras APIS
 
     - Compatibilidad con las pilas.
-    - (Tratar) Seguir la PEP 8 (No fanatisarse).
-    - Ojo con retornar objetos de otras APIs (disminuye el clueless).
-    - Ojo con redefinir comportamiento de otras APIs  (aumenta el acoplamiento).
+    - PEP 20
+    - (Tratar) Seguir la PEP 8 (No fanatizarse).
+    - Muy Mala idea: retornar objetos de otras APIs (disminuye el clueless).
+    - Muy Mala idea: redefinir comportamiento de otras APIs.
 
 
 Consejos 5
@@ -141,12 +145,13 @@ Consejos 5
     - Los *assert* son buenas ideas para validar tipos.
     - Cuidado con el retorno de valores nulos (None != default).
 
-    .. code-block:: python
 
-        def foo(arg):
-            assert isinstance(arg, Something), \
-                   "Bad Type expected {0}".format(Something.__name__)
-            do something
+.. code-block:: python
+
+    def foo(arg):
+        assert isinstance(arg, Something), \
+               "Bad Type expected {0}".format(Something.__name__)
+        ···
 
 
 Consejos 6
@@ -158,8 +163,9 @@ Consejos 6
     - Darle muchos derechos al constructor (inmutabilidad)
 
 
-Consejos 7
-----------
+
+Consejo 7
+---------
 
 - Errores
     - Llamamos errores a algo inmanejable por nuestra librería.
@@ -169,32 +175,58 @@ Consejos 7
         - Aumenta la capacidad de manejar errores desde la aplicación cliente
         - Disminuye la homogeneidad con las **pilas**
     - Si declaran una Exception y nunca la exponen, es altamente probable que
-      esten haciendo algo **MAL*
+      esten haciendo algo **MAL**
 
 
-Consejos 8
-----------
+Zen Vs. Zen
+-----------
 
-- Diseño
-    - Siempre planeen primero la funcionalidad.
-    - TDD.
-    - Primero el controller (MVC).
-    - Plantear inicialmente el nivel de excelencia que se quiere llegar.
+* Las librerias almenos contradicen de alguna manera el "zen" de python:
+    - Explicit is better than implicit.
+    - Flat is better than nested.
+    - Special cases aren't special enough to break the rules.
+    - There should be one-- and preferably only one --obvious way to do it.
+
+* Recordar:
+    - Although practicality beats purity.
+    - Namespaces are one honking great idea -- let's do more of those!
+
+
+Consejo: Diseño
+---------------
+
+- Siempre planeen primero la funcionalidad.
+- TDD.
+- Primero el controller (MVC).
+- Plantear inicialmente el nivel de excelencia que se quiere llegar.
 
 .. image::  img/MVC.png
    :align: right
    :scale: 50%
 
 
+Consejos: Publicación
+---------------------
+
+* No publiquen sin tests.
+* TDD se merece una oportunidad.
+* Publiquen de manera comunes a los developers python (pypi > ppa).
+* No publiquen sin documentación.
+* Vean la pagina de los chicos de Pocoo (http://www.pocoo.org/)
+
+.. image::  img/me-gusta.jpg
+   :align: right
+   :scale: 30%
+
+
 Consejos: Finales
 -----------------
 
-    - Hacer que nuestras cosas internas cumplan muchas de las cosas que dijimos.
-    - Las APIs simétricas son buena idea (load, dump).
-    - Compatibilidad para atras es un compromiso
-    - No abusar de los patrones.
-    - Evitar el monkeypatch.
-    - Priorizar el PEP20 antes que el PEP8
+- Las APIs simétricas son buena idea (load, dump).
+- Tratar de cumplir en su totalidad el zen de python.
+- Un buen diseño de api facilita la retro compatibilidad
+- No abusar de los patrones.
+- Evitar el monkeypatch.
 
 
 ¿Preguntas?
@@ -206,7 +238,7 @@ Consejos: Finales
         - Juan B Cabral
             - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
             - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
-            - Blog: http://jbcabral.wordpress.com/
+            - Blog: http://jbcabral.com/
 
 
 .. image::  img/wtf.jpg
@@ -215,7 +247,7 @@ Consejos: Finales
 
 
 .. footer::
-    PyCon España - Madrid 24/09/2011
+    PyCon España - Junin, Bs. As. 23/11/2013
 
 .. header::
-    Lib Free or Die Hard
+    APIs
