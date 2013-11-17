@@ -26,7 +26,7 @@ Integrantes
 - |utnico|  - Cabral, Juan Bautista
 - |intaico|  - Gimenez Pecci, María de la Paz
 - |utnico|  - Vera, Carlos
-- |utnico|  - Liberal Rodrigo
+- |utnico|  - Liberal, Rodrigo
 - |conicetico| |intaico|  - Laguna, Irma Graciela
 - |intaico|  - Bisonard, Eduardo Matías
 - |intaico|  - Maurino, Fernanda
@@ -56,12 +56,35 @@ Agenda
 - Un poco de historia y motivaciones.
 - Un poco de KDD.
 - Un poco de Network Science.
-- Un Poco de Cubos OLAP
-- Proceso de Analisis. (hasta aca deberia tardar no mas de 20 minutos)
-- Arquitectura del proyecto.
+- Proceso de Analisis.
+- DW - OLAP - BI (hasta acá debería tardar no mas de 20 minutos)
+- El proyecto en sí
 - Mini Demo
 
+.. image:: img/to_do_list.jpg
+    :align: center
+    :scale: 120 %
 
+
+Historia: Mal de Río Cuarto virus
+---------------------------------
+
+- Análisis electroforético:
+
+.. image:: img/electroforesis.png
+    :align: center
+    :scale: 100 %
+
+- Base de datos formada por
+
+    - Perfiles electroforéticos.
+    - Atributos que definen el ambiente de la planta
+
+- Pocos datos: Propuesta transformar la DB en una red y medir su variabilidad.
+
+.. image:: img/r4to.png
+    :align: right
+    :scale: 40 %
 
 
 Knowledge Discovery in Database (KDD)
@@ -78,30 +101,6 @@ Knowledge Discovery in Database (KDD)
     :scale: 20 %
 
 
-Mal de Río Cuarto virus
------------------------
-
-- Análisis electroforético:
-
-.. image:: img/electroforesis.png
-    :align: center
-    :scale: 100 %
-
-- Base de datos formada por
-
-        *perfiles electroforéticos +*
-        *atributos que definen el ambiente de la planta*
-
-- Resultados de estudios anteriores:
-
-    **Algunos segmentos electroforéticos dependen de otros**
-
-.. image:: img/r4to.png
-    :align: right
-    :scale: 50 %
-
-
-
 Network Science
 ---------------
 
@@ -112,7 +111,7 @@ Network Science
 
 .. image:: img/vuelos.png
     :align: right
-    :scale: 150 %
+    :scale: 35 %
 
 
 Networks 1
@@ -168,85 +167,87 @@ Networks 5
 Proceso de análisis
 -------------------
 
+Los ejemplos van con nuestra investigación (osea: resumen del paper)
+
 .. image:: img/kdd0.png
     :align: center
     :scale: 200 %
 
 
-Identificación y representación de haplotipos
----------------------------------------------
+Proceso de análisis: Identificación y representación de haplotipos
+------------------------------------------------------------------
 
 .. image:: img/kdd1.png
     :align: center
     :scale: 200 %
 
 
-Identificación y representación de haplotipos
----------------------------------------------
+Proceso de análisis: Identificación y representación de haplotipos
+------------------------------------------------------------------
 
 .. image:: img/viejo.png
     :align: center
     :scale: 35 %
 
 
-Identificación y representación de haplotipos
----------------------------------------------
+Proceso de análisis: Identificación y representación de haplotipos
+------------------------------------------------------------------
 
 .. image:: img/tablaperfiles.png
     :align: center
     :scale: 200 %
 
 
-Definición de medidas de distancia
-----------------------------------
+Proceso de análisis: Definición de medidas de distancia
+-------------------------------------------------------
 
 .. image:: img/kdd2.png
     :align: center
     :scale: 200 %
 
 
-Definición de medidas de distancia
-----------------------------------
+Proceso de análisis: Definición de medidas de distancia
+-------------------------------------------------------
 
 .. image:: img/dit.png
     :align: center
-    :scale: 100 %
+    :scale: 60 %
 
 
-Cálculo de distancias
----------------------
+Proceso de análisis: Cálculo de distancias
+------------------------------------------
 
 .. image:: img/kdd3.png
     :align: center
     :scale: 200 %
 
 
-Cálculo de distancias
----------------------
+Proceso de análisis: Cálculo de distancias
+------------------------------------------
 
 .. image:: img/calc.png
     :align: center
     :scale: 200 %
 
 
-Creación de la red
-------------------
+Proceso de análisis: Creación de la red
+---------------------------------------
 
 .. image:: img/kdd4.png
     :align: center
     :scale: 200 %
 
 
-Creación de la red
-------------------
+Proceso de análisis: Creación de la red
+---------------------------------------
 
 .. image:: img/red0.png
     :align: center
     :scale: 200 %
 
 
-Visualización y análisis topológico
------------------------------------
+Proceso de análisis: Visualización y análisis topológico
+--------------------------------------------------------
 
 .. image:: img/kdd5.png
     :align: center
@@ -261,48 +262,48 @@ Visualización y análisis topológico
     :scale: 300 %
 
 
-Exploración
------------
+Proceso de análisis: Exploración
+--------------------------------
 
 .. image:: img/kdd6.png
     :align: center
     :scale: 200 %
 
 
-Exploración
------------
+Proceso de análisis: Exploración
+--------------------------------
 
 .. image:: img/exp.png
     :align: center
     :scale: 150 %
 
 
-Generación de hipótesis y conclusiones
---------------------------------------
+Proceso de análisis: Generación de hipótesis y conclusiones
+-----------------------------------------------------------
 
 .. image:: img/kdd7.png
     :align: center
     :scale: 200 %
 
 
-Generación de hipótesis y conclusiones
---------------------------------------
+Proceso de análisis: Generación de hipótesis y conclusiones
+-----------------------------------------------------------
 
 .. image:: img/conc.png
     :align: center
-    :scale: 200 %
+    :scale: 60 %
 
 
-Generación de hipótesis y conclusiones
---------------------------------------
+Proceso de análisis: Generación de hipótesis y conclusiones
+-----------------------------------------------------------
 
 .. image:: img/conc2.png
     :align: center
-    :scale: 200 %
+    :scale: 75 %
 
 
-Conclusiones del proyecto
--------------------------
+Proceso de análisis: Conclusiones del proyecto
+----------------------------------------------
 
 - Según el índice calculado, la variabilidad del Mal de Río Cuarto virus,
   ha disminuido con el tiempo, habiendo una clara división del
@@ -321,17 +322,73 @@ Conclusiones del proyecto
     :align: right
     :scale: 50 %
 
+Data Warehouse - OLAP - BI
+--------------------------
+
+Concluimos que nuestro problema se adaptaba a algo muy similar a "algo" de BI
+
+- En el contexto de la informática, un **almacén de datos**
+  (del inglés data warehouse) es una colección de datos orientada a un
+  determinado ámbito (empresa, organización, etc.), integrado, no volátil y
+  variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la
+  que se utiliza.
+- **OLAP** es el acrónimo en inglés de procesamiento analítico en línea
+  (On-Line Analytical Processing). Es una solución utilizada en el campo de la
+  llamada Inteligencia empresarial (o Business Intelligence)
+  cuyo objetivo es agilizar la consulta de grandes cantidades de datos.
+  Para ello utiliza estructuras multidimensionales (o **Cubos OLAP**) que contienen
+  datos resumidos de grandes Bases de datos o Sistemas Transaccionales (OLTP).
+  Se usa en informes de negocios de ventas, marketing, informes de dirección,
+  minería de datos y áreas similares.
+- Se denomina **inteligencia empresarial**, inteligencia de negocios o BI (del inglés
+  business intelligence) al conjunto de estrategias y herramientas enfocadas a
+  la administración y creación de conocimiento mediante el análisis de datos
+  existentes en una organización o empresa.
+
+.. image:: img/dwolapbi.png
+    :align: center
+    :scale: 150 %
+
+
+Cubo OLAP
+---------
+
+Es una base de datos multidimensional, en la cual el almacenamiento físico de los
+datos se realiza en un vector multidimensional. Los cubos OLAP se pueden
+considerar como una ampliación de las dos dimensiones de una hoja de cálculo.
+
+.. image:: img/cube.png
+    :align: center
+    :scale: 50 %
+
+- Las olap pueden ser implementados en ROLAP - MOLAP - HOLAP
+- Las consultas OLAP se llaman MDX (son bastante parecidas a SQL)
+- Para consultas remotas se utiliza XMLA sobre SOAP
+
+Soluciones OpenSource
+---------------------
+
+- **Mondrian** (todo en java soporta XML y MDX) (http://mondrian.pentaho.com/)
+- **python xmla** (``pip install xmla``) para comunicarse con casi cualquier OLAP (https://pypi.python.org/pypi/xmla/)
+- **Cubes** (``pip install cubes``) puro python pero muy verde (pythonhosted.org/cubes/)
+- **Pentaho** (http://www.pentaho.com/),  **Saiku** (http://meteorite.bi/saiku),
+  **OpenI** (http://openi.org/)
+
+.. image:: img/floss.png
+    :align: center
+    :scale: 60 %
+
 
 Yatel
 -----
 
 - Es la implementación en gran parte del proceso mencionado anteriormente.
+- En vez de Cubos usa **redes** olap.
 - Falta trabajo (se aceptan colaboraciones)
-- Esta implementado sobre: PyQt, Numpy, Ipython, Peewee, algo de Javascript y
-  Pygments.
-- Puede usarse como programa o como librería.
-- Su version 0.2 es pip-instalable (``pip install yatel``) pero necesitan tener
-  previamente numpy y pyqt.
+- Puede usarse como librería o como DB remota (still works)
+- Posee soportes de ETL, estadísticas y DM rudimentaria.
+- Su version 0.2 es pip-instalable (``pip install yatel``) necesitan tener
+  previamente numpy y pyqt, usa una bd distinta, y es una aplicación desktop
 
 .. image:: img/yatelred.png
     :align: right
@@ -341,31 +398,30 @@ Yatel
 Yatel - la app
 --------------
 
-En funcionamiento...
+En funcionamiento... (0.2 algo así va a ser Yatel BI)
 
 .. image:: img/sshot.png
     :align: center
     :scale: 25 %
 
 
-Yatel - la lib
---------------
+Yatel - Arquitectura
+--------------------
 
-.. image:: img/code.png
+.. image:: img/arquitectura.png
     :align: center
     :scale: 200 %
 
-Que le falta o problemas a resolver:
-------------------------------------
 
-- Modulo de estadísticas.
-- Minería de datos propiamente dicha.
-- Exportar red a PNG.
-- Posibilidad de navegar la red desde código.
-- Biopython.
-- Armar un exe.
-- Testttttts!
-- Integrar con excel.
+En que se puede aportar
+
+- YQL sin implementar.
+- Más minería de datos propiamente dicha (solo tiene kmeans)
+- Agregar autenticación rudimentaria en yatel server y dar soporte a algo como... LDAP¿?¿?.
+- Como es un proyecto homologado por una universidad puede extenderse como parte
+  de un proyecto de fin de carrera.
+- La parte científica per-se no esta desarrollada (algún doctorando en la sala?)
+- Documentación (mucha)
 
 
 ¿Preguntas?
