@@ -1,42 +1,45 @@
-Reflexiones en el diseño de librerías
-=====================================
+Reflexiones en el diseño de APIs
+================================
 
-.. image::  img/diehard4.jpg
-   :align: center
-   :scale: 45%
+.. image:: img/Zen_phyton.jpg
+    :align: center
+    :scale: 300 %
 
+----
 
 About Me...
 -----------
 
 **Juan B Cabral.**
 
-    * Argentino
-    * Soy ingeniero de software.
-    * Trabajo con python desde el 2007
-    * Organicé PyCon Ar 2012 (+800 inscriptos, +500 asistentes)
-    * Actualmente pertenezco a SciPy.Ar
-    * Estoy armando mi plan doctoral sobre minería de datos.
+* Argentino
+* Soy ingeniero de software.
+* Trabajo con python desde el 2007
+* Actualmente pertenezco a SciPy.Ar
+* Estoy armando mi plan doctoral sobre minería de datos.
 
-.. image:: img/whoami.png
+.. image:: img/questions.jpg
     :align: center
+    :scale: 70 %
 
 
-Agenda
-------
+----
 
-    * Surge como una duda personal de como saber si lo que hago esta bien. (Un
-      API malo no deja de funcionar, solo es malo)
-    * Una buena API no necesariamente es simple a primera vista
-      (sqlalchemy, jquery)
-    * Recomiendo un libro: **Practical API Design**
+Introducción
+-----------
 
-      .. image::  img/pracapidesign.jpg
-       :align: center
-       :scale: 200%
+* Surge como una duda personal de como saber si lo que hago esta bien. (Un
+  API malo no deja de funcionar, solo es malo)
+* Una buena API no necesariamente es simple a primera vista
+  (sqlalchemy, jquery)
+* Recomiendo un libro: **Practical API Design**
 
-      Mucha de mi charla se basa en este libro.
+.. image::  img/pracapidesign.jpg
+   :align: center
+   :scale: 120%
 
+
+----
 
 Tipos de API
 ------------
@@ -53,6 +56,8 @@ Tipos de API
     - Es la interfaz de un programa con un plugin.
 
 
+----
+
 API
 ---
 
@@ -64,24 +69,25 @@ API
 
 .. image::  img/libros2.jpg
    :align: right
-   :scale: 150%
+   :scale: 60%
 
+----
 
 No Clueless
 -----------
 
-.. image::  img/abstraction.png
-   :align: center
-   :scale: 60%
+.. figure::  img/abstraction.png
+    :align: center
+    :scale: 100%
 
-Nadie sabe todo lo necesario para volar un avión.
+    Nadie sabe todo lo necesario para volar un avión.
 
+----
 
 Clueless
 --------
 
 * La ignorancia es un beneficio.
-* Disminuyen el rediseño de la rueda 4.0
 * Nos ayudan a enfocar en un problema.
 * Esta para quedarse.
 * No significa "no saber".
@@ -89,8 +95,9 @@ Clueless
 
 .. image::  img/rueda-moto.jpg
    :align: right
-   :scale: 50%
+   :scale: 100%
 
+----
 
 Consejos 1
 ----------
@@ -98,6 +105,13 @@ Consejos 1
 A continuación me extiendo contando algunas reglas que a mi me sirven al
 momento de diseño de APIS
 
+.. image:: img/kiss.png
+    :align: center
+    :scale: 100 %
+
+
+
+----
 
 Consejos 2
 ----------
@@ -111,6 +125,8 @@ Consejos 2
     - JQuery
     - sqlAlchemy
 
+----
+
 
 Consejos 3
 ----------
@@ -122,6 +138,12 @@ Consejos 3
 - Cuidado con las clases abstractas (si van a controlar el protocolo, háganlo
   bien)
 
+.. image:: img/mframeworks.jpg
+    :align: center
+    :scale: 50 %
+
+
+----
 
 Consejos 4
 ----------
@@ -134,16 +156,16 @@ Consejos 4
     - Muy Mala idea: retornar objetos de otras APIs (disminuye el clueless).
     - Muy Mala idea: redefinir comportamiento de otras APIs.
 
+----
 
 Consejos 5
 ----------
 
 - De preferencia **NO** exponer objetos propios como resultados de operaciones.
-
-    - Los controles de tipos deben hacerse en el nivel de **APIS**
-    - Los Controles de tipos llevan tiempo.
-    - Los *assert* son buenas ideas para validar tipos.
-    - Cuidado con el retorno de valores nulos (None != default).
+- Los controles de tipos deben hacerse en el nivel de **APIS**
+- Los Controles de tipos llevan tiempo.
+- Los *assert* son buenas ideas para validar tipos.
+- Cuidado con el retorno de valores nulos (None != default)
 
 
 .. code-block:: python
@@ -151,11 +173,6 @@ Consejos 5
     def foo(arg):
         assert isinstance(arg, Something), \
                "Bad Type expected {0}".format(Something.__name__)
-        ···
-
-
-Consejos 6
-----------
 
 - Si van a definir objetos:
     - Intentar que sean inmutables (aumenta bastante la
@@ -163,20 +180,24 @@ Consejos 6
     - Darle muchos derechos al constructor (inmutabilidad)
 
 
+----
 
-Consejo 7
----------
+Consejo 6: Errores
+------------------
 
-- Errores
-    - Llamamos errores a algo inmanejable por nuestra librería.
-    - Los errores se solucionan lo mas tempranamente posible.
-    - Errors should never pass silently, Unless explicitly silenced.
-    - Crear excepciones propias puede ser un arma de doble filo.
-        - Aumenta la capacidad de manejar errores desde la aplicación cliente
-        - Disminuye la homogeneidad con las **pilas**
-    - Si declaran una Exception y nunca la exponen, es altamente probable que
-      esten haciendo algo **MAL**
+- Llamamos errores a algo inmanejable por nuestra librería.
+- Los errores se solucionan lo mas tempranamente posible.
+- Errors should never pass silently, Unless explicitly silenced.
+- Crear excepciones propias puede ser un arma de doble filo.
+- Si declaran una Exception y nunca la exponen, es altamente probable que
+  esten haciendo algo **MAL**
 
+.. image:: img/bugfeature.jpg
+    :align: right
+    :scale: 100 %
+
+
+----
 
 Zen Vs. Zen
 -----------
@@ -191,6 +212,7 @@ Zen Vs. Zen
     - Although practicality beats purity.
     - Namespaces are one honking great idea -- let's do more of those!
 
+----
 
 Consejo: Diseño
 ---------------
@@ -205,6 +227,8 @@ Consejo: Diseño
    :scale: 50%
 
 
+----
+
 Consejos: Publicación
 ---------------------
 
@@ -212,12 +236,13 @@ Consejos: Publicación
 * TDD se merece una oportunidad.
 * Publiquen de manera comunes a los developers python (pypi > ppa).
 * No publiquen sin documentación.
-* Vean la pagina de los chicos de Pocoo (http://www.pocoo.org/)
+* Vean la pagina de Pocoo (http://www.pocoo.org/)
 
 .. image::  img/me-gusta.jpg
-   :align: right
-   :scale: 30%
+   :align: center
+   :scale: 60%
 
+----
 
 Consejos: Finales
 -----------------
@@ -228,6 +253,7 @@ Consejos: Finales
 - No abusar de los patrones.
 - Evitar el monkeypatch.
 
+----
 
 ¿Preguntas?
 -----------
@@ -244,10 +270,3 @@ Consejos: Finales
 .. image::  img/wtf.jpg
    :align: right
    :scale: 150%
-
-
-.. footer::
-    PyCon España - Junin, Bs. As. 23/11/2013
-
-.. header::
-    APIs

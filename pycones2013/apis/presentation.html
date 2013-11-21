@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Reflexiones en el diseño de APIs</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/tango/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///usr/local/lib/python2.7/dist-packages/landslide/themes/default/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Reflexiones en el diseño de APIs</h1></header>
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/Zen_phyton.jpg" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/Zen_phyton.jpg" style="width: 468.0px; height: 468.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>About Me...</h1></header>
+            
+            
+            <section><p><strong>Juan B Cabral.</strong></p>
+<ul class="simple">
+<li>Argentino</li>
+<li>Soy ingeniero de software.</li>
+<li>Trabajo con python desde el 2007</li>
+<li>Actualmente pertenezco a SciPy.Ar</li>
+<li>Estoy armando mi plan doctoral sobre minería de datos.</li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/questions.jpg" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/questions.jpg" style="width: 350.0px; height: 262.5px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Introducción</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Surge como una duda personal de como saber si lo que hago esta bien. (Un
+API malo no deja de funcionar, solo es malo)</li>
+<li>Una buena API no necesariamente es simple a primera vista
+(sqlalchemy, jquery)</li>
+<li>Recomiendo un libro: <strong>Practical API Design</strong></li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/pracapidesign.jpg" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/pracapidesign.jpg" style="width: 360.0px; height: 360.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Tipos de API</h1></header>
+            
+            
+            <section><dl class="docutils">
+<dt><strong>API</strong> (Abstract Program Interface)</dt>
+<dd><ul class="first last simple">
+<li>Es la interfaz de un programa con el mundo.</li>
+<li>El API es la descripción de como un pedazo de código
+nos soluciona un problema.</li>
+</ul>
+</dd>
+<dt><strong>SPI</strong> (Service Provider Interface)</dt>
+<dd><ul class="first last simple">
+<li>Es SPI es la forma que un programa nos pide que ingresemos nuestro metodo
+de solución de un problema.</li>
+<li>API subset.</li>
+<li>Es la interfaz de un programa con un plugin.</li>
+</ul>
+</dd>
+</dl></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>API</h1></header>
+            
+            
+            <section><blockquote>
+<ul class="simple">
+<li>Las usamos para resolver problemas comunes (servicios y libs).</li>
+<li>Sabemos <strong>que</strong> hacen pero no <strong>como</strong> lo hacen.</li>
+<li>Nos da un suficiente nivel de &quot;desconocimiento&quot; (<strong>clueless</strong>).</li>
+<li>Abstraen los problemas.</li>
+<li>Una buena API tiene un <strong>&quot;correcto nivel&quot;</strong> de <strong>&quot;clueless&quot;</strong>.</li>
+</ul>
+</blockquote>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/libros2.jpg" class="align-right" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/libros2.jpg" style="width: 175.8px; height: 265.8px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>No Clueless</h1></header>
+            
+            
+            <section><img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/abstraction.png" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/abstraction.png" style="width: 442.0px; height: 442.0px;" />
+<p class="caption">Nadie sabe todo lo necesario para volar un avión.</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Clueless</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>La ignorancia es un beneficio.</li>
+<li>Nos ayudan a enfocar en un problema.</li>
+<li>Esta para quedarse.</li>
+<li>No significa &quot;no saber&quot;.</li>
+<li>Python es altamente &quot;clueless&quot;.</li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/rueda-moto.jpg" class="align-right" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/rueda-moto.jpg" style="width: 401.0px; height: 305.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos 1</h1></header>
+            
+            
+            <section><p>A continuación me extiendo contando algunas reglas que a mi me sirven al
+momento de diseño de APIS</p>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/kiss.png" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/kiss.png" style="width: 305.0px; height: 300.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos 2</h1></header>
+            
+            
+            <section><ul>
+<li><p class="first">Su problema es la primer regla de diseño, su gusto el segundo y los estándares
+la tercera. (Necesito - Me gusta - PEP 8)</p>
+</li>
+<li><p class="first">Las API declarativas suelen ser mas faciles de mantener, extender, y
+generalizar.</p>
+<dl class="docutils">
+<dt>Ejemplos claves:</dt>
+<dd><ul class="first last simple">
+<li>JQuery</li>
+<li>sqlAlchemy</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos 3</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Exponer lo estrictamente necesario.</li>
+<li>Mientras menos expongan, mejor.</li>
+<li>No exponer jerarquías profundas: No es lo mismo diseñar para la API que
+para reusar código.</li>
+<li>Cuidado con las clases abstractas (si van a controlar el protocolo, háganlo
+bien)</li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/mframeworks.jpg" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/mframeworks.jpg" style="width: 616.0px; height: 341.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos 4</h1></header>
+            
+            
+            <section><ul>
+<li><p class="first">Al momento de cooperar con otras APIS</p>
+<blockquote>
+<ul class="simple">
+<li>Compatibilidad con las pilas.</li>
+<li>PEP 20</li>
+<li>(Tratar) Seguir la PEP 8 (No fanatizarse).</li>
+<li>Muy Mala idea: retornar objetos de otras APIs (disminuye el clueless).</li>
+<li>Muy Mala idea: redefinir comportamiento de otras APIs.</li>
+</ul>
+</blockquote>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos 5</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>De preferencia <strong>NO</strong> exponer objetos propios como resultados de operaciones.</li>
+<li>Los controles de tipos deben hacerse en el nivel de <strong>APIS</strong></li>
+<li>Los Controles de tipos llevan tiempo.</li>
+<li>Los <em>assert</em> son buenas ideas para validar tipos.</li>
+<li>Cuidado con el retorno de valores nulos (None != default)</li>
+</ul>
+<pre><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="n">Something</span><span class="p">),</span> \
+           <span class="s">&quot;Bad Type expected {0}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Something</span><span class="o">.</span><span class="n">__name__</span><span class="p">)</span>
+</pre>
+<ul>
+<li><dl class="first docutils">
+<dt>Si van a definir objetos:</dt>
+<dd><ul class="first last simple">
+<li>Intentar que sean inmutables (aumenta bastante la
+estabilidad de la librería... bueno no realmente)</li>
+<li>Darle muchos derechos al constructor (inmutabilidad)</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejo 6: Errores</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Llamamos errores a algo inmanejable por nuestra librería.</li>
+<li>Los errores se solucionan lo mas tempranamente posible.</li>
+<li>Errors should never pass silently, Unless explicitly silenced.</li>
+<li>Crear excepciones propias puede ser un arma de doble filo.</li>
+<li>Si declaran una Exception y nunca la exponen, es altamente probable que
+esten haciendo algo <strong>MAL</strong></li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/bugfeature.jpg" class="align-right" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/bugfeature.jpg" style="width: 372.0px; height: 266.0px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Zen Vs. Zen</h1></header>
+            
+            
+            <section><ul>
+<li><dl class="first docutils">
+<dt>Las librerias almenos contradicen de alguna manera el &quot;zen&quot; de python:</dt>
+<dd><ul class="first last simple">
+<li>Explicit is better than implicit.</li>
+<li>Flat is better than nested.</li>
+<li>Special cases aren't special enough to break the rules.</li>
+<li>There should be one-- and preferably only one --obvious way to do it.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Recordar:</dt>
+<dd><ul class="first last simple">
+<li>Although practicality beats purity.</li>
+<li>Namespaces are one honking great idea -- let's do more of those!</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejo: Diseño</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Siempre planeen primero la funcionalidad.</li>
+<li>TDD.</li>
+<li>Primero el controller (MVC).</li>
+<li>Plantear inicialmente el nivel de excelencia que se quiere llegar.</li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/MVC.png" class="align-right" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/MVC.png" style="width: 324.0px; height: 334.5px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos: Publicación</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>No publiquen sin tests.</li>
+<li>TDD se merece una oportunidad.</li>
+<li>Publiquen de manera comunes a los developers python (pypi &gt; ppa).</li>
+<li>No publiquen sin documentación.</li>
+<li>Vean la pagina de Pocoo (<a class="reference external" href="http://www.pocoo.org/">http://www.pocoo.org/</a>)</li>
+</ul>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/me-gusta.jpg" class="align-center" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/me-gusta.jpg" style="width: 610.2px; height: 226.2px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Consejos: Finales</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Las APIs simétricas son buena idea (load, dump).</li>
+<li>Tratar de cumplir en su totalidad el zen de python.</li>
+<li>Un buen diseño de api facilita la retro compatibilidad</li>
+<li>No abusar de los patrones.</li>
+<li>Evitar el monkeypatch.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: libs_slides.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¿Preguntas?</h1></header>
+            
+            
+            <section><blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Charlas:</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://bitbucket.org/leliel12/talks">http://bitbucket.org/leliel12/talks</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Contacto:</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Juan B Cabral</dt>
+<dd><ul class="first last simple">
+<li>Mail: <a class="reference external" href="mailto:jbc.develop&#64;gmail.com">jbc.develop&#64;gmail.com</a></li>
+<li>Twitter: <a class="reference external" href="http://twitter.com/JuanBCabral/">&#64;JuanBCabral</a></li>
+<li>Blog: <a class="reference external" href="http://jbcabral.com/">http://jbcabral.com/</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</blockquote>
+<img alt="file:///home/juan/proyectos/talks/pycones2013/apis/img/wtf.jpg" class="align-right" src="file:///home/juan/proyectos/talks/pycones2013/apis/img/wtf.jpg" style="width: 450.0px; height: 556.5px;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="libs_slides.rst">libs_slides.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/18
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">Reflexiones en el diseño de APIs</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">About Me...</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">Introducción</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">Tipos de API</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">API</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">No Clueless</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">Clueless</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8">Consejos 1</a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">Consejos 2</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Consejos 3</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">Consejos 4</a></th>
+        <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Consejos 5</a></th>
+        <td><a href="#slide12">12</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-13">
+        <th><a href="#slide13">Consejo 6: Errores</a></th>
+        <td><a href="#slide13">13</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-14">
+        <th><a href="#slide14">Zen Vs. Zen</a></th>
+        <td><a href="#slide14">14</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">Consejo: Diseño</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-16">
+        <th><a href="#slide16">Consejos: Publicación</a></th>
+        <td><a href="#slide16">16</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-17">
+        <th><a href="#slide17">Consejos: Finales</a></th>
+        <td><a href="#slide17">17</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">¿Preguntas?</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
