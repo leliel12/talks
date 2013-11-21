@@ -1,9 +1,9 @@
 Reflexiones en el diseño de APIs
 ================================
 
-.. image:: img/Zen_phyton.jpg
+.. image:: img/diehard4.jpg
     :align: center
-    :scale: 300 %
+    :scale: 25 %
 
 ----
 
