@@ -258,13 +258,13 @@ Consejos: Finales
 ¿Preguntas?
 -----------
 
-    - Charlas:
-        - http://bitbucket.org/leliel12/talks
-    - Contacto:
-        - Juan B Cabral
-            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
-            - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
-            - Blog: http://jbcabral.com/
+- Charlas:
+    - http://bitbucket.org/leliel12/talks
+- Contacto:
+    - Juan B Cabral
+        - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
+        - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
+        - Blog: http://jbcabral.com/
 
 
 .. image::  img/wtf.jpg
