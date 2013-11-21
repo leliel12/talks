@@ -265,8 +265,3 @@ Consejos: Finales
         - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
         - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
         - Blog: http://jbcabral.com/
-
-
-.. image::  img/wtf.jpg
-   :align: right
-   :scale: 150%
