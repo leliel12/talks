@@ -395,6 +395,14 @@ Yatel
     :align: right
     :scale: 100 %
 
+Yatel - Red OLAP
+----------------
+
+.. image:: img/olapnw.png
+    :align: center
+    :scale: 100 %
+
+
 
 Yatel - la app
 --------------
@@ -412,6 +420,8 @@ Yatel - Arquitectura
 .. image:: img/arquitectura.png
     :align: center
     :scale: 200 %
+
+
 
 
 En que se puede aportar
