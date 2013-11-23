@@ -15,8 +15,7 @@ About Me...
 * Argentino
 * Soy ingeniero de software.
 * Trabajo con python desde el 2007
-* Actualmente pertenezco a SciPy.Ar
-* Estoy armando mi plan doctoral sobre minería de datos.
+* Trabajo con datos.
 
 .. image:: img/questions.jpg
     :align: center
@@ -25,8 +24,18 @@ About Me...
 
 ----
 
+Disclaimer
+----------
+
+    - Puedes tener tus propias opiniones, tus propias ideas y tus propios gustos;
+      pero no puedes tener tus propios hechos.
+
+*No se quien lo dijo.*
+
+----
+
 Introducción
------------
+------------
 
 * Surge como una duda personal de como saber si lo que hago esta bien. (Un
   API malo no deja de funcionar, solo es malo)
@@ -190,7 +199,7 @@ Consejo 6: Errores
 - Errors should never pass silently, Unless explicitly silenced.
 - Crear excepciones propias puede ser un arma de doble filo.
 - Si declaran una Exception y nunca la exponen, es altamente probable que
-  esten haciendo algo **MAL**
+  algo este **MAL**
 
 .. image:: img/bugfeature.jpg
     :align: right
