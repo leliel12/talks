@@ -11,8 +11,8 @@
 .. CONTENT
 .. =============================================================================
 
-Yatel - Data Mining sobre redes
--------------------------------
+Yatel - OLAP sobre redes
+------------------------
 
 .. image:: img/log.png
     :align: center
@@ -382,18 +382,20 @@ Soluciones OpenSource
 Yatel
 -----
 
+- http://bitbucket.org/yatel/yatel
+- Wiskey-Ware License
 - Es la implementación en gran parte del proceso mencionado anteriormente.
 - En vez de Cubos usa **redes** olap.
 - Falta trabajo (se aceptan colaboraciones)
 - Posee un lenguaje intermedio denominado QBJ
-- Puede usarse como librería o como DB remota (beta)
+- Puede usarse como librería o como DB remota (alpha)
 - Posee soportes de ETL, estadísticas y DM rudimentaria.
 - Su version 0.2 es pip-instalable (``pip install yatel``) necesitan tener
   previamente numpy y pyqt, usa una bd distinta, y es una aplicación desktop
 
 .. image:: img/yatelred.png
     :align: right
-    :scale: 100 %
+    :scale: 80 %
 
 Yatel - Red OLAP
 ----------------
