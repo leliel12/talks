@@ -1,0 +1,5020 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 44 0 R
+ /F4 45 0 R
+ /F5 46 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'FormXob.e88eab7d905ea43d4e84fa71d7028b02': class PDFImageXObject 
+4 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceRGB
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 256
+ /Length 11567
+ /SMask 5 0 R
+ /Subtype /Image
+ /Type /XObject
+ /Width 252 >>
+stream
+Gb"/l#BU[3\]<$A_BfKuM.=R4M=!FG`"$L10!ScRAg]6gj!9X*4,KN\(ec[:F>2@@)fVL<?>M=\8>lV?#RLW)+Aa^^#RMbU&aBgJmJF56pM)N@4'G4f1UB1#GQ*B8dE^%m\bA&?rP!XIgbkM@aN2HD$uMQk4h5.sn`METcP?bJ8:"9<C.VmNe`(AhI=6O]6QKOX]M^h.DpfYEqK]`^O$n"'4nqdnZB4^YL:/6+hpU@=cStZs$(dTPT0sThm[3G:l*1W0]ls5Lo"*D-h@%rJbTtWX20&B4Np[s"i%+*I^,+r&n6<@to:>O,WV'+K?De-Y&rT:+I;2PE_4$1]B@k2\3mgS+n4QuGFnbO^!kt_IpD<9gnq1kPi46Z'*9*J3`C4<Jg=kY(bogALrL/Pd?Fdui8Lm!aLQ.nlI5&?6r;r1FNSHeo_YkpY-<RtUl^hgWCSZ_C[<2h3BEF>MX'\g]1.N5[qPu\RE1UFl*8`P+T7rKdI,mCSi*SPYKHFL!C"X&_1Z.ZfCnG5N8Y90#OKpg=T_Wn`.$"=WHWC,6)Etp?W_(/,;er-fo6D&[r9p8M\2a<oDp8r7'$22CBC:>Xi`\Mtol4M#rs4'X3*k(]g3L"^pj$Ca":%+OX*g/_G<mD^8U&JjXDYVp(e-^4LN.e;@>o.*-aTV/Ig(6'BE!bLLGZaL&o":j5<P.AoH,UkAUh@BIScqMX?Iu3N$"+rhW"If3]/QQM)5Va;!0J0pE(JcIiLW)]=k8;q4P(5r-4jP,50%bQ&V4KSjXKOI^hAEZeN@p5IV`tIrFZ:<b<D@XQG3aObTRu^XLO,bJZNb!$^Ps7M@LP17F#EP0l\APDghtSn'Yio-C)fQmWbG`&u.T,3DHd'/<9<RYZ6Pd6u3BN$`#*A2Fni,bp3`-Q,Xs]VG,ip4O0Sl+>q.Qul_i=.<#'kapIYRb*MT7*L]g5[>b-gG6c5_9YQo%pP\i^S4R-Lkfbm&djGB%q9uiqYCX#D+F1STQ\6XT.f!+cBog<LT6]L*6Te3f76rCg#Bd]c)X]/&bAB<oR3Vp@+5LK?dUQNk'kS@;\Kc7p<.<'B4b94M0V0?ISm$J>WUR#qBfuaZ0I77[mrtm>s3qOAHp)ER(#QdBAE2>-4CaM&G(OsSu=!obbaS$P5&+uc4!emRc,`kpL1$IRTHe`,3B,qZBMJ,BG8fH'Zeo%'J6eLQPer\:Pj@..6DeT5CQIcnepTdSol*TN\Wu4H=C2`b"dCa9^\QdJ@F-[OCP5fSsWTF!qR9U[<A/&i?](2-.X5OSFD9#=-.H1@ulgdEX>fcSFD9#=-,3/cYn]Is&@sV=.G&H6]@B[juinVk1tuAj+R'C]RgR2]ZDiN4Ya.5OUp/"\O8Pu,3FaX_3fGQE>oQG:X%Rubf4M>kEuqR]IJ__>NRj8YfqoK?5:DkK"8pJ)eR#NY6n`f:m8&_>S3Fm.No6[@\-X)0lIUJk'9r<o*-pYSlZ(MD\+/UGuYFI"u0SY<s:<s&0p=_<=na+0k-_U"Yjp,,Na8O&G$)\@\-X)0lIUJk'9r<o*-pYSl^VSRFb%c=lgP5:WsLDg522@Webp@MO8UfLj:"uR!5QdGo_d0GH0GWq*/dWb'k-aj`6=bd($TBR*R1[)obIX*R-tM%r"rJ@X`R#DhuORH(u>6*5]A81.l;(#f!Dr&),.%43APg4>X[5n%-`(RGpTJh6H)fk*^eugY_YR*-g(HT%pq6bc/fBS+u5>@X]/?H$b.\gOdYF$M,Sb@./-[IqrYH1E(khU_`PKXg*(%jq5L08E2g2NHs0)o*u?'p;jYM89-^hPBdU9=r1ZICN'&0Y6i9Dl8!;+0#DTOju:8LGA7eQWQ`"UY230G-RZ*LWQ`"H,?O=`beLA2hV%QtVEXU?\9_4bScTiG9RZ%t=q'?!"S3>[W+28MYC:^`b`d%qKR(n-(Q!EH?7R8_H)WW5Sq;619G?Ps.fV+Q0i,fKR--m^jpbe<4>.=%DZn7eBFqF=bS0U9D.0Ci_E&dR.($#5\iQ0)k)"@X9Z4T4'Ap_j0s?FjJpB6>S<t\deMdqiGnVo.b\LX.I?T@"Y4@H6@\/rgfq_ALjU*BtM0Y@\jQ+i2Z!g,G'D#t-k"ac$bS0U5RV93#I4&qWk)"?u9bc,k<Ro#M0s?U/J_0/j9OaT\=2C]JCD,/O,Nai.Vcr'0VH7u5OB/ZUP>EGJk)"BHfq*kKHY*NJXbM[X]sWZCQn@%b:qaf[%NEB0%?\lWcjX-c,DOgfDk.R5Y024.R7dNR-aL_%&9t=?<fn!cY/NN`I/K]M2-\>MWg&n&Glr$gm4O/T1hBHl=^A)ZPrHL7H)^GUr3#gBc-[PdF@\JL@U:P_0HY\FprDiXBhn,Y"Oqj`MR9NH,pVQKdL#O=\G*6a"5"-HCG)0!/i7$DLWn@,[k"t4`d*#%UUGku>pJM)`k2BB05jW/e44Dp]WRX2"oQtbp_3%T11FQSbhE2JqS(FIPfI'hR+Dl?d\IWG4f>AfPJXi7&bA%lSq'neLj;-;0,rI*@6'WX)DSE#k(QgO6nu@GN0r4eq0^;dNF*C"Ac[j&`4Y6VMjun`n]j%%?<cQg:7e0uB,`S//b>^q)KPBu(br3Go:j$T,'ao^R+IFFBja<gP:@D(Y92mUYYiGsGn$/X"nNG\W+3cYL<NRMYDEk_qI,tIH$,(5-g$D#`&obm1aD.ZqV%Efl;Tr%YJ,:R]Vm1H`4X0IH1d/aQdqGZn30cq9niEkk1)D"hNlXtl%s]YmCmiNLj<.&o2A/t]ZQO;;LA;1^;R[ce-U&LH'M,&^rD(qpJAiZ'D!]CqLOWA0b7?XEk02h9gHq'Bpq#,f4*US]N:\'>Ci/Cdkl(80#p)]/,k.l>(N&BbpImc;A4LaOng_1I%2#3&G,1S<`+j71@J3/M0Th0POV4GBARpd'D'MX9ej34!q3_E1H@Ro-0Cb2E:;+kMUS(5=(gC-m-lr%jZ'8GLj:A9*o+B^0^i-7M0[,[I/D(5%/nQ@:<X+)B>9$]]P*q)+1Z5MR`Cj^DlC8uo8]):bWiH%M!"I"`ZjO[7*N9>Lj9.9o56!d?9uNB>DeeL&2EX>,3BVNZuMRjQ\9-\k:2:T<tI+TQ6PH+7*N9>Lj9.9o56!d?9uNB>DeeL&2EX>,3BV.be'^-Gm+fODCK%$6,^E?MO7HV1%1DPjqZrtbjS+OG]i0U?N0CF#[SC;;-):`kLYQ9?5:DkriP[)PE9s]5e_/7OZb'8k'9r<o/aA?CX)Ut%TL0/Nt,_3H6-Oe<s:=^F'B6F53T\qgCG4`&G*OaLj;/<n[qIUDs*2I@[0_Xbk%hWk4NQa3-hAe>s0pgX+H_jZTY]Sb5OJ#rnRojSl^VSR@h4^[.@CBPS*LS'eunbnV]`)a/YoY;9XflQ=sU`lA1g/O@q:rW-Fo$-g$ih+4<5cgr:IfN<_1&Qs:i2GKBPA0i-"L\O:Zunp+?t"?%=>]H,FMG[hZ^H5km(Gn4B@%_77nB-pncM6LX>,mT0FnfG`^I<(1CIb86\-gs@FgS_7$nBWPaf)S>(gK`WHc)XoW&bC1g/[76<<5V,JgFkLDE:PLt`m3ACH*+)"@X^jg)se"A]E^/UFLa]!ZR;H^YeYSso>;3Fhf^hP"'A'0$H)YY&MZLd]t?KO^S4R-E//4Jmt4Be)F;=>#R0dC`F$uB@(Ql^I:['rdEY2)4%b#FB^(2"`]9_F.q5)\Vs^$ui3ci<rc93)BlFuRK%hW!CL3gqM3sX[Qmk5J5#4;(?!c?/]r/?KUT5afV>*]%\8!OT:u`;oLSbc0p%38Mr/urO36=hbJdkMo]L\eEm/-)rEL3jd$U]WR]%.t<(T)K21_Eu=9lmqN2G.^f^,mu=o7@EU`4Sq9j<#GcWbq"i5#qB,Gikljgk`<fWL%CLqa%UOAQ)rCR-=4Z_5trMT)=J#:SMq#s*unld-a4q>Z(?.rmlp497kU[Su$3$Km:TrWMm+rm?+4WR^\4;)Dfpak>Yl.DkBg7iKpJ;BO2_b8r(XJ3Sc>N[A::8Dcq%JC@uQ#A06K+#i0->T@(;K1tPg+qM(l3o_%kl?>[:.m7)Qs`r+l?%pl8R@[F$lDu7OYC.sa7*W,b&!NoOH[H[!5r&&C,D2!p\a3d!LNs]#%@dg0$/gS+bs*l-1nE[sW:>U'7fekJK[=*+EP?AQ;N69P\75WWFCSRBR]20IApF#Br\a,6#\D2c88t<YkX%/`4)9+66B&aN+*F3>rc!*SWq,q'r9e<e8`k<RA-G;/&@1I4US$"ubnYcf(%k%DI@EXB*"dP'bfu-554MgXOf0'iY\9C\U8PKSnO:Mk5BjP1[8;GD6Sl@;?^2&HfdPQ,;T,k\>H#kr@[ncSlqpo73=lhkQ*3*u1?U'BWF&*)8IeQ]uk/DLuFND+`qSU?DGjb(ID9&2q3N_r=c4bKb%DXsrEm<4moM[_i6W=PrOODk6s.4R&o9)1&#%rD.On7p_C0TC6=;\,bH(6$CSnibrA`(Uf$:c<,8M7;biYn:bm^fG,P\"Cf^H0p>ga,T,B9^miVUE+JcHme/,3i>mfPOC[<,!?=HOGEUlJ'sRX26VK0=d:B2s,%IE$O4aj"mO/q:<aiUfZ[NXaf(F0DW1,,19C+Y+kj:-\9:^%rUk&@CNQl3nO?tNg]0bP97n9&NVtbH88-.hsro."l!>qrpqc^Nh.i6[dV-72uA;c?E\0@8B@i"BeNOHs*JC1XYY@h%IY+B*.)/6+b`f;;#f4k_pZ<[&o8i%\\7<YrhHicc(ES-G'<Va?s\#e`QqR+!XqfT4'1.L))<+G;*`:gMq+pM?+A.C(TO(a'R,aXp[Z8n6c%rC95@c"S1`+O`_>o**11cG\uE:*3_jI?H\nO?k2BoLkO>r?H"KX=lnR_$f0j/Dc;!H;b\,PJ$9oOi5:A:nPSLC2Y7DU&?h*#8'%k$+h7YIZ&O/Ib\o!>N6N;+,%;htn#"ZC%>m/&cS/a_a=37E<oN6U3r7J<-B.d3m:X[nHq;a"[Zj8ATHsNhbO_EL<+Th%E(KAR2hN*nMb2]tT.s9!e""Q^efo]?N>J;n+5VW6:G=$g(?X!9qiTrkrC@'.E>T0Q!lDh>&n"'F?UtG_2h6=-5P&Bk;:]OAL!B,h:PEgAH^\RTm-S'>Vr.>B0,;Vsf'mIX[M[m8YFjDL`'8<Za^V4oPAQo#_M4V&%c8;nNnkWKD]7.?hT^kNq`oXOZY;N`F5C\cKJtpQ]A[q&thS(e"ea"Ec;(_0@4oC1NLjs5(-N"4.kBZW-=*OZWge$Y2kE^srZb4Vg-WaiJA'X\LUX+7(j3aqYFW?Z2Xd9p?KbNZ((F,iZ?92q_CRqmt=oP=WPj^=b]:9mu/rY!Yn?.#e>2':Tqkjn.$KhH9;thW5<`(6"dRueePT?)pdF6iW%qlspcAr4G46#fl"I46lUQcSQ)fPP!T.91CXCOfKn\l*AldhSOpou,2Bs!!1TlMLH4t/VVQg[GA?EOn!O^;;955k#`@0gI5T-@7E<R0oN+[4j=i8i%76tjD;(cJaE]Xm^Q.-obf@m]MaP:uOfkP6GL0,><0OJCjMlRi/8V_=__6KAQaO,)_@BE,Zck>q)AMTI=MkPQPEs5:a*;8M[fm`-CVc]a(2Os<@JXgRLs3Fe[Z`s;)d<EiL#o*tqDk5"QP;;Ke[[jqmOgc<7oomi2A?#:4o>-#OsL"O.a+P"@lJr9!+G2QP8fQ(a.&=Du%KA67D&P\U-b</rDki,cjOPr=TRDJpuGPW9QkGofS59^a>l*>r&/</Sa63Ie*Q3F2Fl_n,h%U/7I\TNF3@,sGm*+OLIP9#Ap5e+2lb>Wf^T=KWi2dc"dc'0B=M+G7q^R/JZFqAEJ?Jl\!:LCtenV5>mBR"E)*<*p&QA;8aAZ@C6fXBH3/JJg*Y/3ciVJlqfU)e7L]^s!1dXdWQQU^KD!]@dmL][>t'sYhb_%Q==KF\Y798hJkj*?#uD%nH5FbifXC?,!+!@^"kM>Sjs`VB%iUM[Xhp$Gl_CuhLiVWI^D%!Y+d?X0\tIq=)TnH'6mKO@qglaq]sp`bd#?r*n]6?![2>(U'<3jT67i6uJ:3Kqd:I)L/qLPOc8m)$HuQ$Y<ggEe"7)'q7Sr1]:bB3>k5LY`DO`uqTSFFi?lh'Y<=Rm4T7RP1.<69k8!Y5TFn7[`F_iB#UAU.bg@/Zdt*]hT=5^X)RI`d.?'&N-h<(mVj@/tANA2i1U8EacArNBfX9Fa+*p#`W5ENt[*n#Y9aa8OTTV%#>&5!Pp)]g`4u,ED*Q[E#[lh![35)T-B@^7<t94(rZIPG'O$h>gn;RZ9P);dFP&tL'MXDSRG#4Q<rL!(0MnDTM7/OG?IiE4G2u#<4Ha[U9mF3.Tl"!]1s^JfjP=::"Jh,ad%X,0p[MqQq.2OT:j]fQ4EO`J)>P\0qO.\Y[eauSoNj@#+[P'$pQp:Pf:r7BmU9a'l2B718g+'(TW7:lJ=HQLdc`J5gZDZ?[@KMK,XM>SejqOgm07(E;j2Z4:>E/=rkS?"J7@D'](Usg@`8OIM/2%?&K3*q&-W\Selj/Jea]G@Y>)oM_WSDYV2^eOM7BF,`"s=_Xpu3r)E1W0ROJhQ%+,CFFV"O!Vjd.@:a+5$cW7n>_]GD*\c=rRGXuc///[.rtOjVD!TC2rG3\\@cIGZ%@!X=6)Aihc\-t*\Hl.QE`H>!XgcRg2R[bRnO^H+@)`+TgMup9&+scGE<Vt^!A1_ij'.hC#q"=Bq0Z-QDP?A.IJSJ:!?9>Rk3#=AB6\%E&UoJ6"7Q31<JQu`/$ElV:79od?E*%;P$JY\%`,f#o6KH"S8Oh_F5GUmTto*Mf3b_A@ZaH3?*!<u$4'S`SYEo\0:*bZ70gd"<&?9jC;N.Uq4K!hD+5!4/q5-XHeT]8-d8?pC,?0u\F*/LQ!_:`Vu*DQ+NO(;hs[Z1;cM.Fl_*%+,AB]bp_]I:jGP/9C:6"BLXtGPnR"Ar"75fIGpi52dL;@Sg?4dc#Z-?^f]Q?Wj2h[/dd_f43,Htq/qH\^HKJkla0L^9n\@rW;];&o\A_g$j`uDR$hp9'T13CXb0EEA[Vg,+,eMj_bOYRSOQ67P?n8!ZAsj#6/FB4[@IZ:@V8Ki2Ptm_Hm0D&*Zr_!GCe\"Sd(O$oo\1r<Lk_g:=`?l4O7Gg[o_bRGFu_N.>6tlc)4jmt[N-2YqUFN::pu-)>k(jL6afDbcXB\I_C#^eEEHr^qabme,Mt0jQ^3&mejO&S!sTd68(4fK"Q5,W:SsM\13P-*hBLBrEt@cfPo7$.75eA@'(/^9[m2T`3Q>N!FK@%*(CH3KP'W=;(!msG$g'To_u/5@Q=/Q&alXEqg_r8OZCsu2'r/ZX@0$5UTZ]+dqI,oZY.*I&IU^8>edCn/s0037CqDPX3*UK!)J=Ag.V,1J-Hb5tkfMZeY1PJ'Z)2Hc$7ITPp[F'G%jhg;Of3_SZFE5=T&?#E*GOJbW4'&n`^40U;7/5t5pjk]4Rl[t:A%B8PK4f5p9#HjFdr;(pEgT14<'>bOj-Ig*^W&6rh-TaDc'aID3+>)r"g`+U$lSnW\B1?^u*SR*_I6HM@^DJp*h*C[O(_'Qn6GA95Jd^Xi$G4L(S5rg##!<pT/MVNmn(2Sn.0UDSPQbIpYEB'Zu"74C=g6'ld*+H+`Z>D9Fo\PSkNB4sKXp$(7mp]CUW!euAT@NHo6+V+98hR18eun`Edbo-]@aA1.>n;CqcD??q/T++eaC]'27;9Jh;1V-L<b0?LpGa'W>EjbUC2ot^Jahql\Z[&p\3OX9RF%cHS`*Bdk5`0R,n7p3mKqWrHJ*1$arm,5h`.C-u:A<"a=o]@:Z/fPhO'?^ok3@V>tO!SKG;FoB]a;o`;>5f?'&IG\BjHeDU\u0,UQA5q[6/$tLdQAh,S!BT@pE.AY+aWcZ^Q_rd^if\T+T=H<Z4!ZK"f,869rYKFGdR9W<a9O]BH&,MUsDeYS#7`TVfrOXD!mi-=PnF7'c_P,#:5M_(FFI5LDT@NO<`U^e-#;lgDnPb=^L!#X62g.LG[@g:3(it7a02G.6_Pj>.Ou0WeZp/Ye1Um4=*!&'7+`T+=e0.N*G@4hE1oAWbb6"]8pFRKo3&kbO/R94H>uA%!jQ5)Xs]"*oa:DD2lf(IWqZ33$!55\D/QljWS@)!'K2^>;.4>@e9T-JpI@jbPq8l3^Gsi*-/2a2B<_oTmq=eSc*"^F!I&26\oVH)Hl%efT6\c]b-:K1MP.IE$>qBR]XJh['F2A)V^@tME\^lh>ucfi%@Fbqn30LU5<nS:4a<_G0&Ke_B?Sl2SYtpPh\"'&9Eml;O4nj_.h\%bFSb&QdmniUhEI=b08HG9U-%CU,Pb)0?/WMW,.]X2i^uVcQEmfVEa;2p`Gh,V=>e,'k1L5?s2:Xga<1nL[L`SnA)p!5C@jSh7A!N<oWVug*kN&'jY[>/e?]O"i*4)ONg#sosWJ??F/t5*JnC&J$h=8Fs91SRPPI]QX4KB5%.Op7lTte;d58ak%IeLA[#\&F/12ZQZ]G<I0&ea&T"Y3bRre:p@]aGY_*[>5n#n-?ds2.](pLU#rp69k.DY)I%B'>."Z!D/7E%qbhtM(H,,r'_So*%mXOgoFH:RLc0mm^:LN/FE4I=6K%ApMB9c%irf<V\T+?,fc)D9N?=8D9$;V!NnE4\:B:MXL%r]p5?!tYWVN;J9nP-0$BZ&:(0?r)PTeOoW9O+-jGK"!o9%HYq;r4?GPFKEKE7U2P,P1$""-FiM!TXj$\mP\UcMTi3"*sLCrZ.8SC<S--DeSP5kI+m%RFku0)\I=f\7\2mm#&8GC*S1^qZ9M`L#@W('%,u:`(4\I&uV184!>NW.$TE3-?G5$?+BmddKgV?7V7n-Fr"TFhOeFeS^f)HDXV"ok`?/PljZfPdYJAN0s?'BA)eC_&0Bf1`p3nHnu\G'c7e+Y)m'Kj&.G<UoIpLe#\+DK<n+VK#S8FtOnF]AfjLCqMm/hW3dd-:5L5kJ3Wu2'Di2Fm?f#srf9L08qtf`E/9]_aSL[D>I^hA%/K)D=JW*q-.@qZJI$r2g?g%Yii,)!UnBCd%^*Li/>_RGehI87\oBRU,ZV0W2QUPJOng+=pL\76XDnhEN`rX9-=sm=4"<g)9%sX-.*&%)eA>C%)A2T<qs4?rp(l2B7>!$uF6u/8(G[t0\6Q>in/s:AY9Fic_BB_##P@!J#V%Iqt6,N2SFBME$-ht)q0Y'@s-fn58W[0"($n3Q!cAIClr+1N)RKUPJ_DRb?WE7H3,iht"Ic-+P'81j2XuacVUnLdPR-4IeA55g[h;HM56M^Umc`B2P>[0=<hZ.#CpoV!8*R0.J;tg0A2a0=BMMeQ,l93LTn6Q;rI<]K5>RbEXc]Q)&-TYmhFa0ctTHPJIZ6rKd!:rV_eW&1WN8_ShY+0-!@r&-,5H_=DkdjmHoVFK_0&&X8O<f(E")YUr,4hrTrqJRF2PM4Rr0GrKKsBXZHP6/+ENKEDk<K`5:LqMP][*68WbH?Pf^+jC)r,<^\+!+(OTYGG98,3.QQ6V:h1m`%KtGREp3aW]U=eMNI24ao)pCZ3b@UsnoZHmf_@8jD3gL/>qk>[>m7i0W6JRTC'u`X4o;<&&[U-Z.M[KBGMPU-2]Ws[d\8pG:Np?'PfurWK1]L$g0#%shG=6,=jW(5"h8_)<g@.tf1E^l&4q1d=;?2F;Ski)KP)EV"JgV/A8oA;D'QVP:`n=sS[OePj<dBTW5+,t;4**6cYi#K-\fMB]O=[>T^-p/i&KFE@M1lc*WKTke`KlX-j;jj5]C8P*h%UI.nF/n\Ch9J1"EN7-mpbUW!`93=K^O\h)9Edp4QZNem#gGSZdl:i0*EPMrBt8FaQUb&)'u[<02tZuI8Y7A2B!Tu1\cnn?h()SQGU_UfOtJ@$JCM+.!3DkNeOO\;,KkWJ,]H*lTKoB<?d(%7Ihr<\jUjQZXl:4iROf,FsI>T'_LX;9Le!kVer])4XUh0U#2)?,_HFiG`Q)NBsOj)Mo@TP$Ebj0F@#Z1s7@UGc[pZM?Q=01ld&TQY&%eC4F%O,Z>?W5lSVO)&cF7%8R&MH6^?fXUY=,I,8@C_kP2ZkeQH-JV@Z`;H7bpoClfa<Q?5uZX<)a:jDD*L97tZ!gNCC4he%J0AaqZFd/P(V7:<GG1jr4db);bLm7b-2f>r&q*_IMqA2cW%75AZE$tH10bk=f'o[t[I4%86A$52dgKhZR\bkNF38*koqqo(/-C^gH(mq(X1jU/hVJ9*bp)]$\d=&XJKfSr8Oj^8pOd2Hr`i>Oe0\!:ODhi0t`n>+k)(Qu'4`VfSR)[i'q<QRuZ3D]uj=Y7T%[eOJPinH=5U)V5?s+ZeYR--Ojaj+W]:q'0m@8#`jCVhkJIf?ISQ3@di5;fWE=-R]lIq2,=G>Bm[lOP4eK6U4PRibmPc5LZ4kN0#?O_FA+hJ>pran;82HVK#9.t]N?b.@K6_6b`1T$+?:J)5./<>"e5j\:8\TnhJ4Y;Is99$"&RqjkWq,_Ie#cg8I<qGpfV30)P#8BVAifqifudpBr@I)!!7o;]6+fJ-o/P*HWH^ZG,-qfQ04m$<(Ke$0fSfpfaIjR@C5:[WqZ`qHR,a`7dO8Tr8DRD3m=fAaR[glD$7EG+M7q*A#?QFDDLh(Vd-HfkP2C3??=eD#T`6PAr>]6\e\%8:cn/X4eJRk[.Mr)0tA;UJ!iZel;>fG1"ha4SeiZUjYYJs4-*q3L`W?`mFU4%Up9]"#GS46:M-^(V=7*m@k(QE`;*%t+]N!dX+;i3\VB^)L<p`r'>iqUa)7p1.O$F1CY.iW&,iK7*L;j_OFjN[j6O+%-L;?"CIKWI#;LSU_YFm_lb`O/"aBm(U3JX=JG.=>_pJ4$7q05qk>6+elJmCI_H;6X)if,Fg[W:&289&^NjXM:YW\K82r1r5cmd5GY!q*p1?D>LIq7?/es`hkk\X72e*LGaA)ljWWk]K@?^d9D[>a_s2mULot+;'TXBtK7d=m,BGc`jR,!rLPjfT;"4:;MgH'D2FclP/km/I.oUlqZ0h<+TB,_VUolCiXbdu_%eBNFEU*HUZuPa5nj@dLID2cpW:1ne0UZ!CoAfX.HG."?2"=:\78;X&fP=cbr.K3^_/IX,lk$7l/ZimKa$7$fNq_?Sh`6cd;H`MPVle_&27IdX`O_\W:R<*g'"j_9]Fd'+Nt?KC=PqZ?Z/tOa)f(O+]$dIC>jg[j;G6eP^c]B<_Ui,`s*;?WKA1dC23W=9a,[\-Vq+=%YV>jao7BLY'm0KR+mXoA_u@))5!#aG<rhsCJp49U#JL6GbIZ.%ULn^DpFEQ;>=D$DU*eY4o>-,(_UmG._:?<)an!W$s7PZ:>o'K1`4l=@7cl1D4Kh@:ftB><5k]W__Q-DJD307S3%WgqiBJ3JWu01n5$':_?h3G=d2`iID`tW!BMSBJ"(+NHC!3cCF!VVP)s^Zh)VR5D,^l](krRgFjIW*ZL;qIK^1ppqAIEj?C]I3Sks=3pF.f2+;#tp%rPA-SYqp)PMWEK;CtZXVb/&Ylf$`E_3]rW+KI)K9.f->MpH>f=_Ct.OO5,IqK3E23hsnA%Nt,aIo0*!ImZS;T,ZXL5co(X*;sspfClQ\lDjMK=+X83V,9nEXF%cC[2dDc:~>endstream
+endobj
+% 'FormXob.800d2bfc70591cbf084cd6847a4e0266': class PDFImageXObject 
+5 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceGray
+ /Decode [ 0
+ 1 ]
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 256
+ /Length 53
+ /Subtype /Image
+ /Type /XObject
+ /Width 252 >>
+stream
+Gb"0;0`_7S!5bE.WTRt%TE"rlzzzzzzzzzzzzzz!!!#W"so3@[K~>endstream
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+6 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 112.1532
+ 90.08953
+ 218.4432
+ 102.0895 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+7 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 40.17323
+ 72.08953
+ 167.4632
+ 84.08953 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+8 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class PDFDictionary 
+9 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+10 0 obj
+% Page dictionary
+<< /Annots [ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R ]
+ /Contents 119 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ]
+ /XObject << /FormXob.e88eab7d905ea43d4e84fa71d7028b02 4 0 R >> >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER5': class PDFDictionary 
+11 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class PDFDictionary 
+12 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+13 0 obj
+% Page dictionary
+<< /Annots [ 11 0 R
+ 12 0 R ]
+ /Contents 120 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER7': class PDFDictionary 
+14 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page3': class PDFPage 
+16 0 obj
+% Page dictionary
+<< /Annots [ 14 0 R
+ 15 0 R ]
+ /Contents 121 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER9': class PDFDictionary 
+17 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class PDFDictionary 
+18 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page4': class PDFPage 
+19 0 obj
+% Page dictionary
+<< /Annots [ 17 0 R
+ 18 0 R ]
+ /Contents 122 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER11': class PDFDictionary 
+20 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_agenda-setting) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 66.50323
+ 148.5295
+ 109.8432
+ 160.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class PDFDictionary 
+21 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class PDFDictionary 
+22 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page5': class PDFPage 
+23 0 obj
+% Page dictionary
+<< /Annots [ 20 0 R
+ 21 0 R
+ 22 0 R ]
+ /Contents 123 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER14': class PDFDictionary 
+24 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class PDFDictionary 
+25 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+26 0 obj
+% Page dictionary
+<< /Annots [ 24 0 R
+ 25 0 R ]
+ /Contents 124 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER16': class PDFDictionary 
+27 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class PDFDictionary 
+28 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page7': class PDFPage 
+29 0 obj
+% Page dictionary
+<< /Annots [ 27 0 R
+ 28 0 R ]
+ /Contents 125 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER18': class PDFDictionary 
+30 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class PDFDictionary 
+31 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+32 0 obj
+% Page dictionary
+<< /Annots [ 30 0 R
+ 31 0 R ]
+ /Contents 126 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER20': class PDFDictionary 
+33 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class PDFDictionary 
+34 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page9': class PDFPage 
+35 0 obj
+% Page dictionary
+<< /Annots [ 33 0 R
+ 34 0 R ]
+ /Contents 127 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'FormXob.f11941b786b7f3fe7dfd42ddb46d8c4a': class PDFImageXObject 
+36 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceRGB
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 292
+ /Length 25002
+ /SMask 37 0 R
+ /Subtype /Image
+ /Type /XObject
+ /Width 484 >>
+stream
+Gb"/l#CP=VrP589c[5,oc?oFNc?o$I3:VmdlqPPHK92Wh-J8^Y&4RLFcU(i.Thno"Zt5JfZ=fls?eWpsr]aPGmcd<Pm'CiFr8-W6i=kj<SoiC^:N+<]?Q/\X5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&7i/\r(c"SCJlbGjBX'Zp6XWRV5!tY^OF-4b#7rh;Eu;?]h_WW?6o_?&<_C3XC<^k?%(+Jp'Zp];Ggg!kK7jg@9F.e#g9DI;nP^.Jfl?&lEAUc#_L\kk\=Mj/59<6YJAH$H&>Z05nJ_1Z01H4PIsH',2=UFH?lQj1lGB[o@`NKeHgaL<ufYSG5mL\6]#A[rL5Gf/\aKO[OEaidOdW:G@5%<CEIZ>B)h(aSfJ&VTmU-;?uW&[FKC8+^qZp/qUkV<hu@u-Tq+NQ)\;'@cIN\qNo\>9$<XM`q;Gt%Ukq%ubjLrA-h,9jmGIqhA'_MaaOScP!DVe(^?rPk`[imi\Vk%IE\9O]4b%0DD0&faJnIo99592W7;^,WD4/`M\llJ)TDl0@le\.d[d_3L0;p.XQ0S\T4)7^1F2*scJfk>.5%A^-XnS.c"M%>Jh:s$CI'K9epsjQjLX-]iKXo6LZ7q5eJFf1U9<$`5Y+rH@)9Gl\(A.HYU?=j7AMBP1m!Y^@oeNq(?^p>aIdsO@GjZF&,D9cP1`uYQ'Jdj[hlDX^GSj&V;R&"o-GZl7r`^TQEof&G<uVLn&1+7GD;Lgn:9IM39$#hjg5p2-$`NjFcanc\PcLeHaQ\&]a+4h(KDE3/S4r@X]I)^_s,J)T:Yoo-FC^(R[9Airo1qpNU9`R%U-S8+)F9H8(TY%aRZ>gUYIrW8kBcjP-7:/UR<[c;m!$2/Icb8P]gK&8(2/fEo7q3If7Q;dTo/O4<"I63:WrC(G1>(`.FaH"2'5qd;eU![-i`rqjD'K&.MkN>aqroJH2ELk]8u)Q%c>!-bNE'</X+sB4DsS7Ur(a0$)A#A[SMoe[Or#Yed-kdRPDBW>N#PV$[!TE_:]_V8m#R)VBWM$[tY7oIeqAs&=T[&ZZ?#cm8`hQn,IO+k5j;8e@rZso0to9lKZO'O<=M&q4hkS?@@=!\&=B/+8C:B\K)+YbE"]<W\.PJ9ZD[;q<_!eEdN,@05Pq+\QZ#*"@3T0/<&!,O$-jj8,_Mn(+SVEmDXHPFI]9_GM4#G1d2)AVJJt:kh!]^-T`*R*W<L6X@YgE3uP[1j@Bd`j_AIsPJ6-5jD(]i-7[$+XQS<>U@pAGIL,V+:V1.E.mWcr7*eI'd9H?Zhtme-)aTQ?0h,7Ep?QT>f"jYJ/Deq((hR>QAh^#lq*M6^?E0p3^\.CJZ6lDJ+t#aQQetQK3[`flH5)*=%:6H8U'q-hj>5Y7.*p"<AL(i/XN1'ag7\4ZN?H<-bLl"E$*dH&R!85DJ+'X5J0A@(OR).t)lW/=Gd![>M713lN8;!"S)6uO\tL]\H5)*=h(qdTH#>Cmq+-39k)Y#B4EFpt7ZK.p^_27"S)]9RlV[TC7M+VfA\;:X"9sc2A$"FNq:W6*7Y!&YrFLji/S_9U;`K"cpqJ8L?>;7himZG*']nVokq^:gaOR=MAWYZA@ba3D8$A&$b'phbUMkH"q,&_+4.85UW5eOf4,XjR\IetT6C@gT03BP>Q.%")$FrA#GMgub3BI`3K#d;/VY[jTS)4+maJ,'ueo3BGFI^BWO&gZ$h8%?cgI;WQHM]Z.95,eU:S/^^4UOQZIdsO@Wk1`F"FNAF3bH9(f`t:<TK2u#9D*Zos3lJk*kA[te#r%+.oW;R``1NCh!o?oOG2uZ`bBc*JrH-)E:rN=G#6HAlo[N%o*mWj_*?$.Y&99:_SDMpDKU,BTQV+ajsocs5'rp9aZUD@"'p>L/o,YAa/*QMpE%ZL*K$\RDTV0C4ps5T`RiFMpX/p-rNtP1fttZAr@D^h#PL)`:,6p#&HkCY1BFZXH?ca&n^09$OFUNG#^(3.V0,K:nFe`kV3"j"kj"6/hNP#3B2"$!p'>(Yb[\uN\[aejbT`!p+p`dZJr+L?f>EgKMCX8q\H'e&Pls;FHBWH3YC4bP1bYHc]B2IHEI`.O`>DkiI.hF7Z?9m.U6_orE2`*2S$gbGQD\)-J3u+Lh'Fc-"a`HF";rH!qr?amT<0:4l#0bM:J=sXdH>8dW40O'H0,)!-_917d+rg`e(8H[giXn2eD2G#Horj>i;RAh&"M4QhOLk6=T6:;X/TeV![)lr%PPTG-;F*,f0j=`MZRDGqc";0n+uESX#?blh5<DX[d]]W2&KJCq"fadV_45#4Iim,;o[fs.?G.AqYd$F?AX.m#=/n(5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%5nF/b&-P91"@3S%6*>;^@DIBo!sT/N0OV\H@E`0Mj(/LJ+P&t8%.aX3*>JNJ&Ho@'d+.>p"@6iGF>^WJ5nMcU?&c!V&B+9.=/2f."L3C%e`^`N6#7Wb27a\l&DIFqNNP_^`:cJuUT4t0Z$k!Lk\:5dC`daV\f*jGgBV#DY!ru@p-DcTWt>K>IF-O.C'6h=+*9BO)F4qh#@3=l7M*N36!'h^&Ho@ed+.>p"@6iGF>^WJ5nMcU?&c!V&B+9.=/2f."L3C%e`^bd;L/i7Zu&MbR<*;/<D&j2Ts3d9eDaW9RI+F.I8Qj4ip'Pj%A(ie9:>An/8="5%RoLP7qK,K`E"OILV:pGgH'IH-3eQL\f.i<\0?Dl*%(-t*db/oS'tWTe;PY0XA'aAJMYU;;X/lT**I!D&0.3>aYgneVt(NdT85M#X3oIRV2U21(Hb[Vk2R^;eYsodUXOc-\V:G:K=dc)['O7W[j)Og\f+k6=NYlu\n+eY<G#(%B6nW4;H;)<a"/hPZM;JM;[%IO3Vu:W8TjDBl`U"378/<97TUh#1*3SN?_APMFS9ZYn6jA:9C'5>K;rAIMBkB#kZi[G1i;T1>B1HCX,(cBe`^bd;N/6!@;U&0njJ$tO-[Z&W@.:P<[;:aL8EIV'[Mf1IVXLr^Ah:f,`=/_+:E;_FlK`'4#<<8MX%$p<"6\#6>Z85</+u6XpuKRc@/W.+j"%b2l'%RR=09VlfPR;3H8bm+UR7]R;H@IMrJ<Mc5dpFaRs?@*UN:6+esQjG89[GI7L[*G50sKO-DP@854"/c0LGUg6K5,iDS'0:?4\E1>B_)>m'AUeIc+E,Go<^](,NTraX[9Pt=e[@V&AV9lNjO7/90/O_u8n.F]NE0+*0-psO\WqI"1tG&dGUh-%m,Fm*R^2.A#S>n*5KUZOdCU)Stu`8c4&agtIs%Gd3#Z&IX<HT@K_FR@AL$XsumEq-6`aZ!icI(7\9h]P5L]JsPJ8(f@\AGc!>eWT/IYDF&YBRH>'W0qkp%%Sp:Zk,M^/K47SDWs;HZBpuglTiaM:6A&>F4IZ)d\@X?Ric!L0NVqVf>%^h\^RrBdl0UjRtqT;>$lM\.!=(6X3oIRV-)enBjs9)>o\TR>M%oolM1sTaA+2CK;4V[4OXPhW3bqFPieN\IrR^nh:F6\I/EVZ+cB?**>n62rbn%PQVRg&?rq9!a!-37JLL(;i+_;G<Z06Ci2#YpVf+0)lN!28jZlV8nHjC[9Ae6$5Za_]&PKCMeODmA@.`IKEV8>M-DFHs<,ceeZT?"e>q@<Y-J&B!al"bd1Y@E8kjIUjpV)cK<cKu33d51&)Q9.4GMP(%3B5,ZWa^3ai(KYgD\8cgUYoDX<"(DfJJuoL_;/IJ'L@SI_KL0o5s6#I=pf0Z65DOd*WaPd94ciH'*,T^?&_sDV65RIpX[T'fj3Rdp8"^]`PXA(O?K]pP`5/?G(GXgljGRC?Se+U59&>&L1D]cJ6;QVQe1dnCRL%`UOp`+4]^-U6RkWrN67P&_<8+iX20nem!pF&eWLLd_EXtUAIC>Be:NHJ^qdg1G`Tr1*iT\JK?W<giQ@3"/0:*A]G-I4_S..\Y`VqjeOpSO(E`DYVOl#$CSg,fUBY"`Y!st],$.:rq?g)!?RU_0Ln_fkNCdp9(=WQjKU6o&E(FgSi=kDJ7$?<Bd_*\rW*!_ho%U;.lCo.N<97V4U/N)#j%ID;\6T=M_>[rToBmF.)MFu5Oh'D<1@l!H!7coXPc:3)1-?X`4OoNY4!h1P?-8,t3X)]JF>^WJYnW+$c$+:!Ust=6(W%s"-6,6O$OiWL!u]8T76@GJ$Qn>2Srq^#G'I%X3*ASc\eHn8)Q8RLa!cqXq@3m<4oMejWm4S1"k>%RcXUNcqqlXKk-T)VW1FYP^f`/%go?ukd+.>p`)8.,FiC)"+Y(0.eBp!GY+GZ$$1,$<H42VEdi(TH)+iB[kWPY_FJ:jDLPD_3;/V%"aG`jZ`NFBLGI<?q>0,-A4P.rjU(1>fa@_N401tj`;ER%ljP_b:\<J_q:G3(#mZ'Wj\b?l92M;nhb0974<91&H=/2f.9<l^kMoXmn:h]++3"g;`X\c(ATh9^=fuP?+,E2/hU1rJh3e&n$pg7##oTAuKY(e'HDlW6:,X^aP3b2;6[Ic^.Z:+)-&1JJ)FbW5_QR9.X9CG*BSTE+JQa46<kjXdOK;id+OcU5["K%a3LRMk_K`rcIW5KcWJWi*OQ)%mp?&c!V/7g#2h7A:]lk<DB)Bl@8Lru">'"["pOi_33>O$i9_D:`:<?eiV.^jc[Lrootjgk8F%S^VZF,OhP+gEf$mteF;g&qpXYC[p!H\]1'&#<TJ1mnQJ4lnqh&=ZWN3_Z.O=8n<bE[J95b5tgYmpU(ZTq!"`FlZ_qH1r+N4d"@(40rp49)1eJdEG^$3-+`KKiHsNN8#*2\40PpWtA"0I92&ZUn?7kQ[NNRbBCu7.h+dOIaN7m2RkA#hiAM=#NZ6Y=D:9\O^O<P_2?b<K]>ZQ&'S\ro*M0^981o_rPrs;.76S$228n,RCkbR)aGZXSD5.D$q$>@*V?B0XNp<<G85`-]D#ntHg$e";<FK)d+.>p`):F/eNiB336&T2;Bdo;+6YL<79nri:>2IM7C),3\t`I8Y!-UH+OSZS,$+l1DpC8OWW`Gd9upSfDAh,heeBTEOe(Cn+R.OF>pD?1TW?JjLo">gXp/:cA:m\sgjGWlQR,6[%\5+@WX5DgVEt859)Hi1m*Ct-aT]Vo&)CD#T&D8JY0:uFd(M)j.YJ3[7lI\:Cn^Xa+[H"kA/A$oUP-uX0:a&kR-8ges$2F77AbH_7Q<7t4-?2:dFF&Le?;Hh+,D*a-_$CFN[:IArmfTEBk12fEkNj4G%Zt8JeJ>aj\bp?4eagKWXBjtBt>HF[jNr62uqZl5m\T@l/#gDm&k;P$HtH?>^G\7]V:h!kq/SOk:!Gcquc"L2Q&!9hd$B8e!'u'C4107,O2F)ihnrkX@SR==4AC[br7?tY%ni?5.**Jl4]EG$&=^@*XJq[6\[hD2#"`DL:,-b-!'1>#9K#h"4^%[%"Ytr*B4b^cK#cO`?a%>`t\:P-[URnHU[,nVDa+WY"Vae0Bo.1dFAMSfKSM6F>\Xm[L]qf?&]t_m=VQ2=!Iu[qk1";eHgcZ53Qa'21csZ&%WZbN?F&EK<@[F,7%cUTW?Jj#_L\mk\>2sJfqK4\f+k6+GfE;Y!uJ;#\*\(X3oH'K%N9NC32=b+LVfl)I8=FM!]ht7TUf?@f)h!dFAMSfKSM6X+LET"q9N.'N^g\J,o`V%-&-<=.J)s!<WN7itiD2SDA\r!sT1o(DKr@h1,M."q9N.'N^g\E9['o"@3SLK<@[F,7%cUTW?Jj#_L\mB"Iho^LZbY;T*MQBP#A8qHrQTM69;Z`',m(eQr+^(%2*qebo.2^R0GIR+QZGaR+kS(0unBLb5@&X5Ef/ft*d^%3I#4?&]s4,)`b0%Z;$dM69;Z"Hc,U=1`gPWt>J#9Oef=T>&Ad4K%B&IrQE7qAjY@2J2XqVJdffEB!L\pI,8BEe-mJllmp#E:-7'^\j%n^oJP3Vs\-Im9k6Q0\oZqH-<]QT6XG6Wk\=*<1/N5j#05@(Tq9aXC1IBK'RZ4/O+YbPjGXk\W(NTadg)+RD58[2NR/jLI4=.,7%`d=N/gQ0qtUjrkrX._l-P/NNR0CJ[>2(IK=PAA@V@OIELIHKitd?;*2mtN/_K<qnB#/B-.[2J=>pi.GAh/:+dDH8&t[N^?94Mdn@'qadLU;\f*jG`>K1f2g*8i'jB#3R^L5eYCF[tKc!GhJRt64-OdRI3Ls*O&>EXEaam>kKC^*(jicP,$sei8Lr,++X,VdJf3.%scbEs>l9sAaM-T'\g:C8nU@$=mIeHk6Y,90bF<hacC*?EW!tYNc7_2=@eHgaT`AkE>FY\%8UWh`J>bdY>c=_G!($>%Q\;h.VXP1U0"Fg4a0$UABBd(7]V1,<[>#FYE>_B2&E*t"'1(XA?'D7.\2!F5#1p5,BIDr;A9NQS]+`oSn+A+C1XtHm,8#9jVU2gW1`>Y?R14Qh_[_.q%e`V80m1@6_q\jR!c]H?_8R;;9$i3u*)lIla\f*jG,oI4p$QU8'N('HhXj-uL(KJgD2'.5H2gJK^rB8W4<iMII^=C9,hC=E-.md;^#biU)iTe\boMP4GNS`3"=dHUe+1RQHqSh?\G."(io>uLSZ"pe)@[#9geHgaTa`t=Al[En\mGTLO4a^QMgXm[,/L[=-+%=#,!(pNKqai2M+3;p7k[Q^O6r>P"\;d,1`uQ')lkE`b+NO\YXK+3MU=cm.7Bnq8MIPDsR<S[,+8aLTR&>DQ]^c*prng/TUork3k*U75<ZX4""A7EiJl/R;;1,RmBE+a59H$/t,7$%:.-p0P(/_/*`AO4hK1?[cJi3^_6j_"NR"q;HIe7DfgAt(*6?%'WY.ntXY3#gtBkDT.#sTRE?&]t_;CLjGC8QatKVaKc]KiYfQOS4/H6J?se^?-ua[d1h21crCTrb<PrgHF#OO5;`)Z?oWRJ:<&/tK_,q;<>qkQ@5qNQa_V)%6+c/EggO6'T5[=.d4J/Q<l:^W!SIJ10^QQh4,kSe=KZ4%5M6elUWNDJ6X_e1ii*bg\Ysb)N-(52bINF7\fbq^n#!Ot*?5S/ZY<S&oed^\SOJi!XJP<TP$^Rrn>dh_@q)Pj=cUBP6U6\UX,+I1h&5<68e@7opo@1(fo<CAUBLe^c-Oq;2lP&GlQ8NNT]Jhjc;K:%ZkJ4@thrL08^RYOBQ+G4Enb`?o[)qBdeZC]DmDBsJu42,pl2hcccLM4H=YG"%P6IXQR=&@Jf(S;c1V+0/?eJ$_E"oUH&!j#(tQAG$ECBbWe"<WcWeY-p59B>mM6("<`[k=5l\\<e;pO@ej!mq5>+qSc2$!\6bGp*Ue8WFW&6,,f&P3d2=LHD!6Z4SC3-!CBb$NZT.H\2JHgX7t8heD^W!o>S$cJuP^6<$/Dlf<n!pIPS#0\f+jkD/s,Lk]8g*G"db$ia/_JC'`2fc@8#T81$]*gSV"n?^6opWLp8MY.cC\aZI_Lj!(R(ZLYc0UATD>phO/'L^A%rhg)9ikkFuFQ8XDYR%mS_=$r?Kki`Yjg9@X:V27=t(U$Q)aGRB^T+k1)+.]PXX7u,S<5hY1e[T@"4`2\JRjuRN9$uON:l.ChqrDm6(7"U<l(X4KjBJm8L0P2HQC78015fE9h>,J0p?03&0CQ(lM_)!VQUc2u0]R9Uq"@rI4J$(*FqF?$4h9]sfDk5;dJNh4hV>+/r()C$,;S9Dn_h0kQ,%ZiCR5eHn1Q-r^GGdQ2sG(8q"f6ogUhM+E(i4%-3Ti1l?-oj6!'h^XTuqih:Y*(Q.-<1[Imthc./6J0?j\"N"0eBQr+V-GO)EG(i>4e_m&G/4k7pIL"i$>os67'A1kY;ko"KKX-;h.SQ\4F3NiA@Li-(,.(k^17NiY^42B;PZpQ-'10m7Jp!C(U?Ymp2Nco&<`n=3hQ0S=K)fm.T&(bBSae32N)u!-fK=s6*E2US%`;pUdZmgnd(7LA"iGO#WS>lXMkKB@$UdtC!dZj1t!&%CYlC^7E*9tt#T^bUqb)!)aO(8\YG"(rUf<n%D5DLe#p#$(g^-*)=NVZg@*)<<E1DEADVVtKAG4JW(p#h7hF*WQTC/43b`h"%4<;bq1P/BYUiWLoa&,kC:JhtlGjnmuA'^@FCg@cMl[%Ynjr\piOoC6rFaUV=aD1:J4ggB8[FLCcAFca(16\[8HO1Gcb4[b>b_So<JWD<,[>Tql:YOBOEE`oZ^=pX@)DS5I5\f0W0g,)b=BQI*R'RAa-QkE+?!"";.L&VVO<:cB)HrV)Q%%<=:8SS"WDN<%LT-5-W:UaE6AdeJ>29i0WoiLW"VC]gs)Ri&9;=mqZZPNnnXj>qSK=&OE%K$f<i`I7-1"(n%Ha#gJAuZ^:YD0`gL:\<Q"@?[WpK,E-9nK!T(0rM24i9(BIkjo1G9?c[YWh8cFLCcaa*f*";lZ"u>fht0]BKnsb1/r_1dhKJNeaYY/>s&hABNHL0JfW84+$Yp0BHs6IM^99jm(4s&?i=q$]C4I=D5W"Kt9l>\Sj_tqecI?SL/>'1iD:H<K#0sYdaK/:2rEi@s@TapZ-W;I_6"RVstJX1+65A)j$aun2gC<nT!t-6!'h^XTYIdd*WqjYMSpmOlZ3aIqS&+>Lq?_PN@e_E2umkmoqP&Qt7jN(WC`!>:s6OCrFln?;01]RNRqae)L)pa22UI\K,#/J%mXtcUGBJ8-!N6o6'oY/L.a8XK01<"WC0;VDZEhGrWeKdiZeREb'k[$jmI9<"!tedX6^CFm9eoP.cRU1^[;O!uP>j8DlXeW`Wo:s0q1$hrr=Ug:/7ATgJp^pX&JnreE_1.!-,HF?HlfSNh\PXG(/Xc4"LlcHR;rBPki@nFPa0Ml%kQ\!PU"_6XR(dSrBgfAq!MY3#h")4i;*m;Nr(mk'9s7TWfNTi09.&aM6#/mXb^F]CZ7;D^EfFnM9I&H9uRkLj<]N9D#j]O<Bn5Hlu@.TLT"qRSc^("/X,Ju]^=KTb*K<C5n4prAf^#X=HE"BS-"%>p6B31%4&<^lM-L6pl#BF:Z3i)IMfJ\<]K%gkSs@)$A?p><?FHupM2jipppgCJ`I.%*,2+oU'Vlq(tS[5dY?P4_4Nk-oMJKh`S#6A%D<`,5LCVs56!-H?l2\bZQsd`Lkd.TRCU\0Q>KJEI3Q?0^]uXWKd!Gh4/9L#qBsGhH#(2:0n;C23f$6YbE>e85)[$S>.0$LTl/YLM)e-[K#.%*"E,=]+VbG&+YbiT7&2*\%HbP^Ej?*!B>AZcDfr([`kl&8AI2bEq*=FnJ\6AZ!C:?2aDaF?U'25t/UgL6)2M2L:r?5>k)DLL[n#Q_hJZ:1L0)m(pQb-R9akX.`*L^RFR$JM"0K/RTfZqUc2c=;QEhfre_'HuRT<^8WK7gof+NP.@1A+M*l3S^1Y9;HH)0rCGrd'#=AP)'ulpes_QFeSfq3s)F?3I4g`Mq6rb+AH)Y(]eI18Q`U<*.Wna(7(Nb!IJnsVG@n?boC5+p_b]R_0958:GGlQaG]i,W>LCufL6ob37K`*oB^J`B.($2!noscGOKkeDDZ"[WX(A3Q8R;;(;^5Q`5M8RLmq7DGRcV<AQUaK,Y!+ctJY-mJ"mS@SibE/f&!i$d3H&:kasVrOVNh8jZRLi4bUTd`0+o;QUcd%PUj"+4OIsW>FnL)?k6\[c]LD4;>Bfaghks7l:'()l4=]$cCIDkV*#(=]]%X`kKGb_8Q\J5$kB^EsF#>u8j3TX1;]mu;jSdT>Xp11LdQInI&C_WZ-#/YcS0kg7=#PunrB%A2:7tiD4E2dFXqn`=,'EQ#0$dWRip(;*h'8UW:1,b8HdG/+[u]@qE/MG^eF',"ahWZ:npT:]Q<(7qVqL;p$1Nu(OPri%=iJojcW*!Q3=ibJ)/A+XX%Q_mG$A8BY3(2Je`c;!MW`Q[4-;l9iP&&R2m:`]_M=_U*D6k?^ahMhAT_(,C8ejd1'k%[A0oagddS3(HA(LM-('R1Fd0YID"XmqC1t4Wc0=&40u@Y&52.h^=9%;S0q8S+$?gi*:gRLn3T9f2+Yf6C8j"Ln]"5@I1`N6o0T[d;OK3;jQUl"<GBP+,lYku$%=`"[NqB[2^T6<`]'!dLp!j0;Jn\g.,Ukec,V.%9L5nf>^)mL1aQKk?X"P?]eg7j&_.>&peDu2]&F%YZd]!GEMd#f9jT-pTe\^MbKlp]"bZ_T9>?I]m`=X,\@5;RKY(ftj75@#qU,L9Zgq3asI^0*AR-]qp24OU7([:5NgI5"o-U.GJG:lScjlQ4B6a$F3M*e3e%\B[CE&]"6)oCO",,9h5de<-E#_Bh9)df>?Y6M^%VP?0h9+nr;I%l_^H`Lk!#ifgbc`[iJ<"%10`l$?Bq#uV6>TgYF-QAWB.tj\HocN6o`7:J$.\O5JKXn4#MjRfd7.oUp__;#+giZ7qrSGe@"Up*f@4bFFC=kDNOOn\E8qddao-Aa.g"EnBZGd.q]LM$b?W`gD47A:=n;-nc_#.re/mSp[W^6[H3\t(?M\!?_5dP>5dkep9RDpd[_&PYb]_71Ub%G$l%\D/@g`,#jl8iuNp\2=$D<ChH0&L=@ap4YOO8agepmXKgHWdeKgVr<'>iO*/2cB!(IqDI4_aR9<i;QB_*MBIpfI\.=A&OS4"TEVZPaX/*@Rm;]8R3q&\5bVpE4ZD[Ng$MpBp-ju7dOmb2t\q$"aG9C'$2mDEA]H%n.M#A=:]/XZHt0WhQD<?:TefU4!3D1;8/T&'dE#CGC/q[Nc%$c;`E,>@sm)V1tnq^8lPdfP;^-Y>Rb-%DKB(mP+9!Tk&6(IM*\.P.ih`<]dO=<GA+_iJ)Tqn_V8>$e+\]^9qB3#ou9gSjsRX/rrZTd;05cQ2tP.@d+*l$(5R&a`r#Z)A.qV&[db@V;HLW=21'(XTJ2!+Ia>Z/O4Uguk+Rd,X8d@C-m=93H]_(XJ/c$JbEmOQJ<k\G0&YQ6oGLKJe_crKhD-P&S+%@Znl!B]p'nt>pU64gilQ>[MnjSLqU4m-(b)Z*WGBWLHY\r`?3eQX$BKH&%m@S<3D1%H6FDpPMafb19n!cKM^,eJ:#V?+h4.FJ)Gb,%s.ud=e_o;^IV.<a0E.:-1\FWP(4H#Q#$mdf/,J/cY*!7ZX/"\l[=M*bPh!i>.3NH\Mln+&UoriMRQuqK^.A_,M_K(o#(cN&:C\+i8:Rlrq_&WYeMU!M1C9,'kLO:Y]dm0q+@ST13i77HHhIgd1<H_=R);/6'LTn'2e9dHb+&tN9)8(86?r>o$1MU^nmt$)_Wn:I&hbeqd4i?4X"d\*oIZ7mYA<0e^-7#<`mSUSY,9("0?^tRF<NCD>s5>-E]&FkHE?Q"NOrn1:DtqLlF#A8;6Ff\YrfMQk4eo$Cq5rdr7&Ca?1$e"bnYWi3G/:/IGn(*6dpA=.H^=oR0^q/)+#RX^(eX0.fL3:9#Yq-UT;EEF>\Z;`p0_@pDIS`+aRXcBVpd1e`F35W.c`jjd4MR@V75Ikj%O?AZ@,#oo\!!U;4lMfQhQa9)@_aIf;OBHMg$0,D^'R_pu!)Tq1%8#/Si^J&cejBB^DN92tnblU8!H'a@tBp=EoeqNmh66sY%pNdBr6,>ledMN7Pt]BJPMj+Rr1_;8pi:F+i-7Za[AEH3q(;```$lKXH1`UtpH!UNFE^LXGp[^]5leK1=QeY?C:kbsPoH;`_8DapIMoP8P+JfqM@34TrPn40"4NOp*bN"JL\fd82`\P!VeoT2nP2Dk>eY!ru@4r?Lc"04>JG4k2JU8X0XOf?aD`?3I8(L#XZX-;#[eHgcZ1ZRcc:]JW%b"T>AeW73]$o5%<;r,B&kL6uaC\8&Y.9EEXTW8Y-Z"M),e\GrBbKQ3Jf#$5A-p>gN)?PO[?cGQ:,7&<i1#B&;DLKTZX+;X*VPiU>M.\AMhY`!S4h;OtOK46n])$(.ELkN'j@XBB"(t&:Y1k.-g*87i@uCGq\aGK4G4+*Z4-/X<Y=UAG5ZAjOP:c:EDi0^[hPuWgH;ZU:r^=UB?d_g?r!?Yg+Gc2>dFAN6)F9Gk!*tSe7M*N36!%:HeJN*G."5ePLip6J'N^g\n7:\o6s7meL`M)M7T\=bk\A$G6!'h^m1+4q@Y^VWdFECF\f.h@d+.>p])u>ufHKHnFLBqUY"%ahF>^Y`mQahuFpPYt?#=eYWt@Dr?&c"q44)N6*J1F`=5+bZC;^TJ=/2h`%WjR;LS1]qeTM2/)R2ZVe`^b["'po=+m<Z_[G?D:7dL\.27hN0\FNmQ](4:dI`/+oV$^LFB..XIjN;Q:af8#41D-,=BFVQ,c;<:q#eCqZ53Qan6ZH$Jk\A'4TW@Giar?DM+&)6bZ'>1E1d:fJr)lLPV>J;77HX=j2XDo!C)+p_WnefRbP[=@eog4Hh)r"@U<lSU[IPq:N.\:A4",#0dXH_O4SUsao%=gi9K"\b2CSC0L2CG->aM<k>-acYpL>5!XQ\)JZhql8K3WiPe]PK00b1eKmSM'V&5rJd*Zp#6+)]j%l/X0qncmoTFLA6]qQnK(F1TefE=!)JiV@p'=[%<(O6Nq>gG6/YG4[192m_2!T"QI.6f<sd0#alEY.bekDc_9GGsll[HTAX[AmD#M*4=d,jUN0.:Ms!d'jZ-,q8uH,V8-JZ1V29aDu?ACBN\6%P=fEMpJS84B117A];I-^3&>MpE$Qr`Iqc=M<C0bo%8bo+XQ*,u9IWPCF>7oN\N2cMBr30*)KPM0e99LD7-EOhe^p.CCT5t;f^_li0%E1H/;e"ArP'6D>l>Fr9"VQXpK^KPNCCAg[G?47_mWcaf&+lb_kQl/qf_X^qPHXWfoW&P:`'c=c'2qb>7OquY-pnqRRGlX%W_.sPh;(uH#BbA6H*O?-B:i[@",DO5Z_=X6-u*'0?nWFmW>D?^edWR*8RFcl:B54coYT095Nk1D>VF[C[u)!\PiCcaB6g[r/C%l."QVFW*#>"Mg&T##1W5oGP-f?qH4>(^+L_,3@r%t_1@KtRZXAXj\,^JcgpT>pd'%ti`/<H?O]])X1&cqTOOrHo1/!/p:(I8S5)f/qL[D](11_#8)"PP\JAiNOD/I)FQrcC7M=^/,,&j)j>,.jICaTc`]HLjJe13$f4=P[c*"2V%OFmVLe`bPX/4!jGecVlqYD^\3Vre^D0LrJX$NaUX4D18c0`qYqn)W"Z#e@*7Nq&Pg2;(8]9;:B.pi;rSK46ANF6\bXu6ocQ#;V_iOsc#.LXRjRbXDTS47CL>+MeMI+>eH>+Xg.#^:E<\\;("?([E_(D8Vd11jQl_QouEbo&PAl'kG5n3pF9[S6'RFBlOe5d6/^]Veh.5S0`@W3#-R4[ZM:IC?"eN[?L4cTfG*,J_tYfupug3-8>_k%$d"J,<hKdsp0#ZR.Q)1+4EadjrMY"`b=_"@9/_H@M=3:F2SKT/8\h?Jq*'G%lM'<7\0B:2:/oK\D0l\n1a5p.*/o.Ob+>&)GA!FB&EGg4NroYjqC`NjYjS[38st]&;h]4=TYnQ?MDcX6kr;G.!Ijl/["Xj7Z?[H?me8ZCCnrT-lZ1_tMN_CiXkt@$3OQ:A0T_M^s!oF<NTK$nHF,(io9_*JYY8qR?52pAij_7nlcnK3*e!n^Xto3`fu":Y+<?e[c[s,<b5;mN1u[PKju0^XkBs87#-_NENf`C:0a.#h8^7\e['E=-NKsa[WGE'JCPKk/RGtB'e+b(tjV0>('FQ9('Q@Il.oM:EMs#"Zj9N;c62a5G6Ph#r\VmhcX2-m2^d+a9V*2d+)2R9"CC%fo<RgUC];Ej;Uf/eZ#P/\$*oC+kd+;SuLITgsna/rgr8ChTd0Qe3J&<a`_fcQftT2o+#]!.:&+mGGoO>S2W57a1bjX9N?^;gsJEA3"O>pl.Nh<PI>Jso"eJj5dkLp6U]t%;/Yf5J\dRVF+!q?f),"8+u0ML>S.Y_iZ`\aF&K!o,kPumeKAV+Au4I.6&?ada*MtKb1.(9Ks&.Y;8h!2@G*#e2DpJ5UhVJ]g:jj-I+/8#HdsUnI3_K_1$%U)>5&?./[;-_PgBkK`76YAgC5/J1q>L#&UfKF-DbS:Xp4U^j;X<UE)<T7f;3$UX&n0ZEd()$RD@Y+nW'@75Bfm,q:CKCY48)iru:CZprd3q$Wh=5&7<pG;l48WrP@7aIK;$/OYc#1?>o,eUWDkF#F>=iZ^9R`1-%MM`AQ,b(\T]t*Ht^rR7UK[]k:NK2r2X^c]6k\=@ZCK?P/k8T3g@dj_>r0cPR??m3"_s?Tj@WX,B;#YK?&3^j+4f5$GAf^6[TMZSW1L>cD!o1L!r]mc5L:R>%Ln3Pn=tg-b6sQ4+4:1,dN=g8(dCE3M'4]\VclEUG=EYNGXLA%Rkp!?q)(`sPt4]tDIc[AfQ\e@TR]WA>"cL[BS\1.X<=_>fV_@VM*iSsHhS8@"bgLhLJo^=q6=mp:WI2!!r>\V9*fW!S^+7t&n7'.e%%?^$jdaOTc:q/pcAqs@=N6KqqEhmIX&X05^HgXY@IOKem>B3.T9`fdPYJ!M6ZZOBK%cYJ@h,@cFgS=!QjGeEnLGo;g=*=brPFf:;J?0/6O!S)^h5h\]Y`B7:+caSS,Ss(`D3>[Q'"fT.e<QXM'0"N9;A;g,'EiKEU?(I/KU:>[lg?Q!.Tn^+,rptk+e\<odeUuj&Ros_;A?HC+U;7P;bqF54k?WL`eALB*<7FQ`XX6h!]%UIfb12U%?0t7)Ztc/Rat1[&PJ+;]KWG1P'Q.V,#^BH29Zj_JRVFWac,5T\hV#DKK5PRTPc0EB7q^lr-!-/."o^Q.n@$3>k-,-!7,";(8,u,ekZ=>oUZ"lF:!9=@+8I92+5d_2g(\.Or3L$,G4^t,[38t15E3068c0cO;cYMraDee&/3H")?0u]Y3rhujW[?rpWu7a=4Zfd08pRpeNQK>])4euf.%IHrBZS^81'8/8'C5U&]W(;!o4Ah`oqoV%d$Dr_8;QmHp/&AH3I(n:ZGFcG87f;$i76M`#*60I7o]\GAGQ!h]6f'a?>JmM':dP!4^*pg[_H))C=,g^*tg2jq/,TIY3`g@cuAKJU%AS2F_!?N.]XGCNf,\UY#cJT@a`dU?D>a1NTo-W/ro%M"u2=T]Ob@XB1^28!P02[10o=$i]8Os1g_oEm%IOK8RLH4nMNd@/K<]^_hE6mL0T/4AcjP)!X`uZS.o<nOPH)[(JAY4>srrq\GE2IHKrF$:.QNA]\2(/-+Gifp!W?Z4)4WpA^qo36caF(IlH0,^9t1]6$tHLiM+M$&/8Jpofl>\].PtI/23Gb&$9h[1sh>bVaSLcgRCMSaHC2S-'5D$BL#WDp?HCm@faHTU.*L@(Rf69#5c''h"f&/FFQ0k;Ibi:E*'[>04-.BBVZ.ASdVXDLqP2^pdDq3jQ^j[hg;4tF4_I7G#N]FGjf"Qdsk3M=<8/CSZ\lFql9a4Z3T:Dk4qsMe8:W-_mtKqPZ7Xd]((dB0)e3^cdt(m`Z*@3k/A]j6q#:Y9+\\'6,I.[H+LI<D#CN4k@?m#p.Xk:`0?jl=P+ko`P5#bh1Tc26a".*>"'G>PRLQG\fK$GU8EOtH?is+\f.h0=+fq>AVk;b0%*b\4OTMTI"qpfC48T[:107C>8=3]$Vii<riij$rotFqQB[,8;f`-<&EOcb-b[]"-*IMS?]rWn&-CrG5*Q^d%F<Q];(L"eV0X\rBRO'M7bgOpEc_7qG]huIi]^cVT^2&HeV!nbC.'RG2\1C_jGU0)(\+7Gf?aKBieeQ<>5%%l\3&u*djuS*Tjia]rLIIb4Yo4NcpuM!di'8VP_Q>1XQ=2D6L&<7qa53Z+0&RoUh[%-$WneuDVKZDDY(]%l_(3fp4h!JR/PQ!qf_WY_fIW4T_7uU<`1$c0/>OBgX"";k7)9UqLA67QeG=U^kY73`nm55PNh&2_CtjGmV:[@h#h&3j/&Suqg:i6>=Va>k\B]pXXnYalMpP%!$`@aOVd*<Z9(/:?ZLS?5HJ`rP:SEHK3G,:LktogZ?:H,m2]AnQss`.;8oh>@l0g8ZTr;rR_h@F*+/^feMNEQNNY'lUO^@6KU^0jgB3sONoUpQlWMTb#eCp[D'Q3tFLd=f=&#5%MCWm^kH.P'\h5;h`iRsZ"XU?0G'mpPmr)AVS^E_jaiV:@/IQSbHi'MBR_MT=1mB&?rFBL<WIg;(=a@4raL*\!!4!I;!n&S.mC*grh5i3<4tUhMC'J2OLVG@KLuuacc-Ort$%+&p\.`dsnESgUPu%r10DPI39qARsRY#/]=W2!a3!qDJ0QP7uC:cuU;k^7q&m$:k$G+sZ:u#"`aU7F.YHt,lLmu0=<C0b3irZgGmSM\<#eCqZ53Qan6ZH$Jk\A'4TW@Gi`D)%kH*0>4IVEjB@agjH5Zc\XMOOs`nm%.s-:(_.X6gC=2.D?6X3oI@#J(hY6dXBIC:aRRNS#E<C36l>JZ_K/&9Ke@g?q4-,Ba@()I73(TW8Yd"C7"i[QDjdL`M)M7T\=bk\A$G6!'h^m1+4q@Y^VWdFECF\f.h@d+-\O!sT/N0OV\H!<WN7(bf@5JDk5KWbH)X">PRKVfY,l,[q@)dOK/f6`c"$pB#s!1?`Ip[>gjS]mq66%([?_D'LHX0-H'&K<@[FgB`\o$OC4bfSHRimXLsOc_5sVen6X<P.ff-r)M?Mlos'Ahd_NO)-r6)7M&chEECa44VM,UW-3At,f.mY2571XEpmGU[>_7X=!NO,.-p/WfaCme#H=Q!&DtmkEUe%fjc$?3=!NN!.-Trl.0CnK/Hf`p.kYIV27a\lPX6g#(TuZ4YcRZ'L6+E>OlCgZ=/2f.6kPZ([9%H$V.+(UTA69Dl>O5@rqO%:jf;\br1s_RmXA8X7AHp2eHdr#.,sNtm<^5l41`!]S@Y7bdrap3c<f@,ZJ9#l'j!6')I8=F'9=??:7BU,8N<ue=.1[g`Z-I2FD[f4MFL[BWtAn%;8h#$3I-jBTqs>8<dimcQ-;018T@1oX3oH'1@ZdPC*-.O-/lG1B;EXQDSJ^gEt8RW>g_bMF>\YD4GpZ&1Er!FE6J(SUrb[cH]1SZiodMTU=%L)lKZLg78,^TrOZJ,N8h>*`%gP0mCu(i^P4=I`"iif75NVc'rn^EWe"B=59b.YRC\7[:FTX$b>H4.ri,.HKPQX?Q6pB0I0Z%]4#TiR7AHn2cIIP[W!e,qos*fTIg4uOpk1/H)bpO"De>35g$C>L1H'/^_pTD-8,B]FTQXmF)cW$p."?>.&"KZ-Wca6j[B^c@>TH[F6(P^;D7cXd.eb!]Op1%0.B[?+[=,QRXh'hgM]0-OQ+d^JQRN0lP^:?c$'(7pBX@%VjnG6N#N=a@C>Z2l@2]2Q4U)P2ql$h;hqfqZQJ=EY8u?=e:gDCKFEQ82`J#6<$J+:(Cb&IiQ&6f-I?'Ml4*NF\U?VW6hhL.rRkpIPF;Bnd,$2*..j0TR;=hUK5h13LnUm)3>s/C,%\9E@SqDqorUFr>)K(#3[h"`tQnD:LBnpTN7KM1V,W=uRb^&Hhg*!eY>'0^&Wn`22A"-u0jmBG>.8Z[fO2bCD)r$1LfubW5c)^JR3.<Q1dH$EnjD$"a:42WGfqK?hQUl!IitY7Y6ah6JiWgu0s"QF<SHN7UPcpA6.(*s?5:)<cXjuk-R<'-EmQFggs*2iKjjJ:0Y5SHmpHQK,G7,$h._^`HbiKdtX35^R"D.kbrh6uu<i+,;*P;02H:3s6S:-nB\+,-_HLcO8^^8\mdC=Ml1tO84F)WsGF-(1+H+@<9h>>Dj4S>MMCU^><Yjq@\GP0lCL/j*$P'u/Gf2LjoNQsI`>5p1SY$J'AUR"",bjYqG1tQF*5K<ZKn12:m@=Bh%09<*1\E?<DcJbDAgq>,tlAAjP</u!o'o#*7]$3S8/(E)r7El&B-WTT?Cim&k=1<!T]KubRKF2U,o*.*N$d".rTjiBo\/>Z@QA2eP@Q.Z*=MBm4Ge*rn>M5AF`]FT8HU^o=/E7JfB!b/8eC^Q8Z9I'FM4,0<n*lPh(JcrtM!lYJ3[Mj^QS7>V((N(88L'c@Nm;HONkk`X-oN9-nI3j('`R&-c"a/TH4Ges';OT26&c13H]7=#FIie!%%O+u%;fgfl<;IhI/2HZf^os303^E,/RJeH<a#bfD^70!EVIrVV8/K-:1=S83I?Yt_iI6VRF'nuF?sE.bN0baAp&\r\arCa4_X#B]7["8&^0siE_j%k#=TTjVs1^RY%miW<`:cZ0B%\@pP;ol4I$>H,.Kb0o,7!nalUo^kiZH6AjWUf-e?+jnI/sgMH,jY[S9g*=nAdNX=H?M[ne4>?AYi1?CXS-P\6d^Ci`9<=dY,N1DT#<loR]0A^!a;d<H$%Ad'T#@k51&@3$6'L1bPEKoSpVMh`mT4*%6<*O(9NMjM0Ir`co&3(d4^!2Gk(&`&1=>1$(QVfQ;]JoB^@1+61nN(pI?.:;Jb]c)uFA'+gKLU$].>O&B?X"Q0`86X<)VAaKF4JfmI!sHU.L1H65dWlKFRVJq4?t42k1%eZ-VWa-AS)2#Q^"=OV`o(D(nO1AD<HHnhoiJJ&*I?D]Sh!MAh-fY8cDK)/]0+RqCropZQH;(,dqOaDa?m<cCrt3mrlT@YSmKG%&!%a=;qCk^W/OfPX!=Z5=2*Bo?+.),O"0$mip7tSN65!t[^/AAIpPFDk/:rshJr/Kqa8SO271ek?BonGg$3.'>g57=M38Y#P'+12/Ou'I?V[,N1L.iPA:Raeb>U19mV4Y@rY>VWTOjTK=f2(?i"j=rma.7+Y23\qqA"NCJLZH6hB>JJ$`h^",>:6(%ldE+s"lIqC0')!\t2`!6Fl=(,a=d^M60p`cOq\@4?N\U2\&]=)91K>qRU)[Xp1??hN]iMh)eY"MD6)U!s4Z5pXP,@*3WUKLD5R0XE%]iY/qAePBmj(,<U>eHic)+6?OH6PnA]h$E+TQhFYD;cpEJO/q,FUJZ_3,hSIngfN>kG(44>iXK\EqJZ,#.EaN?VhC<C(^9Z8)jKP?ipCK83','K3aVE7EGJoX.A"03lI7;aXOU8Bf8(3#F<`^4LWof<']:,j--/-YE^fmb0K@"@E__UF,n<PZlC/H`^e\L9WPcKcHG<c%s?8*dbJi6`a!mhWcGn&dU,DliX=Nf74#F0)9Ska1Q^nUIH`7D(joc/]F&U<1L<?nrnTW?1F0fj_<?dVJ,6SD/A6D6\<Q)8bJdgbs@*DW]5P^CmL$DFK8Xo0-J4B>?7Cqak6Lg/0o0]K^'##E,GYM\a]EV]ENP++E<`qBaOJeGUXJ%;^-)f`8No546O*'@*0F]ZtFD,pInK#<;)7,,XX=)0j-Sk!ZaDUET(=UR$]ZDGWGO:H^tF>9iP*)d'*aRhsuX24L?<8*:qi7oHT5XuWGbk^LNqS^LM],n+LEjA=-(*,E?$Y#%'Nb0c!'jU,<^_s4h(E6FL`UM^#gmdZG$0pUj!nZ`"(sse_Jn=!75#HIkV</_<?+>Vom1[dQXEkA5)KHHlZf.=PQ;(Uk\ke\QJe^>%WTH-"bQj#u%u5(!_F%kl"DtU>QB?eWF6m`4$sP\Ye<sehk^/!ZNmXc'CqdWl:`:507A0[J+]l!IH)cmo34ei&.R=p#A.u"3gFrRZ7U-C+(.G0-<:)d>f:G2kZ'4:(5<u$2*st]'kg&2!RYB3J8U>Y5jgG\i,\Kkm2i4tulNu_iI[W?%D*+o7iipq_q:B?>-^)$_q<Q'u"c_g.r^<GiKHt&&R`UDhE/c+Rk]LaVX/3Mk_?H46;Hl.D%ij(n7R91kdbs"nP^f.Z-q%ne=6moM3c:[e$E!*,G#RutkjFB,!U^`;%+UAL'.XO&)JUZ`.,*2]C11^02sa)#^lLEK3C"Yr(dMH)m?C8S[fGAh`\;%$:[_.o3HK%R[DCDqf>6<nS4bF#VLY!OTsg,]m"io^Y'0LM*`XE\D\;q5Y[?hKk01ns1*8U[oKCEQ>n+nD2+_QrmAPB(Wbn5I*Bhqm_<+N.>oqK%:TPK1EMMb/edY-UN+W\@Oj3%]J`fP^lIr#2e#1Luf&h7u`46'T](l's`5RMmlf(";AJ]u+SW%#!Lo-12$ObA_<ePX4jZ\)Fh>2Lh=1ZN4)W9m%9)h1c#A8h?*CZ:*g.2Ll%cjraP_kiV!U9SMBgFbR[p!IA/*1Mdopit0B"N@%rGcu?!H'`>=*%B,Ben)=*hMjT&g_B<GB9oFd<-\9'&ahr\6<;*8[`dg2lu0$.C7q&Kj8J;oFa%q[4NA]FYt+Vn8hpcBIl(f#EJk*$aa)koL<*Q+Bmg@]p+pI"'rMj41`KQrT,NC-L%1HALeOcn*9Un*mq?<_NW@9^=gkbU=MCJ:gB9C1Rb^*q`';0h:2^*n)Y*e(+/+"-k@-m!\-*FqM5XiDoa<Xe3F`2H-9J&:&:Aq138alH,kd![987Q2D81%7lK^6lB.ddMS5j$2uP<4s"<2-WgKj/JL[\!BtgWP\'d>q*Wk?^?0r^amhs9u5mbIAXedPf]=NB`75a)e/WAB5>jlIe&2a'rr+n\'27NibBPDrU2pTLX*HYLdgWTOU[&YuE$s'Rl7WLd@pRRMTApmEE-dfS<6`u0EMs@Jg7Z%Z']#CD='28Vsg;O7D)k0!"oQ`a6]&Wc;_MUsFPTtjSCi.4@O""ti/'lb`5gq[#.G?T+_g&X[`nWC7]rSp3`A=kTKIe]j@7ES-I-/(`BRYRoL$e$7)Hu^.2i`!mP\_jlE"ZGL_SR;M7+&C&oU4KXmBp*X`phD1Mb\tk>tll=(qltsO&3*O$?X`*_Y8^VkNiLb>@Vh6eS&KJrFW-'[B$CeC<9E[W.l]df`J`c\nTsndWsiS.^i`bOkQh(2TWKk^Y`/da9dE8IcO<JrE(f&Xqnbmd,V5k#<?i`XQ(X#$_QSIV*@kr-InK)Gn?%IA+0S?.k!b_7%MtXC#Krl\2o*S]bX3,mN.Nqi#4ik4@.&YZVYXG?D4M;.,(a)UB[Ok4#f5kcYu/'83_aL60*-];/I<E>tln8pBVR<:=BfqDbluORP#PB+'^fg",,GhQ6eX,kN\MtP)Q,8,kP=FI[[FTjbY(d4XaB%j]TjYI7L8^j(.nrOXb@k&uZCR]\IpMg=;F.3K7R3S[[B(+f`!K*!WRn/'^[Z>oTrKr$P'M='qQ\-ssZF`Jf@5J*t4qfHN1i_`NgY)uP:UD-0X#83K,SQUc(uRD/oLp:>EgO1aTaQ`omW_ZrN`i/Z+F\2m_BlMYl:$#RHG;;OqLf<(s22_[$XEEca8XtJU;;RiDCDl#@=;+B8uPbd.=E_9[&NCD2tVTpkPV^mPcku$3A(MB2C8+U",OPruIUq/i9.jOiVctFds+k?!qfYY<B#T$1=gK:%P'BX%t6-7JQD@'Waj2ar`gFJ/)EZ5lBKKH5F%QF1jRR?$)^j%b8X(o=1Q&B[*[.RZUSaYq`3&9/si"g3M+8:-Oo=bjIGnItr^?GeM:2Y$<gscKn(P_-6,W#D:.tgWrK+]#nE&pUYLB]ho(*a[ui^UMWqMl%-#g53<F3FN6P?:PYIejN@C82jf)*BLWrffL:M0)?7XtH2>B+KfPLD4R&VaGMM[XBC2W%$D=H15SgiUSCg9j\rYgP2o1*mq3nK-S-ZpcKW4I9\9ZeJqY;7Z,njIRu!LX?$7f*\+SOg"XOl/DNHI?0DJA]5_37MR<L#3tDV-l>O4uMur/M;'fFiP#9Kemqoc(Jc(f!@N/OX(G9PaGoPkbR_pL/AhVN<F[]<\`mcrFoM<Y5]Y*4aH/hArg35Alq<I%4!QZ#-g^^k%f559;k7L)G>OT(/[q8!:G9?/qZD%PHQTenShXWPP*EhH<l(Z/<WX(@Gg!4'4j-R=CC//5uU/$QpTk#og`L]tFNncgEO64(.1W"dgkSbQ^k)Snh';FJi@`Ts2iKGjF\CT:__ppo*jZajM&NGrHs#;mdN=0+uko4D+(=<O07oub&pISE1YhV&>aauVBK@6LMe]Af18JCZ?-'K8W#*;XZ)L^J.c1D'8<lNTidT+J7RuGA;r!IQ1ECp$IN3@r_R+:NGIH4XHEc[S&A4<EojY8OYXQnM.Ip1FNR;3t!B2H-tb^1^C*Kj(1e@5Yd,u*g.fR:!aio=kl*br=M@9L@!'oL^oTK")EGH#7YJYT9H?N/s!3)I>1Ipe#Fo@(h)9/%i?4'7t*HO<o@.TBJ#]3_B.aQ]@6q;hpCDJmS0K5aXdQGVrH9>;@`#7"o)e>^oN(QD;!X&Wo^L$J$d,g=r?*$-E%B(QDQbc1CZJXN7_i_e7]AYX9R_<jE)Dtm[4>n&a+p2]&EG%ijWi#-UaKT%53$HWMXPY(caCsckNQ/QIqWNt;gD%M^]F(<W>a_D)BE(qHa$u:5r4`.^\g;UuS?`oehoe<ajOZJ.-cd4T4_mCcNHfP78eLR!5)(V&pm[(!VeTl&3X1>3g.WOXFS$1&nHni@T**u<t0E$X`'1Pad^3k3n=I9E6MCssaR3oZOcFMd#hlIu,%5'D8#fmHKSiLFlo545\PH.![jSqQiQ;:PlkE)HsGU944\G?G,P6mp/D"?=W!U3bJ#cWs((IE02eBtfFn5&_@<8.S8$;GD4H`T^S4TR3IlH!N#(ic0%";#VD(1#<7*FtrS+'f[oZ)`XS$QDG@6`@_=@314i8=n&`"_3N&QqX<V\[c@83HX4p(MIiImc'1+C'lS#(qe@>m2tjW,0&HhS=L.1.mBcKL>NL[Bu<m3AG0-;P+F8FZLhC2,J($``>tE6b\E2(BX\rY_ePaSf[rN:))]<+.;'m5jJPX?l"We^\blQNN:0hh.oc[/1,CaL!k:!s5M4V<$_,usIsD03UmHjoT3;nn/,/ECQM^MZd7iTd@RsQfZe6k__usHZ?t;]Kj4V&GmV:-U*#onnhpFHsQr/$;;]<;YoRG^*nuCM6lLTsnMJI*rr_;7fmTr(MgYEB%39f>S>^ZM@=0=(.Ynn%/.]-5SJ&^)<=$t0a_-(@Y;)WZP]*jf`TM5prCJHK0:FGJRY7B(d;b)t^N,En3+a$to7;'Lh=-#;e=K5`Gc.%?7f>uPmLW>#i)-aS=l^\e%6n/1-T]8LAj7Q[%)qK&9b"[>#'H5`N)nC78okV(T0eg1OPi8/CT.[::jp`ZhDWl9R2/HAV>haC++bi4,U&9b$LZ@lBbuM/eQW^jAR;dGYR;mMfiHO]0a\oa.>:=%='h-BNY!7A1qIOAT:j[FdmQEZRXq&[sMJ[#uka]kpdBnbBUf\DdgJ)>L!j^r?VVWa/f5KVh;,)/bOjJH=0j?K^#lNJ((H5F.p@'L\MpPOtZY16;imbYi:[O:n@.hpX)Ft`:1AM0;+LhWe6F3*(W*>m4E`TWDM^.nG&Mhp^+,G;qY)^kNQQCin'YOtXFq"tH/'l`OEoeFUDD?@gC@>8am/8F;(I.r.],n>^X/4_&UDh\A-08ZRdZf<=dYajBIG/J&K1Ph;R?%0:E,ZE&YN7?C,@kN!rM"qu8K>@RF80[N;d]HDp@\g7/P,:I!)(o`]LD[:P0qP-b?C:l*G_n2&bHo?'.Nfq&83af<C]lLT7u3ils$\HO%aK+X!+[D/XG]#n;?pm(BN2VTGEeKOt#;PC':e&7_T,UE9d.uH.N17o?#8Y11W%?@RX?[]"([JQghc>*fFpg-ESXamEsB^Y)n#O87$geEoNl95%A\OKC!%;_8XGRV15Fr0_SW2<u5^)8=P_Sf+Ja&)];cr&_e"j3&s088J\k(7@'*RL"VA?;l1n\[Dk[:7Dq+)J2s;[C!,G[]'MkR!p$iZ-s-;DE*r)_gea(nPT3UDPqYdnF02^95\\`iJXW@7&S,./]"7jS8"7e0W',N#BM$'F5;YR#rPh^bFXCCbZY5bpXq""KU`U@"cVo1lhLF=VWsdNr2POGjLoRW@1Uc05JFjAR;^"+JYN:e&@s>>daL^(2i,,/,]Qf@[/P%]p29'@\k\:5T#Jnqno+nqB"HkPn9"41'3H.-p&3a&p/F2S_g]AX#b(+/GKb7BR+d@+RcJM.ZZ2DUi-='ocSc8>CZaZ"%O09]0<sse_C$Y?;,d7dLj+&#Rk$Mu.k1AXlh:8$l-(Wd^4UL=e";u+\=-m`t=,'2r2NSQPgiJ9D&Du?h7tm:c4rjVi(?WL0-)FF8L0RI?N^M7dS2rWn9TUuUJS/M8:j-_uD.@VD1u4U[ZE<ZVNB9fP?:rsX&!h%G.CjZL.lp.1[aarMc..?<O\N;Mf<LAdU8nmE,_E)OmXBs1FCSE2Bl[S@kr[VfI2&dET1o:X[$&Zmo%$FsUqaM\R$!Xt@ug2b]bka3Ch&B&R+.')[@967Rt^Pl<T/V6.C'J?LscX(^nu/hi1Mi;cHBG+)@ieD^i=g08+FUdBg]5ckn@2s'9oVYWG<3R^_pO:fc/^ecE#:Ae42k#i9]jLJ)D5NN?I6jfj>2oP2;62A:"F"5F[qOJGsMUTjXk#CCZo2(W*C-[&'b:iPh/-:WWf_CGo"od.5d@=de&,eNI$A(sOo\W9&3*ru(/tAHDD?WrtNs^t[rDZtZkLFB>A7:PieA&to5sN%>:!1gkPMNON,RRqIs5r&_V;cK*lg6!#:e[@k6jC1M`");G:G">Ku&kO2E_b:hG>)TJ)S\oW*"U<389.TPoBeRU:,CT#9Z%Sfc1QTMuem^VHrCgp*n_^u;kDE)e9Q0rDA7.GU)6#7ER*_>T;pIA7`ZUPaI7$L\KlP>',CKILbFI+<[Zi-Ica=X0+2*]r1A3m&-5[_tK>H'1Cgjo[6O_*Yri=XW;O-*Q`:>Y+R,P*8pL#<sj=*=+3+[*CT?&]s?L@"hQBJX;G^F$P#+YY_,0/;-=4u"HI(DNE#B49W$Z\FEBF7;S&F$!n=aj[*Y&!_%gaZD;hGH*pne/:T!m56E8-t1Z"4SM(6>I,K`B-=d_4t'Vs>U=6/D.ERfF_qp916`0<.<$D+F$<5^H<,91=aYR?g%IQL#6++0`QePlSWei8j?aW,TS2AB_Ns1U4/a^oC32=b9Gg7M_B?ia=/2f.AAUT5UT857`U<s5Z";;4k\;&&nTt:&C`.=P]%TVMr*DW">6\AmY-noV^D@I"Q9eTIX)/!Ymf`j!A^JukC)]J/HN?EK)0@aIg."p:?9f'+#$m4k[LrK\SKY5K~>endstream
+endobj
+% 'FormXob.f17c3c21d92928f9d245f14d430f1f89': class PDFImageXObject 
+37 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceGray
+ /Decode [ 0
+ 1 ]
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 292
+ /Length 2024
+ /Subtype /Image
+ /Type /XObject
+ /Width 484 >>
+stream
+Gb"0W5B>gQ(dN(2'IcFs"<r_MDugS<DEtuD2B^opS:Ml)\1-*c%QVBAD"fV.WMQfK4oR82BSr_^P-m/^9j9j.W3(3-%gR`2J*REne^KnX`r%[UV_LDqq.\&K@t#?fe!QcIr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.\&K@t#?fe!QcIr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_tp[='tf6:j#^[F8=\8RF@rL6NRn^\)"rUoDgr:/@%YcFWU5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.\&K@t#?fe!QcIr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.\&K@t#?fe!T%d`dca_4`#$67XsjN?BiJ-2!1\j5E5JUC])R<m]XlpD<nh>_G=Zj)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.\&K@t#?fe!QcIr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.5Q]C!9@_IN%h4h"]jjIG4>Z]m\Y=\_ch:(1#RJ9u#Q>\,FWJ+)[Xhr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:Lehlo@')!`r%[UV_LDqq.\&K@t#?fe!QcIr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,0puNVR;4:ZJL"lbDl[E;/BGqs*@>nP>W<j4jO'-8RHi<^47+Z1!`dj3RT3qVpqD5ITq1h`olJDb&h^rk@Q^GOMtbR^md)9,dENR%MCr2!1\j5E5JQbYM_t)Y;FFT>pdck,7_RV4jAA4l1G]m/./\q+]1JDCAF9;nDIdL9[rX%b\D_$/cP2Dd@6(;k2?+#9?9Kh!%t]q2r^(hS>O@gQjHPlnD8r:<tXiO$%SO_fnfBCc`W?`oB06Tus9>1G=`kCHO^HR\/n_0E0:65K;/6l*(<5b?5prSgoYna^OrqV=>0[m$jlgjkNQ4VIe>k[&RH6bEeBZ`H==a\n%UFa#kH;]_.UE+?[cOZ<L&7ZXJ@'"ZBAIb1^Mk`T,&]#*hu)fY&0L2_J<UDe%Jp&>!W^1FO=sqh5pNrfPnDq_MP^)s@!(@ob`2#eC7sSFKb*p=2:bL3WYF+3\5qYFqH(1?lFkHIp092GRgn0)Oi$kfS-1>T&XL)7L#c)&BC%oAb+Frs5[t6elY9PRmGQ39bCD4MQ%*c8a)3\6<r*Dis//q2uV%+/qGnX+U&q>c[=qe/^P5QG`]IZ!L/'4Aeke8WWnS<ptAkm[rQbdApW@EE.,U]QQlsd(XM4dhUap_FO2;Q`5Y7<jgPd4:HR[-@Mhrs*HQ):<hL;.E@cLcT&<7c5K48e;UL%b$e0tP?bdjj&+PkoIg.^O./1@Q.Z#V$]U33/X77lojrBIeJf")gk%Vo=+:^nKseqZ7-6?#4Q@+\oSg[,rk(L27kQlW61_A(ULC@jMVCmPGd+9lb#C3X`XU6sj5+)&hWoDHm`aLI>]#m9T;d.D??=@U3B-sEZMM^#5+LIFF'/I<_t7HZ'?8Q;3X<W/h<pYBPGd#5op22maE^+Q61oH;1u#=E:Rt)/lUkO)iFFi2!B4*3f!o&U<0tHlY*mP:N-_1)%pH0.RjkdMVN7aL$$L2+Dbc%leZHc2`b@SDhX\TJOEP.jC7/(G\qg,>*k&G>g:_JdCR%Be5DD[e485JmSZ$5WrB67ma=s=WG]i=.e]19pNjS-bXr)EDVlG3nlG^M][GLr-ps*k4rWTK;?uti1L><g;+H?22bYM_t-f]]c39M4;XHW0=>F]boDjKkBr&!Q60gCZnC!9@_IN%h,R%MCr2!1\j5E5JQb`?Q;*uZgY?i~>endstream
+endobj
+% 'Annot.NUMBER22': class PDFDictionary 
+38 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class PDFDictionary 
+39 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page10': class PDFPage 
+40 0 obj
+% Page dictionary
+<< /Annots [ 38 0 R
+ 39 0 R ]
+ /Contents 128 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ]
+ /XObject << /FormXob.f11941b786b7f3fe7dfd42ddb46d8c4a 36 0 R >> >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER24': class PDFDictionary 
+41 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class PDFDictionary 
+42 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page11': class PDFPage 
+43 0 obj
+% Page dictionary
+<< /Annots [ 41 0 R
+ 42 0 R ]
+ /Contents 129 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F3': class PDFType1Font 
+44 0 obj
+% Font Courier-Bold
+<< /BaseFont /Courier-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+45 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F5': class PDFType1Font 
+46 0 obj
+% Font Courier-Oblique
+<< /BaseFont /Courier-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER26': class PDFDictionary 
+47 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class PDFDictionary 
+48 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page12': class PDFPage 
+49 0 obj
+% Page dictionary
+<< /Annots [ 47 0 R
+ 48 0 R ]
+ /Contents 130 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER28': class PDFDictionary 
+50 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.compete.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 152.8532
+ 124.5295
+ 265.1132
+ 136.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class PDFDictionary 
+51 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.alexa.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 137.2932
+ 106.5295
+ 235.1032
+ 118.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class PDFDictionary 
+52 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://es.wikipedia.org/wiki/PageRank) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 161.7532
+ 67.52953
+ 327.3732
+ 79.52953 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class PDFDictionary 
+53 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class PDFDictionary 
+54 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page13': class PDFPage 
+55 0 obj
+% Page dictionary
+<< /Annots [ 50 0 R
+ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R ]
+ /Contents 131 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER33': class PDFDictionary 
+56 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class PDFDictionary 
+57 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page14': class PDFPage 
+58 0 obj
+% Page dictionary
+<< /Annots [ 56 0 R
+ 57 0 R ]
+ /Contents 132 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER35': class PDFDictionary 
+59 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://klout.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 135.0732
+ 124.5295
+ 205.6632
+ 136.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class PDFDictionary 
+60 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://klout.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 135.0732
+ 67.52953
+ 205.6632
+ 79.52953 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class PDFDictionary 
+61 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class PDFDictionary 
+62 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page15': class PDFPage 
+63 0 obj
+% Page dictionary
+<< /Annots [ 59 0 R
+ 60 0 R
+ 61 0 R
+ 62 0 R ]
+ /Contents 133 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER39': class PDFDictionary 
+64 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class PDFDictionary 
+65 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page16': class PDFPage 
+66 0 obj
+% Page dictionary
+<< /Annots [ 64 0 R
+ 65 0 R ]
+ /Contents 134 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER41': class PDFDictionary 
+67 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class PDFDictionary 
+68 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page17': class PDFPage 
+69 0 obj
+% Page dictionary
+<< /Annots [ 67 0 R
+ 68 0 R ]
+ /Contents 135 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER43': class PDFDictionary 
+70 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class PDFDictionary 
+71 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page18': class PDFPage 
+72 0 obj
+% Page dictionary
+<< /Annots [ 70 0 R
+ 71 0 R ]
+ /Contents 136 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER45': class PDFDictionary 
+73 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER46': class PDFDictionary 
+74 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page19': class PDFPage 
+75 0 obj
+% Page dictionary
+<< /Annots [ 73 0 R
+ 74 0 R ]
+ /Contents 137 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER47': class PDFDictionary 
+76 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER48': class PDFDictionary 
+77 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page20': class PDFPage 
+78 0 obj
+% Page dictionary
+<< /Annots [ 76 0 R
+ 77 0 R ]
+ /Contents 138 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER49': class PDFDictionary 
+79 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class PDFDictionary 
+80 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page21': class PDFPage 
+81 0 obj
+% Page dictionary
+<< /Annots [ 79 0 R
+ 80 0 R ]
+ /Contents 139 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER51': class PDFDictionary 
+82 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER52': class PDFDictionary 
+83 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page22': class PDFPage 
+84 0 obj
+% Page dictionary
+<< /Annots [ 82 0 R
+ 83 0 R ]
+ /Contents 140 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER53': class PDFDictionary 
+85 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://bitbucket.org/leliel12/infopython/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 106.1732
+ 160.5295
+ 419.1969
+ 172.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER54': class PDFDictionary 
+86 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://bitbucket.org/leliel12/talks/src) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 143.4132
+ 121.5295
+ 304.0332
+ 133.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER55': class PDFDictionary 
+87 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://revista.python.org.ar/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 140.6432
+ 103.5295
+ 259.5932
+ 115.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER56': class PDFDictionary 
+88 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 178.1532
+ 64.52953
+ 284.4432
+ 76.52953 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER57': class PDFDictionary 
+89 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pyday.com.ar/catan2011) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 87.33504
+ .75
+ 217.405
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER58': class PDFDictionary 
+90 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:jbc.develop@gmail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 295.495
+ .75
+ 401.785
+ 12.75 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page23': class PDFPage 
+91 0 obj
+% Page dictionary
+<< /Annots [ 85 0 R
+ 86 0 R
+ 87 0 R
+ 88 0 R
+ 89 0 R
+ 90 0 R ]
+ /Contents 141 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 118 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R92': class PDFCatalog 
+92 0 obj
+% Document Root
+<< /Outlines 94 0 R
+ /PageLabels 142 0 R
+ /PageMode /UseNone
+ /Pages 118 0 R
+ /Type /Catalog >>
+endobj
+% 'R93': class PDFInfo 
+93 0 obj
+<< /Author ()
+ /CreationDate (D:20110719124508+03'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+% 'R94': class PDFOutlines 
+94 0 obj
+<< /Count 23
+ /First 95 0 R
+ /Last 117 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+95 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 96 0 R
+ /Parent 94 0 R
+ /Title (Infopython) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+96 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 97 0 R
+ /Parent 94 0 R
+ /Prev 95 0 R
+ /Title (\277Quien Soy?) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+97 0 obj
+<< /Dest [ 16 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 98 0 R
+ /Parent 94 0 R
+ /Prev 96 0 R
+ /Title (\277Qu\351 es Infopython?) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+98 0 obj
+<< /Dest [ 19 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 99 0 R
+ /Parent 94 0 R
+ /Prev 97 0 R
+ /Title (Un Poco de Teor\355a) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+99 0 obj
+<< /Dest [ 23 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 100 0 R
+ /Parent 94 0 R
+ /Prev 98 0 R
+ /Title (Teor\355a de La "Agenda-Setting") >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+100 0 obj
+<< /Dest [ 26 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 101 0 R
+ /Parent 94 0 R
+ /Prev 99 0 R
+ /Title (\277Qu\351 es un Medio Para Nuestro Caso?) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+101 0 obj
+<< /Dest [ 29 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 102 0 R
+ /Parent 94 0 R
+ /Prev 100 0 R
+ /Title (Formalizando) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+102 0 obj
+<< /Dest [ 32 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 103 0 R
+ /Parent 94 0 R
+ /Prev 101 0 R
+ /Title (Proponiendo F\(AUDIENCIA, IMPACTO\)) >>
+endobj
+% 'Outline.8': class OutlineEntryObject 
+103 0 obj
+<< /Dest [ 35 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 104 0 R
+ /Parent 94 0 R
+ /Prev 102 0 R
+ /Title (Consideraciones finales de dise\361o) >>
+endobj
+% 'Outline.9': class OutlineEntryObject 
+104 0 obj
+<< /Dest [ 40 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 105 0 R
+ /Parent 94 0 R
+ /Prev 103 0 R
+ /Title (Arquitectura de Infopython) >>
+endobj
+% 'Outline.10': class OutlineEntryObject 
+105 0 obj
+<< /Dest [ 43 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 106 0 R
+ /Parent 94 0 R
+ /Prev 104 0 R
+ /Title (Metodolog\355a de Trabajo) >>
+endobj
+% 'Outline.11': class OutlineEntryObject 
+106 0 obj
+<< /Dest [ 49 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 107 0 R
+ /Parent 94 0 R
+ /Prev 105 0 R
+ /Title (session API) >>
+endobj
+% 'Outline.12': class OutlineEntryObject 
+107 0 obj
+<< /Dest [ 55 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 108 0 R
+ /Parent 94 0 R
+ /Prev 106 0 R
+ /Title (IS Webpage) >>
+endobj
+% 'Outline.13': class OutlineEntryObject 
+108 0 obj
+<< /Dest [ 58 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 109 0 R
+ /Parent 94 0 R
+ /Prev 107 0 R
+ /Title (WebPage API) >>
+endobj
+% 'Outline.14': class OutlineEntryObject 
+109 0 obj
+<< /Dest [ 63 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 110 0 R
+ /Parent 94 0 R
+ /Prev 108 0 R
+ /Title (IS TwitterUser) >>
+endobj
+% 'Outline.15': class OutlineEntryObject 
+110 0 obj
+<< /Dest [ 66 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 111 0 R
+ /Parent 94 0 R
+ /Prev 109 0 R
+ /Title (TwitterUser API) >>
+endobj
+% 'Outline.16': class OutlineEntryObject 
+111 0 obj
+<< /Dest [ 69 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 112 0 R
+ /Parent 94 0 R
+ /Prev 110 0 R
+ /Title (Agenda API) >>
+endobj
+% 'Outline.17': class OutlineEntryObject 
+112 0 obj
+<< /Dest [ 72 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 113 0 R
+ /Parent 94 0 R
+ /Prev 111 0 R
+ /Title (Agenda API 2) >>
+endobj
+% 'Outline.18': class OutlineEntryObject 
+113 0 obj
+<< /Dest [ 75 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 114 0 R
+ /Parent 94 0 R
+ /Prev 112 0 R
+ /Title (Comparando 2 Agendas) >>
+endobj
+% 'Outline.19': class OutlineEntryObject 
+114 0 obj
+<< /Dest [ 78 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 115 0 R
+ /Parent 94 0 R
+ /Prev 113 0 R
+ /Title (Futuro 1) >>
+endobj
+% 'Outline.20': class OutlineEntryObject 
+115 0 obj
+<< /Dest [ 81 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 116 0 R
+ /Parent 94 0 R
+ /Prev 114 0 R
+ /Title (Futuro 2) >>
+endobj
+% 'Outline.21': class OutlineEntryObject 
+116 0 obj
+<< /Dest [ 84 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Next 117 0 R
+ /Parent 94 0 R
+ /Prev 115 0 R
+ /Title (Futuro 3) >>
+endobj
+% 'Outline.22': class OutlineEntryObject 
+117 0 obj
+<< /Dest [ 91 0 R
+ /XYZ
+ 20.17323
+ 237.7795
+ 0 ]
+ /Parent 94 0 R
+ /Prev 116 0 R
+ /Title (\277Preguntas?) >>
+endobj
+% 'R118': class PDFPages 
+118 0 obj
+% page tree
+<< /Count 23
+ /Kids [ 10 0 R
+ 13 0 R
+ 16 0 R
+ 19 0 R
+ 23 0 R
+ 26 0 R
+ 29 0 R
+ 32 0 R
+ 35 0 R
+ 40 0 R
+ 43 0 R
+ 49 0 R
+ 55 0 R
+ 58 0 R
+ 63 0 R
+ 66 0 R
+ 69 0 R
+ 72 0 R
+ 75 0 R
+ 78 0 R
+ 81 0 R
+ 84 0 R
+ 91 0 R ]
+ /Type /Pages >>
+endobj
+% 'R119': class PDFStream 
+119 0 obj
+% page stream
+<< /Length 1274 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Infopython) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 71.33953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 72 cm
+q
+60.48 0 0 61.44 0 0 cm
+/FormXob.e88eab7d905ea43d4e84fa71d7028b02 Do
+Q
+Q
+q
+1 0 0 1 20 54 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Midiendo Informaci\363n de Mass-Media Con Python) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(O continuando la charla de Lipe\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 18 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011) Tj  T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 71.33953 cm
+Q
+q
+1 0 0 1 20.17323 71.33953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R120': class PDFStream 
+120 0 obj
+% page stream
+<< /Length 2061 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (\277Quien Soy?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Soy ingeniero en sistemas de la UTN-FRC.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Investigo minerias de datos orientado a redes de haplotipos \(Biologia\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Me gustan los juegos de rol \(tengo uno hecho en django y otro a medio hacer\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Trabajo en java \(Suicidio en progreso\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R121': class PDFStream 
+121 0 obj
+% page stream
+<< /Length 2119 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (\277Qu\351 es Infopython?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.961135 Tw (Infopython es un toolkit que se utiliza para la valoraci\363n de medios de) Tj T* 0 Tw (informaci\363n utilizando teor\355as formales.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Es una prueba de concepto) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Surge como muchos m\363dulos sueltos en mi trabajo durante el a\361o 2010.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Por que continua la charla de Lipe?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R122': class PDFStream 
+122 0 obj
+% page stream
+<< /Length 1868 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Un Poco de Teor\355a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 72 cm
+Q
+q
+1 0 0 1 20 72 cm
+Q
+q
+1 0 0 1 20 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .977362 Tw (Existen diferentes teor\355as para determinar la importancia de los medios. sobre) Tj T* 0 Tw (la opini\363n publica.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 42 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.809362 Tw (La \223Teor\355a de Informaci\363n\224 de Shannon es una formalizaci\363n matem\341tica de) Tj T* 0 Tw (una de la \223Aguja hipod\351rmica\224.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Existen teor\355as m\341s complejas.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R123': class PDFStream 
+123 0 obj
+% page stream
+<< /Length 1813 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Teor\355a de La "Agenda-Setting") Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 78 cm
+Q
+q
+1 0 0 1 20 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm 2.400329 Tw 12 TL /F1 10 Tf 0 0 0 rg (La teor\355a de la agenda-setting postula que los medios de comunicaci\363n de) Tj T* 0 Tw 1.443057 Tw (masas tienen una gran influencia sobre el p\372blico al determinar qu\351 historias) Tj T* 0 Tw 5.255362 Tw (poseen inter\351s informativo y cu\341nto espacio e importancia se les da.) Tj T* 0 Tw (\() Tj 0 0 .501961 rg (Wikipedia) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 24 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.876969 Tw (El punto central de esta teor\355a es asignar una prioridad para obtener mayor) Tj T* 0 Tw (audiencia, mayor impacto y una determinada conciencia sobre la noticia.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R124': class PDFStream 
+124 0 obj
+% page stream
+<< /Length 2015 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (\277Qu\351 es un Medio Para Nuestro Caso?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 119.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ("En el dominio es un "coso" al cual quiero medir el valor de su informaci\363n") Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Entonces tiene que:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 44 Tm  T* ET
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ser homog\351neo en su informaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Tener la sensaci\363n de "unidad".) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ser Medible.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 119.7795 cm
+Q
+q
+1 0 0 1 20.17323 119.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R125': class PDFStream 
+125 0 obj
+% page stream
+<< /Length 2201 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Formalizando) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (VALOR = F\(AUDIENCIA, IMPACTO\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (VALOR: Es la importancia del medio dada la teor\355a.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AUDIENCIA: A cu\341nta gente le llega la informaci\363n del medio.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (IMPACTO: Qu\351 tanta importancia le da la audiencia al medio) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (NOTA: La conciencia NO es medible \(o no se me ocurri\363 como formalizarlo\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R126': class PDFStream 
+126 0 obj
+% page stream
+<< /Length 1483 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Proponiendo F\(AUDIENCIA, IMPACTO\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (VALOR = AUDIENCIA * IMPACTO) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Funciona bien cuando uno de los valores es 0.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Refleja mejor la variaci\363n de los valores.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R127': class PDFStream 
+127 0 obj
+% page stream
+<< /Length 2168 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Consideraciones finales de dise\361o) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 78 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Es mas f\341cil empezar por "nuevos medios" \(web, twitter, etc\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 72 cm
+Q
+q
+1 0 0 1 20 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.768362 Tw (Existe una amplia variedad de servicios p\372blicos que miden "cosas" sobre) Tj T* 0 Tw (nuevos medios.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 42 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.503356 Tw (Hay que identificar qu\351 mide la audiencia y qu\351 mide el impacto de estas) Tj T* 0 Tw ("cosas".) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (El reto no es t\351cnico.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R128': class PDFStream 
+128 0 obj
+% page stream
+<< /Length 755 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Arquitectura de Infopython) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 47.09953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+261.36 0 0 157.68 0 0 cm
+/FormXob.f11941b786b7f3fe7dfd42ddb46d8c4a Do
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 47.09953 cm
+Q
+q
+1 0 0 1 20.17323 47.09953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R129': class PDFStream 
+129 0 obj
+% page stream
+<< /Length 2547 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Metodolog\355a de Trabajo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 96.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 102 cm
+Q
+q
+1 0 0 1 20 102 cm
+Q
+q
+1 0 0 1 20 90 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configurar la sesi\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Crear los medios.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Crear "sacadatos". \(Opcional\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Crear los interpoladores. \(Opcional\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (5.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Crear la/s agenda/s.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (6.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Evaluar los nodos.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 96.77953 cm
+Q
+q
+1 0 0 1 20.17323 96.77953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R130': class PDFStream 
+130 0 obj
+% page stream
+<< /Length 1890 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (session API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 35.57953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 377.8236 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (session) Tj  T*  T* /F5 10 Tf .25098 .501961 .501961 rg (# Listado de todas las llaves OBLIGATORIAS) Tj /F4 10 Tf 0 0 0 rg  T* (session) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (NEEDED_KEYS) Tj  T*  T* /F5 10 Tf .25098 .501961 .501961 rg (# crea una nueva session con las llaves v0, v1, ...) Tj /F4 10 Tf 0 0 0 rg  T* (session) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (set) Tj (\() Tj (v0) Tj .4 .4 .4 rg (=) Tj (1) Tj 0 0 0 rg (,) Tj ( ) Tj (v1) Tj .4 .4 .4 rg (=) Tj (2.) Tj (..) Tj 0 0 0 rg (\)) Tj  T*  T* /F5 10 Tf .25098 .501961 .501961 rg (# retorna el valor de una llave) Tj /F4 10 Tf 0 0 0 rg  T* (session) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg ("v0") Tj 0 0 0 rg (\)) Tj  T*  T* /F5 10 Tf .25098 .501961 .501961 rg (# borra la session) Tj /F4 10 Tf 0 0 0 rg  T* (session) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (clear) Tj (\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 35.57953 cm
+Q
+q
+1 0 0 1 20.17323 35.57953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R131': class PDFStream 
+131 0 obj
+% page stream
+<< /Length 3289 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (IS Webpage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 126 cm
+Q
+q
+1 0 0 1 20 126 cm
+Q
+q
+1 0 0 1 20 114 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Representa una p\341gina web \(PLOP!\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 108 cm
+Q
+q
+1 0 0 1 20 96 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (No importa si es web, un perfil de twitter o un blog.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 39 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Audiencia:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Compete \() Tj 0 0 .501961 rg (http://www.compete.com/) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Alexa \() Tj 0 0 .501961 rg (http://www.alexa.com/) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 33 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Impacto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 8 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Page Rank \() Tj 0 0 .501961 rg (http://es.wikipedia.org/wiki/PageRank) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R132': class PDFStream 
+132 0 obj
+% page stream
+<< /Length 2262 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WebPage API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 377.8236 132 re B*
+Q
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython.isources) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (webpages) Tj  T*  T* (google) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (webpages) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (WebPage) Tj (\() Tj .729412 .129412 .129412 rg ("google.com") Tj 0 0 0 rg (\)) Tj  T*  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("ID) Tj (>) Tj ( ") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (google) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (id) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("URL) Tj (>) Tj ( ") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (google) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (url) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("HTML) Tj (>) Tj /F3 10 Tf .733333 .4 .133333 rg (\\n) Tj /F4 10 Tf .729412 .129412 .129412 rg (") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (google) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (html) Tj  T*  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("Compete) Tj (>) Tj (") Tj 0 0 0 rg  T* (pprint) Tj (\() Tj (google) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get_info) Tj (\() Tj .729412 .129412 .129412 rg ("compete") Tj 0 0 0 rg (\)\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R133': class PDFStream 
+133 0 obj
+% page stream
+<< /Length 3161 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (IS TwitterUser) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 126 cm
+Q
+q
+1 0 0 1 20 126 cm
+Q
+q
+1 0 0 1 20 114 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Representa un usuario de twitter \(PLOP\262\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 108 cm
+Q
+q
+1 0 0 1 20 57 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Audiencia:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Followers.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Klout \() Tj 0 0 .501961 rg (http://klout.com/) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 51 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Impacto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (RT.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Klout \() Tj 0 0 .501961 rg (http://klout.com/) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+Q
+q
+1 0 0 1 20.17323 72.77953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R134': class PDFStream 
+134 0 obj
+% page stream
+<< /Length 1964 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (TwitterUser API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 95.57953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 377.8236 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython.isources) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (twitteruser) Tj  T*  T* (yo) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (twitteruser) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (TwitterUser) Tj (\() Tj .729412 .129412 .129412 rg ("leliel12") Tj 0 0 0 rg (\)) Tj  T*  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("ID) Tj (>) Tj ( ") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (yo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (id) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("Username) Tj (>) Tj ( ") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (yo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (username) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("Tweepy) Tj (>) Tj (") Tj 0 0 0 rg  T* (pprint) Tj (\() Tj (yo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get_info) Tj (\() Tj .729412 .129412 .129412 rg ("tweepy") Tj 0 0 0 rg (\)\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 95.57953 cm
+Q
+q
+1 0 0 1 20.17323 95.57953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R135': class PDFStream 
+135 0 obj
+% page stream
+<< /Length 3969 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Agenda API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 27.05083 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+.818272 0 0 .818272 0 0 cm
+q
+1 0 0 1 6.6 8.065777 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 462 216 re B*
+Q
+q
+BT 1 0 0 1 0 194 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (agenda) Tj  T* /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython.util) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (interpolator) Tj  T* /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython.isources) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (twitteruser) Tj  T*  T* (google) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (webpages) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (WebPage) Tj (\() Tj .729412 .129412 .129412 rg ("google.com") Tj 0 0 0 rg (\)) Tj  T* (yahoo) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (webpages) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (WebPage) Tj (\() Tj .729412 .129412 .129412 rg ("yahoo.com") Tj 0 0 0 rg (\)) Tj  T*  T* (aud) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (lambda) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (w) Tj (:) Tj ( ) Tj (w) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get_info) Tj (\() Tj .729412 .129412 .129412 rg ("compete") Tj 0 0 0 rg (\)[) Tj .729412 .129412 .129412 rg ("metrics") Tj 0 0 0 rg (][) Tj .729412 .129412 .129412 rg ("uv_count") Tj 0 0 0 rg (]) Tj  T* (imp) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (lambda) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (w) Tj (:) Tj ( ) Tj (w) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get_info) Tj (\() Tj .729412 .129412 .129412 rg ("pagerank") Tj 0 0 0 rg (\)[) Tj .729412 .129412 .129412 rg ("pagerank") Tj 0 0 0 rg (]) Tj  T* (itp) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (interpolator) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (PieceWisePolynomial) Tj (\([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (45) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (64) Tj 0 0 0 rg (],) Tj ( ) Tj ([) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (4) Tj 0 0 0 rg (,) Tj .4 .4 .4 rg (64) Tj 0 0 0 rg (]\)) Tj  T*  T* (ag) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (agenda) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (AgendaSetting) Tj (\() Tj (itype) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (webpages) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (WebPage) Tj (,) Tj  T* (                          ) Tj (inf_sources) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ([) Tj (google) Tj (,) Tj ( ) Tj (yahoo) Tj (],) Tj  T* (                          ) Tj (audience_valuator) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (aud) Tj (,) Tj  T* (                          ) Tj (impact_valuator) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (imp) Tj (,) Tj  T* (                          ) Tj (audience_interpolator) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (itp) Tj (,) Tj  T* (                          ) Tj (impact_interpolator) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (itp) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 27.05083 cm
+Q
+q
+1 0 0 1 20.17323 27.05083 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R136': class PDFStream 
+136 0 obj
+% page stream
+<< /Length 1752 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Agenda API 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 23.57953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 377.8236 180 re B*
+Q
+q
+BT 1 0 0 1 0 158 Tm 12 TL /F4 10 Tf 0 0 0 rg (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (value_of) Tj (\() Tj (google) Tj (\)) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (impact_of) Tj (\() Tj (google) Tj (\)) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (audience_of) Tj (\() Tj (google) Tj (\)) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (wrap) Tj (\() Tj (google) Tj (\)) Tj  T*  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (count) Tj (\() Tj (google) Tj (\)) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (google) Tj (\)) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (append) Tj (\() Tj (google) Tj (\)) Tj  T*  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (for_type) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (audience_valuator) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (impact_valuator) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (audience_interpolator) Tj  T* (ag) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (impact_interpolator) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 23.57953 cm
+Q
+q
+1 0 0 1 20.17323 23.57953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R137': class PDFStream 
+137 0 obj
+% page stream
+<< /Length 1188 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Comparando 2 Agendas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 167.5795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 377.8236 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (i) Tj ( ) Tj /F3 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (agenda) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (rank_isources) Tj (\() Tj (ag1) Tj (,) Tj ( ) Tj (ag2) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (i) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 167.5795 cm
+Q
+q
+1 0 0 1 20.17323 167.5795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R138': class PDFStream 
+138 0 obj
+% page stream
+<< /Length 2468 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Futuro 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 99.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Las que dije que hiba a agregar en Pycon 2010:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 80 Tm  T* ET
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 84 cm
+Q
+q
+1 0 0 1 20 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (linkedin.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Integrar m\341s tipos de massmedia \(imdb, amazon...\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (y... \277desde el punto de vista de la audiencia?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\277Web sem\341ntica?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (nltk.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 99.77953 cm
+Q
+q
+1 0 0 1 20.17323 99.77953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R139': class PDFStream 
+139 0 obj
+% page stream
+<< /Length 2852 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Futuro 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 80.73792 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 118.0416 cm
+Q
+q
+1 0 0 1 20 118.0416 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 49.04161 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 37.04161 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.505784 Tw (El manejo de sesiones APESTA! \(deber\355a hacerlo multi sesi\363n\) y con mas) Tj T* 0 Tw (configuraciones \(tiempo de espera\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 31.04161 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+.915097 0 0 .915097 0 0 cm
+q
+1 0 0 1 6.6 7.21235 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 366 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (my_session) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (sessions) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Session) Tj (\() Tj .4 .4 .4 rg (...) Tj 0 0 0 rg (\)) Tj  T* (google) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (webpages) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (WebPage) Tj (\() Tj .729412 .129412 .129412 rg ("google.com") Tj 0 0 0 rg (,) Tj ( ) Tj (session) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (my_session) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (An\341lisis de Texto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Esta si lo empec\351 a implementar para Diarios!) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pedirle a lipe que porte scripts de de scraping a infopython :D) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 80.73792 cm
+Q
+q
+1 0 0 1 20.17323 80.73792 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R140': class PDFStream 
+140 0 obj
+% page stream
+<< /Length 2236 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Futuro 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 127.2 cm
+Q
+q
+1 0 0 1 20 127.2 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 112.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 112.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Analisis de imagenes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 106.2 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 334.8236 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (infopython.isource.images) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg (  ) Tj (Image) Tj  T*  T* (img_1) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Image) Tj (\() Tj 0 .501961 0 rg (open) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("/foto_de_campo.png") Tj 0 0 0 rg (\)\)) Tj  T* (img_2) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Image) Tj (\() Tj 0 .501961 0 rg (open) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("/foto_de_ciudad.png") Tj 0 0 0 rg (\)\)) Tj  T*  T* (impacto) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (lambda) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (img) Tj (:) Tj ( ) Tj (contar_pixels_color_verde) Tj (\() Tj (img) Tj (\)) Tj  T*  T* .4 .4 .4 rg (..) Tj 0 0 0 rg ( ) Tj (agenda) Tj ( ) Tj .4 .4 .4 rg (..) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+Q
+q
+1 0 0 1 20.17323 71.57953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R141': class PDFStream 
+141 0 obj
+% page stream
+<< /Length 3360 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 216.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (\277Preguntas?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 204.7795 cm
+Q
+q
+1 0 0 1 20.17323 69.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 129 cm
+Q
+q
+1 0 0 1 20 129 cm
+Q
+q
+1 0 0 1 20 96 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Proyecto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 8 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://bitbucket.org/leliel12/infopython/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 90 cm
+Q
+q
+1 0 0 1 20 39 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Esta Charla:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Source: ) Tj 0 0 .501961 rg (https://bitbucket.org/leliel12/talks/src) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Pet #2: ) Tj 0 0 .501961 rg (http://revista.python.org.ar/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 33 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Contacto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 8 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (> / @JuanBCabral) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 69.77953 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+BT 1 0 0 1 0 2 Tm 17.57181 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Infopython - ) Tj 0 0 .501961 rg (Pyday Gonzales Cat\341n 2011 ) Tj 0 0 0 rg (- Juan B Cabral <) Tj 0 0 .501961 rg (jbc.develop@gmail.com) Tj 0 0 0 rg (>) Tj T* -17.57181 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R142': class PDFPageLabels 
+142 0 obj
+% Document Root
+<< /Nums [ 0
+ 143 0 R
+ 1
+ 144 0 R
+ 2
+ 145 0 R
+ 3
+ 146 0 R
+ 4
+ 147 0 R
+ 5
+ 148 0 R
+ 6
+ 149 0 R
+ 7
+ 150 0 R
+ 8
+ 151 0 R
+ 9
+ 152 0 R
+ 10
+ 153 0 R
+ 11
+ 154 0 R
+ 12
+ 155 0 R
+ 13
+ 156 0 R
+ 14
+ 157 0 R
+ 15
+ 158 0 R
+ 16
+ 159 0 R
+ 17
+ 160 0 R
+ 18
+ 161 0 R
+ 19
+ 162 0 R
+ 20
+ 163 0 R
+ 21
+ 164 0 R
+ 22
+ 165 0 R ] >>
+endobj
+% 'R143': class PDFPageLabel 
+143 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R144': class PDFPageLabel 
+144 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R145': class PDFPageLabel 
+145 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R146': class PDFPageLabel 
+146 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R147': class PDFPageLabel 
+147 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R148': class PDFPageLabel 
+148 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R149': class PDFPageLabel 
+149 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R150': class PDFPageLabel 
+150 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R151': class PDFPageLabel 
+151 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+% 'R152': class PDFPageLabel 
+152 0 obj
+% None
+<< /S /D
+ /St 10 >>
+endobj
+% 'R153': class PDFPageLabel 
+153 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
+% 'R154': class PDFPageLabel 
+154 0 obj
+% None
+<< /S /D
+ /St 12 >>
+endobj
+% 'R155': class PDFPageLabel 
+155 0 obj
+% None
+<< /S /D
+ /St 13 >>
+endobj
+% 'R156': class PDFPageLabel 
+156 0 obj
+% None
+<< /S /D
+ /St 14 >>
+endobj
+% 'R157': class PDFPageLabel 
+157 0 obj
+% None
+<< /S /D
+ /St 15 >>
+endobj
+% 'R158': class PDFPageLabel 
+158 0 obj
+% None
+<< /S /D
+ /St 16 >>
+endobj
+% 'R159': class PDFPageLabel 
+159 0 obj
+% None
+<< /S /D
+ /St 17 >>
+endobj
+% 'R160': class PDFPageLabel 
+160 0 obj
+% None
+<< /S /D
+ /St 18 >>
+endobj
+% 'R161': class PDFPageLabel 
+161 0 obj
+% None
+<< /S /D
+ /St 19 >>
+endobj
+% 'R162': class PDFPageLabel 
+162 0 obj
+% None
+<< /S /D
+ /St 20 >>
+endobj
+% 'R163': class PDFPageLabel 
+163 0 obj
+% None
+<< /S /D
+ /St 21 >>
+endobj
+% 'R164': class PDFPageLabel 
+164 0 obj
+% None
+<< /S /D
+ /St 22 >>
+endobj
+% 'R165': class PDFPageLabel 
+165 0 obj
+% None
+<< /S /D
+ /St 23 >>
+endobj
+xref
+0 166
+0000000000 65535 f
+0000000113 00000 n
+0000000260 00000 n
+0000000425 00000 n
+0000000641 00000 n
+0000012503 00000 n
+0000012825 00000 n
+0000013071 00000 n
+0000013322 00000 n
+0000013564 00000 n
+0000013786 00000 n
+0000014191 00000 n
+0000014434 00000 n
+0000014657 00000 n
+0000014983 00000 n
+0000015226 00000 n
+0000015449 00000 n
+0000015775 00000 n
+0000016019 00000 n
+0000016242 00000 n
+0000016569 00000 n
+0000016850 00000 n
+0000017094 00000 n
+0000017317 00000 n
+0000017653 00000 n
+0000017897 00000 n
+0000018120 00000 n
+0000018447 00000 n
+0000018691 00000 n
+0000018914 00000 n
+0000019241 00000 n
+0000019485 00000 n
+0000019708 00000 n
+0000020035 00000 n
+0000020279 00000 n
+0000020502 00000 n
+0000020857 00000 n
+0000046156 00000 n
+0000048453 00000 n
+0000048697 00000 n
+0000048921 00000 n
+0000049314 00000 n
+0000049558 00000 n
+0000049782 00000 n
+0000050096 00000 n
+0000050268 00000 n
+0000050430 00000 n
+0000050621 00000 n
+0000050865 00000 n
+0000051089 00000 n
+0000051416 00000 n
+0000051659 00000 n
+0000051900 00000 n
+0000052157 00000 n
+0000052401 00000 n
+0000052625 00000 n
+0000052979 00000 n
+0000053223 00000 n
+0000053447 00000 n
+0000053774 00000 n
+0000054011 00000 n
+0000054248 00000 n
+0000054492 00000 n
+0000054716 00000 n
+0000055061 00000 n
+0000055305 00000 n
+0000055529 00000 n
+0000055856 00000 n
+0000056100 00000 n
+0000056324 00000 n
+0000056651 00000 n
+0000056895 00000 n
+0000057119 00000 n
+0000057446 00000 n
+0000057690 00000 n
+0000057914 00000 n
+0000058241 00000 n
+0000058485 00000 n
+0000058709 00000 n
+0000059036 00000 n
+0000059280 00000 n
+0000059504 00000 n
+0000059831 00000 n
+0000060075 00000 n
+0000060299 00000 n
+0000060626 00000 n
+0000060887 00000 n
+0000061147 00000 n
+0000061396 00000 n
+0000061644 00000 n
+0000061888 00000 n
+0000062112 00000 n
+0000062461 00000 n
+0000062622 00000 n
+0000062870 00000 n
+0000062997 00000 n
+0000063168 00000 n
+0000063358 00000 n
+0000063559 00000 n
+0000063755 00000 n
+0000063964 00000 n
+0000064183 00000 n
+0000064374 00000 n
+0000064588 00000 n
+0000064803 00000 n
+0000065009 00000 n
+0000065214 00000 n
+0000065405 00000 n
+0000065595 00000 n
+0000065786 00000 n
+0000065980 00000 n
+0000066175 00000 n
+0000066365 00000 n
+0000066557 00000 n
+0000066757 00000 n
+0000066945 00000 n
+0000067133 00000 n
+0000067321 00000 n
+0000067483 00000 n
+0000067792 00000 n
+0000069167 00000 n
+0000071329 00000 n
+0000073549 00000 n
+0000075518 00000 n
+0000077432 00000 n
+0000079548 00000 n
+0000081850 00000 n
+0000083434 00000 n
+0000085703 00000 n
+0000086558 00000 n
+0000089206 00000 n
+0000091197 00000 n
+0000094587 00000 n
+0000096950 00000 n
+0000100212 00000 n
+0000102277 00000 n
+0000106347 00000 n
+0000108200 00000 n
+0000109489 00000 n
+0000112058 00000 n
+0000115011 00000 n
+0000117348 00000 n
+0000120813 00000 n
+0000121230 00000 n
+0000121309 00000 n
+0000121388 00000 n
+0000121467 00000 n
+0000121546 00000 n
+0000121625 00000 n
+0000121704 00000 n
+0000121783 00000 n
+0000121862 00000 n
+0000121941 00000 n
+0000122021 00000 n
+0000122101 00000 n
+0000122181 00000 n
+0000122261 00000 n
+0000122341 00000 n
+0000122421 00000 n
+0000122501 00000 n
+0000122581 00000 n
+0000122661 00000 n
+0000122741 00000 n
+0000122821 00000 n
+0000122901 00000 n
+0000122981 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\320\2038V\217\347\356\206\315\266N\256t<\224u) (\320\2038V\217\347\356\206\315\266N\256t<\224u)] 
+
+ /Info 93 0 R
+ /Root 92 0 R
+ /Size 166 >>
+startxref
+123030
+%%EOF
