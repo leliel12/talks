@@ -11,16 +11,16 @@
 .. CONTENT
 .. =============================================================================
 
-Yatel - OLAP sobre redes
-------------------------
+Análisis de datos a través de grafos
+------------------------------------
 
 .. image:: img/log.png
     :align: center
     :scale: 100 %
 
 
-Integrantes
------------
+Integrantes Historicos
+----------------------
 
 - |utnico|  - García, Mario Alejandro
 - |utnico|  - Cabral, Juan Bautista
@@ -33,6 +33,19 @@ Integrantes
 - |intaico|  - Vankeirsbilck, Inés
 - |utnico|  - Cucco, Noelia del Valle
 - |utnico|  - Nieto Castillo, Adrián L.
+
+
+Grupo de KDD  UTN-FRC
+---------------------
+
+- |utnico|  - García, Mario Alejandro
+- |utnico|  - Cabral, Juan Bautista
+- |utnico|  - Liberal, Rodrigo
+- |utnico|  - Ramirez, Emilio
+- |utnico|  - Arnaud, Máximo "El Topo"
+
+
+
 
 Paper
 -----
@@ -56,8 +69,8 @@ Agenda
 - Un poco de historia y motivaciones.
 - Un poco de KDD.
 - Un poco de Network Science.
-- Proceso de Analisis.
-- DW - OLAP - BI (hasta acá debería tardar no mas de 20 minutos)
+- Proceso de Analisis. (hasta acá debería tardar no mas de 30 minutos)
+- DW - OLAP - BI.
 - El proyecto en sí
 - Mini Demo
 
