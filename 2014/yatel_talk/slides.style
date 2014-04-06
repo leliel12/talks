@@ -15,7 +15,7 @@
         "frames": [
             ["0", "0", "100%", "100%"]
         ],
-        //"background" : "img/bg.svg",
+        //"background" : "img/bg.jpg",
         "showFooter" : false,
         "showHeader" : false
     }
