@@ -426,7 +426,7 @@ NW-OLAP
     :align: center
     :scale: 50 %
 
-- http://getyatel.org
+- Homepage: http://getyatel.org
 - Es una implementación de referencia de NW-OLAP
 - Wiskey-Ware License
 - Es la implementación en gran parte del proceso mencionado anteriormente.
@@ -459,7 +459,7 @@ Yatel Kaani - (Not even started)
 --------------------------------
 
 - En funcionamiento... (0.2 algo así va a ser Yatel BI)
-- http://kaani.getyatel.org/
+- Homepage: http://kaani.getyatel.org/
 
 .. image:: img/sshot.png
     :align: center
