@@ -14,29 +14,25 @@
 Análisis de datos a través de grafos
 ------------------------------------
 
+.. class:: center
+
+    Ing. Garcia, M. Alejandro - Ing. Cabral, Juan B.
+
+    08/04/2014 - Córdoba
+
+
 .. image:: img/log.png
     :align: center
-    :scale: 100 %
+    :scale: 24 %
 
 
-Integrantes Historicos
-----------------------
+.. class:: center
 
-- |utnico|  - García, Mario Alejandro
-- |utnico|  - Cabral, Juan Bautista
-- |intaico|  - Gimenez Pecci, María de la Paz
-- |utnico|  - Vera, Carlos
-- |utnico|  - Liberal, Rodrigo
-- |conicetico| |intaico|  - Laguna, Irma Graciela
-- |intaico|  - Bisonard, Eduardo Matías
-- |intaico|  - Maurino, Fernanda
-- |intaico|  - Vankeirsbilck, Inés
-- |utnico|  - Cucco, Noelia del Valle
-- |utnico|  - Nieto Castillo, Adrián L.
+    Universidad Tecnológica Nacional - Facultad Regional Córdoba
 
 
-Grupo de KDD  UTN-FRC
----------------------
+Integrantes
+-----------
 
 - |utnico|  - García, Mario Alejandro
 - |utnico|  - Cabral, Juan Bautista
@@ -44,7 +40,14 @@ Grupo de KDD  UTN-FRC
 - |utnico|  - Ramirez, Emilio
 - |utnico|  - Arnaud, Máximo "El Topo"
 
+- |intaico|  - Gimenez Pecci, María de la Paz
+- |conicetico| |intaico|  - Laguna, Irma Graciela
+- |intaico|  - Raspanti Monteoliva, Jorge G
+- |intaico|  - Maurino, Fernanda
 
+.. image:: img/lotr.png
+    :align: right
+    :scale: 55 %
 
 
 Paper
@@ -59,8 +62,8 @@ Paper
 - **URL:** http://goo.gl/pcjdG
 
 .. image:: img/qr.png
-    :align: center
-    :scale: 100 %
+    :align: right
+    :scale: 30 %
 
 
 Agenda
@@ -69,35 +72,33 @@ Agenda
 - Un poco de historia y motivaciones.
 - Un poco de KDD.
 - Un poco de Network Science.
-- Proceso de Analisis. (hasta acá debería tardar no mas de 30 minutos)
+- Proceso de Analisis.
 - DW - OLAP - BI.
 - El proyecto en sí
 - Mini Demo
 
 .. image:: img/to_do_list.jpg
-    :align: center
-    :scale: 120 %
+    :align: right
+    :scale: 30 %
 
 
 Historia: Mal de Río Cuarto virus
 ---------------------------------
-
-- Análisis electroforético:
-
-.. image:: img/electroforesis.png
-    :align: center
-    :scale: 100 %
 
 - Base de datos formada por
 
     - Perfiles electroforéticos.
     - Atributos que definen el ambiente de la planta
 
-- Pocos datos: Propuesta transformar la DB en una red y medir su variabilidad.
+        .. image:: img/electroforesis.png
+            :align: center
+            :scale: 20 %
+
+- Variabilidad (redes vs árboles).
 
 .. image:: img/r4to.png
-    :align: right
-    :scale: 40 %
+    :align: center
+    :scale: 50 %
 
 
 Knowledge Discovery in Database (KDD)
@@ -122,9 +123,11 @@ Network Science
 - Topologías.
 - Características comunes.
 
-.. image:: img/vuelos.png
-    :align: right
-    :scale: 35 %
+.. figure:: img/vuelos.png
+    :align: center
+    :scale: 200 %
+
+    Topologías en redes de comunicación
 
 
 Networks 1
@@ -132,7 +135,7 @@ Networks 1
 
 .. figure:: img/proteina.png
     :align: center
-    :scale: 100 %
+    :scale: 25 %
 
     Interacción proteína-proteína
 
@@ -142,7 +145,7 @@ Networks 2
 
 .. figure:: img/money.png
     :align: center
-    :scale: 50 %
+    :scale: 60 %
 
     Redes sociales/económicas
 
@@ -174,7 +177,7 @@ Networks 5
     :align: center
     :scale: 35 %
 
-    Red semántica TBBT
+    Red semántica TBBT (Season 3)
 
 
 Proceso de análisis
@@ -184,7 +187,7 @@ Los ejemplos van con nuestra investigación (osea: resumen del paper)
 
 .. image:: img/kdd0.png
     :align: center
-    :scale: 200 %
+    :scale: 50 %
 
 
 Proceso de análisis: Identificación y representación de haplotipos
@@ -267,12 +270,12 @@ Proceso de análisis: Visualización y análisis topológico
     :scale: 200 %
 
 
-Visualización y análisis topológico
------------------------------------
+Proceso de análisis: Visualización y análisis topológico
+--------------------------------------------------------
 
 .. image:: img/est.png
     :align: center
-    :scale: 300 %
+    :scale: 60 %
 
 
 Proceso de análisis: Exploración
@@ -332,8 +335,8 @@ Proceso de análisis: Conclusiones del proyecto
   KDD
 
 .. image:: img/sher.png
-    :align: right
-    :scale: 50 %
+    :align: center
+    :scale: 20 %
 
 Data Warehouse - OLAP - BI
 --------------------------
@@ -378,6 +381,7 @@ considerar como una ampliación de las dos dimensiones de una hoja de cálculo.
 - Las consultas OLAP se llaman MDX (son bastante parecidas a SQL)
 - Para consultas remotas se utiliza XMLA sobre SOAP
 
+
 Soluciones OpenSource
 ---------------------
 
@@ -392,23 +396,39 @@ Soluciones OpenSource
     :scale: 60 %
 
 
+Y donde estamos con nuestro problema
+------------------------------------
+
+- Los Sql eran muy engorrosos (http://wiki.getyatel.org/analysis/exp2014/)
+- Para Cubos y BI en general, la solución no era natural.
+- Solución Nuevo Paradigma: **NW-OLAP**
+
+
+
 Yatel
 -----
 
-- http://bitbucket.org/yatel/yatel
+.. image:: img/yatelred.png
+    :align: center
+    :scale: 50 %
+
+
+Yatel
+-----
+
+- http://getyatel.org
+- Es una implementación de referencia de NW-OLAP
 - Wiskey-Ware License
 - Es la implementación en gran parte del proceso mencionado anteriormente.
-- En vez de Cubos usa **redes** olap.
 - Falta trabajo (se aceptan colaboraciones)
 - Posee un lenguaje intermedio denominado QBJ
 - Puede usarse como librería o como DB remota (alpha)
 - Posee soportes de ETL, estadísticas y DM rudimentaria.
-- Su version 0.2 es pip-instalable (``pip install yatel``) necesitan tener
-  previamente numpy y pyqt, usa una bd distinta, y es una aplicación desktop
 
 .. image:: img/yatelred.png
-    :align: right
-    :scale: 80 %
+    :align: center
+    :scale: 30 %
+
 
 Yatel - Red OLAP
 ----------------
