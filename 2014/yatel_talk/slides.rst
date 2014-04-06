@@ -356,14 +356,15 @@ Concluimos que nuestro problema se adaptaba a algo muy similar a "algo" de BI
   datos resumidos de grandes Bases de datos o Sistemas Transaccionales (OLTP).
   Se usa en informes de negocios de ventas, marketing, informes de dirección,
   minería de datos y áreas similares.
+
+.. image:: img/dwolapbi.png
+    :align: center
+    :scale: 30 %
+
 - Se denomina **inteligencia empresarial**, inteligencia de negocios o BI (del inglés
   business intelligence) al conjunto de estrategias y herramientas enfocadas a
   la administración y creación de conocimiento mediante el análisis de datos
   existentes en una organización o empresa.
-
-.. image:: img/dwolapbi.png
-    :align: center
-    :scale: 150 %
 
 
 Cubo OLAP
@@ -401,33 +402,13 @@ Y donde estamos con nuestro problema
 
 - Los Sql eran muy engorrosos (http://wiki.getyatel.org/analysis/exp2014/)
 - Para Cubos y BI en general, la solución no era natural.
+- Las bases de datos de redes no son tan difundidas como las RDBMS.
 - Solución Nuevo Paradigma: **NW-OLAP**
 
 
-
-Yatel
------
-
-.. image:: img/yatelred.png
+.. image:: img/where-are-we.png
     :align: center
-    :scale: 50 %
-
-
-Yatel
------
-
-- http://getyatel.org
-- Es una implementación de referencia de NW-OLAP
-- Wiskey-Ware License
-- Es la implementación en gran parte del proceso mencionado anteriormente.
-- Falta trabajo (se aceptan colaboraciones)
-- Posee un lenguaje intermedio denominado QBJ
-- Puede usarse como librería o como DB remota (alpha)
-- Posee soportes de ETL, estadísticas y DM rudimentaria.
-
-.. image:: img/yatelred.png
-    :align: center
-    :scale: 30 %
+    :scale: 60 %
 
 
 Yatel - Red OLAP
@@ -438,15 +419,21 @@ Yatel - Red OLAP
     :scale: 100 %
 
 
+Yatel
+-----
 
-Yatel - la app
---------------
-
-En funcionamiento... (0.2 algo así va a ser Yatel BI)
-
-.. image:: img/sshot.png
+.. image:: img/yatelred.png
     :align: center
-    :scale: 25 %
+    :scale: 50 %
+
+- http://getyatel.org
+- Es una implementación de referencia de NW-OLAP
+- Wiskey-Ware License
+- Es la implementación en gran parte del proceso mencionado anteriormente.
+- Falta trabajo (se aceptan colaboraciones)
+- Posee un lenguaje intermedio denominado QBJ
+- Puede usarse como librería o como DB remota (alpha)
+- Posee soportes de ETL, estadísticas y DM rudimentaria.
 
 
 Yatel - Arquitectura
@@ -457,11 +444,9 @@ Yatel - Arquitectura
     :scale: 200 %
 
 
-
-
 En que se puede aportar
 
-- YQL sin implementar.
+- YatelQL sin implementar.
 - Más minería de datos propiamente dicha (solo tiene kmeans)
 - Agregar autenticación rudimentaria en yatel server y dar soporte a algo como... LDAP¿?¿?.
 - Como es un proyecto homologado por una universidad puede extenderse como parte
@@ -470,20 +455,40 @@ En que se puede aportar
 - Documentación (mucha)
 
 
+Yatel Kaani - (Not even started)
+--------------------------------
+
+- En funcionamiento... (0.2 algo así va a ser Yatel BI)
+- http://kaani.getyatel.org/
+
+.. image:: img/sshot.png
+    :align: center
+    :scale: 25 %
+
+
+Yatel Teper - (Not even started)
+--------------------------------
+
+- Va a ser el entorno visual de ETL
+- Va a permitir ordenar fuentes para alimentar DW NW-OLAP
+
+.. image:: img/etl.png
+    :align: center
+    :scale: 30 %
+
+
 ¿Preguntas?
 -----------
 
-    - Charlas:
-        - http://bitbucket.org/leliel12/talks
-    - Contacto:
-        - Juan B Cabral
-            - Mail: `jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_
-            - Twitter: `@JuanBCabral <http://twitter.com/JuanBCabral/>`_
-            - Blog: http://jbcabral.com/
+    - Charla: http://goo.gl/65e3vc
+    - Contactos:
+        - http://forum.getyatel.org
+        - Alejandro Garcia <`malegrandogarcia@hotmail.com <mailto:malegrandogarcia@hotmail.com>`_>
+        - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
 .. image:: img/questions.png
     :align: right
-    :scale: 75 %
+    :scale: 25 %
 
 
 
