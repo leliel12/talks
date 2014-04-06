@@ -411,16 +411,16 @@ Y donde estamos con nuestro problema
     :scale: 60 %
 
 
-Yatel - Red OLAP
-----------------
+Red OLAP (*NW-OLAP*)
+--------------------
 
 .. image:: img/olapnw.png
     :align: center
     :scale: 100 %
 
 
-Yatel
------
+NW-OLAP
+-------
 
 .. image:: img/yatelred.png
     :align: center
