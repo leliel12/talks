@@ -416,11 +416,67 @@ Red OLAP (*NW-OLAP*)
 
 .. image:: img/olapnw.png
     :align: center
-    :scale: 100 %
+    :scale: 33 %
 
 
-NW-OLAP
--------
+Red OLAP (*NW-OLAP*) Seleccionada
+---------------------------------
+
+.. image:: img/olapnw_selected.png
+    :align: center
+    :scale: 33 %
+
+
+Red OLAP (*NW-OLAP*) Partes
+----------------------------
+
+.. image:: img/olapnw_named.png
+    :align: center
+    :scale: 45 %
+
+
+Ejemplo: ¿Cual Córdoba es cada una? #1
+--------------------------------------
+
+.. image:: img/analisis/00.png
+    :align: center
+    :scale: 200 %
+
+
+Ejemplo: ¿Cual Córdoba es cada una? #2
+--------------------------------------
+
+.. image:: img/analisis/01.png
+    :align: center
+    :scale: 200 %
+
+
+Ejemplo: ¿Cual Córdoba es cada una? #3
+--------------------------------------
+
+.. image:: img/analisis/02.png
+    :align: center
+    :scale: 200 %
+
+
+Ejemplo: ¿Cual Córdoba es cada una? #4
+--------------------------------------
+
+.. image:: img/analisis/03.png
+    :align: center
+    :scale: 200 %
+
+
+Ejemplo: ¿Cual Córdoba es cada una? #5
+--------------------------------------
+
+.. image:: img/analisis/04.png
+    :align: center
+    :scale: 200 %
+
+
+Implementación
+--------------
 
 .. image:: img/yatelred.png
     :align: center
