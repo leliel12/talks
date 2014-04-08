@@ -486,10 +486,7 @@ Implementación
 - Es una implementación de referencia de NW-OLAP
 - Wiskey-Ware License
 - Es la implementación en gran parte del proceso mencionado anteriormente.
-- Falta trabajo (se aceptan colaboraciones)
-- Posee un lenguaje intermedio denominado QBJ
-- Puede usarse como librería o como DB remota (alpha)
-- Posee soportes de ETL, estadísticas y DM rudimentaria.
+- Pronto a salir la primer version usable 0.3
 
 
 Yatel - Arquitectura
@@ -499,16 +496,10 @@ Yatel - Arquitectura
     :align: center
     :scale: 200 %
 
-
-En que se puede aportar
-
-- YatelQL sin implementar.
-- Más minería de datos propiamente dicha (solo tiene kmeans)
-- Agregar autenticación rudimentaria en yatel server y dar soporte a algo como... LDAP¿?¿?.
-- Como es un proyecto homologado por una universidad puede extenderse como parte
-  de un proyecto de fin de carrera.
-- La parte científica per-se no esta desarrollada (algún doctorando en la sala?)
-- Documentación (mucha)
+- Posee un lenguaje intermedio denominado QBJ.
+- Puede usarse como librería o como DB remota (alpha)
+- Posee soportes de ETL, estadísticas y DM rudimentaria.
+- Exporta e importa las DW en formatos agnósticos basados en JSON y XML
 
 
 Yatel - Ejemplo - Creación
@@ -663,8 +654,8 @@ Yatel - Ejemplo - Data Minning
     # {u'lang': u'sp', u'timezone': u'utc', u'name': u'Andalucia'} || [0 0 0] || 1.41421356237
 
 
-Yatel Kaani - (Not even started)
---------------------------------
+Pendientes: Yatel Kaani - (Not even started)
+--------------------------------------------
 
 - En funcionamiento... (0.2 algo así va a ser Yatel BI)
 - Homepage: http://kaani.getyatel.org/
@@ -674,8 +665,8 @@ Yatel Kaani - (Not even started)
     :scale: 25 %
 
 
-Yatel Teper - (Not even started)
---------------------------------
+Pendientes: Yatel Teper - (Not even started)
+--------------------------------------------
 
 - Va a ser el entorno visual de ETL
 - Va a permitir ordenar fuentes para alimentar DW NW-OLAP
@@ -683,6 +674,22 @@ Yatel Teper - (Not even started)
 .. image:: img/etl.png
     :align: center
     :scale: 30 %
+
+
+Más pendientes
+--------------
+
+- YatelQL sin implementar.
+- Más minería de datos propiamente dicha (solo tiene kmeans)
+- Agregar autenticación rudimentaria en yatel server y dar soporte a algo como... LDAP¿?¿?.
+- La parte científica per-se no esta desarrollada (algún doctorando en la sala?)
+- Documentación (mucha)
+- Testing.
+
+.. image:: img/deadline.png
+    :align: center
+    :scale: 30 %
+
 
 
 ¿Preguntas?
