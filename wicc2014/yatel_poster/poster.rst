@@ -12,7 +12,9 @@
     Juan Bautista Cabral[1],
     María de la Paz Giménez Pecci[2],
     Rodrigo Liberal[1],
-    Irma Graciela Laguna[2][3],
+    Irma Graciela Laguna[2][3]
+
+    Contacto: mgarcia@sistemas.frc.utn.edu.ar
 
 
 .. =============================================================================
@@ -240,7 +242,7 @@ La estructura del grupo según la afiliación de los integrantes es la siguiente
 
 .. figure:: img/link.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
 
 
 .. =============================================================================
