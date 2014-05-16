@@ -697,7 +697,7 @@ Más pendientes
 ¿Preguntas?
 -----------
 
-    - Charla: http://goo.gl/65e3vc
+    - Charla: http://goo.gl/hTkdzj
     - Contactos:
         - http://forum.getyatel.org
         - Alejandro Garcia <`malegrandogarcia@hotmail.com <mailto:malegrandogarcia@hotmail.com>`_>
