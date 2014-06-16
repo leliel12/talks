@@ -441,7 +441,7 @@ Red OLAP (*NW-OLAP*)
 
 .. image:: img/olapnw.png
     :align: center
-    :scale: 33 %
+    :scale: 30 %
 
 
 Red OLAP (*NW-OLAP*) Seleccionada
@@ -449,7 +449,7 @@ Red OLAP (*NW-OLAP*) Seleccionada
 
 .. image:: img/olapnw_selected.png
     :align: center
-    :scale: 33 %
+    :scale: 30 %
 
 
 Red OLAP (*NW-OLAP*) Partes
@@ -457,7 +457,7 @@ Red OLAP (*NW-OLAP*) Partes
 
 .. image:: img/olapnw_named.png
     :align: center
-    :scale: 45 %
+    :scale: 30 %
 
 
 Ejemplo: ¿Cual Córdoba es cada una? #1
