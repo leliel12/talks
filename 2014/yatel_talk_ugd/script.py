@@ -8,7 +8,7 @@
 from yatel import dom, db
 
 # postgres, oracle, mysql, and many more
-nw = db.YatelNetwork("memory", mode="w")
+nw = db.YatelNetwork("sqlite", database="ejemplo.db", mode="w")
 
 elems = [
     dom.Haplotype(0, name="Cordoba", clima="calor", edad=200, frio=True), # left
@@ -19,15 +19,15 @@ elems = [
     dom.Edge(8924, (1, 2)),
     dom.Edge(9871, (2, 0)),
 
-    dom.Fact(0, name="Andalucia", lang="sp", timezone="utc-3"),
-    dom.Fact(1, lang="sp"),
-    dom.Fact(1, timezone="utc-6"),
-    dom.Fact(2, name="Andalucia", lang="sp", timezone="utc")
+    dom.Fact(0, name="Andalucia", lang="sp", timezone="utc-3", sup=576.0),
+    dom.Fact(1, lang="sp", ),
+    dom.Fact(1, timezone="utc-6", sup=226.01),
+    dom.Fact(2, name="Andalucia", lang="sp", timezone="utc", sup=1255.24)
 ]
 
 nw.add_elements(elems)
 nw.confirm_changes()
-
+import sys;sys.exit(1)
 
 #===============================================================================
 # QUERY 1
@@ -124,7 +124,6 @@ from yatel import stats
 print stats.average(nw)
 # 8464.66666667
 print stats.std(nw, name="Andalucia")
-import ipdb; ipdb.set_trace()
 # 0
 
 
