@@ -720,10 +720,10 @@ Más pendientes
 ¿Preguntas?
 -----------
 
-    - Charla: http://goo.gl/hTkdzj
+    - Charla: http://goo.gl/kNEXHK
     - Contactos:
         - http://forum.getyatel.org
-        - Alejandro Garcia <`malegrandogarcia@hotmail.com <mailto:malegrandogarcia@hotmail.com>`_>
+        - Juan Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
 .. image:: img/questions.png
     :align: right
