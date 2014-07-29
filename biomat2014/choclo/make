@@ -1,0 +1,3 @@
+tf=$(tempfile);
+rst2pdf poster.rst -s poster.style -o poster.pdf;
+evince $tf;
