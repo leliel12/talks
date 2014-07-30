@@ -30,7 +30,7 @@
 Introducción
 ------------
 
-Mal de Río Cuarto virus (MRCV) y Spiroplasma kunkelii (CSS) son dos patógenos
+Mal de Río Cuarto virus (MRCV) y *Spiroplasma kunkelii* (CSS) son dos patógenos
 transmitidos por chicharritas auquenorrincos que afectan al maíz, cultivo base
 de la sustentabilidad del sistema agropecuario actual de Argentina. La región
 agrícola presenta características diferentes en cada zona y ambiente, desde
@@ -45,6 +45,12 @@ en los 80, detección en Brasil en los 70 y rápida expansión en los 90,
 detección en Argentina en los 90 y dispersión en la zona subtropical hasta el
 2.000.
 
+.. figure:: img/choclos.png
+    :align: center
+    :scale: 100 %
+
+    Maiz con MRCV (izquierda) y con CSS (derecha)
+
 
 Objetivos
 ---------
@@ -53,11 +59,6 @@ Los objetivos del trabajo fueron reconocer la distribución geográfica y
 establecer en cada región del país el nivel de inóculo que podría relacionarse
 con el desencadenamiento de la enfermedad en la campaña agrícola siguiente, así
 como comparar el comportamiento entre las dos enfermedades.
-
-.. image:: img/explor1.png
-    :align: center
-    :scale: 60 %
-
 
 Materiales y métodos
 --------------------
@@ -69,9 +70,13 @@ prevalencia (número de lotes con al menos una planta enferma) e incidencia
 (porcentaje de plantas enfermas en un lote elegido al azar, en al menos 20
 plantas colectadas al azar).
 
+.. figure:: img/explor1.png
+    :align: center
+    :scale: 60 %
 
-Resultados
-----------
+
+Resultados y discusión
+----------------------
 
 Los resultados indicaron que la prevalencia de MRCV se incrementa hacia el
 sur, no superando valores de 40% hasta el paralelo 30°LS, elevándose sobre el
@@ -86,24 +91,31 @@ del 70, 50 y 25%. Los registros de incidencia del espiroplasma presentaron un
 cambio notable a mitad de la década: entre 2001 y 2005 el promedio superó el
 10% de plantas enfermas en el lote, mientras que entre 2006 y 2011 el promedio
 no superó 5%.
+Esto podría ser el resultado del empleo de semilla tratada profesionalmente en
+origen con insecticidas, práctica empleada masivamente desde la campaña
+2005/06.
 
-.. image:: img/explor2.png
+.. figure:: img/zonas.png
     :align: center
-    :scale: 60 %
+    :scale: 100 %
+
+    Presencia/ausencia de MRCV y CSS en cultivos maíz
 
 
 Conclusiones
 ------------
 
-Esto podría ser el resultado del empleo de semilla tratada profesionalmente en
-origen con insecticidas, práctica empleada masivamente desde la campaña
-2005/06. Se concluye que MRCV manifestó ciclos periódicos, de forma sinusoidal
-bien definida, mientras que CSS disminuyó notablemente su incidencia y
-prevalencia en la segunda mitad de la década analizada.
+Se concluye que MRCV manifestó ciclos periódicos de 3-4 años, de forma
+sinusoidal bien definida, mientras que CSS disminuyó notablemente su incidencia
+y prevalencia en la segunda mitad de la década analizada.
+
+.. figure:: img/explor2.png
+    :align: center
+    :scale: 60 %
 
 .. image:: img/link.png
     :align: center
-    :scale: 100 %
+    :scale: 70 %
 
 
 .. =============================================================================
@@ -114,7 +126,7 @@ prevalencia en la segunda mitad de la década analizada.
 
     .. class:: footer
 
-        **Contacto:** `malejandrogarcia@gmail.com <mailto:malejandrogarcia@gmail.com>`_
+        **Contacto:** `gimenez.mariadelapaz@inta.gob.ar <mailto:gimenez.mariadelapaz@inta.gob.ar>`_
 
         **Financiamiento:** INTA PNPV 1135022, UTN 1685.
 

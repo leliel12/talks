@@ -34,11 +34,11 @@
 
     "styles" : {
         "normal": {
-            "fontSize": 30
+            "fontSize": 25
         },
 
         "footer": {
-            "fontSize": 30,
+            "fontSize": 25,
             "alignment": TA_RIGHT
         },
 
