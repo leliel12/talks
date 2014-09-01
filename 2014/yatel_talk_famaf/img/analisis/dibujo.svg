@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="254.37285"
+   height="139.97243"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dibujo.svg"
+   inkscape:export-filename="/home/juan/proyectos/talks/2014/yatel_talk/soft/dibujo.png"
+   inkscape:export-xdpi="300.27344"
+   inkscape:export-ydpi="300.27344">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-22.823331"
+     inkscape:cy="36.784742"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-74.025712,-60.65904)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:85.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       x="99.242851"
+       y="78.599327"
+       id="text3763"
+       sodipodi:linespacing="85.000002%"><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         x="99.242851"
+         y="78.599327"
+         style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle">Córdoba</tspan><tspan
+         sodipodi:role="line"
+         x="99.242851"
+         y="87.099327"
+         style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle"
+         id="tspan3767" /></text>
+    <g
+       transform="translate(70.313573,84.527857)"
+       id="g3844">
+      <path
+         transform="matrix(1.1891892,0,0,0.93023256,-23.00555,4.849189)"
+         d="m 146.42857,84.862183 c 0,8.481515 -5.91624,15.357147 -13.21429,15.357147 -7.29805,0 -13.21429,-6.875632 -13.21429,-15.357147 0,-8.481516 5.91624,-15.357143 13.21429,-15.357143 7.29805,0 13.21429,6.875627 13.21429,15.357143 z"
+         sodipodi:ry="15.357142"
+         sodipodi:rx="13.214286"
+         sodipodi:cy="84.862183"
+         sodipodi:cx="133.21428"
+         id="path2985-9"
+         style="fill:#758453;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="85.000002%"
+         id="text3763-7"
+         y="105.93361"
+         x="135.67143"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:85.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+         xml:space="preserve"><tspan
+           style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle"
+           y="105.93361"
+           x="135.67143"
+           id="tspan3765-7"
+           sodipodi:role="line">Córdoba</tspan><tspan
+           id="tspan3767-0"
+           style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle"
+           y="114.43361"
+           x="135.67143"
+           sodipodi:role="line" /><tspan
+           style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle"
+           y="122.93361"
+           x="135.67143"
+           sodipodi:role="line"
+           id="tspan3805" /></text>
+    </g>
+    <g
+       id="g3940">
+      <path
+         transform="matrix(1.1891892,0,0,0.93023256,-20.862693,-3.0079541)"
+         d="m 146.42857,84.862183 c 0,8.481515 -5.91624,15.357147 -13.21429,15.357147 -7.29805,0 -13.21429,-6.875632 -13.21429,-15.357147 0,-8.481516 5.91624,-15.357143 13.21429,-15.357143 7.29805,0 13.21429,6.875627 13.21429,15.357143 z"
+         sodipodi:ry="15.357142"
+         sodipodi:rx="13.214286"
+         sodipodi:cy="84.862183"
+         sodipodi:cx="133.21428"
+         id="path2985"
+         style="fill:#758453;fill-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.1891892,0,0,0.93023256,115.73874,-0.592955)"
+         d="m 146.42857,84.862183 c 0,8.481515 -5.91624,15.357147 -13.21429,15.357147 -7.29805,0 -13.21429,-6.875632 -13.21429,-15.357147 0,-8.481516 5.91624,-15.357143 13.21429,-15.357143 7.29805,0 13.21429,6.875627 13.21429,15.357143 z"
+         sodipodi:ry="15.357142"
+         sodipodi:rx="13.214286"
+         sodipodi:cy="84.862183"
+         sodipodi:cx="133.21428"
+         id="path2985-9-9"
+         style="fill:#758453;fill-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:85.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       x="311.55856"
+       y="77.52861"
+       id="text3763-7-7"
+       sodipodi:linespacing="85.000002%"><tspan
+         sodipodi:role="line"
+         id="tspan3765-7-2"
+         x="311.55856"
+         y="77.52861"
+         style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle">Córdoba</tspan><tspan
+         sodipodi:role="line"
+         x="311.55856"
+         y="86.02861"
+         style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle"
+         id="tspan3767-0-5" /><tspan
+         id="tspan3805-0"
+         sodipodi:role="line"
+         x="311.55856"
+         y="94.52861"
+         style="font-size:10px;text-align:center;line-height:85.00000238%;text-anchor:middle" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3851"
+       y="125.21932"
+       x="137.14285"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       xml:space="preserve"><tspan
+         style="font-size:12px;fill:#000000;fill-opacity:1"
+         y="125.21932"
+         x="137.14285"
+         id="tspan3853"
+         sodipodi:role="line">9871</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect3878"
+       width="4.2857141"
+       height="80"
+       x="72.362175"
+       y="-247.14285"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect3878-2"
+       width="4.2857141"
+       height="80"
+       x="80.491592"
+       y="151.74879"
+       transform="matrix(0.85234303,-0.52298313,0.52298313,0.85234303,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect3878-2-8"
+       width="4.2857141"
+       height="80"
+       x="258.56848"
+       y="-102.59737"
+       transform="matrix(0.75865367,0.65149413,-0.65149413,0.75865367,0,0)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3851-2"
+       y="68.21904"
+       x="193.08371"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       xml:space="preserve"><tspan
+         style="font-size:12px;fill:#000000;fill-opacity:1"
+         y="68.21904"
+         x="193.08371"
+         id="tspan3853-0"
+         sodipodi:role="line">6599</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3851-2-3"
+       y="133.21304"
+       x="240.83313"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       xml:space="preserve"><tspan
+         style="font-size:12px;fill:#000000;fill-opacity:1"
+         y="133.21304"
+         x="240.83313"
+         id="tspan3853-0-2"
+         sodipodi:role="line">8924</tspan></text>
+  </g>
+</svg>
