@@ -52,9 +52,8 @@ Integrantes
 About Me
 --------
 
-- Egrese del Liceo Storni
 - Soy ingeniero en sistemas de la UTN-FRC
-- Estoy preparando mi doctorado en::
+- Propuesta Doctoral
 
     Análisis y diseño de procesos de minería de datos astrofísicos sobre
     catálogos fotométricos múltiple época.
@@ -62,11 +61,6 @@ About Me
     Directores:
         Dr. Pablo Granitto (CIFASIS-CONICET)
         Dr. Sebastián Gurovich (IATE-UNC - CONICET)
-
-- Otros intereses:
-    - Recolección de datos.
-    - Optimizaciones.
-    - API e Infraestructura.
 
 
 .. image:: img/mad.png
