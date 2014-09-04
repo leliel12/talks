@@ -505,7 +505,7 @@ Implementación
 - Es una implementación de referencia de NW-OLAP
 - Wiskey-Ware License
 - Es la implementación en gran parte del proceso mencionado anteriormente.
-- Pronto a salir la primer version usable 0.3
+- Version actual 0.3 (``pip install yatel``)
 
 
 Yatel - Arquitectura
@@ -702,8 +702,7 @@ Más pendientes
 - Más minería de datos propiamente dicha (solo tiene kmeans)
 - Agregar autenticación rudimentaria en yatel server y dar soporte a algo como... LDAP¿?¿?.
 - La parte científica per-se no esta desarrollada (algún doctorando en la sala?)
-- Documentación (mucha)
-- Testing.
+- Documentación (manual)
 
 .. image:: img/deadline.png
     :align: center
@@ -714,7 +713,7 @@ Más pendientes
 ¿Preguntas?
 -----------
 
-    - Charla: http://goo.gl/kNEXHK
+    - Charla: http://goo.gl/6iKhWy
     - Contactos:
         - http://forum.getyatel.org
         - Juan Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
