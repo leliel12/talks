@@ -222,7 +222,7 @@ Conclusiones
 ¿Preguntas?
 -----------
 
-    - Charla:
+    - Charla: http://goo.gl/XYHo58
     - Contactos:
         - `jbcabral.com <http://jbcabral.com>`_
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
