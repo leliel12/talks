@@ -1,0 +1,3 @@
+tf0=$(tempfile);
+rst2pdf slides.rst -s slides.style -b1 -o $tf0 --fit-background-mode=scale;
+evince $tf0;
