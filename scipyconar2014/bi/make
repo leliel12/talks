@@ -1,0 +1,2 @@
+
+rst2pdf slides.rst -s slides.style -b1 -o bi.pdf --fit-background-mode=scale;
