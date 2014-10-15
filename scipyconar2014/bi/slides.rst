@@ -34,14 +34,14 @@ Fundamentos de Bussines Intelligence
 About Me
 --------
 
-About Me
+Juan B Cabral
 
 - Software engineer.
 - Data scientist.
 
 .. image:: imgs/eng.png
-    :align: right
-    :scale: 70 %
+    :align: center
+    :scale: 60 %
 
 
 Agenda
@@ -66,6 +66,49 @@ Agenda
     :scale: 50 %
 
 
+Historia y descripción del BI - Definición
+------------------------------------------
+
+El término inteligencias empresariales se refiere al uso de datos en una
+**empresa** para facilitar la toma de decisiones. Abarca la comprensión del
+funcionamiento actual de la **empresa**, bien como la anticipación de
+acontecimientos futuros, con el objetivo de ofrecer conocimientos para
+respaldar las decisiones **empresariales**. [WIKIPEDIA]_
+
+En 1989, Howard Dresner (más tarde, un analista de Gartner Group) propuso la
+"inteligencia de negocios" como un término general para describir
+"los conceptos y métodos para mejorar la toma de decisiones **empresariales**
+mediante el uso de sistemas basados en hechos de apoyo" [WIKIPEDIA]_
+
+.. class:: center
+
+    **Uno de los pocos casos que Nace en la industria migra a la Ciencia**
+
+
+.. image:: imgs/bihist.png
+    :align: center
+    :scale: 30 %
+
+Historia y descripción del BI - Características
+-----------------------------------------------
+
+- **Accesibilidad a la información.** El acceso a datos debe ser de forma
+  independiente a su procedencia
+- **Apoyo en la toma de decisiones.** La herramientas debe permitir la
+  selección, análisis  y manipulación selectiva de datos
+- **Orientación al usuario final.** Se busca independencia entre los
+  conocimientos técnicos de los usuarios y su capacidad para utilizar estas
+  herramientas.
+
+.. image:: imgs/insta.png
+    :align: center
+    :scale: 40 %
+
+
+
+
+
+
 ¿Preguntas?
 -----------
 
@@ -78,5 +121,7 @@ Agenda
     :align: right
     :scale: 35 %
 
+
+.. [WIKIPEDIA] http://es.wikipedia.org/wiki/Inteligencia_empresarial
 
 
