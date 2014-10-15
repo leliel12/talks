@@ -66,6 +66,18 @@ Agenda
     :scale: 50 %
 
 
+Demo Time
+---------
+
+.. image:: imgs/demotime.png
+    :align: center
+    :scale: 100 %
+
+.. class:: center
+
+    **Veamos a que apuntamos con este tutorial**
+
+
 Historia y descripción del BI - Definición
 ------------------------------------------
 
