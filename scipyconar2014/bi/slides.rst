@@ -49,16 +49,18 @@ Agenda
 
 ::
 
-    - Historia y descripción del BI
-    - Bases de datos transaccionales (OLTP) vs Analíticas (OLAP)
-    - Data Marts y Data Warehouse
-    - Estructura de datos para análisis multidimensional (OLAP Cubes)
-    - Implementaciones OLAP: ROLAP - MOLAP - HOLAP
-    - Modelado relacional para RDBMS (ROLAP)
-    - Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes)
-    - Aplicaciones BI (Pentaho - Saiku - Cubes Viewer)
-    - Consultas MDX (Multi Dimensional eXpressions)
-    - ETL (Extract, Transform and Load)
+    01. Historia y descripción del BI
+    02. Bases de datos transaccionales (OLTP) vs Analíticas (OLAP)
+    03. Data Marts y Data Warehouse
+    04. Dimensiones
+    05. Estructura de datos para análisis multidimensional (OLAP Cubes)
+    06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
+
+    07. Modelado relacional para RDBMS (ROLAP)
+    08. Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes)
+    09. Aplicaciones BI (Pentaho - Saiku - Cubes Viewer)
+    10. Consultas MDX (Multi Dimensional eXpressions)
+    11. ETL (Extract, Transform and Load)
 
 
 .. image:: imgs/agenda.png
