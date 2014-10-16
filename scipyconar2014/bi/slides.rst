@@ -117,6 +117,28 @@ Historia y descripción del BI - Características
     :scale: 40 %
 
 
+OLTP & OLAP
+-----------
+
+.. class:: Center
+
+    Existen diferentes formas de clasificar bases de datos
+
+
+.. image:: imgs/dbtypes.png
+    :align: center
+    :scale: 50 %
+
+
+- Segun la estructura que almacentan:
+  **OO** (db4o), **Document-Oriented** (mongoDB, CouchDB), **RDBMS** (MySql,
+  SQLite, PostgreSQL, Oracle, MicrosoftSQL Server, DB2), **Key-Value**
+  (Redis, riak) o **Graph** (Neo4J)
+- Segun si implementan o no SQL:
+  **SQL** (MySql, SQLite, PostgreSQL, Oracle, MicrosoftSQL Server, DB2) o
+  **NO-SQL** (Todas las demas)
+- Segun su objetivo:
+    **OLAP** (Mondrian, Cubes, Cognos) y **OLTP** (Todas las demas)
 
 
 
