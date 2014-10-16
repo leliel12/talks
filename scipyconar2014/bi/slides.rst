@@ -117,8 +117,8 @@ Historia y descripción del BI - Características
     :scale: 40 %
 
 
-OLTP & OLAP
------------
+OLTP & OLAP - Versus otras Clasificaciones
+------------------------------------------
 
 .. class:: Center
 
@@ -139,6 +139,25 @@ OLTP & OLAP
   **NO-SQL** (Todas las demas)
 - Segun su objetivo:
     **OLAP** (Mondrian, Cubes, Cognos) y **OLTP** (Todas las demas)
+
+
+OLTP & OLAP - Versus otras Clasificaciones
+------------------------------------------
+
+.. class:: center
+
+    **OLAP** es el acrónimo en inglés de procesamiento analítico en línea
+    (On-Line Analytical Processing). Es una solución utilizada en el campo de
+    la llamada Inteligencia empresarial (o Business Intelligence)
+    cuyo objetivo es agilizar la consulta de grandes cantidades de datos.
+    ... contienen datos resumidos de grandes Bases de datos o Sistemas
+    Transaccionales (OLTP). Se usa en informes de negocios de ventas,
+    marketing, informes de dirección, minería de datos y áreas similares.
+
+.. image:: imgs/olapvsoltp.png
+    :align: center
+    :scale: 100 %
+
 
 
 
