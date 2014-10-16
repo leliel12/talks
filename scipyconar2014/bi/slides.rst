@@ -141,8 +141,8 @@ OLTP & OLAP - Versus otras Clasificaciones
     **OLAP** (Mondrian, Cubes, Cognos) y **OLTP** (Todas las demas)
 
 
-OLTP & OLAP - Versus otras Clasificaciones
-------------------------------------------
+OLTP & OLAP - OLAP vs OLTP
+--------------------------
 
 .. class:: center
 
@@ -156,8 +156,50 @@ OLTP & OLAP - Versus otras Clasificaciones
 
 .. image:: imgs/olapvsoltp.png
     :align: center
-    :scale: 100 %
+    :scale: 39 %
 
+
+Data Marts
+----------
+
+.. class:: center
+
+    Un **Data mart** es una versión especial de almacén de datos.
+    Son subconjuntos de datos con el propósito de ayudar a que un área
+    específica dentro del negocio pueda tomar mejores decisiones.
+
+
+Los Data marts son subconjuntos de datos de un almacen de datos  para áreas
+específicas.
+
+Entre las características de un data mart destacan:
+
+    - Usuarios limitados.
+    - Área específica.
+    - Tiene un propósito específico.
+    - Tiene una función de apoyo.
+
+.. image:: imgs/dmart.png
+    :align: right
+    :scale: 50 %
+
+
+Data Warehouse
+--------------
+
+.. class:: center
+
+    Según Ralph Kimball un almacen de datos o **Data Warehouse** es:
+    "una copia de las transacciones de datos específicamente estructurada
+    para la consulta y el análisis"[cita requerida]. También fue Kimball
+    quien determinó que un data warehouse no era más que:
+    "la unión de todos los *Data marts* de una entidad". Defiende por tanto
+    una metodología ascendente (bottom-up) a la hora de diseñar un almacén de
+    datos.
+
+.. image:: imgs/dw.png
+    :align: center
+    :scale: 80 %
 
 
 
