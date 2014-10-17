@@ -9,7 +9,7 @@
 .. CONTENT
 .. =============================================================================
 
-Fundamentos de Bussines Intelligence
+Fundamentos de Business Intelligence
 ------------------------------------
 
 .. class:: center
@@ -254,7 +254,9 @@ Hechos y Dimensiones - Un ejemplo
 - **Dim. Sucursal:**  7
 - **Dim. Fecha:** 16 de octubre del 2014
 
-Consulta multidimensionales basándonos en el ejemplo:
+.. class:: center
+
+    **Consultas multidimensionales basándonos en el ejemplo:**
 
 #. Promedio de gastos por cliente.
 #. Quiero el promedio de de las ventas por producto y sucursal.
@@ -267,8 +269,8 @@ Consulta multidimensionales basándonos en el ejemplo:
 
 
 
-Hechos y Dimensiones - Científico
----------------------------------
+Hechos y Dimensiones - Ejemplo Científico
+-----------------------------------------
 
 ::
 
@@ -282,7 +284,9 @@ Hechos y Dimensiones - Científico
 - **Dim. Zona:** rango ``R`` tal que ``R`` contiene a ``Z``
 - **Dim. Fecha:** ``W``
 
-Consulta multidimensionales basándonos en el ejemplo:
+.. class:: center
+
+    **Consultas multidimensionales basándonos en el ejemplo:**
 
 #. Cantidad de descubrimientos por posición.
 #. Promedio de magnitud por tipo de fuente.
@@ -307,6 +311,45 @@ Dimensiones - Tipos
 .. image:: imgs/gatkeper.png
     :align: center
     :scale: 39 %
+
+
+Slowly Change Dimension
+-----------------------
+
+- Se supone que una DW no cambia mucho en sus dimensiones.
+- Si alguna cambia: **cambia lentamente**
+
+Suponiendo que tengo alguna dimension con un miembro parecido a:
+
+.. code-block:: javascript
+
+    {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta"}
+
+.. class:: center
+
+    Ahora Plutón no es mas un planeta y existen
+    **tres enfoques para cambiar los datos**
+
+a. **SCD Tipo 1:** No Guardo Historia.
+
+.. code-block:: javascript
+
+    {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta Enano"}
+
+
+b. **SCD Tipo 2:** Guardo Historia Versionando.
+
+.. code-block:: javascript
+
+    {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta", ver: 1}
+    {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta Enano", ver: 2}
+
+
+C. **SCD Tipo 3:** Guardo Historia Cambiando la Dimensión.
+
+.. code-block:: javascript
+
+    {sk: 1, bk: 001, nombre: "Plutón", cat0: "Planeta", cat1: "Planeta Enano"}
 
 
 Cubos OLAP
