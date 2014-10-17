@@ -54,8 +54,8 @@ Agenda
     03. Data Marts y Data Warehouse
     04. Facts y Dimensiones
     05. Estructura de datos para análisis multidimensional (OLAP Cubes)
-
     06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
+
     07. Modelado relacional para RDBMS (ROLAP)
     08. Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes)
     09. Aplicaciones BI (Pentaho - Saiku - Cubes Viewer)
@@ -171,7 +171,7 @@ Data Marts
     específica dentro del negocio pueda tomar mejores decisiones.
 
 
-Los Data marts son subconjuntos de datos de un almacen de datos  para áreas
+Los Data marts son subconjuntos de datos de un almacén de datos  para áreas
 específicas.
 
 Entre las características de un data mart destacan:
@@ -212,15 +212,16 @@ Hechos (o *Facts*)
 
 .. class:: center
 
-    Un hecho es un valor o una medida que reprenta un hecho (*sic) sobre una
+    Un hecho es un valor o una medida que representa un hecho (*sic) sobre una
     entidad o un sistema.
+
     Es algo que efectivamente sucedió o existe y sobre los cuales queremos
     efectuar análisis.
 
 
 .. image:: imgs/dims.png
     :align: center
-    :scale: 40 %
+    :scale: 25 %
 
 
 Dimensiones
@@ -228,9 +229,15 @@ Dimensiones
 
 .. class:: center
 
-    Es una estructura que ctegoriza a hechos y medidas para permitir responder
-    preguntas del negocio
+    Es una estructura que categoriza a hechos y medidas para permitir responder
+    preguntas del negocio.
 
+    El valor de una dimensión se llama **miembro**
+
+    Si una dimension se puede separar en "partes" suele llamarsele
+    **Jerarquias** ``(Fecha = año + mes + dia)``.
+
+    Las "partes" se llaman niveles.
 
 
 Hechos y Dimensiones - Un ejemplo
@@ -238,21 +245,21 @@ Hechos y Dimensiones - Un ejemplo
 
 ::
 
-    Tito fue a comprar jabon en polvo gasto en total $16 en la sucursal 7
+    Tito fue a comprar jabón en polvo gasto en total $16 en la sucursal 7
     el 16 de octubre del 2014
 
-- **Hecho:** Sucedio 1 (metrica) venta que se gasto $ 16 (esto ultimo es una metrica).
+- **Hecho:** Sucedió 1 (métrica) venta que se gasto $ 16 (métrica).
 - **Dim. Cliente:** tito
-- **Dim. Producto:** jabon en polvo.
+- **Dim. Producto:** jabón en polvo.
 - **Dim. Sucursal:**  7
 - **Dim. Fecha:** 16 de octubre del 2014
 
-Consulta multidimensionales basandonos en el ejemplo:
+Consulta multidimensionales basándonos en el ejemplo:
 
 #. Promedio de gastos por cliente.
 #. Quiero el promedio de de las ventas por producto y sucursal.
 #. Quiero la suma de ingresos por producto.
-#. Quiero conteo de ventas por dia.
+#. Quiero conteo de ventas por día.
 
 .. image:: imgs/takemymoney.png
     :align: right
@@ -260,24 +267,24 @@ Consulta multidimensionales basandonos en el ejemplo:
 
 
 
-Hechos y Dimensiones - Cientifico
+Hechos y Dimensiones - Científico
 ---------------------------------
 
 ::
 
-    El telescopio X encontro una estrella tipo RR-Lyrae con una magniud
-    aparente Y en la posicion Z en la fecha W.
+    El telescopio X encontró una estrella tipo RR-Lyrae con una magnitud
+    aparente Y en la posición Z en la fecha W.
 
-- **Hecho:** Sucedio 1 (metrica) descubrimiento de una estrella de
-  magnitud aparente Y (metrica).
-- **Dim. Dispositivo:** Telescopio X
-- **Dim. Tipo de Fuente:** RR-Lyrae
-- **Dim. Zona:** rango R tal que R contiene  a Z
-- **Dim. Fecha:** W
+- **Hecho:** Sucedió 1 (métrica) descubrimiento de una estrella de
+  magnitud aparente Y (métrica).
+- **Dim. Dispositivo:** Telescopio ``X``
+- **Dim. Tipo de Fuente:** ``RR-Lyrae``
+- **Dim. Zona:** rango ``R`` tal que ``R`` contiene a ``Z``
+- **Dim. Fecha:** ``W``
 
-Consulta multidimensionales basandonos en el ejemplo:
+Consulta multidimensionales basándonos en el ejemplo:
 
-#. Cantidad de descubrimientos por posicion.
+#. Cantidad de descubrimientos por posición.
 #. Promedio de magnitud por tipo de fuente.
 
 .. image:: imgs/stars.png
@@ -290,16 +297,29 @@ Dimensiones - Tipos
 
 - **Regular:** cliente, articulo, tipo de fuente
 - **Conformed:** Conectan mas de un datamart y tienen mismo
-  significado semantico en todos los data marts
-- **Role Played:** Cambian de significado segun el datamart
+  significado semántico en todos los datamarts
+- **Role Played:** Cambian de significado según el datamart
 - **Junk:** Suelen tener banderas como [S|N] o Sexo
-- **Dirty:** Son role playing que no tienen significado en si
-  mismos por ejemplo un numero que en un datamart es un identificador de
-  facturas y en otro es un DNI.
+- **Dirty:** Son *role-playing* que no tienen significado en si
+  mismos. Por ejemplo: una dimensión numero que en un datamart es un
+  identificador de facturas y en otro es un DNI.
 
 .. image:: imgs/gatkeper.png
     :align: center
-    :scale: 40 %
+    :scale: 39 %
+
+
+Cubos OLAP
+----------
+
+.. class:: center
+
+    Es una base de datos multidimensional, en la cual el almacenamiento físico
+    de los datos se realiza en un vector multidimensional.
+
+    Pueden considerar como una ampliación de las dos dimensiones de una hoja
+    de cálculo.
+
 
 
 
