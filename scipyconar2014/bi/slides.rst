@@ -52,10 +52,10 @@ Agenda
     01. Historia y descripción del BI
     02. Bases de datos transaccionales (OLTP) vs Analíticas (OLAP)
     03. Data Marts y Data Warehouse
-    04. Dimensiones
+    04. Facts y Dimensiones
     05. Estructura de datos para análisis multidimensional (OLAP Cubes)
-    06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
 
+    06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
     07. Modelado relacional para RDBMS (ROLAP)
     08. Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes)
     09. Aplicaciones BI (Pentaho - Saiku - Cubes Viewer)
@@ -203,6 +203,103 @@ Data Warehouse
     :align: center
     :scale: 80 %
 
+
+Hechos y Dimensiones - Definición
+---------------------------------
+
+Hechos (o *Facts*)
+^^^^^^^^^^^^^^^^^^
+
+.. class:: center
+
+    Un hecho es un valor o una medida que reprenta un hecho (*sic) sobre una
+    entidad o un sistema.
+    Es algo que efectivamente sucedió o existe y sobre los cuales queremos
+    efectuar análisis.
+
+
+.. image:: imgs/dims.png
+    :align: center
+    :scale: 40 %
+
+
+Dimensiones
+^^^^^^^^^^^
+
+.. class:: center
+
+    Es una estructura que ctegoriza a hechos y medidas para permitir responder
+    preguntas del negocio
+
+
+
+Hechos y Dimensiones - Un ejemplo
+---------------------------------
+
+::
+
+    Tito fue a comprar jabon en polvo gasto en total $16 en la sucursal 7
+    el 16 de octubre del 2014
+
+- **Hecho:** Sucedio 1 (metrica) venta que se gasto $ 16 (esto ultimo es una metrica).
+- **Dim. Cliente:** tito
+- **Dim. Producto:** jabon en polvo.
+- **Dim. Sucursal:**  7
+- **Dim. Fecha:** 16 de octubre del 2014
+
+Consulta multidimensionales basandonos en el ejemplo:
+
+#. Promedio de gastos por cliente.
+#. Quiero el promedio de de las ventas por producto y sucursal.
+#. Quiero la suma de ingresos por producto.
+#. Quiero conteo de ventas por dia.
+
+.. image:: imgs/takemymoney.png
+    :align: right
+    :scale: 10 %
+
+
+
+Hechos y Dimensiones - Cientifico
+---------------------------------
+
+::
+
+    El telescopio X encontro una estrella tipo RR-Lyrae con una magniud
+    aparente Y en la posicion Z en la fecha W.
+
+- **Hecho:** Sucedio 1 (metrica) descubrimiento de una estrella de
+  magnitud aparente Y (metrica).
+- **Dim. Dispositivo:** Telescopio X
+- **Dim. Tipo de Fuente:** RR-Lyrae
+- **Dim. Zona:** rango R tal que R contiene  a Z
+- **Dim. Fecha:** W
+
+Consulta multidimensionales basandonos en el ejemplo:
+
+#. Cantidad de descubrimientos por posicion.
+#. Promedio de magnitud por tipo de fuente.
+
+.. image:: imgs/stars.png
+    :align: right
+    :scale: 40 %
+
+
+Dimensiones - Tipos
+-------------------
+
+- **Regular:** cliente, articulo, tipo de fuente
+- **Conformed:** Conectan mas de un datamart y tienen mismo
+  significado semantico en todos los data marts
+- **Role Played:** Cambian de significado segun el datamart
+- **Junk:** Suelen tener banderas como [S|N] o Sexo
+- **Dirty:** Son role playing que no tienen significado en si
+  mismos por ejemplo un numero que en un datamart es un identificador de
+  facturas y en otro es un DNI.
+
+.. image:: imgs/gatkeper.png
+    :align: center
+    :scale: 40 %
 
 
 
