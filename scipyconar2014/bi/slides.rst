@@ -232,9 +232,27 @@ Dimensiones
     Es una estructura que categoriza a hechos y medidas para permitir responder
     preguntas del negocio.
 
-    El valor de una dimensión se llama **miembro**
 
-    Si una dimension puede dividirLas "partes" se llaman niveles.
+
+Dividiendo Dimensiones
+----------------------
+
+- Una **dimension** SIEMPRE se divide en una o mas **Jerarquias**.
+- Una **Jerarquia** SIEMPRE se divide en uno o mas **Niveles**.
+- Un **Nivel** puede tener mas niveles adentro.
+- Un **Nivel (sin subniveles)** SIEMPRE se divide en atributos.
+- Un **Atributo** tiene **Miembros**
+- Los **Miembros son los valores**
+
+.. csv-table:: Ejemplos
+    :header-rows: 1
+
+    Dim, Hierarchy, Level, Attribute, Member
+    User,User,User,Name,Tito
+    User,User,User,LastName, Puente
+    Fecha,Año,Mes,Dia,25
+    Fecha,Año,Mes,Mes,Feb
+    Fecha,Año,Mes,Año,2014
 
 
 Hechos y Dimensiones - Un ejemplo
@@ -414,6 +432,10 @@ Cubos OLAP - Implementaciones
 .. image:: imgs/holapex.png
     :align: center
     :scale: 30 %
+
+
+OLAP - Alternativas
+-------------------
 
 
 
