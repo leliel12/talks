@@ -239,20 +239,23 @@ Dividiendo Dimensiones
 
 - Una **dimension** SIEMPRE se divide en una o mas **Jerarquias**.
 - Una **Jerarquia** SIEMPRE se divide en uno o mas **Niveles**.
-- Un **Nivel** puede tener mas niveles adentro.
-- Un **Nivel (sin subniveles)** SIEMPRE se divide en atributos.
-- Un **Atributo** tiene **Miembros**
-- Los **Miembros son los valores**
+- Un **Nivel** SIEMPRE se divide en atributos.
+- Un **Atributo** TIENE **Miembros**
+- Los **Miembros** SON los **valores**
 
-.. csv-table:: Ejemplos
-    :header-rows: 1
 
-    Dim, Hierarchy, Level, Attribute, Member
-    User,User,User,Name,Tito
-    User,User,User,LastName, Puente
-    Fecha,Año,Mes,Dia,25
-    Fecha,Año,Mes,Mes,Feb
-    Fecha,Año,Año,Año,2014
+.. image:: imgs/mamushka.png
+    :align: center
+    :scale: 40 %
+
+
+Dividiendo Dimensiones - Ejemplos
+---------------------------------
+
+.. image:: imgs/dimhier.png
+    :align: center
+    :scale: 50 %
+
 
 
 Hechos y Dimensiones - Un ejemplo
@@ -420,6 +423,7 @@ Cubos OLAP - Implementaciones
 
 - **ROLAP** La base de datos es una vista lógica sobre una relacional.
   Existen diferentes estrategias para crear la base de datos segun necesidades.
+  (es lo que vamos a continuar viendo en este tutorial)
 
 .. image:: imgs/rolapimp.png
     :align: center
@@ -436,6 +440,7 @@ Cubos OLAP - Implementaciones
 
 OLAP - Alternativas
 -------------------
+
 
 
 
