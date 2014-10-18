@@ -327,17 +327,26 @@ Suponiendo que tengo alguna dimension con un miembro parecido a:
 
 .. class:: center
 
-    Ahora Plutón no es mas un planeta y existen
-    **tres enfoques para cambiar los datos**
+    **Ahora Plutón no es mas un planeta...**
 
-a. **SCD Tipo 1:** No Guardo Historia.
+.. image:: imgs/pluto.png
+    :align: center
+    :scale: 50 %
+
+
+Slowly Change Dimension - Enfoques
+----------------------------------
+
+0. **SCD Tipo 0:** No hacemos nada. No sempre un cambio en OLTP refleja un cambio en OLAP.
+
+1. **SCD Tipo 1:** No Guardo Historia.
 
 .. code-block:: javascript
 
     {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta Enano"}
 
 
-b. **SCD Tipo 2:** Guardo Historia Versionando.
+2. **SCD Tipo 2:** Guardo Historia Versionando.
 
 .. code-block:: javascript
 
@@ -345,11 +354,15 @@ b. **SCD Tipo 2:** Guardo Historia Versionando.
     {sk: 1, bk: 001, nombre: "Plutón", cat: "Planeta Enano", ver: 2}
 
 
-C. **SCD Tipo 3:** Guardo Historia Cambiando la Dimensión.
+3. **SCD Tipo 3:** Guardo Historia Cambiando la Dimensión.
 
 .. code-block:: javascript
 
     {sk: 1, bk: 001, nombre: "Plutón", cat0: "Planeta", cat1: "Planeta Enano"}
+
+.. image:: imgs/oldpluto.png
+    :align: center
+    :scale: 19 %
 
 
 Cubos OLAP
@@ -363,13 +376,24 @@ Cubos OLAP
     Pueden considerar como una ampliación de las dos dimensiones de una hoja
     de cálculo.
 
+.. image:: imgs/cube.png
+    :align: center
+    :scale: 50 %
+
+
+Cubos OLAP - Operaciones
+------------------------
+
+.. image:: imgs/olap-slicing.png
+    :align: center
+    :scale: 50 %
 
 
 
 ¿Preguntas?
 -----------
 
-    - Charla:
+    - Charla: http://goo.gl/3rb9QE
     - Contactos:
         - `jbcabral.com <http://jbcabral.com>`_
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
