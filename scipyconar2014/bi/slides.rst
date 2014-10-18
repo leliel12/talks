@@ -376,9 +376,12 @@ Cubos OLAP
     Pueden considerar como una ampliación de las dos dimensiones de una hoja
     de cálculo.
 
+    Las respuestas de los cubos olap son cubos de menor dimensión (normalmente
+    tablas de doble entrada) y los datos se le llaman celdas.
+
 .. image:: imgs/cube.png
     :align: center
-    :scale: 50 %
+    :scale: 30 %
 
 
 Cubos OLAP - Operaciones
@@ -387,6 +390,36 @@ Cubos OLAP - Operaciones
 .. image:: imgs/olap-slicing.png
     :align: center
     :scale: 50 %
+
+
+Cubos OLAP - Implementaciones
+-----------------------------
+
+
+- **MOLAP** La base de datos es multidimencional hasta su nivel mas bajo.
+  Cada miembro de cada hecho esta almacenado en una celda diferente
+
+.. image:: imgs/molapimp.png
+    :align: center
+    :scale: 20 %
+
+- **ROLAP** La base de datos es una vista lógica sobre una relacional.
+  Existen diferentes estrategias para crear la base de datos segun necesidades.
+
+.. image:: imgs/rolapimp.png
+    :align: center
+    :scale: 30 %
+
+
+- **HOLAP** Las dimensiones pueden dividir ciertos niveles en MOLAP y ciertos
+  niveles en ROLAP
+
+.. image:: imgs/holapex.png
+    :align: center
+    :scale: 30 %
+
+
+
 
 
 
