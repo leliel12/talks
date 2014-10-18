@@ -51,7 +51,7 @@ Agenda
 
     01. Historia y descripción del BI
     02. Bases de datos transaccionales (OLTP) vs Analíticas (OLAP)
-    03. Data Marts y Data Warehouse
+    03. DataMarts y Data Warehouse
     04. Facts y Dimensiones
     05. Estructura de datos para análisis multidimensional (OLAP Cubes)
     06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
@@ -80,6 +80,22 @@ Demo Time
     **Veamos a que apuntamos con este tutorial**
 
 
+The Kimball Group
+-----------------
+
+.. class:: center
+
+    The Kimball Group is a vendor-independent focused team of senior
+    consultants specializing in the design of effective data warehouses to
+    deliver enhanced business intelligence.
+
+    http://www.kimballgroup.com
+
+.. image:: imgs/kimballgroup.png
+    :align: center
+    :scale: 21 %
+
+
 Historia y descripción del BI - Definición
 ------------------------------------------
 
@@ -98,10 +114,10 @@ mediante el uso de sistemas basados en hechos de apoyo" [WIKIPEDIA]_
 
     **Uno de los pocos casos que Nace en la industria migra a la Ciencia**
 
-
 .. image:: imgs/bihist.png
     :align: center
     :scale: 30 %
+
 
 Historia y descripción del BI - Características
 -----------------------------------------------
@@ -126,11 +142,9 @@ OLTP & OLAP - Versus otras Clasificaciones
 
     Existen diferentes formas de clasificar bases de datos
 
-
 .. image:: imgs/dbtypes.png
     :align: center
     :scale: 50 %
-
 
 - Segun la estructura que almacentan:
   **OO** (db4o), **Document-Oriented** (mongoDB, CouchDB), **RDBMS** (MySql,
@@ -218,6 +232,9 @@ Hechos (o *Facts*)
     Es algo que efectivamente sucedió o existe y sobre los cuales queremos
     efectuar análisis.
 
+    Los hechos tienen valores que se llaman **Métricas** y definen una
+    dimensión en si misma.
+
 
 .. image:: imgs/dims.png
     :align: center
@@ -233,16 +250,14 @@ Dimensiones
     preguntas del negocio.
 
 
-
 Dividiendo Dimensiones
 ----------------------
 
 - Una **dimension** SIEMPRE se divide en una o mas **Jerarquias**.
-- Una **Jerarquia** SIEMPRE se divide en uno o mas **Niveles**.
-- Un **Nivel** SIEMPRE se divide en atributos.
-- Un **Atributo** TIENE **Miembros**
-- Los **Miembros** SON los **valores**
-
+- Una **Jerarquia** SIEMPRE puede dividirse en **Niveles**.
+- Un **Nivel** PUEDE se dividirse en **Niveles**.
+- Los **Atributos** pueden estar en las **Jerarquias, Niveles**
+- A los registros individuales de una dimension se los llama **Miembros**
 
 .. image:: imgs/mamushka.png
     :align: center
@@ -284,7 +299,6 @@ Hechos y Dimensiones - Un ejemplo
 .. image:: imgs/takemymoney.png
     :align: right
     :scale: 10 %
-
 
 
 Hechos y Dimensiones - Ejemplo Científico
@@ -331,6 +345,24 @@ Dimensiones - Tipos
     :scale: 39 %
 
 
+Dimensiones - Indentificando Miembros
+-------------------------------------
+
+- Cada miembro de una dimension normalmente se extrae de una antidad de un
+  sistema transaccional (una tupla en una RDBMS, una fila de Excel, etc)
+- En el sistema transacional es comun que esta entidad tenga un identificador
+  unico (PK en una RDBMS, ID en una base documental, nro de orden en un Excel)
+- Las claves del sistema trasaccional las llamamos **Business Key** (BK).
+- Un miembro tiene una clave calculada a partir del **BK** llamada
+  **Surrogated Key** (SK)
+- Es obligacion del analista mantener esta relación.
+- Las SK pueden no ser unicas en una dimensión.
+
+.. image:: imgs/sk.png
+    :align: center
+    :scale: 50 %
+
+
 Slowly Change Dimension
 -----------------------
 
@@ -355,7 +387,7 @@ Suponiendo que tengo alguna dimension con un miembro parecido a:
 Slowly Change Dimension - Enfoques
 ----------------------------------
 
-0. **SCD Tipo 0:** No hacemos nada. No sempre un cambio en OLTP refleja un cambio en OLAP.
+0. **SCD Tipo 0:** No hacemos nada. No siempre un cambio en OLTP refleja un cambio en OLAP.
 
 1. **SCD Tipo 1:** No Guardo Historia.
 
@@ -438,12 +470,50 @@ Cubos OLAP - Implementaciones
     :scale: 30 %
 
 
-OLAP - Alternativas
--------------------
+OLAP - Modelado relacional (ROLAP)
+----------------------------------
+
+- Para facilitar en análisis de abandona la 3FN.
+- Hay 3 formas de estructurar una RDBMS para ROLAP (Star, Snowflake & Denormalizer).
+- Aumentan la redundancia de datos.
+- Disminuyen los ``Join`` considerablemente.
+- **Nota:** Recuerden esto es para facilitar el analisis sacrificando TODO lo
+  demas de ser necesario.
+
+.. image:: imgs/roque.png
+    :align: center
+    :scale: 60 %
 
 
+OLAP - Alternativas: Cubes
+--------------------------
+
+Cubes
+^^^^^
+
+    - Implementado en Python con aproximadamente ~2 años de desarrollo.
+    - Liviano
+    - Configurable con JSON (bastante feos los json)
+    - Usa sqlalchemy como backend de DB
+    - Tiene implementados dos visores cubes-views y cubes-viewer.
+    - Como método de analisis utiliza las primitivas de los cubos.
+    - Para llamadas remotas tiene una interfas rest llamada slicer.
 
 
+OLAP - Alternativas: Mondrian
+-----------------------------
+
+Mondrian
+^^^^^^^^
+
+    - Implementado en Java.
+    - Una vaca gorda corriendo con una armadura de bronce.
+    - Configurable con XML (increiblemente bonitos)
+    - Soporta MDX.
+    - Soporta multiples backends (Casi cualquier cosa conocida anda)
+    - Soporta cargas de datos muy grandes-
+    - Tiene cientos de visores implementados (Saiku - Pentaho - OpenI)
+    - Estandar de Facto del mercado
 
 
 
