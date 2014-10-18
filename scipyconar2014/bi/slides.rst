@@ -234,10 +234,7 @@ Dimensiones
 
     El valor de una dimensión se llama **miembro**
 
-    Si una dimension se puede separar en "partes" suele llamarsele
-    **Jerarquias** ``(Fecha = año + mes + dia)``.
-
-    Las "partes" se llaman niveles.
+    Si una dimension puede dividirLas "partes" se llaman niveles.
 
 
 Hechos y Dimensiones - Un ejemplo
@@ -381,7 +378,7 @@ Cubos OLAP
 
 .. image:: imgs/cube.png
     :align: center
-    :scale: 30 %
+    :scale: 40 %
 
 
 Cubos OLAP - Operaciones
