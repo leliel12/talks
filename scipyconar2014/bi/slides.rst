@@ -252,7 +252,7 @@ Dividiendo Dimensiones
     User,User,User,LastName, Puente
     Fecha,Año,Mes,Dia,25
     Fecha,Año,Mes,Mes,Feb
-    Fecha,Año,Mes,Año,2014
+    Fecha,Año,Año,Año,2014
 
 
 Hechos y Dimensiones - Un ejemplo
