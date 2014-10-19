@@ -49,23 +49,24 @@ Agenda
 
 ::
 
-    01. Historia y descripción del BI
-    02. Bases de datos transaccionales (OLTP) vs Analíticas (OLAP)
-    03. DataMarts y Data Warehouse
-    04. Facts y Dimensiones
-    05. Estructura de datos para análisis multidimensional (OLAP Cubes)
-    06. Implementaciones OLAP: ROLAP - MOLAP - HOLAP
+    - Historia y descripción del BI.
+    - Bases de datos transaccionales (OLTP) vs Analíticas (OLAP).
+    - DataMarts y Data Warehouse.
+    - Facts y Dimensiones.
+    - Estructura de datos para análisis multidimensional (OLAP Cubes).
+    - Implementaciones OLAP: ROLAP - MOLAP - HOLAP.
+    - Consultas MDX, DMX y XMLA.
+    - Modelado relacional para RDBMS (ROLAP).
+    - Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes).
+    - Aplicaciones BI (Pentaho - Saiku - Cubes Viewer).
+    - ETL (Extract, Transform and Load).
 
-    07. Modelado relacional para RDBMS (ROLAP)
-    08. Diferentes alternativas de OLAP libres y gratuitas (Mondrian & Cubes)
-    09. Aplicaciones BI (Pentaho - Saiku - Cubes Viewer)
-    10. Consultas MDX (Multi Dimensional eXpressions)
-    11. ETL (Extract, Transform and Load)
-
+    - Un repaso de la creación manual de un cubo (PostgreSQL + Mondrian + Saiku)
+    - Conectandose a Mondrian desde Python
 
 .. image:: imgs/agenda.png
     :align: center
-    :scale: 50 %
+    :scale: 40 %
 
 
 Demo Time
@@ -103,20 +104,20 @@ El término inteligencias empresariales se refiere al uso de datos en una
 **empresa** para facilitar la toma de decisiones. Abarca la comprensión del
 funcionamiento actual de la **empresa**, bien como la anticipación de
 acontecimientos futuros, con el objetivo de ofrecer conocimientos para
-respaldar las decisiones **empresariales**. [WIKIPEDIA]_
+respaldar las decisiones **empresariales**.
 
 En 1989, Howard Dresner (más tarde, un analista de Gartner Group) propuso la
 "inteligencia de negocios" como un término general para describir
 "los conceptos y métodos para mejorar la toma de decisiones **empresariales**
-mediante el uso de sistemas basados en hechos de apoyo" [WIKIPEDIA]_
+mediante el uso de sistemas basados en hechos de apoyo"
 
-.. class:: center
-
-    **Uno de los pocos casos que Nace en la industria migra a la Ciencia**
+**En resumen** es un nombre comercial alrededor de un conjunto de tecnologías
+y paradigmas para el analisis de grandes volumenes de datos. El nombre se esta
+abandonando a favor de **Analytics** (Y antes lo llamabas SSD)
 
 .. image:: imgs/bihist.png
     :align: center
-    :scale: 30 %
+    :scale: 28 %
 
 
 Historia y descripción del BI - Características
@@ -384,6 +385,7 @@ Suponiendo que tengo alguna dimension con un miembro parecido a:
     :scale: 50 %
 
 
+
 Slowly Change Dimension - Enfoques
 ----------------------------------
 
@@ -470,6 +472,138 @@ Cubos OLAP - Implementaciones
     :scale: 30 %
 
 
+MDX - Multi Dimensional eXpressions
+-----------------------------------
+
+.. image:: imgs/mdx.png
+    :align: center
+    :scale: 30 %
+
+- Es un lenguaje de consulta para bases de datos multidimensionales sobre
+  cubos OLAP.
+- Es declarativo a diferencia de las operaciones que son imperativas.
+- Es muy similar a una consulta SQL, nos devuelve un conjunto de celdas.
+- Para manejar jerarquias y niveles MDX tiene funciones como Children
+  (hijos en inglés), cousin (primos) y parents (padres).
+
+Una consulta tiene la forma
+
+.. code-block:: sql
+
+    SELECT
+        <especificación de eje> ON COLUMNS,
+        <especificación de eje> ON ROWS
+        FROM <especificación de cubo>
+        WHERE <especificación Slicer (rebanador)>
+
+
+MDX - Multi Dimensional eXpressions - Ejemplo
+---------------------------------------------
+
+.. code-block:: sql
+
+    SELECT
+    {
+        [Measures].[Sales Amount],
+        [Measures].[Tax Amount]
+    } ON COLUMNS,
+    {
+        [Date].[Fiscal].[Fiscal Year].&[2002],
+        [Date].[Fiscal].[Fiscal Year].&[2003]
+    } ON ROWS
+    FROM [Adventure Works]
+    WHERE ( [Sales Territory].[Southwest] )
+
+- The SELECT clause sets the query axes as the Sales Amount and Tax Amount
+  members of the Measures dimension, and the 2002 and 2003 members of the Date
+  dimension.
+- The FROM clause indicates that the data source is the Adventure Works cube.
+- The WHERE clause defines the slicer axis as the Southwest member of the
+  Sales Territory dimension.
+
+
+XMLA - XML for Anylisis
+-----------------------
+
+XMLA consists of only two SOAP methods.[2] It was designed in such a way to preserve simplicity.
+
+- **Execute** method has two parameters:
+
+    :Command: Command to be executed. It can be MDX, MDXML, DMX or SQL.
+    :Properties: XML list of command properties such as Timeout, Catalog
+                 name, etc.
+
+  The result of Execute command could be Multidimensional Dataset or Tabular Rowset.
+
+
+- **Discover**
+
+  Discover method was designed to model all the discovery methods possible in
+  OLEDB including various schema rowset, properties, keywords, etc. Discover
+  method allows users to specify both what needs to be discovered and the
+  possible restrictions or properties. The result of Discover method is a
+  rowset.
+
+DMX - Data Mining eXtensions
+----------------------------
+
+.. class:: center
+
+    Query language for Data Mining Models supported by Microsoft's SQL Server
+    Analysis Services product.
+    Whereas SQL statements operate on relational tables, DMX statements operate
+    on data mining models
+
+- **DDL** Creates minning model (``CREATE MINING STRUCTURE``, ``CREATE MINING MODEL``)
+- **DML** Train mining models: ``INSERT INTO``.
+- **DML** Browse data in mining models ``SELECT FROM``.
+- **DML** Make predictions using mining model: ``SELECT ... FROM PREDICTION JOIN``.
+
+.. code-block:: sql
+
+    SELECT [Loan Seeker], PredictProbability([Loan Seeker])
+    FROM
+      [Decision Tree]
+    NATURAL PREDICTION JOIN
+    (SELECT
+       35 AS [Age],
+       'Y' AS [House Owner], 'M' AS [Marital Status],
+       'F' AS [Gender], 2 AS [Number Cars Owned],
+       2 AS [Total Children], 18 AS [Total Years of Education]
+    )
+
+
+XMLA - XML for Anylisis - Ejemplo
+---------------------------------
+
+.. code-block:: xml
+
+    <soap:Envelope>
+     <soap:Body>
+      <Execute xmlns="urn:schemas-microsoft-com:xml-analysis">
+       <Command>
+        <Statement>SELECT Measures.MEMBERS ON COLUMNS FROM Sales</Statement>
+       </Command>
+       <Properties>
+        <PropertyList>
+         <DataSourceInfo/>
+         <Catalog>FoodMart</Catalog>
+         <Format>Multidimensional</Format>
+         <AxisFormat>TupleFormat</AxisFormat>
+        </PropertyList>
+       </Properties>
+      </Execute>
+     </soap:Body>
+    </soap:Envelope>
+
+
+.. image:: imgs/xmla.png
+    :align: center
+    :scale: 60 %
+
+
+
+
 OLAP - Modelado relacional (ROLAP)
 ----------------------------------
 
@@ -491,6 +625,7 @@ OLAP - Modelado relacional (ROLAP) - Star Shema
 .. image:: imgs/starschema.png
     :align: center
     :scale: 30 %
+
 
 OLAP - Modelado relacional (ROLAP) - Snow Shema
 -----------------------------------------------
@@ -536,8 +671,38 @@ OLAP - Alternativas: Mondrian
 - Soporta multiples backends (Casi cualquier cosa conocida anda)
 - Soporta cargas de datos muy grandes-
 - Tiene cientos de visores implementados (Saiku - Pentaho - OpenI)
-- Estandar de Facto del mercado
+- Estandar de Facto del mercado.
+- Soporta XMLA
 
+
+BI - End To End
+---------------
+
+- Conmunmente se le lama BI a una serie deherramientas integradas para el
+  analisis.
+- Son muchas:
+  Pentaho (Sobre Mondrian), Cubes Viewer (Sobre Cubes), Saiku (Sobre Mondrian),
+  Cognos, MS-AS, OpenI (Sobre Mondrian), YellowFin...
+- Es lo que vimos como ejemplo al comienzo permite la ejecucion y resumen de
+  datos de manera *Drag and Drop*
+
+.. image:: imgs/biend.png
+    :align: center
+    :scale: 40 %
+
+
+Parte Práctica
+--------------
+
+- Vamos a ver un mini problema en un OLTP.
+- Vamos a llevar los datos a una forma estrella OLAP en PostgreSQL.
+- Vamos a Diseñar el Schema lógico para maper la estrella.
+- Vamos a configurar Saiku para que tome el cubo.
+- Vamos a tirar unas consultas MDX desde Python (``pip install python-xmla``).
+
+.. image:: imgs/fullstack.png
+    :align: center
+    :scale: 100 %
 
 
 ¿Preguntas?
@@ -551,8 +716,3 @@ OLAP - Alternativas: Mondrian
 .. image:: imgs/questions.png
     :align: right
     :scale: 35 %
-
-
-.. [WIKIPEDIA] http://es.wikipedia.org/wiki/Inteligencia_empresarial
-
-
