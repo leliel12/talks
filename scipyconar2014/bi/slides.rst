@@ -453,7 +453,7 @@ Cubos OLAP - Implementaciones
     :align: center
     :scale: 20 %
 
-- **ROLAP** La base de datos es una vista lógica sobre una relacional.
+- **ROLAP** La base de datos es una vista lógica (schema) sobre una relacional.
   Existen diferentes estrategias para crear la base de datos segun necesidades.
   (es lo que vamos a continuar viendo en este tutorial)
 
@@ -474,7 +474,7 @@ OLAP - Modelado relacional (ROLAP)
 ----------------------------------
 
 - Para facilitar en análisis de abandona la 3FN.
-- Hay 3 formas de estructurar una RDBMS para ROLAP (Star, Snowflake & Denormalizer).
+- Hay 3 formas de estructurar una RDBMS para ROLAP.
 - Aumentan la redundancia de datos.
 - Disminuyen los ``Join`` considerablemente.
 - **Nota:** Recuerden esto es para facilitar el analisis sacrificando TODO lo
@@ -485,35 +485,58 @@ OLAP - Modelado relacional (ROLAP)
     :scale: 60 %
 
 
+OLAP - Modelado relacional (ROLAP) - Star Shema
+-----------------------------------------------
+
+.. image:: imgs/starschema.png
+    :align: center
+    :scale: 30 %
+
+OLAP - Modelado relacional (ROLAP) - Snow Shema
+-----------------------------------------------
+
+.. image:: imgs/snowschema.png
+    :align: center
+    :scale: 30 %
+
+
+
 OLAP - Alternativas: Cubes
 --------------------------
 
-Cubes
-^^^^^
+.. figure:: imgs/cubes.png
+    :align: center
+    :scale: 60 %
 
-    - Implementado en Python con aproximadamente ~2 años de desarrollo.
-    - Liviano
-    - Configurable con JSON (bastante feos los json)
-    - Usa sqlalchemy como backend de DB
-    - Tiene implementados dos visores cubes-views y cubes-viewer.
-    - Como método de analisis utiliza las primitivas de los cubos.
-    - Para llamadas remotas tiene una interfas rest llamada slicer.
+    http://cubes.databrewery.org/
+
+
+- Implementado en Python con aproximadamente ~2 años de desarrollo.
+- Liviano
+- Configurable con JSON (bastante feos los json)
+- Usa sqlalchemy como backend de DB
+- Tiene implementados dos visores cubes-views y cubes-viewer.
+- Como método de analisis utiliza las primitivas de los cubos.
+- Para llamadas remotas tiene una interfas rest llamada slicer.
 
 
 OLAP - Alternativas: Mondrian
 -----------------------------
 
-Mondrian
-^^^^^^^^
+.. figure:: imgs/mondrian.png
+    :align: center
+    :scale: 100 %
 
-    - Implementado en Java.
-    - Una vaca gorda corriendo con una armadura de bronce.
-    - Configurable con XML (increiblemente bonitos)
-    - Soporta MDX.
-    - Soporta multiples backends (Casi cualquier cosa conocida anda)
-    - Soporta cargas de datos muy grandes-
-    - Tiene cientos de visores implementados (Saiku - Pentaho - OpenI)
-    - Estandar de Facto del mercado
+    http://mondrian.pentaho.com/
+
+- Implementado en Java.
+- Liviano como una vaca gorda corriendo con una armadura de bronce.
+- Configurable con XML (increiblemente bonitos)
+- Soporta MDX.
+- Soporta multiples backends (Casi cualquier cosa conocida anda)
+- Soporta cargas de datos muy grandes-
+- Tiene cientos de visores implementados (Saiku - Pentaho - OpenI)
+- Estandar de Facto del mercado
 
 
 
