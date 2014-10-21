@@ -61,8 +61,8 @@ Agenda
     - Aplicaciones BI (Pentaho - Saiku - Cubes Viewer).
     - ETL (Extract, Transform and Load).
 
-    - Un repaso de la creación manual de un cubo (PostgreSQL + Mondrian + Saiku)
-    - Conectandose a Mondrian desde Python
+    - Un repaso de la creación manual de un cubo (MySQL + Mondrian + Saiku)
+    - Conectándose a Mondrian desde Python # a 16 hs aun no lo logre
 
 .. image:: imgs/agenda.png
     :align: center
@@ -112,7 +112,7 @@ En 1989, Howard Dresner (más tarde, un analista de Gartner Group) propuso la
 mediante el uso de sistemas basados en hechos de apoyo"
 
 **En resumen** es un nombre comercial alrededor de un conjunto de tecnologías
-y paradigmas para el analisis de grandes volumenes de datos. El nombre se esta
+y paradigmas para el análisis de grandes volúmenes de datos. El nombre se esta
 abandonando a favor de **Analytics** (Y antes lo llamabas SSD)
 
 .. image:: imgs/bihist.png
@@ -147,14 +147,14 @@ OLTP & OLAP - Versus otras Clasificaciones
     :align: center
     :scale: 50 %
 
-- Segun la estructura que almacentan:
+- Según la estructura que almacenan:
   **OO** (db4o), **Document-Oriented** (mongoDB, CouchDB), **RDBMS** (MySql,
   SQLite, PostgreSQL, Oracle, MicrosoftSQL Server, DB2), **Key-Value**
   (Redis, riak) o **Graph** (Neo4J)
-- Segun si implementan o no SQL:
+- Según si implementan o no SQL:
   **SQL** (MySql, SQLite, PostgreSQL, Oracle, MicrosoftSQL Server, DB2) o
   **NO-SQL** (Todas las demas)
-- Segun su objetivo:
+- Según su objetivo:
     **OLAP** (Mondrian, Cubes, Cognos) y **OLTP** (Todas las demas)
 
 
@@ -186,7 +186,7 @@ Data Marts
     específica dentro del negocio pueda tomar mejores decisiones.
 
 
-Los Data marts son subconjuntos de datos de un almacén de datos  para áreas
+Los Data Marts son subconjuntos de datos de un almacén de datos  para áreas
 específicas.
 
 Entre las características de un data mart destacan:
@@ -254,11 +254,11 @@ Dimensiones
 Dividiendo Dimensiones
 ----------------------
 
-- Una **dimension** SIEMPRE se divide en una o mas **Jerarquias**.
-- Una **Jerarquia** SIEMPRE puede dividirse en **Niveles**.
+- Una **dimensión** SIEMPRE se divide en una o mas **Jerarquías**.
+- Una **Jerarquía** SIEMPRE puede dividirse en **Niveles**.
 - Un **Nivel** PUEDE se dividirse en **Niveles**.
-- Los **Atributos** pueden estar en las **Jerarquias, Niveles**
-- A los registros individuales de una dimension se los llama **Miembros**
+- Los **Atributos** pueden estar en las **Jerarquías, Niveles**
+- A los registros individuales de una dimensión se los llama **Miembros**
 
 .. image:: imgs/mamushka.png
     :align: center
@@ -349,15 +349,15 @@ Dimensiones - Tipos
 Dimensiones - Indentificando Miembros
 -------------------------------------
 
-- Cada miembro de una dimension normalmente se extrae de una antidad de un
+- Cada miembro de una dimensión normalmente se extrae de una entidad de un
   sistema transaccional (una tupla en una RDBMS, una fila de Excel, etc)
-- En el sistema transacional es comun que esta entidad tenga un identificador
-  unico (PK en una RDBMS, ID en una base documental, nro de orden en un Excel)
-- Las claves del sistema trasaccional las llamamos **Business Key** (BK).
+- En el sistema transacional es común que esta entidad tenga un identificador
+  único (PK en una RDBMS, ID en una base documental, nro de orden en un Excel)
+- Las claves del sistema transaccional las llamamos **Business Key** (BK).
 - Un miembro tiene una clave calculada a partir del **BK** llamada
   **Surrogated Key** (SK)
-- Es obligacion del analista mantener esta relación.
-- Las SK pueden no ser unicas en una dimensión.
+- Es obligación del analista mantener esta relación.
+- Las SK pueden no ser únicas en una dimensión.
 
 .. image:: imgs/sk.png
     :align: center
@@ -370,7 +370,7 @@ Slowly Change Dimension
 - Se supone que una DW no cambia mucho en sus dimensiones.
 - Si alguna cambia: **cambia lentamente**
 
-Suponiendo que tengo alguna dimension con un miembro parecido a:
+Suponiendo que tengo alguna dimensión con un miembro parecido a:
 
 .. code-block:: javascript
 
@@ -456,7 +456,7 @@ Cubos OLAP - Implementaciones
     :scale: 20 %
 
 - **ROLAP** La base de datos es una vista lógica (schema) sobre una relacional.
-  Existen diferentes estrategias para crear la base de datos segun necesidades.
+  Existen diferentes estrategias para crear la base de datos según necesidades.
   (es lo que vamos a continuar viendo en este tutorial)
 
 .. image:: imgs/rolapimp.png
@@ -522,28 +522,6 @@ MDX - Multi Dimensional eXpressions - Ejemplo
   Sales Territory dimension.
 
 
-XMLA - XML for Anylisis
------------------------
-
-XMLA consists of only two SOAP methods.[2] It was designed in such a way to preserve simplicity.
-
-- **Execute** method has two parameters:
-
-    :Command: Command to be executed. It can be MDX, MDXML, DMX or SQL.
-    :Properties: XML list of command properties such as Timeout, Catalog
-                 name, etc.
-
-  The result of Execute command could be Multidimensional Dataset or Tabular Rowset.
-
-
-- **Discover**
-
-  Discover method was designed to model all the discovery methods possible in
-  OLEDB including various schema rowset, properties, keywords, etc. Discover
-  method allows users to specify both what needs to be discovered and the
-  possible restrictions or properties. The result of Discover method is a
-  rowset.
-
 DMX - Data Mining eXtensions
 ----------------------------
 
@@ -571,6 +549,29 @@ DMX - Data Mining eXtensions
        'F' AS [Gender], 2 AS [Number Cars Owned],
        2 AS [Total Children], 18 AS [Total Years of Education]
     )
+
+
+XMLA - XML for Anylisis
+-----------------------
+
+XMLA consists of only two SOAP methods.[2] It was designed in such a way to preserve simplicity.
+
+- **Execute** method has two parameters:
+
+    :Command: Command to be executed. It can be MDX, MDXML, DMX or SQL.
+    :Properties: XML list of command properties such as Timeout, Catalog
+                 name, etc.
+
+  The result of Execute command could be Multidimensional Dataset or Tabular Rowset.
+
+
+- **Discover**
+
+  Discover method was designed to model all the discovery methods possible in
+  OLEDB including various schema rowset, properties, keywords, etc. Discover
+  method allows users to specify both what needs to be discovered and the
+  possible restrictions or properties. The result of Discover method is a
+  rowset.
 
 
 XMLA - XML for Anylisis - Ejemplo
@@ -602,6 +603,34 @@ XMLA - XML for Anylisis - Ejemplo
     :scale: 60 %
 
 
+ETL - Extract, Transform and Load
+---------------------------------
+
+.. class:: center
+
+    Es el proceso que permite a las organizaciones mover datos desde múltiples
+    fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos,
+    data mart, o data warehouse para analizar, o en otro sistema operacional
+    para apoyar un proceso de negocio.
+
+.. image:: imgs/trans.png
+    :align: center
+    :scale: 20 %
+
+#. La mayoría de los proyectos de almacenamiento de datos
+#. La fase de transformación aplica una serie de reglas de negocio o
+   funciones sobre los datos extraídos para convertirlos en datos que serán
+   cargados.
+#. La fase de carga es el momento en el cual los datos de la fase anterior
+   son cargados en el sistema de destino.
+
+
+Resumen
+-------
+
+.. image:: imgs/general.png
+    :align: center
+    :scale: 60 %
 
 
 OLAP - Modelado relacional (ROLAP)
@@ -611,8 +640,8 @@ OLAP - Modelado relacional (ROLAP)
 - Hay 3 formas de estructurar una RDBMS para ROLAP.
 - Aumentan la redundancia de datos.
 - Disminuyen los ``Join`` considerablemente.
-- **Nota:** Recuerden esto es para facilitar el analisis sacrificando TODO lo
-  demas de ser necesario.
+- **Nota:** Recuerden esto es para facilitar el análisis sacrificando TODO lo
+  demás de ser necesario.
 
 .. image:: imgs/roque.png
     :align: center
@@ -651,8 +680,8 @@ OLAP - Alternativas: Cubes
 - Configurable con JSON (bastante feos los json)
 - Usa sqlalchemy como backend de DB
 - Tiene implementados dos visores cubes-views y cubes-viewer.
-- Como método de analisis utiliza las primitivas de los cubos.
-- Para llamadas remotas tiene una interfas rest llamada slicer.
+- Como método de análisis utiliza las primitivas de los cubos.
+- Para llamadas remotas tiene una interfaz rest llamada slicer.
 
 
 OLAP - Alternativas: Mondrian
@@ -666,24 +695,24 @@ OLAP - Alternativas: Mondrian
 
 - Implementado en Java.
 - Liviano como una vaca gorda corriendo con una armadura de bronce.
-- Configurable con XML (increiblemente bonitos)
+- Configurable con XML
 - Soporta MDX.
 - Soporta multiples backends (Casi cualquier cosa conocida anda)
 - Soporta cargas de datos muy grandes-
 - Tiene cientos de visores implementados (Saiku - Pentaho - OpenI)
-- Estandar de Facto del mercado.
+- Estándar de facto del mercado.
 - Soporta XMLA
 
 
 BI - End To End
 ---------------
 
-- Conmunmente se le lama BI a una serie deherramientas integradas para el
-  analisis.
+- Conmunmente se le lama BI a una serie de herramientas integradas para el
+  análisis.
 - Son muchas:
   Pentaho (Sobre Mondrian), Cubes Viewer (Sobre Cubes), Saiku (Sobre Mondrian),
   Cognos, MS-AS, OpenI (Sobre Mondrian), YellowFin...
-- Es lo que vimos como ejemplo al comienzo permite la ejecucion y resumen de
+- Es lo que vimos como ejemplo al comienzo permite la ejecución y resumen de
   datos de manera *Drag and Drop*
 
 .. image:: imgs/biend.png
@@ -695,7 +724,7 @@ Parte Práctica
 --------------
 
 - Vamos a ver un mini problema en un OLTP.
-- Vamos a llevar los datos a una forma estrella OLAP en PostgreSQL.
+- Vamos a llevar los datos a una forma estrella OLAP en MySQL.
 - Vamos a Diseñar el Schema lógico para maper la estrella.
 - Vamos a configurar Saiku para que tome el cubo.
 - Vamos a tirar unas consultas MDX desde Python (``pip install python-xmla``).
