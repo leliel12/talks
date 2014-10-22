@@ -615,9 +615,11 @@ ETL - Extract, Transform and Load
 
 .. image:: imgs/trans.png
     :align: center
-    :scale: 20 %
+    :scale: 15 %
 
-#. La mayoría de los proyectos de almacenamiento de datos
+#. Consiste en extraer los datos desde los sistemas de origen. La mayoría de
+   los proyectos de almacenamiento de datos fusionan datos provenientes de
+   diferentes sistemas de origen.
 #. La fase de transformación aplica una serie de reglas de negocio o
    funciones sobre los datos extraídos para convertirlos en datos que serán
    cargados.
