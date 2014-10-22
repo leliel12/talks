@@ -177,6 +177,14 @@ Un problema interesante - El problema
     Dr. Sebastian Gurovich (IATE-OAC-UNC)
 
 
+El problema - Más Detalle
+-------------------------
+
+.. image:: imgs/objects.png
+    :align: center
+    :scale: 60 %
+
+
 Agenda
 ------
 
