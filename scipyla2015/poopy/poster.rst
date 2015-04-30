@@ -214,7 +214,7 @@ inaccesible los datos almacenados en poopyFS.
 
 .. image:: img/poopy.png
     :align: center
-    :scale: 50 %
+    :scale: 80 %
 
 .. =============================================================================
 .. FOOTER
