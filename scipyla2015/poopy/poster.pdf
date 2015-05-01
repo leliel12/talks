@@ -3499,40 +3499,40 @@ endobj
 << /Outlines 43 0 R /PageLabels 53 0 R /PageMode /UseNone /Pages 51 0 R /Type /Catalog >>
 endobj
 42 0 obj
-<< /Author () /CreationDate (D:20150430200457+03'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20150430202354+03'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 43 0 obj
 << /Count 9 /First 44 0 R /Last 50 0 R /Type /Outlines >>
 endobj
 44 0 obj
-<< /Dest [ 12 0 R /XYZ 34.34646 1775.053 0 ] /Next 45 0 R /Parent 43 0 R /Title (Modelos Computo distribuido) >>
+<< /Dest [ 12 0 R /XYZ 34.34646 1801.453 0 ] /Next 45 0 R /Parent 43 0 R /Title (Modelos Computo distribuido) >>
 endobj
 45 0 obj
-<< /Dest [ 12 0 R /XYZ 34.34646 1112.853 0 ] /Next 46 0 R /Parent 43 0 R /Prev 44 0 R /Title (Antecedentes) >>
+<< /Dest [ 12 0 R /XYZ 34.34646 1139.253 0 ] /Next 46 0 R /Parent 43 0 R /Prev 44 0 R /Title (Antecedentes) >>
 endobj
 46 0 obj
-<< /Count 1 /Dest [ 12 0 R /XYZ 34.34646 752.2528 0 ] /First 47 0 R /Last 47 0 R /Next 48 0 R /Parent 43 0 R 
+<< /Count 1 /Dest [ 12 0 R /XYZ 34.34646 778.6528 0 ] /First 47 0 R /Last 47 0 R /Next 48 0 R /Parent 43 0 R 
   /Prev 45 0 R /Title (Python, Hadoop y AMQP) >>
 endobj
 47 0 obj
-<< /Dest [ 12 0 R /XYZ 34.34646 523.6528 0 ] /Parent 46 0 R /Title (Motivaci\363n) >>
+<< /Dest [ 12 0 R /XYZ 34.34646 550.0528 0 ] /Parent 46 0 R /Title (Motivaci\363n) >>
 endobj
 48 0 obj
 << /Count 1 /Dest [ 12 0 R /XYZ 1017.402 2523.853 0 ] /First 49 0 R /Last 49 0 R /Next 50 0 R /Parent 43 0 R 
   /Prev 46 0 R /Title (Implementac\363n) >>
 endobj
 49 0 obj
-<< /Dest [ 12 0 R /XYZ 1017.402 2033.653 0 ] /Parent 48 0 R /Title (Ejemplo: Random Forest Sobre Iris.arff) >>
+<< /Dest [ 12 0 R /XYZ 1017.402 2060.053 0 ] /Parent 48 0 R /Title (Ejemplo: Random Forest Sobre Iris.arff en Poopy) >>
 endobj
 50 0 obj
-<< /Dest [ 12 0 R /XYZ 1017.402 1221.653 0 ] /Parent 43 0 R /Prev 48 0 R /Title (Conclusiones) >>
+<< /Dest [ 12 0 R /XYZ 1017.402 1248.053 0 ] /Parent 43 0 R /Prev 48 0 R /Title (Conclusiones) >>
 endobj
 51 0 obj
 << /Count 1 /Kids [ 12 0 R ] /Type /Pages >>
 endobj
 52 0 obj
-<< /Length 35006 >>
+<< /Length 34983 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -3546,7 +3546,7 @@ q
 1 0 0 1 34.34646 2391.853 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 110 Tm 2.158857 Tw /F1+0 22 Tf 26.4 TL (El advenimiento de grandes vol\200menes de datos \(o Big Data\) esta generando una) Tj T* 0 Tw 1.001386 Tw (necesidad de productos que sirvan para la manipulaci\201n y resumen de los mismos.) Tj T* 0 Tw 2.453546 Tw (Big Data puede considerarse de manera mas o menos precisa \(no es mas que un) Tj T* 0 Tw 1.032851 Tw (numero comercial\) como una cantidad de informaci\201n tal que no puede procesarse) Tj T* 0 Tw (ni almacenarse en un \200nico ordenador.) Tj T* ET
+BT 1 0 0 1 0 110 Tm 2.158857 Tw /F1+0 22 Tf 26.4 TL (El advenimiento de grandes vol\200menes de datos \(o Big Data\) esta generando una) Tj T* 0 Tw 1.001386 Tw (necesidad de productos que sirvan para la manipulaci\201n y resumen de los mismos.) Tj T* 0 Tw 2.453546 Tw (Big Data puede considerarse de manera mas o menos precisa \(no es mas que un) Tj T* 0 Tw 1.030898 Tw (nombre comercial\) como una cantidad de informaci\201n tal que no puede procesarse) Tj T* 0 Tw (ni almacenarse en un \200nico ordenador.) Tj T* ET
 Q
 Q
 q
@@ -3564,39 +3564,39 @@ BT 1 0 0 1 0 136.4 Tm 3.608157 Tw /F1+0 22 Tf 26.4 TL (La tendencia actual es el
 Q
 Q
 q
-1 0 0 1 34.34646 1898.653 cm
+1 0 0 1 34.34646 1925.053 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 162.8 Tm 5.905624 Tw /F1+0 22 Tf 26.4 TL (Por el dado del an\202lisis de datos; en la presencia de una cantidad ingente de) Tj T* 0 Tw 3.998929 Tw (informaci\201n como la que planteamos hace necesario el disponer de mecanismos) Tj T* 0 Tw 2.622695 Tw (autom\202ticos para el procesamiento de estos vol\200menes. Es en este campo donde) Tj T* 0 Tw .987958 Tw (una herramienta como el aprendizaje autom\202tico \(o ML\) obtiene un valor de piedra) Tj T* 0 Tw 3.977867 Tw (angular. El aprendizaje autom\202tico es una rama de la de la Inteligencia Artificial) Tj T* 0 Tw 1.938642 Tw (que consiste en crear programas que buscan de manera aut\201noma patrones en la) Tj T* 0 Tw (informaci\201n a partir de ejemplos.) Tj T* ET
+BT 1 0 0 1 0 136.4 Tm 8.140627 Tw /F1+0 22 Tf 26.4 TL (Por el dado del an\202lisis de datos; en la presencia de estos vol\200menes hace) Tj T* 0 Tw 4.637015 Tw (necesario el disponer de mecanismos autom\202ticos para el procesamiento de los) Tj T* 0 Tw .804335 Tw (mismos. Es en este campo donde una herramienta como el aprendizaje autom\202tico) Tj T* 0 Tw 2.132439 Tw (\(o ML\) obtiene un valor de piedra angular. El aprendizaje autom\202tico es una rama) Tj T* 0 Tw 3.459513 Tw (de la de la Inteligencia Artificial que consiste en crear programas que buscan de) Tj T* 0 Tw (manera aut\201noma patrones en la informaci\201n a partir de ejemplos.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 1787.053 cm
+1 0 0 1 34.34646 1813.453 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 83.6 Tm 2.932294 Tw /F1+0 22 Tf 26.4 TL (En la actualidad la herramienta mas popular de computo distribuido es sin dudas) Tj T* 0 Tw 10.85181 Tw (Hadoop. Hadoop es una implementaci\201n del algoritmo MapReduce realizada) Tj T* 0 Tw 6.38979 Tw (\204ntegramente en Java, que ha servido de inspiraci\201n y gu\204a a lo en todo este) Tj T* 0 Tw (trabajo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 1728.853 cm
+1 0 0 1 34.34646 1755.253 cm
 q
 BT 1 0 0 1 0 7.7 Tm 193.5372 0 Td 46.2 TL /F2 38.5 Tf .168627 .243137 .313725 rg (Modelos Computo distribuido) Tj T* -193.5372 0 Td ET
 Q
 Q
 q
-1 0 0 1 34.34646 1643.653 cm
+1 0 0 1 34.34646 1670.053 cm
 q
 BT 1 0 0 1 0 57.2 Tm 4.013968 Tw 26.4 TL 0 0 0 rg /F3+0 22 Tf 26.4 TL (AMQP: ) Tj /F1+0 22 Tf 26.4 TL (\(del ingles ) Tj /F4+0 22 Tf 26.4 TL (Advanced Message Queuing Protocol ) Tj /F1+0 22 Tf 26.4 TL (- Protocolo avanzado de) Tj T* 0 Tw 5.974124 Tw (colas de mensajes\) es un estandar en el nivel de aplicaci\201n para middlewares) Tj T* 0 Tw (oriantados a mensajes. Sus caracter\204sticas principales son:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 1637.653 cm
+1 0 0 1 34.34646 1664.053 cm
+Q
+q
+1 0 0 1 34.34646 1664.053 cm
 Q
 q
 1 0 0 1 34.34646 1637.653 cm
-Q
-q
-1 0 0 1 34.34646 1611.253 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3616,10 +3616,10 @@ q
 Q
 Q
 q
-1 0 0 1 34.34646 1605.253 cm
+1 0 0 1 34.34646 1631.653 cm
 Q
 q
-1 0 0 1 34.34646 1578.853 cm
+1 0 0 1 34.34646 1605.253 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3639,10 +3639,10 @@ q
 Q
 Q
 q
-1 0 0 1 34.34646 1572.853 cm
+1 0 0 1 34.34646 1599.253 cm
 Q
 q
-1 0 0 1 34.34646 1546.453 cm
+1 0 0 1 34.34646 1572.853 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3662,10 +3662,10 @@ q
 Q
 Q
 q
-1 0 0 1 34.34646 1540.453 cm
+1 0 0 1 34.34646 1566.853 cm
 Q
 q
-1 0 0 1 34.34646 1514.053 cm
+1 0 0 1 34.34646 1540.453 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3685,16 +3685,16 @@ q
 Q
 Q
 q
-1 0 0 1 34.34646 1514.053 cm
+1 0 0 1 34.34646 1540.453 cm
 Q
 q
-1 0 0 1 34.34646 1402.453 cm
+1 0 0 1 34.34646 1428.853 cm
 q
 BT 1 0 0 1 0 83.6 Tm 2.976114 Tw 26.4 TL 0 0 0 rg /F3+0 22 Tf 26.4 TL (MapReduce: ) Tj /F1+0 22 Tf 26.4 TL (es un modelo de c\201mputo que simplifica el uso de clusters; el cual) Tj T* 0 Tw 7.863968 Tw (computa una funci\201n que recibe como par\202metros un conjunto de elementos) Tj T* 0 Tw 1.169087 Tw /F4+0 22 Tf 26.4 TL (llave-valor) Tj /F1+0 22 Tf 26.4 TL (, y lo convierte en un nuevo conjunto el cual cada elemento es una ) Tj /F4+0 22 Tf 26.4 TL (llave) Tj T* 0 Tw /F1+0 22 Tf 26.4 TL (y una ) Tj /F4+0 22 Tf 26.4 TL (lista de valores) Tj /F1+0 22 Tf 26.4 TL (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 348.0984 1374.453 cm
+1 0 0 1 348.0984 1400.853 cm
 0 0 0 rg
 BT 1 0 0 1 0 .604167 Tm /F5+0 22 Tf 26.4 TL (f) Tj T* ET
 0 0 0 rg
@@ -3763,75 +3763,75 @@ BT 1 0 0 1 291.2456 21.125 Tm /F7+0 22 Tf 26.4 TL (\201) Tj T* ET
 [] 0 d
 Q
 q
-1 0 0 1 34.34646 1236.453 cm
+1 0 0 1 34.34646 1262.853 cm
 q
 BT 1 0 0 1 0 110 Tm 1.944864 Tw 26.4 TL 0 0 0 rg /F1+0 22 Tf 26.4 TL (Para lograr esto divide la operaci\201n en dos etapas: ) Tj /F3+0 22 Tf 26.4 TL (Etapa de Map: ) Tj /F1+0 22 Tf 26.4 TL (Transforma el) Tj T* 0 Tw 6.389651 Tw (conjunto de entrada en un lista intermedia de elementos ) Tj /F4+0 22 Tf 26.4 TL (llave de salida ) Tj /F1+0 22 Tf 26.4 TL (y un) Tj T* 0 Tw 4.230116 Tw /F4+0 22 Tf 26.4 TL (valores intermedios ) Tj /F1+0 22 Tf 26.4 TL (para esa llave. ) Tj /F3+0 22 Tf 26.4 TL (Etapa reduce: ) Tj /F1+0 22 Tf 26.4 TL (Agrupa cada elemento de la) Tj T* 0 Tw 1.099025 Tw (lista intermedia seg\200n la llave final a la que pertenece y genera una nueva lista de) Tj T* 0 Tw (salida para cada par ) Tj /F4+0 22 Tf 26.4 TL (llave) Tj /F1+0 22 Tf 26.4 TL ( ) Tj /F4+0 22 Tf 26.4 TL (lista intermedia ) Tj /F1+0 22 Tf 26.4 TL (de entrada) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 1124.853 cm
+1 0 0 1 34.34646 1151.253 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 83.6 Tm 1.028714 Tw /F1+0 22 Tf 26.4 TL (MapReduce se emplea en la resoluci\201n pr\202ctica de algunos algoritmos susceptibles) Tj T* 0 Tw .073245 Tw (de ser paralelizados. Cabe aclarar que MapReduce si bien es poderoso no sirve para) Tj T* 0 Tw 10.17611 Tw (cualquier problema, as\204 como no es la forma mas eficiente para todos los) Tj T* 0 Tw (problemas que si son solucionables por esta t\203cnica.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 1066.653 cm
+1 0 0 1 34.34646 1093.053 cm
 q
 BT 1 0 0 1 0 7.7 Tm 340.0297 0 Td 46.2 TL /F2 38.5 Tf .168627 .243137 .313725 rg (Antecedentes) Tj T* -340.0297 0 Td ET
 Q
 Q
 q
-1 0 0 1 34.34646 902.2528 cm
+1 0 0 1 34.34646 928.6528 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 136.4 Tm 9.335648 Tw /F1+0 22 Tf 26.4 TL (Hadoop esta programado y desarrollado sobre Java. Java actualmente, es la) Tj T* 0 Tw 6.926405 Tw (tecnolog\204a que esta acaparando la mayor\204a de los sistemas modernos para el) Tj T* 0 Tw 10.5188 Tw (almacenamiento y procesamiento de grandes vol\200menes de informaci\201n. Su) Tj T* 0 Tw 1.771132 Tw (elecci\201n radica principalmente en su plataforma subyacente: la JVM. que posee un) Tj T* 0 Tw 8.69203 Tw (mecanismo de concurrencia que hace \200til para la escritura de sistemas que) Tj T* 0 Tw (requieran alta disponibilidad y escalabilidad.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 764.2528 cm
+1 0 0 1 34.34646 790.6528 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 110 Tm .919989 Tw /F1+0 22 Tf 26.4 TL (Por otro lado Python es un lenguaje de mas alto nivel que que Java, esta soportado) Tj T* 0 Tw 1.168948 Tw (una plataforma mucho menos robusta que la JVM; pero aun as\204 se esta destacando) Tj T* 0 Tw 2.654578 Tw (de manera notable en el \202mbito cient\204fico. Frente a la robustez de la JVM, Python) Tj T* 0 Tw 6.135814 Tw (ofrece un lenguaje con una sintaxis mas clara y limpia, adem\202s de un set de) Tj T* 0 Tw (librer\204as propias y de terceros con un stack cient\204fico muy robusto y extensible.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 706.0528 cm
+1 0 0 1 34.34646 732.4528 cm
 q
 BT 1 0 0 1 0 7.7 Tm 239.5062 0 Td 46.2 TL /F2 38.5 Tf .168627 .243137 .313725 rg (Python, Hadoop y AMQP) Tj T* -239.5062 0 Td ET
 Q
 Q
 q
-1 0 0 1 34.34646 620.8528 cm
+1 0 0 1 34.34646 647.2528 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 57.2 Tm .703226 Tw /F1+0 22 Tf 26.4 TL (Se dispone actualmente e varias implementaciones para interactuar entre Python y) Tj T* 0 Tw .294794 Tw (Haddop, de las cuales la mas populares son Pydoop , Hadoopy y MrJob. En todos los) Tj T* 0 Tw (casos no se disminuye el esfuerzo de despliegue de los nodos Hadoop.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 535.6528 cm
+1 0 0 1 34.34646 562.0528 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 57.2 Tm 2.591702 Tw /F1+0 22 Tf 26.4 TL (Como interfaces a otros sistemas de computo distribuido Python encuentra varias) Tj T* 0 Tw 1.639125 Tw (librer\204as para el trabajo contra AMQP de las cuales caben destacar Pika que ofrece) Tj T* 0 Tw (acceso a las primitivas de los mensajes, y Celery \(de un poco mas alto nivel\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 34.34646 484.0528 cm
+1 0 0 1 34.34646 510.4528 cm
 q
 BT 1 0 0 1 0 6.6 Tm 380.0725 0 Td 39.6 TL /F2 33 Tf .168627 .243137 .313725 rg (Motivaci\363n) Tj T* -380.0725 0 Td ET
 Q
 Q
 q
-1 0 0 1 34.34646 319.6528 cm
+1 0 0 1 34.34646 346.0528 cm
 q
-BT 1 0 0 1 0 136.4 Tm 1.403323 Tw 26.4 TL 0 0 0 rg /F1+0 22 Tf 26.4 TL (El proyecto en un principio naci\201 con la necesidad de comprender las implicatorias) Tj T* 0 Tw 1.687052 Tw (de el dise\206o de un sistema MapReduce sobre AMQP tratando de lograr las mismas) Tj T* 0 Tw 6.662734 Tw (garant\204as que ofrecidas por Hadoop. Este planteo fue realizado en el segundo) Tj T* 0 Tw 2.300785 Tw (pr\202ctico de la materia ) Tj /F3+0 22 Tf 26.4 TL (Aprendizaje autom\200tico) Tj /F1+0 22 Tf 26.4 TL ( ) Tj /F3+0 22 Tf 26.4 TL (sobre grandes vol\201menes de) Tj T* 0 Tw 1.830325 Tw (datos ) Tj /F1+0 22 Tf 26.4 TL (dictada en la ) Tj /F4+0 22 Tf 26.4 TL (Facultad de Matem\200tica, Astronom\201a y Fisica ) Tj /F1+0 22 Tf 26.4 TL (de la ) Tj /F4+0 22 Tf 26.4 TL (Univesidad) Tj T* 0 Tw (Nacional de C\202rdoba ) Tj /F1+0 22 Tf 26.4 TL (en el 2do. Semestre del 2014) Tj T* ET
+BT 1 0 0 1 0 136.4 Tm 1.403323 Tw 26.4 TL 0 0 0 rg /F1+0 22 Tf 26.4 TL (El proyecto en un principio naci\201 con la necesidad de comprender las implicatorias) Tj T* 0 Tw 1.687052 Tw (de el dise\206o de un sistema MapReduce sobre AMQP tratando de lograr las mismas) Tj T* 0 Tw 6.662734 Tw (garant\204as que ofrecidas por Hadoop. Este planteo fue realizado en el segundo) Tj T* 0 Tw 2.300785 Tw (pr\202ctico de la materia ) Tj /F3+0 22 Tf 26.4 TL (Aprendizaje autom\200tico) Tj /F1+0 22 Tf 26.4 TL ( ) Tj /F3+0 22 Tf 26.4 TL (sobre grandes vol\201menes de) Tj T* 0 Tw 1.830325 Tw (datos ) Tj /F1+0 22 Tf 26.4 TL (dictada en la ) Tj /F4+0 22 Tf 26.4 TL (Facultad de Matem\200tica, Astronom\201a y F\201sica ) Tj /F1+0 22 Tf 26.4 TL (de la ) Tj /F4+0 22 Tf 26.4 TL (Univesidad) Tj T* 0 Tw (Nacional de C\202rdoba ) Tj /F1+0 22 Tf 26.4 TL (en el 2do. Semestre del 2014) Tj T* ET
 Q
 Q
 q
 1 0 0 1 34.34646 208.0528 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 83.6 Tm 5.016249 Tw /F1+0 22 Tf 26.4 TL (Actualmente se planteo evoluci\201n del proyecto evoluci\201n y se volvi\201 un protipo) Tj T* 0 Tw 4.559671 Tw (funcional de lo planteado, aprovechando la expresividad de Python; tratando de) Tj T* 0 Tw .692986 Tw (facilitar el depliegue de los nodos para hacerlo de manera trivial para lograr utilizar) Tj T* 0 Tw (de manera distribuida Scikit-Learn.) Tj T* ET
+BT 1 0 0 1 0 110 Tm 1.407717 Tw /F1+0 22 Tf 26.4 TL (Al finalizar el cursado se evolucion\201 el proyecto y se volvi\201 un protipo funcional de) Tj T* 0 Tw 7.91846 Tw (lo planteado en primera instancia pero ya con el objetivod de aprovechar la) Tj T* 0 Tw 5.799452 Tw (expresividad de Python; tratando de trivializar el despliegue de los nodos para) Tj T* 0 Tw 7.309031 Tw (hacerlo para finalmente utilizar de manera distribuida Scikit-Learn \(Librer\204a de) Tj T* 0 Tw (aprendizaje autom\202tico implementada en Python\).) Tj T* ET
 Q
 Q
 q
@@ -3848,34 +3848,34 @@ BT 1 0 0 1 0 7.7 Tm 325.0532 0 Td 46.2 TL /F2 38.5 Tf .168627 .243137 .313725 rg
 Q
 Q
 q
-1 0 0 1 1017.402 2339.653 cm
+1 0 0 1 1017.402 2366.053 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 110 Tm 1.327151 Tw /F1+0 22 Tf 26.4 TL (Si bien Python posee varias alternativas para el acceso a AMQP, en este trabajo se) Tj T* 0 Tw 1.275197 Tw (ha optado por uno de los mas simples: Pika. Pika tiene la particularidad de ser una) Tj T* 0 Tw .118788 Tw (implementaci\201n robusta, probada y bien documentada, ya que el broker que hemos) Tj T* 0 Tw 6.884618 Tw (usado para el desarrollo, rabbitMQ, da los ejemplos en Python con Pika y las) Tj T* 0 Tw (conexciones Bloqueantes en un esquema multiproceso comunicados.) Tj T* ET
+BT 1 0 0 1 0 83.6 Tm 1.327151 Tw /F1+0 22 Tf 26.4 TL (Si bien Python posee varias alternativas para el acceso a AMQP, en este trabajo se) Tj T* 0 Tw 1.275197 Tw (ha optado por uno de los mas simples: Pika. Pika tiene la particularidad de ser una) Tj T* 0 Tw .118788 Tw (implementaci\201n robusta, probada y bien documentada, ya que el broker que hemos) Tj T* 0 Tw (usado para el desarrollo, rabbitMQ, da los ejemplos en Python con Pika.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 1017.402 2280.853 cm
+1 0 0 1 1017.402 2307.253 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 30.8 Tm 2.10707 Tw /F1+0 22 Tf 26.4 TL (Poopy actualmente tiene 3 funcionalidades b\202sicas divididas cada en una serie de) Tj T* 0 Tw (colas diferentes implementadas con el patr\201n publicador subscriptor) Tj T* ET
 Q
 Q
 q
-1 0 0 1 1017.402 2248.453 cm
+1 0 0 1 1017.402 2274.853 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4.4 Tm /F1+0 22 Tf 26.4 TL (Las funcionalidades son:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 1017.402 2242.453 cm
+1 0 0 1 1017.402 2268.853 cm
 Q
 q
-1 0 0 1 1017.402 2242.453 cm
+1 0 0 1 1017.402 2268.853 cm
 Q
 q
-1 0 0 1 1017.402 2110.453 cm
+1 0 0 1 1017.402 2136.853 cm
 0 0 0 rg
 q
 1 0 0 1 6 102.6 cm
@@ -3894,10 +3894,10 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 2104.453 cm
+1 0 0 1 1017.402 2130.853 cm
 Q
 q
-1 0 0 1 1017.402 2078.053 cm
+1 0 0 1 1017.402 2104.453 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3917,10 +3917,10 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 2072.053 cm
+1 0 0 1 1017.402 2098.453 cm
 Q
 q
-1 0 0 1 1017.402 2045.653 cm
+1 0 0 1 1017.402 2072.053 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -3940,16 +3940,16 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 2045.653 cm
+1 0 0 1 1017.402 2072.053 cm
 Q
 q
-1 0 0 1 1017.402 1994.053 cm
+1 0 0 1 1017.402 2020.453 cm
 q
-BT 1 0 0 1 0 6.6 Tm 159.1045 0 Td 39.6 TL /F2 33 Tf .168627 .243137 .313725 rg (Ejemplo: Random Forest Sobre ) Tj /F9 33 Tf (Iris.arff) Tj T* -159.1045 0 Td ET
+BT 1 0 0 1 0 6.6 Tm 80.25097 0 Td 39.6 TL /F2 33 Tf .168627 .243137 .313725 rg (Ejemplo: Random Forest Sobre ) Tj /F9 33 Tf (Iris.arff ) Tj /F2 33 Tf (en Poopy) Tj T* -80.25097 0 Td ET
 Q
 Q
 q
-1 0 0 1 1017.402 1233.653 cm
+1 0 0 1 1017.402 1260.053 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4289,26 +4289,26 @@ Q
 Q
 Q
 q
-1 0 0 1 1017.402 1175.453 cm
+1 0 0 1 1017.402 1201.853 cm
 q
 BT 1 0 0 1 0 7.7 Tm 340.0297 0 Td 46.2 TL /F2 38.5 Tf .168627 .243137 .313725 rg (Conclusiones) Tj T* -340.0297 0 Td ET
 Q
 Q
 q
-1 0 0 1 1017.402 1090.253 cm
+1 0 0 1 1017.402 1116.653 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 57.2 Tm .512848 Tw /F1+0 22 Tf 26.4 TL (Si bien el proyecto en su estado actual es utlizable y posee bastantes caracter\204stica) Tj T* 0 Tw 1.961391 Tw (\200tiles, es conveniente realizar cambios si se desea usar Poopy en un entorno real.) Tj T* 0 Tw (Por mencionar algunos:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 1017.402 1084.253 cm
+1 0 0 1 1017.402 1110.653 cm
 Q
 q
-1 0 0 1 1017.402 1084.253 cm
+1 0 0 1 1017.402 1110.653 cm
 Q
 q
-1 0 0 1 1017.402 1031.453 cm
+1 0 0 1 1017.402 1057.853 cm
 0 0 0 rg
 q
 1 0 0 1 6 23.4 cm
@@ -4327,10 +4327,10 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 1025.453 cm
+1 0 0 1 1017.402 1051.853 cm
 Q
 q
-1 0 0 1 1017.402 919.8528 cm
+1 0 0 1 1017.402 946.2528 cm
 0 0 0 rg
 q
 1 0 0 1 6 76.2 cm
@@ -4349,10 +4349,10 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 913.8528 cm
+1 0 0 1 1017.402 940.2528 cm
 Q
 q
-1 0 0 1 1017.402 834.6528 cm
+1 0 0 1 1017.402 861.0528 cm
 0 0 0 rg
 q
 1 0 0 1 6 49.8 cm
@@ -4371,10 +4371,10 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 828.6528 cm
+1 0 0 1 1017.402 855.0528 cm
 Q
 q
-1 0 0 1 1017.402 802.2528 cm
+1 0 0 1 1017.402 828.6528 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -4394,17 +4394,17 @@ q
 Q
 Q
 q
-1 0 0 1 1017.402 802.2528 cm
+1 0 0 1 1017.402 828.6528 cm
 Q
 q
-1 0 0 1 1017.402 690.6528 cm
+1 0 0 1 1017.402 717.0528 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 83.6 Tm 8.170375 Tw /F1+0 22 Tf 26.4 TL (Cabe aclarar que AMQP para lograr una robustez similar a la de Hadoop es) Tj T* 0 Tw 4.410609 Tw (necesario desplegar mas un broker; ya que una ca\204da de un \200nico nodo central) Tj T* 0 Tw 4.939455 Tw (implicar\204a que todo el sistema falle, al punto de que se volver\204a inaccesible los) Tj T* 0 Tw (datos almacenados en poopyFS.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 1173.654 196.6528 cm
+1 0 0 1 1173.654 223.0528 cm
 q
 620 0 0 488 0 0 cm
 /FormXob.e17c46ca1a6df78a1791b146680f4da4 Do
@@ -4496,16 +4496,16 @@ xref
 0002088866 00000 n
 0002088971 00000 n
 0002089145 00000 n
-0002089275 00000 n
-0002089392 00000 n
-0002089456 00000 n
-0002124520 00000 n
-0002124564 00000 n
+0002089284 00000 n
+0002089401 00000 n
+0002089465 00000 n
+0002124506 00000 n
+0002124550 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\304~P\226\201`m\345\311\026\210\251X&|/) (\304~P\226\201`m\345\311\026\210\251X&|/)]
+ [(\230<\243\202\256\015.\235h]\222\(\025\276^\202) (\230<\243\202\256\015.\235h]\222\(\025\276^\202)]
  /Info 42 0 R /Root 41 0 R /Size 55 >>
 startxref
-2124601
+2124587
 %%EOF
