@@ -19,7 +19,7 @@
 
 El advenimiento de grandes volúmenes de datos (o Big Data) esta generando una necesidad de productos que sirvan
 para la manipulación y resumen de los mismos. Big Data puede considerarse de manera mas o menos precisa (no es
-mas que un numero comercial) como una cantidad de información tal que no puede procesarse ni almacenarse en un
+mas que un nombre comercial) como una cantidad de información tal que no puede procesarse ni almacenarse en un
 único ordenador.
 
 Las dificultades más habituales vinculadas a la gestión de estas cantidades de datos se centran en la captura, el alma-
@@ -31,8 +31,8 @@ mas transparente posible para el programador, haciéndolo parecer que esta ejecu
 un poco del modelo propuesto por el ya tradicional modelo distribuido de MPI (del inglés Interfaz de Paso de Mensaje)
 de hacer evidente la no localidad del computo.
 
-Por el dado del análisis de datos; en la presencia de una cantidad ingente de información como la que planteamos
-hace necesario el disponer de mecanismos automáticos para el procesamiento de estos volúmenes. Es en este campo
+Por el dado del análisis de datos; en la presencia de estos volúmenes
+hace necesario el disponer de mecanismos automáticos para el procesamiento de los mismos. Es en este campo
 donde una herramienta como el aprendizaje automático (o ML) obtiene un valor de piedra angular. El aprendizaje
 automático es una rama de la de la Inteligencia Artificial que consiste en crear programas que buscan de manera
 autónoma patrones en la información a partir de ejemplos.
@@ -119,13 +119,15 @@ implicatorias de el diseño de un sistema MapReduce sobre AMQP tratando de
 lograr las mismas garantías que ofrecidas por Hadoop. Este planteo fue
 realizado en el segundo práctico de la materia **Aprendizaje automático**
 **sobre grandes volúmenes de datos** dictada en la
-*Facultad de Matemática, Astronomía y Fisica* de la
+*Facultad de Matemática, Astronomía y Física* de la
 *Univesidad Nacional de Córdoba* en el 2do. Semestre del 2014
 
-Actualmente se planteo evolución del proyecto evolución y se volvió un protipo
-funcional de lo planteado, aprovechando la expresividad de Python; tratando de
-facilitar el depliegue de los nodos para hacerlo de manera trivial para lograr
-utilizar de manera distribuida Scikit-Learn.
+Al finalizar el cursado se evolucionó el proyecto y se volvió un protipo
+funcional de lo planteado en primera instancia pero ya con el objetivod de
+aprovechar la expresividad de Python; tratando de
+trivializar el despliegue de los nodos para hacerlo para finalmente
+utilizar de manera distribuida Scikit-Learn (Librería de aprendizaje automático
+implementada en Python).
 
 El proyecto fue finalmente llamado Poopy
 
@@ -137,8 +139,7 @@ Si bien Python posee varias alternativas para el acceso a AMQP, en este
 trabajo se ha optado por uno de los mas simples: Pika. Pika tiene la
 particularidad de ser una implementación robusta, probada y bien documentada,
 ya que el broker que hemos usado para el desarrollo, rabbitMQ, da los
-ejemplos en Python con Pika y las conexciones Bloqueantes en un esquema
-multiproceso comunicados.
+ejemplos en Python con Pika.
 
 Poopy actualmente tiene 3 funcionalidades básicas divididas cada en una serie
 de colas diferentes implementadas con el patrón publicador subscriptor
@@ -154,8 +155,8 @@ Las funcionalidades son:
 - **Distribuir los archivos en en el sistema de archivos distribuido**
 - **Ejecución de una tarea MapReduce.**
 
-Ejemplo: Random Forest Sobre *Iris.arff*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ejemplo: Random Forest Sobre *Iris.arff* en Poopy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: python
 
