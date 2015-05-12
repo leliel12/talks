@@ -20,7 +20,10 @@
             "keepWithNext": true,
             "spaceAfter": 6,
             "alignment": TA_CENTER,
-            "textColor": "#a706a8"
+            "textColor": "#ffffff"
+        },
+        "heading3": {
+            "fontSize": 1
         }
     },
     "pageTemplates" : {
