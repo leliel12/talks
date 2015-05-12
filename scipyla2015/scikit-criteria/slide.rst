@@ -12,13 +12,14 @@
 Multicriterio y Escalas Ordinales
 ---------------------------------
 
-Sus becas fueron asignadas con esto
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. class:: center
+
+    **Sus becas fueron asignadas con esto**
+
 
 .. class:: center
 
     Ing. Cabral, Juan B.
-
 
 
 .. class:: center
@@ -33,30 +34,94 @@ Sus becas fueron asignadas con esto
 About Me
 --------
 
-About Me
-
 - Software engineer.
 - Data scientist.
 - Grad Student In Machine Learning for Astrophisics
 
-.. image:: imgs/eng.png
-    :align: right
-    :scale: 70 %
 
 
-Agenda
-------
 
-- Problemas de analisis a traves de múltiples criterios.
-- Escuelas del MCDA
-- AHP - WSM - WPM - MOORA - FMC - MPR.
-- Comparación de Escalas Ordinales.
-- Un ejemplo con Multi-MOORA.
-- Futuro.
+Decision-making
+---------------
 
-.. image:: imgs/agenda.png
-    :align: center
-    :scale: 20 %
+-   The cognitive process resulting in the selection of a belief or a course of
+    action among several alternative possibilities. Every decision-making
+    process produces a final choice that may or may not prompt action.
+-   Is the study of identifying and choosing alternatives based on the values
+    and preferences of the decision maker.
+
+.. hint::
+
+    DM is one of the central activities of management and is a huge part of
+    any process of implementation; also is a subject of active research from
+    Edit human performance with regard to decisions has been the subject of
+    active research from **Psychological**, **Cognitive** and **Normative**
+    perspectives.
+
+    Also can be regarded as a problem-solving activity terminated by a
+    solution deemed to be satisfactory. It is, therefore, a reasoning or
+    emotional process which can be rational or irrational
+
+
+Decision-making (Cont.)
+-----------------------
+
+.. class:: center
+
+    Rational choice theory encompasses the notion that people try to maximize
+    benefits while minimizing costs.
+
+
+-   A major part of decision-making involves the analysis of a finite set of
+    alternatives described in terms of evaluative criteria.
+-   These criteria may be benefit or cost in nature. (*Maximization* an
+    *Minimization* problems).
+-   The problem might be to rank these alternatives in terms of how attractive
+    they are to the decision-maker(s) when all the criteria are considered
+    simultaneously.
+
+.. important::
+
+    .. class:: center
+
+        Solving such problems is the focus of multi-criteria decision analysis
+        (**MCDA**), also known as multi-criteria decision-making (**MCDM**).
+
+
+Rational & Irrational Decision-making
+-------------------------------------
+
+-   In economics, it is thought that if humans are rational and free to make
+    their  own decisions, then they would behave according to rational choice
+    theory.
+-   The people make decisions by determining the likelihood of a potential
+    outcome, the value of the outcome, multiplying the two, and then
+    choosing the more positive of the two outcomes.
+-   In reality some factors that affect decision-making abilities and cause
+    people to make irrational decisions (availability bias)
+
+
+Information Overload
+--------------------
+
+.. important::
+
+    IO is a gap between the volume of information and the tools we need to
+    assimilate it. If the gap grows your decision is worse.
+
+**Factors**
+
+    #. Personal Information Factors.
+    #. Information Characteristics.
+    #. Tasks and Process.
+    #. Organizational Design.
+    #. Information Technology.
+
+-   Hall, Ariss & Todorov (2007) described an
+    illusion of knowledge: **too much knowledge it actually interferes with**
+    **their ability to make rational decisions.**
+
+
 
 
 Decision-Makin Paradox
@@ -130,14 +195,11 @@ Ejemplo:
 ¿Preguntas?
 -----------
 
-    - Charla: http://goo.gl/XYHo58
+    - Charla:
     - Contactos:
         - `jbcabral.com <http://jbcabral.com>`_
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
-.. image:: imgs/questions.png
-    :align: center
-    :scale: 35 %
 
 
 
