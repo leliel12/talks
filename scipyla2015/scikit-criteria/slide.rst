@@ -39,6 +39,9 @@ About Me
 - Grad Student In Machine Learning for Astrophisics
 
 
+.. class:: center
+
+    **Disclaimer:** Wikipedia powered slides!
 
 
 Decision-making
@@ -122,6 +125,109 @@ Information Overload
     **their ability to make rational decisions.**
 
 
+Multiple-criteria decision analysis
+-----------------------------------
+
+.. class:: center
+
+    Whether in our daily lives or in professional settings, there are typically
+    multiple conflicting criteria that need to be evaluated in
+    making decisions.
+
+    we usually weigh multiple criteria implicitly and we may be comfortable
+    with the consequences of such decisions that are made based on only
+    intuition.
+
+    when stakes are high, it is important to properly structure the problem
+    and explicitly evaluate multiple criteria.
+
+.. important::
+
+    MCDM or MCDA is concerned with structuring and **solving** decision and
+    planning problems involving multiple criteria.
+
+    **"Solving"** can be:
+
+    -   Best alternative, small set of best alternatives or grouping
+        alternatives.
+    -   An extreme interpretation could be to find all "efficient" or
+        "nondominated" alternatives.
+
+    A nondominated solution has the property that it is not possible to move
+    away from it to any other solution without sacrificing in at least one
+    criterion.
+
+
+MCDA - Typologies
+-----------------
+
+-   **Multiple-criteria evaluation problems:** These problems consist of a
+    finite number of alternatives, explicitly known in the beginning of the
+    solution process. Each alternative is represented by its performance in
+    multiple criteria. The problem may be defined as finding the best
+    alternative for a decision maker (DM), or finding a set of good
+    alternatives.
+-   **Multiple-criteria design problems (multiple objective mathematical**
+    **programming problems):** In these problems, the alternatives are not
+    explicitly known. An alternative (solution) can be found by solving a
+    mathematical model. The number of alternatives is either infinite and
+    not countable (when some variables are continuous) or typically very
+    large if countable (when all variables are discrete).
+
+Also:
+
+-   There are methods that require the DM’s preference information at the start
+    of the process, transforming the problem into essentially a single criterion problem.
+    (**prior articulation of preferences**).
+-   Some methods require preference information from the DM throughout the solution process.
+    (**progressive articulation of preferences**).
+-   MC design problems typically require the solution of a series of
+    mathematical programming models in order to reveal implicitly defined solutions.
+    (**posterior articulation of preferences"**).
+
+Representations and definitions
+-------------------------------
+
+The MCDM problem can be represented in the criterion space or the decision
+space. Alternatively, if different criteria are combined by a weighted linear
+function, it is also possible to represent the problem in the weight space.
+
+.. figure:: imgs/space_def.png
+    :align: center
+    :scale: 50 %
+
+where **q** is the vector of **k** criterion functions
+(objective functions) and **Q** is the feasible set, **Q ⊆ R^k**.
+
+If Q is defined explicitly or implicity (by a set of alternatives),
+the resulting problem is called a Multiple Criteria Evaluation or Design
+problem.
+
+X is the feasible set and x is the decision variable vector of size n.
+
+Te quotation mark indicate the maximization is not well-defined.
+
+
+Representations and definitions (cont.)
+---------------------------------------
+
+.. image:: imgs/space_dem.png
+    :align: center
+    :scale: 30 %
+
+**Definitions:**
+
+.. image:: imgs/4def.png
+    :align: center
+    :scale: 50 %
+
+-   **Ideal point:** (in criterion space) represents the best (the maximum for
+    maximization problems and the minimum for minimization problems) of each
+    objective function, and typically corresponds to an infeasible solution.
+-   **Nadir point:** (in criterion space) represents the worst (the minimum
+    for maximization problems and the maximum for minimization problems) of
+    each objective function among the points in the nondominated set, and is
+    typically a dominated point.
 
 
 Decision-Makin Paradox
