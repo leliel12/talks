@@ -4,15 +4,21 @@
         "height": "12cm",
         "margin-top": "0mm",
         "margin-bottom": "0mm",
-        "margin-left": "1cm",
-        "margin-right": "1cm",
+        "margin-left": "5mm",
+        "margin-right": "5mm",
         "margin-gutter": "0cm",
         "spacing-header": "2mm",
         "spacing-footer": "0mm",
         "firstTemplate": "cutePage"
     },
     "linkColor": "#d849d9",
+    "fontsAlias": {
+        "stdFont": "verdana"
+    },
     "styles": {
+        "normal": {
+            "fontSize": 10
+        },
         "heading1": {
             "parent": "normal",
             "fontName": "stdBold",
@@ -22,8 +28,12 @@
             "alignment": TA_CENTER,
             "textColor": "#ffffff"
         },
-        "heading3": {
-            "fontSize": 1
+        "admonition": {
+            backColor: white
+        },
+        "admonition-heading": {
+            "fontSize": 1,
+            "textColor": white
         }
     },
     "pageTemplates" : {
