@@ -39,7 +39,7 @@ About Me
 - Grad Student In Machine Learning for Astrophisics
 
 
-.. class:: center
+.. class:: block
 
     **Disclaimer:** Wikipedia powered slides!
 
@@ -53,7 +53,7 @@ Decision-making
 -   Is the study of identifying and choosing alternatives based on the values
     and preferences of the decision maker.
 
-.. hint::
+.. note::
 
     DM is one of the central activities of management and is a huge part of
     any process of implementation; also is a subject of active research from
@@ -85,7 +85,7 @@ Decision-making (Cont.)
 
 .. important::
 
-    .. class:: center
+    .. class:: center blue
 
         Solving such problems is the focus of multi-criteria decision analysis
         (**MCDA**), also known as multi-criteria decision-making (**MCDM**).
@@ -228,6 +228,84 @@ Representations and definitions (cont.)
     for maximization problems and the maximum for minimization problems) of
     each objective function among the points in the nondominated set, and is
     typically a dominated point.
+
+
+Generating nondominated solutions
+---------------------------------
+
+.. note::
+
+    .. class:: center
+
+        .. image:: imgs/wsum.png
+            :align: center
+            :scale: 90 %
+
+        Only one dimension but... works!
+
+
+Solving MCDM problems - Schools
+-------------------------------
+
+-   Multiple objective mathematical programming school
+-   Goal programming school
+-   Fuzzy-set theorists
+-   Multiattribute utility theorists
+-   French school
+-   Evolutionary multiobjective optimization school (EMO)
+-   Analytic hierarchy process (AHP)
+
+.. note::
+
+    .. class:: center
+
+        How many methods?
+
+
+MCDM methods (1/3)
+------------------
+
+-   Aggregated Indices Randomization Method (AIRM)
+-   **Analytic hierarchy process (AHP)**
+-   Analytic network process (ANP)
+-   Best worst method (BWM)[30]
+-   Characteristic Objects METhod (COMET)
+-   Data envelopment analysis
+-   Decision EXpert (DEX)
+-   Disaggregation – Aggregation Approaches (UTA*, UTAII, UTADIS)
+-   Dominance-based rough set approach (DRSA)
+-   ELECTRE (Outranking)
+-   Evidential reasoning approach (ER)
+-   Goal programming
+-   Grey relational analysis (GRA)
+-   Inner product of vectors (IPV)
+
+
+MCDM methods (2/3)
+------------------
+
+-   Measuring Attractiveness by a categorical Based Evaluation Technique (MACBETH)
+-   Multi-Attribute Global Inference of Quality (MAGIQ)
+-   Multi-attribute utility theory (MAUT)
+-   Multi-attribute value theory (MAVT)
+-   New Approach to Appraisal (NATA)
+-   Nonstructural Fuzzy Decision Support System (NSFDSS)
+-   Potentially all pairwise rankings of all possible alternatives (PAPRIKA)
+-   PROMETHEE (Outranking)
+-   Superiority and inferiority ranking method (SIR method)
+-   Technique for the Order of Prioritisation by Similarity to Ideal Solution (TOPSIS)
+-   Value analysis (VA)
+-   Value engineering (VE)
+
+
+MCDM methods (2/3)
+------------------
+
+-   VIKOR method
+-   Fuzzy VIKOR method
+-   **Weighted product model (WPM)**
+-   **Weighted sum model (WSM)**
+-   **Multi-Objective Optimization by Ratio Analysis (MOORA)**
 
 
 Decision-Makin Paradox
