@@ -14,12 +14,15 @@ Multicriterio y Escalas Ordinales
 
 .. class:: center
 
-    **Sus becas fueron asignadas con esto**
+
+.. image:: imgs/portada.jpg
+    :align: center
+    :scale: 200 %
 
 
 .. class:: center
 
-    Ing. Cabral, Juan B.
+    Juan B Cabral
 
 
 .. class:: center
@@ -34,12 +37,11 @@ Multicriterio y Escalas Ordinales
 About Me
 --------
 
-- Software engineer.
-- Data scientist.
-- Grad Student In Machine Learning for Astrophisics
+.. image:: imgs/intro_py-00a.png
+    :align: center
+    :scale: 20 %
 
-
-.. class:: block
+.. class:: center
 
     **Disclaimer:** Wikipedia powered slides!
 
@@ -47,33 +49,24 @@ About Me
 Decision-making
 ---------------
 
--   The cognitive process resulting in the selection of a belief or a course of
-    action among several alternative possibilities. Every decision-making
-    process produces a final choice that may or may not prompt action.
--   Is the study of identifying and choosing alternatives based on the values
-    and preferences of the decision maker.
-
 .. note::
 
-    DM is one of the central activities of management and is a huge part of
-    any process of implementation; also is a subject of active research from
-    Edit human performance with regard to decisions has been the subject of
-    active research from **Psychological**, **Cognitive** and **Normative**
-    perspectives.
-
-    Also can be regarded as a problem-solving activity terminated by a
-    solution deemed to be satisfactory. It is, therefore, a reasoning or
-    emotional process which can be rational or irrational
-
-
-Decision-making (Cont.)
------------------------
-
-.. class:: center
+    Is the study of identifying and choosing alternatives based on the values
+    and preferences of the decision maker.
 
     Rational choice theory encompasses the notion that people try to maximize
     benefits while minimizing costs.
 
+
+Perspectives:
+
+- Psychological
+- Cognitive
+- Normative
+
+
+Decision-making (Cont.)
+-----------------------
 
 -   A major part of decision-making involves the analysis of a finite set of
     alternatives described in terms of evaluative criteria.
@@ -83,79 +76,33 @@ Decision-making (Cont.)
     they are to the decision-maker(s) when all the criteria are considered
     simultaneously.
 
-.. important::
-
-    .. class:: center blue
-
-        Solving such problems is the focus of multi-criteria decision analysis
-        (**MCDA**), also known as multi-criteria decision-making (**MCDM**).
-
-
-Rational & Irrational Decision-making
--------------------------------------
-
--   In economics, it is thought that if humans are rational and free to make
-    their  own decisions, then they would behave according to rational choice
-    theory.
--   The people make decisions by determining the likelihood of a potential
-    outcome, the value of the outcome, multiplying the two, and then
-    choosing the more positive of the two outcomes.
--   In reality some factors that affect decision-making abilities and cause
-    people to make irrational decisions (availability bias)
-
-
-Information Overload
---------------------
-
-.. important::
-
-    IO is a gap between the volume of information and the tools we need to
-    assimilate it. If the gap grows your decision is worse.
-
-**Factors**
-
-    #. Personal Information Factors.
-    #. Information Characteristics.
-    #. Tasks and Process.
-    #. Organizational Design.
-    #. Information Technology.
-
--   Hall, Ariss & Todorov (2007) described an
-    illusion of knowledge: **too much knowledge it actually interferes with**
-    **their ability to make rational decisions.**
-
 
 Multiple-criteria decision analysis
 -----------------------------------
 
-.. class:: center
-
-    Whether in our daily lives or in professional settings, there are typically
+-   In our daily lives or in professional settings, there are typically
     multiple conflicting criteria that need to be evaluated in
     making decisions.
-
-    we usually weigh multiple criteria implicitly and we may be comfortable
+-   We usually weigh multiple criteria implicitly and we may be comfortable
     with the consequences of such decisions that are made based on only
     intuition.
-
-    when stakes are high, it is important to properly structure the problem
+-   When stakes are high, it is important to properly structure the problem
     and explicitly evaluate multiple criteria.
 
-.. important::
 
-    MCDM or MCDA is concerned with structuring and **solving** decision and
-    planning problems involving multiple criteria.
+Multiple-criteria decision analysis (cont.)
+-------------------------------------------
 
-    **"Solving"** can be:
+MCDM or MCDA is concerned with structuring and **solving** decision and
+planning problems involving multiple criteria.
 
-    -   Best alternative, small set of best alternatives or grouping
-        alternatives.
-    -   An extreme interpretation could be to find all "efficient" or
-        "nondominated" alternatives.
+**"Solving"** can be:
 
-    A nondominated solution has the property that it is not possible to move
-    away from it to any other solution without sacrificing in at least one
-    criterion.
+-   Best alternative, small set of best alternatives or grouping
+    alternatives.
+-   An extreme interpretation could be to find all "efficient" or
+    "nondominated" alternatives.
+
 
 
 MCDA - Typologies
@@ -174,7 +121,9 @@ MCDA - Typologies
     not countable (when some variables are continuous) or typically very
     large if countable (when all variables are discrete).
 
-Also:
+
+MCDA - Typologies (cont.)
+-------------------------
 
 -   There are methods that require the DM’s preference information at the start
     of the process, transforming the problem into essentially a single criterion problem.
@@ -194,7 +143,7 @@ function, it is also possible to represent the problem in the weight space.
 
 .. figure:: imgs/space_def.png
     :align: center
-    :scale: 50 %
+    :scale: 70 %
 
 where **q** is the vector of **k** criterion functions
 (objective functions) and **Q** is the feasible set, **Q ⊆ R^k**.

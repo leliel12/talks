@@ -26,14 +26,19 @@
             "keepWithNext": true,
             "spaceAfter": 6,
             "alignment": TA_CENTER,
-            "textColor": "#ffffff"
+            "textColor": "#618a8c"
         },
         "admonition": {
-            backColor: white
+            "backColor": "#618a8c",
+            "textColor": "#000000",
+            "alignment": TA_CENTER
+
         },
         "admonition-heading": {
             "fontSize": 1,
-            "textColor": white
+            "textColor": "#618a8c",
+            "spaceBefore": 2,
+            "spaceAfter": 2
         }
     },
     "pageTemplates" : {
@@ -41,7 +46,7 @@
             "frames": [
                 ["0", "0", "100%", "100%"]
             ],
-            "background" : "imgs/bg.png",
+
             "showFooter" : false,
             "showHeader" : false
         }
