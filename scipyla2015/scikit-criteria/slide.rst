@@ -270,16 +270,12 @@ Decision-Makin Paradox
 Decision-Makin Paradox (cont.)
 ------------------------------
 
--   A traves de un estudio [Triantaphyllou1989]_ [Triantaphyllou,2000]_
+-   A traves de un estudio (Triantaphyllou et al, 1989) (Triantaphyllou et al,2000)
     Se realizo un experimento de selección de metodos utilizando 4 metodos.
     WSM, WPM y dos variantes de AHP. Cuando se usaba un metodo *X*
     (perteneciente a los anteriores, indicaba que *Y* era el mejor. Cuando se
     utilizaba *Y* el resultado decia que *Z* era mejor.
--   Para enunciar el problema se utilizaron 2 criterios:
-    #.  Todo metodo debe ser tan precido en problemas multidimensionales como
-        uni-dimensionales (se comparo resultados con WSUM) es lo llamaso
-        ranking reversal tipo 5.
-    #.  Resultados de Analisis de ranking reversals tipo 2.
+-   Para enunciar el problema se criterios de ranking-reversals.
 
 
 Ranking Reversal
@@ -315,13 +311,45 @@ Ranking Reversal (cont.)
 -   Puede que una falla en un ranking reversal sea un resultado deseado.
 -   Se da en situaciones racionales.
 -   Conjetura: Intuyo que pasa en Machine Learning.
-
-Ejemplo:
+-   Ejemplo:
 
     - Un comprador M1 que le gusta el lujo, Un comprador M2 que no tiene
       dinero.
     - Un auto A1 lujoso y caro y un auto A2 barato y con poco confort.
     - ``M1 = A1 > A2`` y ``M2 = A2 > A1``
+
+
+Scikit-Criteria
+---------------
+
+.. image:: imgs/skcriteria.png
+    :align: center
+    :scale: 100 %
+
+
+Scikit-Criteria - Estado Actual
+-------------------------------
+
+- Implementado AHP - MOORA (4 metodos) - WPROD - WSUM.
+- Tools sobre ranking (dominancia, igualdad, dominancia de kendall,
+  spearman para rankings).
+- Varios metodos de normalización.
+
+
+Scikit-Criteria - Futuro
+------------------------
+
+- TOPSIS, VIKOR y ELEKTREE son los metodos prioritarios
+- Terminar la documentación y escribir un tutorial.
+- Implementar los ranking reversals.
+- Integrar todo sobre una interfaz *scikit-learn like*.
+- Graficos :D
+
+
+.. image:: imgs/radar.jpg
+    :align: center
+    :scale: 25 %
+
 
 
 
@@ -330,7 +358,7 @@ Ejemplo:
 
     - Charla:
     - Contactos:
-        - `jbcabral.com <http://jbcabral.com>`_
+        - `jbcabral.org <http://jbcabral.org>`_
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
 
 
