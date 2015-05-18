@@ -327,30 +327,32 @@ Scikit-Criteria
     :scale: 100 %
 
 
+.. class:: center
+
+        http://github.com/leliel12/scikit-criteria
+
+
 Scikit-Criteria - Estado Actual
 -------------------------------
 
 - Implementado AHP - MOORA (4 metodos) - WPROD - WSUM.
 - Tools sobre ranking (dominancia, igualdad, dominancia de kendall,
   spearman para rankings).
-- Varios metodos de normalización.
+- Varios métodos de normalización.
 
 
 Scikit-Criteria - Futuro
 ------------------------
 
-- TOPSIS, VIKOR y ELEKTREE son los metodos prioritarios
+- TOPSIS, VIKOR y ELEKTREE son los métodos prioritarios
 - Terminar la documentación y escribir un tutorial.
 - Implementar los ranking reversals.
 - Integrar todo sobre una interfaz *scikit-learn like*.
 - Graficos :D
 
-
 .. image:: imgs/radar.jpg
     :align: center
     :scale: 25 %
-
-
 
 
 ¿Preguntas?
