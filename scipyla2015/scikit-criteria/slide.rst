@@ -77,6 +77,12 @@ Decision-making (Cont.)
     simultaneously.
 
 
+.. image:: imgs/cg0472napoleon.gif
+    :align: center
+    :scale: 200 %
+
+
+
 Multiple-criteria decision analysis
 -----------------------------------
 
@@ -88,6 +94,11 @@ Multiple-criteria decision analysis
     intuition.
 -   When stakes are high, it is important to properly structure the problem
     and explicitly evaluate multiple criteria.
+
+.. image:: imgs/sometimes.jpg
+    :align: center
+    :scale: 40 %
+
 
 
 Multiple-criteria decision analysis (cont.)
@@ -102,6 +113,11 @@ planning problems involving multiple criteria.
     alternatives.
 -   An extreme interpretation could be to find all "efficient" or
     "nondominated" alternatives.
+
+
+.. image:: imgs/ww1.gif
+    :align: center
+    :scale: 200 %
 
 
 
@@ -133,6 +149,11 @@ MCDA - Typologies (cont.)
 -   MC design problems typically require the solution of a series of
     mathematical programming models in order to reveal implicitly defined solutions.
     (**posterior articulation of preferences"**).
+
+.. image:: imgs/badd.jpg
+    :align: center
+    :scale: 100 %
+
 
 Representations and definitions
 -------------------------------
@@ -335,6 +356,11 @@ Scikit-Criteria
 Scikit-Criteria - Estado Actual
 -------------------------------
 
+.. code-block:: bash
+
+    $ pip install scikit-criteria
+
+
 - Implementado AHP - MOORA (4 metodos) - WPROD - WSUM.
 - Tools sobre ranking (dominancia, igualdad, dominancia de kendall,
   spearman para rankings).
@@ -358,7 +384,7 @@ Scikit-Criteria - Futuro
 ¿Preguntas?
 -----------
 
-    - Charla:
+    - Charla: https://goo.gl/ZTJgIX
     - Contactos:
         - `jbcabral.org <http://jbcabral.org>`_
         - Juan B Cabral <`jbc.develop@gmail.com <mailto:jbc.develop@gmail.com>`_>
