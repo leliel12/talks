@@ -26,6 +26,10 @@ Carpyncho - Utilidades de Machine Learning
 
     21 de Agosto del 2015
 
+.. image:: imgs/nova.png
+    :align: right
+    :scale: 40 %
+
 
 About Me
 --------
