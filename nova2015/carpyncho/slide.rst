@@ -83,8 +83,8 @@ Que es Carpyncho Actualmente
 - Tiene la capacidad de consolidar los datos de los pawprints con los tiles
   por proximidad (matching por proximidad).
 - Calcula estadísticas de las consolidaciones.
-- Tiene implementado una primera versión de *cone-search* (con capacidad de
-  paginación automática)
+- Tiene implementado una primera versión de `cone-search <http://localhost:8000/conesearch/?ra=44.472534179688&dec=-63.0&sr=0.86>`_
+  (con capacidad de paginación automática)
 - Calcula estadísticas de magnitud automáticamente.
 - Calcula periodos (LS y PDM), componentes de Fourier para las fuentes que se
   deseen.
