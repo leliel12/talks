@@ -8,7 +8,9 @@
         :align: center
         :scale: 90 %
 
-    Juan Bautista Cabral (IATE-UNR), Sebastian Gurovich (IATE-UNC-CONICET) + VVV Sci.Team
+    Juan Bautista Cabral (IATE, UNR), Sebastian Gurovich (IATE-UNC-CONICET),
+    Felipe Gran (PUC-MAS), a Dante Minniti (Andres Bello - Vatican Observatory)
+    + VVV Sci.Team
 
 
 .. =============================================================================
@@ -157,7 +159,7 @@ Also the **download** feature is implemented as function with the signature:
 .. code-block:: python
 
     # csv is actually the only supported format
-    download(search(...).filter(...), fmt="csv")
+    export(search(...).filter(...), fmt="csv")
 
 
 CQL - Machine Learning
@@ -198,7 +200,7 @@ pages:
 
 .. figure:: img/index.png
     :align: center
-    :scale: 200 %
+    :scale: 40%
 
     Index Page. 1-The list of tiles in the Carpyncho DB. 2-The Tile *b202*
     are in green (ready to use) if you click over the "eye" in the right
@@ -209,26 +211,57 @@ pages:
 
 .. figure:: img/cql.png
     :align: center
-    :scale: 200 %
+    :scale: 40 %
 
     CQL Page. 1-The current query. 2-Tools: the blue button with the pencil
-    allow the user to edit the current CQL; the pink with the down arrow
-    execute a query to download the current results as CSV; and finally, the
-    orange with the trash-can clear the query and take you back to the
-    Index Page.
+    allow the user to edit the current CQL and the pink one with the down arrow
+    execute a query to download the current results as CSV
 
 
 You can require access to our demo: http://carpyncho.jbcabral.org/
 
 
-.. image:: img/afiliations.png
+Results
+-------
+
+In the current state of the database and with some external tools as plotting
+libraries we already reproduced the RRLyrae analysis also revised the fourier components
+the work of Gran, et al 2015 [1]_.
+
+.. figure:: img/lc.png
     :align: center
-    :scale: 75 %
+    :scale: 55 %
+
+    **Top:** Reproduction of the RRLyrae AB from the work of
+    Gran, et al 2015 [1]_. **Bottom:** the simulated lightcurves with
+    the original Fourier Components (blue) and the revised ones (red)
+
+.. figure:: img/mc.png
+    :align: center
+    :scale: 100 %
+
+    Stability of the periods calculated from carpyncho data throught 100,000
+    montecarlo simulations
+
+
+Future Works
+------------
+
+In the short ter we planed complete the ``learn`` function of CQL and also
+add plotting functions.
+
 
 
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
+
+.. image:: img/afiliations.png
+    :align: center
+    :scale: 45 %
+
+
+.. [1] Gran, F. et al. Bulge RR Lyrae stars in the VVV tile b201. Astronomy & Astrophysics 575, A114 (2015).
 
 .. footer::
 

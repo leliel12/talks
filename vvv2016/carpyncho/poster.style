@@ -34,7 +34,7 @@
 
     "styles" : {
         "normal": {
-            "fontSize": 20
+            "fontSize": 18
         },
 
         "footer": {
@@ -54,6 +54,10 @@
 
         "code": {
             "backColor": "#ede1e1",
+            "borderColor": "#eb6864"
+        },
+
+        "figure": {
             "borderColor": "#eb6864"
         }
 
