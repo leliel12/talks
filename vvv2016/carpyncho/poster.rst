@@ -20,30 +20,29 @@
 Introduction
 ------------
 
-We present an first version of Carpyncho, a new data mining facility in
-development which we hope will be utilized to search and
+We present a first version of Carpyncho, a data mining facility in
+development which we hope will be utilized to search for and
 characterize time variable data of the ~ PiB size VVV survey.
 
-The project are focus to be simple to use by exposing an small language
+The project is designed to provide a simple to use small language set
 (~4 functions) to filter data, train machine learning models, execute
-experiments in our own server, and download the data and the model to a local
-computer.
+experiments in a VVV server, and provide access to refined data and the model
+parameter downloadable to a local computer.
 
 
 The Backend
 -----------
 
 A data mining facility for the VVV is being developed for the
-detection and classification of periodic and transient variables. For
-this purpose, the single pawprint data from the VDFS CASU v1.3
+detection and classification of periodic and non-periodic (or transient
+variables). For this purpose the stacked pawprint data from the VDFS CASU v1.3
 catalogues have been crossed matched with the VDFS CASU v1.3 tile
-catalogues into a PostgreSql data-base for variability analisis. The
-Carpyncho infraestructure http://carpyncho.jbcabral.org/ is being
-developed entirely in python on top of a Custom-Framework for data process and
-Django web-framework (for the webapp). The
+catalogues into a PostgreSql data-base. The Carpyncho infraestructure http://carpyncho.jbcabral.org/ is being
+developed entirely in python on top of a Custom-Framework for data processing and
+a Django web-framework (for the webapp). The
 PostgreSql database layer was chosen since its performance is
-adequate for large databases ~1 PetaByte and because PostgreSql is
-open-source, ensuring support plus evolving versatility.
+adequate for large databases (~1 PetaByte) and because PostgreSql is
+open-source, thua ensuring support with evolving versatility.
 
 For calculation purposes Carpyncho is layored on-top of a scientific-
 python library stack that includes:
@@ -60,25 +59,24 @@ CQL - Carpyncho Query Language
 ------------------------------
 
 All the interaction to the backend (including the Web Interface) are made by
-a small Domain Specific Language that expose (at the moment of this work) 4
-to:
+a small Domain Specific Language that provide (at this moment) four functions to:
 
--   Make a Simple Cone Search (http://www.ivoa.net/documents/latest/ConeSearch.html)
-    on the K filter.
+-   Make a Simple Cone Search (SCS)
+    on the Ks-band data.
 -   Sort and slice the result
 -   Filter the SCS by attributes
 -   Train a model with the selected learner (RandomForestClassifier,
     DecisionTreeClassifier, SVC or MultinomialNB)
--   Download the data and the model generated in the server
+-   Download the data and model generated in the server
 
-**Note:** The first 3 and the last functionality is already functional and
+**Note:** The first 3 and last item are already functional and
 available in the demo.
 
-CQL are created above the Python Object Models and compiled to a JSON
+CQL is created above the Python Object Model and compiled to a JSON
 format client-side with Brython (http://brython.info/) to avoid
-execute untrusted code on our server.
+the execution of untrusted code on the server side.
 
-The sintax can be resumed as:
+The syntax can be sumarized as:
 
 .. code-block:: python
 
@@ -115,8 +113,8 @@ the query will be like:
         columns=[tile.name, source.id, source.ra_k and  source.dec_k])
 
 
-Also the we can remove all the SCS query and filter all the stars from
-the tile ``b201`` or  ``d001``
+The query functionality is independent, for example the SCS is not mandatory and filtering for all stars from
+a particular tile is obviously posible as in:
 
 .. code-block:: python
 
@@ -127,7 +125,7 @@ the tile ``b201`` or  ``d001``
 
 
 Aside of the the classics boolean operators ``==``, ``<=``, ``>=``, ``<``
-and ``>`` CQL support more complex logic operators like ``.belongs``
+and ``>`` CQL supports more complex logic operators like ``.belongs``
 which returns true when the field value belongs to the specified set
 
 .. code-block:: python
@@ -140,11 +138,10 @@ the letters are upper or lower cases)
 
 .. code-block:: python
 
-    # all the sources from the boulge
+    # all the sources from the bulge
     search().filter(tile.name.ilike("B%"))
 
-
-Disyuction ``|``, conjuction ``&`` and negation ``~``
+"OR",  ``|``, conjunction ``&`` and negation ``~``
 
 .. code-block:: python
 
@@ -165,12 +162,12 @@ Also the **download** feature is implemented as function with the signature:
 CQL - Machine Learning
 ^^^^^^^^^^^^^^^^^^^^^^
 
-As the current state of Carpyncho can process very fast the data from VVV and
-storage all the features we extracted into a relational database that we
+The current state of Carpyncho can process the data from VVV and
+store all the features into a relational database that we
 explore and export through CQL functions.
 
-We actually aiming to extend CQL to create full platform for data mining
-with machine learning over the VVV dataset.
+Our aim is to extend CQL to create a platform for data mining
+& machine learning on the VVV dataset.
 
 Currently we have implemented a simple function called ``Learn`` with
 signature:
@@ -181,21 +178,21 @@ signature:
         "my_custom_learner", search(..).filter(..), PARAMS)
 
 where ``my_custom_learner`` is a name of your model (a model is only visible
-to creator) and ``PARAMS`` is a set of parameter to configure a machine
-learning  experiment. Because Learn take time, when the training is ready
-an email is sent to the user to inform that they can already use the model
-and chaeck all they quality measures like ROC Curves or Spearman.
+to the creator) and ``PARAMS`` is a set of parameter to configure a machine
+learning  experiment. Because "Learn" takes time, when the training is ready
+an email is sent to the user to inform them that the model is ready
+for te user to check quality measures for example ROC Curves or Spearman.
 
 
 Webapp
 ------
 
-Because all the Carpyncho webapp are implemented over CQL we only have 2 main
+Because all the Carpyncho webapp are implemented over CQL we have 2 main
 pages:
 
--   The **index** that show the current status of the pipeline
-    (like pending processing) In addition serves as "welcome" screen
--   and the **CQL** where every result of cql are showed.
+-   The **index** that shows the current status of the pipeline
+    (like pending processing) that in addition serves as a "welcome" screen
+-   and the **CQL** where all results of CQL are showed.
 
 
 .. figure:: img/index.png
@@ -218,14 +215,12 @@ pages:
     execute a query to download the current results as CSV
 
 
-You can require access to our demo: http://carpyncho.jbcabral.org/
-
 
 Results
 -------
 
 In the current state of the database and with some external tools as plotting
-libraries we already reproduced the RRLyrae analysis also revised the fourier components
+libraries we already reproduced the RRLyrae analysis for tile b201 and revised the fourier components
 the work of Gran, et al 2015 [1]_.
 
 .. figure:: img/lc.png
@@ -233,22 +228,21 @@ the work of Gran, et al 2015 [1]_.
     :scale: 55 %
 
     **Top:** Reproduction of the RRLyrae AB from the work of
-    Gran, et al 2015 [1]_. **Bottom:** the simulated lightcurves with
+    Gran, et al 2015 [1]_. **Bottom:** the simulated light curves with
     the original Fourier Components (blue) and the revised ones (red)
 
 .. figure:: img/mc.png
     :align: center
     :scale: 100 %
 
-    Stability of the periods calculated from carpyncho data throught 100,000
+    Stability of the periods calculated from carpyncho data throughout 100,000
     montecarlo simulations
 
 
 Future Works
 ------------
 
-In the short ter we planed complete the ``learn`` function of CQL and also
-add plotting functions.
+In the short term we plan to complete the analysis on the RRL sample as our test-bed.
 
 
 
@@ -260,6 +254,7 @@ add plotting functions.
     :align: center
     :scale: 45 %
 
+You can require access to our demo: http://carpyncho.jbcabral.org/
 
 .. [1] Gran, F. et al. Bulge RR Lyrae stars in the VVV tile b201. Astronomy & Astrophysics 575, A114 (2015).
 
