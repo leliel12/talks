@@ -9,7 +9,7 @@
         :scale: 90 %
 
     Juan Bautista Cabral (IATE, UNR), Sebastian Gurovich (IATE-UNC-CONICET),
-    Felipe Gran (PUC-MAS), a Dante Minniti (Andres Bello - Vatican Observatory)
+    Felipe Gran (PUC-MAS), a Dante Minniti (Andrés Bello - Vatican Observatory)
     + VVV Sci.Team
 
 
@@ -44,11 +44,11 @@ PostgreSql database layer was chosen since its performance is
 adequate for large databases (~1 PetaByte) and because PostgreSql is
 open-source, thua ensuring support with evolving versatility.
 
-For calculation purposes Carpyncho is layored on-top of a scientific-
+For calculation purposes Carpyncho is layered on-top of a scientific-
 python library stack that includes:
 
 - Numpy & Scipy: for Numerical calculations
-- Astropy: for Procesing of Fits tables, astrometric and photometric
+- Astropy: for Processing of Fits tables, astrometric and photometric
   calculations
 - PyAstronomy: for GLS, PDM and time conversion algorithms
 - AstroML & Scikit-learn: for machine learning algorithms
@@ -76,7 +76,7 @@ CQL is created above the Python Object Model and compiled to a JSON
 format client-side with Brython (http://brython.info/) to avoid
 the execution of untrusted code on the server side.
 
-The syntax can be sumarized as:
+The syntax can be summarized as:
 
 .. code-block:: python
 
@@ -114,7 +114,7 @@ the query will be like:
 
 
 The query functionality is independent, for example the SCS is not mandatory and filtering for all stars from
-a particular tile is obviously posible as in:
+a particular tile is obviously possible as in:
 
 .. code-block:: python
 
@@ -145,7 +145,7 @@ the letters are upper or lower cases)
 
 .. code-block:: python
 
-    # all the sources from the boulge
+    # all the sources from the bulge
     search().filter(
         (tile.id >= 23) |
         ~((source.ra_k > 274) & (source.ra_j < 275))
@@ -220,7 +220,7 @@ Results
 -------
 
 In the current state of the database and with some external tools as plotting
-libraries we already reproduced the RRLyrae analysis for tile b201 and revised the fourier components
+libraries we already reproduced the RRLyrae analysis for tile b201 and revised the Fourier components
 the work of Gran, et al 2015 [1]_.
 
 .. figure:: img/lc.png
@@ -235,8 +235,8 @@ the work of Gran, et al 2015 [1]_.
     :align: center
     :scale: 100 %
 
-    Stability of the periods calculated from carpyncho data throughout 100,000
-    montecarlo simulations
+    Stability of the periods calculated from Carpyncho data throughout 100,000
+    Montecarlo simulations
 
 
 Future Works
@@ -252,7 +252,7 @@ In the short term we plan to complete the analysis on the RRL sample as our test
 
 .. image:: img/afiliations.png
     :align: center
-    :scale: 45 %
+    :scale: 65 %
 
 You can require access to our demo: http://carpyncho.jbcabral.org/
 
