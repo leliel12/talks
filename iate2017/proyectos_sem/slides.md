@@ -307,3 +307,6 @@ of work has been done on a new system, allowing a user to experience it. This ex
 # Conclusiones & Preguntas
 
 \centerline{\includegraphics[height=100px]{imgs/end.png}}
+
+### Slides
+ [https://github.com/leliel12/talks/blob/master/iate2017/proyectos_sem/slides.pdf](https://github.com/leliel12/talks/blob/master/iate2017/proyectos_sem/slides.pdf)
