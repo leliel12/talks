@@ -7,7 +7,7 @@ header-includes:
 
 ---
 
-# Dos consideraciones:
+# Consideraciones:
 
 1. Toda respuesta profesional empieza con la palabra **"depende"**
 2. Tener en cuenta que error, falla y no-conformidades no son lo mismo.
@@ -26,6 +26,8 @@ header-includes:
 - Que es un objetivo (SMART).
 - Estimación de tiempos (PERT).
 - Complejidad de tareas.
+
+\centerline{\includegraphics[height=100px]{imgs/init.png}}
 
 ----------------------------------------------------------------------
 
@@ -226,6 +228,8 @@ $$
 There is no single development, in either technology or management technique, which by
 itself promises even one order of magnitude improvement within a decade in productivity, in reliability, in simplicity.
 
+\centerline{\includegraphics[height=160px]{imgs/hlobo.png}}
+
 ----------------------------------------------------------------------
 
 # Frederick Brooks (cont)
@@ -235,10 +239,8 @@ itself promises even one order of magnitude improvement within a decade in produ
 In a suitably complex system there is a certain irreducible number of errors.
 Any attempt to fix observed errors tends to result in the introduction of other errors.
 
-    99 little bugs in the code.
-    99 little bugs.
-    Take one down, patch it around.
-    127 little bugs in the code..
+
+\centerline{\includegraphics[height=100px]{imgs/bug.png}}
 
 
 ----------------------------------------------------------------------
@@ -250,6 +252,8 @@ Any attempt to fix observed errors tends to result in the introduction of other 
 
 - **Question:** How does a large software project get to be one year late?
 - **Answer:** One day at a time!"
+
+\centerline{\includegraphics[height=100px]{imgs/delay.png}}
 
 
 ----------------------------------------------------------------------
@@ -263,6 +267,9 @@ it is capable of.
 The point is that, if a system is too complicated to use, then many of its features will go unused because no one has the time to learn how to use them.
 
 
+\centerline{\includegraphics[height=100px]{imgs/idiot.png}}
+
+
 ----------------------------------------------------------------------
 
 # Frederick Brooks (cont.)
@@ -272,6 +279,8 @@ The point is that, if a system is too complicated to use, then many of its featu
 
 When designing a new kind of system, a team will design a throw-away system (whether it
 intends to or not).
+
+\centerline{\includegraphics[height=100px]{imgs/prototype.png}}
 
 
 ----------------------------------------------------------------------
@@ -283,6 +292,9 @@ intends to or not).
 
 Software is invisible. Therefore, many things only become apparent once a certain amount
 of work has been done on a new system, allowing a user to experience it. This experience will yield insights, which will change a user's needs or the perception of the user's needs.
+
+
+\centerline{\includegraphics[height=150px]{imgs/easy.png}}
 
 
 ----------------------------------------------------------------------
