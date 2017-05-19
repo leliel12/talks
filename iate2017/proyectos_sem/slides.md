@@ -58,7 +58,7 @@ header-includes:
 >>                                                  PMI
 
 
-## Triangulo de Hierro
+## Triángulo de Hierro
 
 \centerline{\includegraphics[height=170px]{imgs/thierro.png}}
 
